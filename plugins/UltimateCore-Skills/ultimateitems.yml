@@ -46,6 +46,49 @@ epicItems:
     - Crit_Chance:0.0
     - Health:0.0
     - Pet_Luck:0.0
+  aotj:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: WOODEN_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Aspect
+          of the Jerry"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Damage:
+          "},{"italic":false,"color":"red","text":"+1"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Item
+          Ability: Parley "},{"bold":true,"italic":false,"color":"yellow","text":"RIGHT
+          CLICK"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Channel
+          your inner Jerry."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Cooldown:
+          "},{"italic":false,"color":"green","text":"5s"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON
+          SWORD"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        Unbreakable: true
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:0.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:0.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:0.0
+    - Pet_Luck:0.0
   hardened_diamond_leggings:
     item:
       ==: org.bukkit.inventory.ItemStack
@@ -211,6 +254,62 @@ epicItems:
     - Crit_Chance:0.0
     - Health:0.0
     - Pet_Luck:0.0
+  deadalus-axe:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: GOLDEN_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Daedalus
+          Axe"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Damage:
+          "},{"italic":false,"color":"red","text":"+100"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Gains
+          "},{"italic":false,"color":"red","text":"+4 Damage "},{"italic":false,"color":"gray","text":"per
+          Taming"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"level."}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Earn
+          "},{"italic":false,"color":"gold","text":"+35 coins "},{"italic":false,"color":"gray","text":"from"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"monster
+          kills."}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Deals
+          "},{"italic":false,"color":"green","text":"+200% "},{"italic":false,"color":"gray","text":"damage
+          against"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"mythological
+          creatures and Minos"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"followers."}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"LEGENDARY
+          SWORD"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAA/+NiYOBg4PUsSc31ys/MUwjOyS9hYDRFFvJLzE1l4ElJTE1JzCkt1k2sSGUAABY/EOg1AAAA
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:0.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:0.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:0.0
+    - Pet_Luck:0.0
   '10':
     item:
       ==: org.bukkit.inventory.ItemStack
@@ -356,6 +455,54 @@ epicItems:
     - Speed:0.0
     - Crit_Damage:0.0
     - Crit_Chance:25.0
+    - Health:0.0
+    - Pet_Luck:0.0
+  explosive-bow:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: BOW
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Explosive
+          Bow"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Damage:
+          "},{"italic":false,"color":"red","text":"+100"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Strength:
+          "},{"italic":false,"color":"red","text":"+20"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Ability:
+          Explosive Shot"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Creates
+          an explosion on impact!"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Every
+          monster caught in this"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"explosion
+          takes the full damage"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"of
+          the weapon!"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"EPIC
+          BOW"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        Unbreakable: true
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:0.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:0.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
     - Health:0.0
     - Pet_Luck:0.0
   '13':
@@ -822,6 +969,51 @@ epicItems:
     inHand: false
     attributes:
     - Defense:90.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:0.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:0.0
+    - Pet_Luck:0.0
+  cleaver:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: GOLDEN_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Cleaver"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Damage:
+          "},{"italic":false,"color":"red","text":"+40"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Item
+          Ability: Cleave"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"When
+          hitting an entity, monsters"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"in
+          a "},{"italic":false,"color":"green","text":"3 "},{"italic":false,"color":"gray","text":"block
+          range will be"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"hit
+          for a portion of that damage"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"too."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"UNCOMMON
+          SWORD"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        Unbreakable: true
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:0.0
     - Strength:0.0
     - Intelligence:0.0
     - Max_Intelligence:0.0
@@ -2927,4 +3119,92 @@ epicItems:
     - Crit_Damage:0.0
     - Crit_Chance:0.0
     - Health:65.0
+    - Pet_Luck:0.0
+  tactician-sword:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: WOODEN_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Tactician''s
+          Sword"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Damage:
+          "},{"italic":false,"color":"red","text":"+50"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Gains
+          "},{"italic":false,"color":"red","text":"+15 Damage "},{"italic":false,"color":"gray","text":"for"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"each
+          Combat collection of"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Tier
+          V and over of its"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"wielder."}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Your
+          Collections: "},{"italic":false,"color":"yellow","text":"0"},{"italic":false,"color":"gray","text":"/"},{"italic":false,"color":"yellow","text":"10"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"RARE
+          SWORD"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAA/+NiYOBg4PUsSc31ys/MUwjOyS9hYDRDFvJLzE1l4C9JTC7JTM5MzNMtLs8vSmEAAEwYh5s4AAAA
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:0.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:0.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:0.0
+    - Pet_Luck:0.0
+  flaming-sword:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: IRON_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Flaming
+          Sword"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Damage:
+          "},{"italic":false,"color":"red","text":"+50"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Ignites
+          enemies for "},{"italic":false,"color":"green","text":"3s"},{"italic":false,"color":"gray","text":"."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"UNCOMMON
+          SWORD"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        Unbreakable: true
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:0.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:0.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:0.0
     - Pet_Luck:0.0

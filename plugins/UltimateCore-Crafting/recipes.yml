@@ -2529,7 +2529,7 @@ recipes:
         - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"伤害:
           "},{"italic":false,"color":"red","text":"+30"}],"text":""}'
         - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"对蜘蛛, 蠹虫, 洞穴蜘蛛"}],"text":""}'、
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"对蜘蛛, 蠹虫, 洞穴蜘蛛"}],"text":""}'
         - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"造成额外 "},{"italic":false,"color":"green","text":"+100%"},{"italic":false,"color":"gray","text":" 的伤害"}],"text":""}'
         - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
         - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"此物品可被洗炼!"}],"text":""}'
@@ -12311,5 +12311,182 @@ recipes:
     isOverride: false
     permission: essentials.spawn
     slot: 10
+    page: 1
+    category: special
+  cleaver:
+    result:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: GOLDEN_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Cleaver"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Damage:
+          "},{"italic":false,"color":"red","text":"+40"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Item
+          Ability: Cleave"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"When
+          hitting an entity, monsters"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"in
+          a "},{"italic":false,"color":"green","text":"3 "},{"italic":false,"color":"gray","text":"block
+          range will be"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"hit
+          for a portion of that damage"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"too."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"UNCOMMON
+          SWORD"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        Unbreakable: true
+    '0':
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: GOLD_INGOT
+    '1':
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: GOLD_INGOT
+    '2':
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: GOLD_INGOT
+    '4':
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: STICK
+    '5':
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: GOLD_INGOT
+    '7':
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: STICK
+    isOverride: false
+    permission: essentials.spawn
+    slot: 20
+    page: 1
+    category: special
+  flaming-sword:
+    result:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: IRON_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Flaming
+          Sword"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Damage:
+          "},{"italic":false,"color":"red","text":"+50"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Ignites
+          enemies for "},{"italic":false,"color":"green","text":"3s"},{"italic":false,"color":"gray","text":"."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"UNCOMMON
+          SWORD"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        Unbreakable: true
+    '1':
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: BLAZE_POWDER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Enchanted
+          Blaze Powder"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"UNCOMMON"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+    '4':
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: BLAZE_POWDER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Enchanted
+          Blaze Powder"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"UNCOMMON"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+    '7':
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: STICK
+    isOverride: false
+    permission: essentials.spawn
+    slot: 19
+    page: 1
+    category: special
+  aspect-of-the-jerry:
+    result:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: WOODEN_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Aspect
+          of the Jerry"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Damage:
+          "},{"italic":false,"color":"red","text":"+1"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Item
+          Ability: Parley "},{"bold":true,"italic":false,"color":"yellow","text":"RIGHT
+          CLICK"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Channel
+          your inner Jerry."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Cooldown:
+          "},{"italic":false,"color":"green","text":"5s"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON
+          SWORD"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        Unbreakable: true
+    '1':
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: DIRT
+      amount: 32
+    '4':
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: DIRT
+      amount: 32
+    '7':
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: STICK
+    isOverride: false
+    permission: essentials.spawn
+    slot: 21
     page: 1
     category: special
