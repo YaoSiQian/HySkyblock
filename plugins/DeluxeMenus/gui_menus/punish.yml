@@ -1,0 +1,104 @@
+menu_title: '惩罚 > {target}'
+open_command:
+- punish
+args:
+- target
+args_usage_message: "&c未知指令! (/punish <用户名>)"
+register_command: true
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: rank.mod
+      deny_commands:
+        - '[message] &c你必须是管理员才能使用该指令!'
+size: 45
+items:
+
+      player:
+        material: head-{target}
+        slot: 13
+        display_name: '&6{target}'
+        left_click_commands: []
+        right_click_commands: []
+
+      glass:
+        material: BLACK_STAINED_GLASS_PANE
+        slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
+        - 11
+        - 12
+        - 14
+        - 15
+        - 16
+        - 17
+        - 18
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24
+        - 25
+        - 26
+        - 27
+        - 29
+        - 30
+        - 32
+        - 33
+        - 35
+        - 36
+        - 37
+        - 38
+        - 39
+        - 40
+        - 41
+        - 42
+        - 43
+        - 44
+        display_name: '&7'
+        left_click_commands: []
+        right_click_commands: []
+
+      kick:
+        material: FEATHER
+        slot: 28
+        display_name: '&c踢出'
+        lore:
+        - '&e踢出 {target}'
+        left_click_commands:
+        - '[player] kick {target}'
+        right_click_commands:
+        - '[player] kick {target}'
+
+      mute:
+        material: WRITABLE_BOOK
+        slot: 31
+        display_name: '&c禁言'
+        lore:
+        - '&e禁言 {target}'
+        left_click_commands:
+        - '[player] punish-mute {target}'
+        right_click_commands:
+        - '[player] punish-mute {target}'
+
+      ban:
+        material: BARRIER
+        slot: 34
+        display_name: '&c封禁'
+        lore:
+        - '&e封禁 {target}'
+        left_click_commands:
+        - '[player] punish-ban {target}'
+        right_click_commands:
+        - '[player] punish-ban {target}'

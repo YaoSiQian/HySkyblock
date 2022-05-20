@@ -1,0 +1,79 @@
+use-boosters: false
+
+never-expire-message: '无限时间'
+
+booster-command:
+  permission: 'rec.active.boosters.view'
+  no-permission: '&c你没有权限查看激活的加速器'
+  active-booster-display:
+    header:
+      - '&7&m-------&r &e激活的加速器 &7&m-------'
+      - '&f已激活的:'
+    middle-structure: '  &7- %booster-name% &7(%category-name%&7) &f- &e剩余 %time-left%'
+    middle-structure-no-boosters:
+      - '  &7这里没有激活的加速器 :('
+    footer:
+      - '&7&m----------------------------'
+
+booster-admin-command-permission: 'rec.booster.admin'
+global-booster-broadcast: '&e全局加速器 > &f一个持续 &e%booster-duration% &f秒的全局加速器已启用! %booster-name% &7(%booster-category%&7)'
+personal-booster-broadcast: '&e个人加速器 > &f一个持续 &e%booster-duration% &f秒的个人加速器已启用! %booster-name% &7(%booster-category%&7)'
+
+boosters:
+  shops-buy:
+    use: false
+    category-name: '&e商店 购买'
+    lore-addition:
+      - ''
+      - '%booster-name%'
+      - '&f如果购买了这个'
+      - '&f你将少付 &6%amount% 硬币&f!'
+    boosters:
+      booster-1:
+        exclusive-for-shops:
+          - 'shop1'
+          - 'shop2'
+        booster-name: '&6x1.2 加速器'
+        permission: 'none'
+        #Boost percent 1-100
+        percent-boost: 20
+      booster-2:
+        booster-name: '&6x1.5 加速器'
+        permission: 'booster.1.5'
+        percent-boost: 50
+  shops-sell:
+    use: false
+    category-name: '&e商店 售卖'
+    lore-addition:
+      - ''
+      - '%booster-name%'
+      - '&fIf you sell this'
+      - '&fyou get extra &6%amount% coins&f!'
+    boosters:
+      booster-1:
+        exclusive-for-shops:
+          - 'shop1'
+          - 'shop2'
+        booster-name: '&6x1.2 Booster'
+        permission: 'none'
+        #Boost percent 1-100
+        percent-boost: 20
+      booster-2:
+        booster-name: '&6x1.5 Booster'
+        permission: 'booster.1.5'
+        percent-boost: 50
+  kill-coins:
+    use: false
+    category-name: '&eKill Coins'
+    message: '&eBooster > &fYou got extra &6%amount% coins&f since %booster-name% &fis activated!'
+    boosters:
+      booster-1:
+        booster-name: '&6x1.2 Booster'
+        permission: 'none'
+        #Boost percent 1-100
+        percent-boost: 20
+      booster-2:
+        booster-name: '&6x1.5 Booster'
+        permission: 'booster.1.5'
+        permission-permanent: 'booster.permanent.1.5'
+        percent-boost: 50

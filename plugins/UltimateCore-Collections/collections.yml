@@ -1,0 +1,2285 @@
+categories:
+  '1':
+    name: farming
+    displayName: 农业
+  '2':
+    name: mining
+    displayName: 挖矿
+  '3':
+    name: fishing
+    displayName: 渔业
+  '4':
+    name: foraging
+    displayName: 林业
+  '5':
+    name: combat
+    displayName: 战斗
+collections:
+  LAPIS_LAZULI:
+    name: 青金石
+    category: mining
+    rewards:
+      '1':
+      - '  &c没有可用的奖励'
+      '2':
+      - '  &f经验瓶 &7配方'
+      '3':
+      - '  &c没有可用的奖励'
+      '4':
+      - '  &a附魔青金石 &7配方'
+      '5':
+      - '  &a大经验瓶 &7配方'
+      '6':
+      - '  &c没有可用的奖励'
+      '7':
+      - '  &9附魔青金石块 &7配方'
+      '8':
+      - '  &9泰坦经验瓶 &7配方'
+    requirements:
+      '1': 250.0
+      '2': 500.0
+      '3': 1000.0
+      '4': 2000.0
+      '5': 10000.0
+      '6': 25000.0
+      '7': 50000.0
+      '8': 100000.0
+    commands:
+      '1': []
+      '2':
+      - lp user %player% permission set recipe.experience_bottle true
+      - customplaceholders add %player% recipes 1
+      '3': []
+      '4':
+      - lp user %player% permission set recipe.enchanted_lapis_lazuli true
+      - customplaceholders add %player% recipes 1
+      '5':
+      - lp user %player% permission set recipe.grand_experience_bottle true
+      - customplaceholders add %player% recipes 1
+      '6': []
+      '7':
+      - lp user %player% permission set recipe.enchanted_block_of_lapis_lazuli true
+      - customplaceholders add %player% recipes 1
+      '8':
+      - lp user %player% permission set recipe.titanic_experience_bottle true
+      - customplaceholders add %player% recipes 1
+    key: LAPIS_LAZULI
+    slot: 15
+  REDSTONE:
+    name: 红石
+    category: mining
+    rewards:
+      '1':
+      - '  &c没有可用的奖励'
+      '2':
+      - '  &f小型饰品包 &7升级'
+      '3':
+      - '  &f附魔书 &7(&9效率 IV&7)'
+      - '  &7配方'
+      '4':
+      - '  &a附魔红石 &7配方'
+      '5':
+      - '  &c没有可用的奖励'
+      '6':
+      - '  &c没有可用的奖励'
+      '7':
+      - '  &c没有可用的奖励'
+      '8':
+      - '  &a附魔红石块 &7配方'
+    requirements:
+      '1': 50.0
+      '2': 100.0
+      '3': 250.0
+      '4': 1000.0
+      '5': 3000.0
+      '6': 5000.0
+      '7': 10000.0
+      '8': 25000.0
+    commands:
+      '1': []
+      '2':
+      - lp user %player% permission set hypertalismans.bag true
+      - customplaceholders add %player% recipes 1
+      '3':
+      - lp user %player% permission set recipe.enchanted_book_efficiency_iv true
+      - customplaceholders add %player% recipes 1
+      '4':
+      - lp user %player% permission set recipe.enchanted_redstone true
+      - customplaceholders add %player% recipes 1
+      '5': []
+      '6': []
+      '7': []
+      '8':
+      - lp user %player% permission set recipe.enchanted_block_of_redstone true
+      - customplaceholders add %player% recipes 1
+    key: REDSTONE
+    slot: 19
+  COAL:
+    name: 煤炭
+    category: mining
+    rewards:
+      '1':
+      - '  &c没有可用的奖励'
+      '2':
+      - '  &c没有可用的奖励'
+      '3':
+      - '  &c没有可用的奖励'
+      '4':
+      - '  &a附魔煤炭 &7配方'
+      '5':
+      - '  &c没有可用的奖励'
+      '6':
+      - '  &c没有可用的奖励'
+      '7':
+      - '  &a附魔煤炭块 &7配方'
+      '8':
+      - '  &5附魔熔岩桶 &7配方 &8(&4即将推出&8)'
+      '9':
+      - '  &5凋灵骷髅宠物蛋 &7配方 &8(&4即将推出&8)'；‘
+    requirements:
+      '1': 50.0
+      '2': 100.0
+      '3': 250.0
+      '4': 1000.0
+      '5': 2500.0
+      '6': 5000.0
+      '7': 10000.0
+      '8': 25000.0
+      '9': 50000.0
+    commands:
+      '1': []
+      '2': []
+      '3': []
+      '4':
+      - lp user %player% permission set recipe.enchanted_coal true
+      - customplaceholders add %player% recipes 1
+      '5': []
+      '6': []
+      '7':
+      - lp user %player% permission set recipe.enchanted_block_of_coal true
+      - customplaceholders add %player% recipes 1
+      '8':
+      - lp user %player% permission set recipe.enchanted_lava_bucket true
+      - customplaceholders add %player% recipes 1
+      '9':
+      - lp user %player% permission set recipe.wither_skeleton_pet true
+      - customplaceholders add %player% recipes 1
+    key: COAL
+    slot: 11
+  ENDER_PEARL:
+    name: Ender Pearl
+    category: combat
+    rewards:
+      '1':
+      - '  &c没有可用的奖励'
+      '2':
+      - '  &a附魔末影珍珠'
+    requirements:
+      '1': 50.0
+      '2': 250.0
+    commands:
+      '1': []
+      '2':
+      - lp user %player% permission set recipe.enchanted_ender_pearl true
+      - customplaceholders add %player% recipes 1
+    key: ENDER_PEARL
+    slot: 15
+  CARROT:
+    name: 胡萝卜
+    category: farming
+    rewards:
+      '1':
+      - '  &c没有可用的奖励'
+      '2':
+      - '  &c没有可用的奖励'
+      '3':
+      - '  &c没有可用的奖励'
+      '4':
+      - '  &a附魔胡萝卜 &7配方'
+      '5':
+      - '  &a附魔胡萝卜钓竿 &7配方'
+      '6':
+      - '  &c没有可用的奖励'
+      '7':
+      - '  &a附魔金胡萝卜 &7配方'
+    requirements:
+      '1': 100.0
+      '2': 250.0
+      '3': 500.0
+      '4': 1700.0
+      '5': 5000.0
+      '6': 10000.0
+      '7': 25000.0
+    commands:
+      '1': []
+      '2': []
+      '3': []
+      '4':
+      - lp user %player% permission set recipe.enchanted_carrot true
+      - customplaceholders add %player% recipes 1
+      '5':
+      - lp user %player% permission set recipe.enchanted_carrot_on_a_stick true
+      - customplaceholders add %player% recipes 1
+      '6': []
+      '7':
+      - lp user %player% permission set recipe.enchanted_golden_carrot true
+      - customplaceholders add %player% recipes 1
+    key: CARROT
+    slot: 11
+  ACACIA_LOG:
+    name: 金合欢木
+    category: foraging
+    rewards:
+      '1':
+      - '  &c没有可用的奖励'
+      '2':
+      - '  &f金合欢树叶 &7交易'
+      '3':
+      - '  &c没有可用的奖励'
+      '4':
+      - '  &c没有可用的奖励'
+      '5':
+      - '  &c没有可用的奖励'
+      '6':
+      - '  &a附魔金合欢木 &7配方'
+      '7':
+      - '  &a金合欢木弓 &7配方'
+    requirements:
+      '1': 50.0
+      '2': 100.0
+      '3': 250.0
+      '4': 1000.0
+      '5': 2500.0
+      '6': 5000.0
+      '7': 10000.0
+    commands:
+      '1': []
+      '2':
+      - lp user %player% permission set trades.acacia_leaves true
+      - customplaceholders add %player% trades 1
+      '3': []
+      '4': []
+      '5': []
+      '6':
+      - lp user %player% permission set recipe.enchanted_acacia_log true
+      - customplaceholders add %player% recipes 1
+      '7':
+      - lp user %player% permission set recipe.savanna_bow true
+      - customplaceholders add %player% recipes 1
+    key: ACACIA_LOG
+    slot: 14
+  SLIME_BALL:
+    name: 黏液球
+    category: combat
+    rewards:
+      '1':
+      - '  &c没有可用的奖励'
+      '2':
+      - '  &c没有可用的奖励'
+      '3':
+      - '  &f附魔书 &7(&9击退 I&7) 配方'
+      '4':
+      - '  &c没有可用的奖励'
+      '5':
+      - '  &a附魔黏液球 &7配方'
+      '6':
+      - '  &f附魔书 &7(&9冲击 I&7) 配方'
+    requirements:
+      '1': 50.0
+      '2': 100.0
+      '3': 250.0
+      '4': 1000.0
+      '5': 2500.0
+      '6': 5000.0
+    commands:
+      '1': []
+      '2': []
+      '3':
+      - lp user %player% permission set recipe.enchanted_book_knockback_i true
+      - customplaceholders add %player% recipes 1
+      '4': []
+      '5':
+      - lp user %player% permission set recipe.enchanted_slimeball true
+      - customplaceholders add %player% recipes 1
+      '6':
+      - lp user %player% permission set recipe.enchanted_book_punch_i true
+      - customplaceholders add %player% recipes 1
+    key: SLIME_BALL
+    slot: 19
+  COCOA_BEANS:
+    name: 可可豆
+    category: farming
+    rewards:
+      '1':
+      - '  &c没有可用的奖励'
+    requirements:
+      '1': 50.0
+    commands:
+      '1': []
+    key: COCOA_BEANS
+    slot: 19
+  MELON_SLICE:
+    name: Melon
+    category: farming
+    rewards:
+      '1':
+      - '  &c没有可用的奖励'
+      '2':
+      - '  &c没有可用的奖励'
+      '3':
+      - '  &c没有可用的奖励'
+      '4':
+      - '  &a附魔西瓜片 &7配方'
+      '5':
+      - '  &a附魔闪烁的西瓜'
+      - '  &7配方'
+      '6':
+      - '  &9附魔西瓜 &7配方'
+    requirements:
+      '1': 250.0
+      '2': 500.0
+      '3': 1200.0
+      '4': 5000.0
+      '5': 15500.0
+      '6': 25000.0
+    commands:
+      '1': []
+      '2': []
+      '3': []
+      '4':
+      - lp user %player% permission set recipe.enchanted_melon true
+      - customplaceholders add %player% recipes 1
+      '5':
+      - lp user %player% permission set recipe.enchanted_glistering_melon true
+      - customplaceholders add %player% recipes 1
+      '6':
+      - lp user %player% permission set recipe.enchanted_melon_block true
+      - customplaceholders add %player% recipes 1
+    key: MELON_SLICE
+    slot: 14
+  QUARTZ:
+    name: 下界石英
+    category: mining
+    rewards:
+      '1':
+      - '  &c没有可用的奖励'
+    requirements:
+      '1': 50.0
+    commands:
+      '1': []
+    key: QUARTZ
+    slot: 20
+  SAND:
+    name: Sand
+    category: mining
+    rewards:
+      '1':
+      - '  &c没有可用的奖励'
+      '2':
+      - '  &f红沙 &7交易'
+      '3':
+      - '  &c没有可用的奖励'
+      '4':
+      - '  &c没有可用的奖励'
+      '5':
+      - '  &a附魔沙子 &7配方'
+    requirements:
+      '1': 50.0
+      '2': 100.0
+      '3': 250.0
+      '4': 500.0
+      '5': 1000.0
+    commands:
+      '1': []
+      '2':
+      - lp user %player% permission set trades.red_sand true
+      - customplaceholders add %player% trades 1
+      '3': []
+      '4': []
+      '5':
+      - lp user %player% permission set recipe.enchanted_sand true
+      - customplaceholders add %player% recipes 1
+    key: SAND
+    slot: 28
+  POTATO:
+    name: 马铃薯
+    category: farming
+    rewards:
+      '1':
+      - '  &c没有可用的奖励'
+      '2':
+      - '  &c没有可用的奖励'
+      '3':
+      - '  &f疫苗护符 &7配方'
+      '4':
+      - '  &a附魔马铃薯 &7配方'
+      '5':
+      - '  &c没有可用的奖励'
+      '6':
+      - '  &c没有可用的奖励'
+      '7':
+      - '  &a附魔烤马铃薯 &7配方'
+    requirements:
+      '1': 100.0
+      '2': 250.0
+      '3': 500.0
+      '4': 1700.0
+      '5': 5000.0
+      '6': 10000.0
+      '7': 25000.0
+    commands:
+      '1': []
+      '2': []
+      '3':
+      - lp user %player% permission set recipe.vaccine_talisman true
+      - customplaceholders add %player% recipes 1
+      '4':
+      - lp user %player% permission set recipe.enchanted_potato true
+      - customplaceholders add %player% recipes 1
+      '5': []
+      '6': []
+      '7':
+      - lp user %player% permission set recipe.enchanted_baked_potato true
+      - customplaceholders add %player% recipes 1
+    key: POTATO
+    slot: 12
+  CACTUS:
+    name: 仙人掌
+    category: farming
+    rewards:
+      '1':
+      - '  &c没有可用的奖励'
+      '2':
+      - '  &f仙人掌头盔 &7配方'
+      - '  &f仙人掌胸甲 &7配方'
+      - '  &f仙人掌护腿 &7配方'
+      - '  &f仙人掌靴子 &7配方'
+      '3':
+      - '  &c没有可用的奖励'
+      '4':
+      - '  &c没有可用的奖励'
+      '5':
+      - '  &c没有可用的奖励'
+      '6':
+      - '  &c没有可用的奖励'
+      '7':
+      - '  &f附魔书 &7(&9荆棘 II&7)'
+      - '  &7配方'
+      '8':
+      - '  &a附魔仙人掌 &7配方'
+    requirements:
+      '1': 100.0
+      '2': 250.0
+      '3': 500.0
+      '4': 1000.0
+      '5': 2500.0
+      '6': 5000.0
+      '7': 10000.0
+      '8': 25000.0
+    commands:
+      '1': []
+      '2':
+      - lp user %player% permission set recipe.cactus_armor true
+      - customplaceholders add %player% recipes 4
+      '3': []
+      '4': []
+      '5': []
+      '6': []
+      '7':
+      - lp user %player% permission set recipe.enchanted_book_thorns_ii true
+      - customplaceholders add %player% recipes 1
+      '8':
+      - lp user %player% permission set recipe.enchanted_cactus true
+      - customplaceholders add %player% recipes 1
+    key: CACTUS
+    slot: 20
+  SUGAR_CANE:
+    name: 甘蔗
+    category: farming
+    rewards:
+      '1':
+      - '  &c没有可用的奖励'
+      '2':
+      - '  &f速度护符 &7配方'
+      '3':
+      - '  &c没有可用的奖励'
+      '4':
+      - '  &a附魔糖 &7配方'
+      '5':
+      - '  &a附魔纸 &7配方'
+      - '  &a速度指环 &7配方'
+      '6':
+      - '  &c没有可用的奖励'
+      '7':
+      - '  &5随机书 &8(&4即将推出&8)'
+      '8':
+      - '  &9附魔甘蔗 &7配方'
+      - '  &9速度圣物 &7配方'
+      '9':
+      - '  &5极速头盔 &7配方'
+      - '  &5极速胸甲 &7配方'
+      - '  &5极速护腿 &7配方'
+      - '  &5极速靴子 &7配方'
+    requirements:
+      '1': 100.0
+      '2': 250.0
+      '3': 500.0
+      '4': 1000.0
+      '5': 2000.0
+      '6': 5000.0
+      '7': 10000.0
+      '8': 20000.0
+      '9': 50000.0
+    commands:
+      '1': []
+      '2':
+      - lp user %player% permission set recipe.speed_talisman true
+      - customplaceholders add %player% recipes 1
+      '3': []
+      '4':
+      - lp user %player% permission set recipe.enchanted_sugar true
+      - customplaceholders add %player% recipes 1
+      '5':
+      - lp user %player% permission set recipe.enchanted_paper true
+      - customplaceholders add %player% recipes 1
+      - lp user %player% permission set recipe.speed_ring true
+      - customplaceholders add %player% recipes 1
+      '6': []
+      '7':
+      - lp user %player% permission set recipe.random_book true
+      - customplaceholders add %player% recipes 1
+      '8':
+      - lp user %player% permission set recipe.enchanted_sugar_cane true
+      - customplaceholders add %player% recipes 1
+      - lp user %player% permission set recipe.speed_artifact true
+      - customplaceholders add %player% recipes 1
+      '9':
+      - lp user %player% permission set recipe.speedster_armor true
+      - customplaceholders add %player% recipes 4
+    key: SUGAR_CANE
+    slot: 21
+  MAGMA_CREAM:
+    name: 岩浆膏
+    category: combat
+    rewards:
+      '1':
+      - '  &c没有可用的奖励'
+      '2':
+      - '  &f岩浆怪头饰 &7配方'
+      '3':
+      - '  &f附魔书 &7(&9火焰保护 IV&7) 配方'
+      '4':
+      - '  &c没有可用的奖励'
+      '5':
+      - '  &a附魔岩浆膏 &7配方'
+      '6':
+      - '  &f熔岩桶 &7交易'
+      '7':
+      - '  &a熔岩护符 &7配方'
+    requirements:
+      '1': 50.0
+      '2': 100.0
+      '3': 250.0
+      '4': 1000.0
+      '5': 2500.0
+      '6': 5000.0
+      '7': 10000.0
+    commands:
+      '1': []
+      '2':
+      - lp user %player% permission set recipe.magma_cube_head true
+      - customplaceholders add %player% recipes 1
+      '3':
+      - lp user %player% permission set recipe.enchanted_book_fire_protection_iv true
+      - customplaceholders add %player% recipes 1
+      '4': []
+      '5':
+      - lp user %player% permission set recipe.enchanted_magma_cream true
+      - customplaceholders add %player% recipes 1
+      '6':
+      - lp user %player% permission set trades.lava_bucket true
+      - customplaceholders add %player% trades 1
+      '7':
+      - lp user %player% permission set recipe.lava_talisman true
+      - customplaceholders add %player% recipes 1
+    key: MAGMA_CREAM
+    slot: 21
+  GHAST_TEAR:
+    name: 恶魂之泪
+    category: combat
+    rewards:
+      '1':
+      - '  &c没有可用的奖励'
+      '2':
+      - '  &f恶魂头饰 &7配方'
+      '3':
+      - '  &c没有可用的奖励'
+      '4':
+      - '  &a附魔恶魂之泪 &7配方'
+      '5':
+      - '  &c没有可用的奖励'
+      '6':
+      - '  &a银色獠牙 &7配方'
+    requirements:
+      '1': 50.0
+      '2': 100.0
+      '3': 250.0
+      '4': 1000.0
+      '5': 2500.0
+      '6': 5000.0
+    commands:
+      '1': []
+      '2':
+      - lp user %player% permission set recipe.ghast_head true
+      - customplaceholders add %player% recipes 1
+      '3': []
+      '4':
+      - lp user %player% permission set recipe.enchanted_ghast_tear true
+      - customplaceholders add %player% recipes 1
+      '5': []
+      '6':
+      - lp user %player% permission set recipe.silver_fang true
+      - customplaceholders add %player% recipes 1
+    key: GHAST_TEAR
+    slot: 16
+  PUMPKIN:
+    name: 南瓜
+    category: farming
+    rewards:
+      '1':
+      - '  &c没有可用的奖励'
+      '2':
+      - '  &f南瓜头盔 &7配方'
+      - '  &f南瓜胸甲 &7配方'
+      - '  &f南瓜护腿 &7配方'
+      - '  &f南瓜靴子 &7配方'
+      '3':
+      - '  &a附魔南瓜 &7配方'
+    requirements:
+      '1': 40.0
+      '2': 100.0
+      '3': 250.0
+    commands:
+      '1': []
+      '2':
+      - lp user %player% permission set recipe.pumpkin_armor true
+      - customplaceholders add %player% recipes 4
+      '3':
+      - lp user %player% permission set recipe.enchanted_pumpkin true
+      - customplaceholders add %player% recipes 1
+    key: PUMPKIN
+    slot: 13
+  WHEAT:
+    name: 小麦
+    category: farming
+    rewards:
+      '1':
+      - '  &c没有可用的奖励'
+      '2':
+      - '  &c没有可用的奖励'
+      '3':
+      - '  &f农场套装头盔 &7配方 &8(&4即将推出&8)'
+      - '  &f农场套装胸甲 &7配方 &8(&4即将推出&8)'
+      - '  &f农场套装护腿 &7配方 &8(&4即将推出&8)'
+      - '  &f农场套装靴子 &7配方 &8(&4即将推出&8)'
+      '4':
+      - '  &f农业护符 &7配方'
+      '5':
+      - '  &f附魔面包 &7配方'
+      '6':
+      - '  &c没有可用的奖励'
+      '7':
+      - '  &a附魔干草块 &7配方'
+      '8':
+      - '  &c没有可用的奖励'
+      '9':
+      - '  &9农场护甲头盔 &7配方 &8(&4即将推出&8)'
+      - '  &9农场护甲胸甲 &7配方 &8(&4即将推出&8)'
+      - '  &9农场护甲护腿 &7配方 &8(&4即将推出&8)'
+      - '  &9农场护甲靴子 &7配方 &8(&4即将推出&8)'
+    requirements:
+      '1': 50.0
+      '2': 100.0
+      '3': 250.0
+      '4': 500.0
+      '5': 1000.0
+      '6': 2500.0
+      '7': 10000.0
+      '8': 15000.0
+      '9': 25000.0
+    commands:
+      '1': []
+      '2': []
+      '3':
+      - lp user %player% permission set recipe.farm_suit_armor true
+      - customplaceholders add %player% recipes 4
+      '4':
+      - lp user %player% permission set recipe.farming_talisman true
+      - customplaceholders add %player% recipes 1
+      '5':
+      - lp user %player% permission set recipe.enchanted_bread true
+      - customplaceholders add %player% recipes 1
+      '6': []
+      '7':
+      - lp user %player% permission set recipe.enchanted_hay_bale true
+      - customplaceholders add %player% recipes 1
+      '8': []
+      '9':
+      - lp user %player% permission set recipe.farm_armor true
+      - customplaceholders add %player% recipes 4
+    key: WHEAT
+    slot: 10
+  WHEAT_SEEDS:
+    name: 种子
+    category: farming
+    rewards:
+      '1':
+      - '  &f泥土 &7交易'
+      '2':
+      - '  &f粘土 &7交易'
+      '3':
+      - '  &f高草 &7交易'
+      '4':
+      - '  &f蕨 &7交易'
+      '5':
+      - '  &f枯萎灌木 &7交易'
+    requirements:
+      '1': 50.0
+      '2': 100.0
+      '3': 250.0
+      '4': 1000.0
+      '5': 2500.0
+    commands:
+      '1':
+      - lp user %player% permission set trades.dirt true
+      - customplaceholders add %player% trades 1
+      '2':
+      - lp user %player% permission set trades.clay true
+      - customplaceholders add %player% trades 1
+      '3':
+      - lp user %player% permission set trades.tall_grass true
+      - customplaceholders add %player% trades 1
+      '4':
+      - lp user %player% permission set trades.fern true
+      - customplaceholders add %player% trades 1
+      '5':
+      - lp user %player% permission set trades.dead_bush true
+      - customplaceholders add %player% trades 1
+    key: WHEAT_SEEDS
+    slot: 15
+  JUNGLE_LOG:
+    name: 丛林木
+    category: foraging
+    rewards:
+      '1':
+      - '  &c没有可用的奖励'
+      '2':
+      - '  &f丛林树叶 &7交易'
+      '3':
+      - '  &c没有可用的奖励'
+      '4':
+      - '  &f藤蔓 &7交易'
+      '5':
+      - '  &c没有可用的奖励'
+      '6':
+      - '  &a附魔丛林木 &7配方'
+    requirements:
+      '1': 50.0
+      '2': 100.0
+      '3': 250.0
+      '4': 1000.0
+      '5': 2500.0
+      '6': 5000.0
+    commands:
+      '1': []
+      '2':
+      - lp user %player% permission set trades.jungle_leaves true
+      - customplaceholders add %player% trades 1
+      '3': []
+      '4':
+      - lp user %player% permission set trades.vines true
+      - customplaceholders add %player% trades 1
+      '5': []
+      '6':
+      - lp user %player% permission set recipe.enchanted_jungle_log true
+      - customplaceholders add %player% recipes 1
+    key: JUNGLE_LOG
+    slot: 15
+  NETHER_WART:
+    name: 下界疣
+    category: farming
+    rewards:
+      '1':
+      - '  &8+&35 &7酿造经验'
+      '2':
+      - '  &8+&310 &7酿造经验'
+      '3':
+      - '  &8+&325 &7酿造经验'
+      '4':
+      - '  &8+&3100 &7酿造经验'
+      '5':
+      - '  &8+&3250 &7酿造经验'
+      '6':
+      - '  &8+&3500 &7酿造经验'
+      '7':
+      - '  &8+&31,000 &7酿造经验'
+      '8':
+      - '  &8+&32,500 &7酿造经验'
+      '9':
+      - '  &8+&35,000 &7酿造经验'
+    requirements:
+      '1': 50.0
+      '2': 100.0
+      '3': 250.0
+      '4': 1000.0
+      '5': 2500.0
+      '6': 5000.0
+      '7': 10000.0
+      '8': 25000.0
+      '9': 50000.0
+    commands:
+      '1':
+      - skills addxp %player% Alchemy 5
+      '2':
+      - skills addxp %player% Alchemy 10
+      '3':
+      - skills addxp %player% Alchemy 25
+      '4':
+      - skills addxp %player% Alchemy 100
+      '5':
+      - skills addxp %player% Alchemy 250
+      '6':
+      - skills addxp %player% Alchemy 500
+      '7':
+      - skills addxp %player% Alchemy 1000
+      '8':
+      - skills addxp %player% Alchemy 2500
+      '9':
+      - skills addxp %player% Alchemy 5000
+    key: NETHER_WART
+    slot: 30
+  GUNPOWDER:
+    name: 火药
+    category: combat
+    rewards:
+      '1':
+      - '  &c没有可用的奖励'
+      '2':
+      - '  &f苦力怕头饰 &7配方'
+      '3':
+      - '  &f附魔书 &7(&9爆炸保护 IV&7) 配方'
+      '4':
+      - '  &a附魔火药 &7配方'
+    requirements:
+      '1': 50.0
+      '2': 100.0
+      '3': 250.0
+      '4': 1000.0
+    commands:
+      '1': []
+      '2':
+      - lp user %player% permission set recipe.creeper_hat true
+      - customplaceholders add %player% recipes 1
+      '3':
+      - lp user %player% permission set recipe.enchanted_book_blast_protection_iv true
+      - customplaceholders add %player% recipes 1
+      '4':
+      - lp user %player% permission set recipe.enchanted_gunpowder true
+      - customplaceholders add %player% recipes 1
+    key: GUNPOWDER
+    slot: 14
+  IRON_ORE:
+    name: 铁
+    category: mining
+    rewards:
+      '1':
+      - '  &c没有可用的奖励'
+      '2':
+      - '  &c没有可用的奖励'
+      '3':
+      - '  &f附魔书 &7(&9保护 IV&7) 配方'
+      '4':
+      - '  &a附魔铁锭 &7配方'
+      '5':
+      - '  &c没有可用的奖励'
+      '6':
+      - '  &9傀儡头盔 &7配方'
+      - '  &9傀儡胸甲 &7配方'
+      - '  &9傀儡护腿 &7配方'
+      - '  &9傀儡靴子 &7配方'
+      '7':
+      - '  &9附魔铁块 &7配方'
+    requirements:
+      '1': 50.0
+      '2': 100.0
+      '3': 250.0
+      '4': 1000.0
+      '5': 2500.0
+      '6': 5000.0
+      '7': 10000.0
+    commands:
+      '1': []
+      '2': []
+      '3':
+      - lp user %player% permission set recipe.enchanted_book_protection_iv true
+      - customplaceholders add %player% recipes 1
+      '4':
+      - lp user %player% permission set recipe.enchanted_iron_ingot true
+      - customplaceholders add %player% recipes 1
+      '5': []
+      '6':
+      - lp user %player% permission set recipe.golem_armor true
+      - customplaceholders add %player% recipes 4
+      '7':
+      - lp user %player% permission set recipe.enchanted_block_of_iron true
+      - customplaceholders add %player% recipes 1
+    key: IRON_ORE
+    slot: 12
+  SPRUCE_LOG:
+    name: 云杉木
+    category: foraging
+    rewards:
+      '1':
+      - '  &c没有可用的奖励'
+      '2':
+      - '  &f云杉树叶 &7交易'
+      '3':
+      - '  &c没有可用的奖励'
+      '4':
+      - '  &c没有可用的奖励'
+      '5':
+      - '  &a附魔云杉木 &7配方'
+      '6':
+      - '  &c没有可用的奖励'
+      '7':
+      - '  &f狼宠物 &7配方 &8(&4即将推出&8)'
+    requirements:
+      '1': 50.0
+      '2': 100.0
+      '3': 250.0
+      '4': 1000.0
+      '5': 2500.0
+      '6': 5000.0
+      '7': 10000.0
+    commands:
+      '1': []
+      '2':
+      - lp user %player% permission set trades.spruce_leaves true
+      - customplaceholders add %player% trades 1
+      '3': []
+      '4': []
+      '5':
+      - lp user %player% permission set recipe.enchanted_spruce_log true
+      - customplaceholders add %player% recipes 1
+      '6': []
+      '7':
+      - lp user %player% permission set recipe.wolf_pet true
+      - customplaceholders add %player% recipes 1
+    key: SPRUCE_LOG
+    slot: 11
+  SALMON:
+    name: 生鲑鱼
+    category: fishing
+    rewards:
+      '1':
+      - '  &c没有可用的奖励'
+    requirements:
+      '1': 20.0
+    commands:
+      '1': []
+    key: SALMON
+    slot: 11
+  PRISMARINE_SHARD:
+    name: 海晶碎片
+    category: fishing
+    rewards:
+      '1':
+      - '  &c没有可用的奖励'
+      '2':
+      - '  &a海晶之刃 &7配方'
+      '3':
+      - '  &a附魔海晶碎片 &7配方'
+    requirements:
+      '1': 10.0
+      '2': 25.0
+      '3': 50.0
+    commands:
+      '1': []
+      '2':
+      - lp user %player% permission set recipe.prismarine_blade true
+      - customplaceholders add %player% recipes 1
+      '3':
+      - lp user %player% permission set recipe.enchanted_prismarine_shard true
+      - customplaceholders add %player% recipes 1
+    key: PRISMARINE_SHARD
+    slot: 14
+  RABBIT:
+    name: 兔子
+    category: farming
+    rewards:
+      '1':
+      - '  &c没有可用的奖励'
+      '2':
+      - '  &c没有可用的奖励'
+      '3':
+      - '  &c没有可用的奖励'
+      '4':
+      - '  &a附魔兔子脚 &7配方'
+      '5':
+      - '  &f附魔书 &7(&9幸运 IV&7) &7配方'
+      '6':
+      - '  &9附魔兔子皮 &7配方'
+      '7':
+      - '  &f附魔书 &7(&9海之眷顾 IV&7) &7配方'
+    requirements:
+      '1': 50.0
+      '2': 100.0
+      '3': 250.0
+      '4': 1000.0
+      '5': 2500.0
+      '6': 5000.0
+      '7': 10000.0
+    commands:
+      '1': []
+      '2': []
+      '3': []
+      '4':
+      - lp user %player% permission set recipe.enchanted_rabbit_foot true
+      - customplaceholders add %player% recipes 1
+      '5':
+      - lp user %player% permission set recipe.enchanted_book_luck_iv true
+      - customplaceholders add %player% recipes 1
+      '6':
+      - lp user %player% permission set recipe.enchanted_rabbit_hide true
+      - customplaceholders add %player% recipes 1
+      '7':
+      - lp user %player% permission set recipe.enchanted_book_luck_of_the_sea_iv true
+      - customplaceholders add %player% recipes 1
+    key: RABBIT
+    slot: 29
+  RED_MUSHROOM:
+    name: 红色蘑菇
+    category: farming
+    rewards:
+      '1':
+      - '  &c没有可用的奖励'
+      '2':
+      - '  &c没有可用的奖励'
+      '3':
+      - '  &c没有可用的奖励'
+      '4':
+      - '  &c没有可用的奖励'
+      '5':
+      - '  &c没有可用的奖励'
+      '6':
+      - '  &f夜视护符 &7配方 &8(&4即将推出&8)'
+      '7':
+      - '  &a附魔红色蘑菇 &7配方'
+      - '  &a附魔棕色蘑菇 &7配方'
+      '8':
+      - '  &f蝙蝠宠物 &7配方 &8(&4即将推出&8)'
+    requirements:
+      '1': 50.0
+      '2': 100.0
+      '3': 250.0
+      '4': 1000.0
+      '5': 2500.0
+      '6': 5000.0
+      '7': 10000.0
+      '8': 25000.0
+    commands:
+      '1': []
+      '2': []
+      '3': []
+      '4': []
+      '5': []
+      '6':
+      - lp user %player% permission set recipe.night_vision_charm true
+      - customplaceholders add %player% recipes 1
+      '7':
+      - lp user %player% permission set recipe.enchanted_red_mushroom true
+      - customplaceholders add %player% recipes 1
+      - lp user %player% permission set recipe.enchanted_brown_mushroom true
+      - customplaceholders add %player% recipes 1
+      '8':
+      - lp user %player% permission set recipe.bat_pet true
+      - customplaceholders add %player% recipes 1
+    key: RED_MUSHROOM
+    slot: 16
+  MUTTON:
+    name: 羊肉
+    category: farming
+    rewards:
+      '1':
+      - '  &c没有可用的奖励'
+    requirements:
+      '1': 50.0
+    commands:
+      '1': []
+    key: MUTTON
+    slot: 28
+  LILY_PAD:
+    name: 睡莲
+    category: fishing
+    rewards:
+      '1':
+      - '  &c没有可用的奖励'
+      '2':
+      - '  &f水滴鱼头饰 &7配方'
+      '3':
+      - '  &f治愈护符 &7配方'
+      '4':
+      - '  &a附魔睡莲 &7配方'
+      '5':
+      - '  &c没有可用的奖励'
+      '6':
+      - '  &c没有可用的奖励'
+      '7':
+      - '  &c没有可用的奖励'
+      '8':
+      - '  &a治愈指环 &7配方'
+    requirements:
+      '1': 10.0
+      '2': 50.0
+      '3': 100.0
+      '4': 200.0
+      '5': 500.0
+      '6': 1500.0
+      '7': 3000.0
+      '8': 6000.0
+    commands:
+      '1': []
+      '2':
+      - lp user %player% permission set recipe.blobfish_hat true
+      - customplaceholders add %player% recipes 1
+      '3':
+      - lp user %player% permission set recipe.healing_talisman true
+      - customplaceholders add %player% recipes 1
+      '4':
+      - lp user %player% permission set recipe.enchanted_lily_pad true
+      - customplaceholders add %player% recipes 1
+      '5': []
+      '6': []
+      '7': []
+      '8':
+      - lp user %player% permission set recipe.healing_ring true
+      - customplaceholders add %player% recipes 1
+    key: LILY_PAD
+    slot: 19
+  ROTTEN_FLESH:
+    name: 腐肉
+    category: combat
+    rewards:
+      '1':
+      - '  &c没有可用的奖励'
+      '2':
+      - '  &f僵尸镐 &7配方'
+      '3':
+      - '  &f附魔书 &7(&9亡灵杀手 IV&7) &7配方'
+      '4':
+      - '  &a附魔腐肉 &7配方'
+      '5':
+      - '  &f僵尸头饰 &7配方'
+      '6':
+      - '  &9僵尸之心 &7配方'
+      '7':
+      - '  &c没有可用的奖励'
+      '8':
+      - '  &f僵尸宠物 &7配方 &8(&4即将推出&8)'
+    requirements:
+      '1': 50.0
+      '2': 100.0
+      '3': 250.0
+      '4': 1000.0
+      '5': 2500.0
+      '6': 5000.0
+      '7': 10000.0
+      '8': 25000.0
+    commands:
+      '1': []
+      '2':
+      - lp user %player% permission set recipe.zombie_pickaxe true
+      - customplaceholders add %player% recipes 1
+      '3':
+      - lp user %player% permission set recipe.enchanted_book_smite_iv true
+      - customplaceholders add %player% recipes 1
+      '4':
+      - lp user %player% permission set recipe.enchanted_rotten_flesh true
+      - customplaceholders add %player% recipes 1
+      '5':
+      - lp user %player% permission set recipe.zombie_hat true
+      - customplaceholders add %player% recipes 1
+      '6':
+      - lp user %player% permission set recipe.zombie_heart true
+      - customplaceholders add %player% recipes 1
+      '7': []
+      '8':
+      - lp user %player% permission set recipe.zombie_pet true
+      - customplaceholders add %player% recipes 1
+    key: ROTTEN_FLESH
+    slot: 10
+  OBSIDIAN:
+    name: 黑曜石
+    category: mining
+    rewards:
+      '1':
+      - '  &c没有可用的奖励'
+      '2':
+      - '  &c没有可用的奖励'
+      '3':
+      - '  &c没有可用的奖励'
+      '4':
+      - '  &a附魔黑曜石 &7配方'
+    requirements:
+      '1': 50.0
+      '2': 100.0
+      '3': 250.0
+      '4': 1000.0
+    commands:
+      '1': []
+      '2': []
+      '3': []
+      '4':
+      - lp user %player% permission set recipe.enchanted_obsidian true
+      - customplaceholders add %player% recipes 1
+    key: OBSIDIAN
+    slot: 21
+  DIAMOND:
+    name: 钻石
+    category: mining
+    rewards:
+      '1':
+      - '  &c没有可用的奖励'
+      '2':
+      - '  &c没有可用的奖励'
+      '3':
+      - '  &c没有可用的奖励'
+      '4':
+      - '  &a附魔钻石 &7配方'
+      '5':
+      - '  &c没有可用的奖励'
+      '6':
+      - '  &c没有可用的奖励'
+      '7':
+      - '  &9硬化钻石头盔 &7配方'
+      - '  &9硬化钻石胸甲 &7配方'
+      - '  &9硬化钻石护腿 &7配方'
+      - '  &9硬化钻石靴子 &7配方'
+      '8':
+      - '  &9附魔钻石块 &7配方'
+      '9':
+      - '  &9完美头盔 &7配方'
+      - '  &9完美胸甲 &7配方'
+      - '  &9完美护腿 &7配方'
+      - '  &9完美靴子 &7配方'
+    requirements:
+      '1': 50.0
+      '2': 100.0
+      '3': 250.0
+      '4': 1000.0
+      '5': 2500.0
+      '6': 5000.0
+      '7': 10000.0
+      '8': 25000.0
+      '9': 50000.0
+    commands:
+      '1': []
+      '2': []
+      '3': []
+      '4':
+      - lp user %player% permission set recipe.enchanted_diamond true
+      - customplaceholders add %player% recipes 1
+      '5': []
+      '6': []
+      '7':
+      - lp user %player% permission set recipe.hardened_diamond_armor true
+      - customplaceholders add %player% recipes 4
+      '8':
+      - lp user %player% permission set recipe.enchanted_block_of_diamond true
+      - customplaceholders add %player% recipes 1
+      '9':
+      - lp user %player% permission set recipe.perfect_armor true
+      - customplaceholders add %player% recipes 4
+    key: DIAMOND
+    slot: 14
+  COBBLESTONE:
+    name: 圆石
+    category: mining
+    rewards:
+      '1':
+      - '  &c没有可用的奖励'
+      '2':
+      - '  &c没有可用的奖励'
+      '3':
+      - '  &c没有可用的奖励'
+      '4':
+      - '  &a附魔圆石 &7配方'
+      '5':
+      - '  &c没有可用的奖励'
+      '6':
+      - '  &f蠹虫宠物 &7配方'
+      '7':
+      - '  &a矿工套装头盔 &7配方'
+      - '  &a矿工套装胸甲 &7配方'
+      - '  &a矿工套装护腿 &7配方'
+      - '  &a矿工套装靴子 &7配方'
+      '8':
+      - '  &c没有可用的奖励'
+      '9':
+      - '  &9急迫指环 &7配方 &8(&4即将推出&8)'
+    requirements:
+      '1': 50.0
+      '2': 100.0
+      '3': 250.0
+      '4': 1000.0
+      '5': 2500.0
+      '6': 5000.0
+      '7': 10000.0
+      '8': 25000.0
+      '9': 40000.0
+    commands:
+      '1': []
+      '2': []
+      '3': []
+      '4':
+      - lp user %player% permission set recipe.enchanted_cobblestone true
+      - customplaceholders add %player% recipes 1
+      '5': []
+      '6':
+      - lp user %player% permission set recipe.silverfish_pet true
+      - customplaceholders add %player% recipes 1
+      '7':
+      - lp user %player% permission set recipe.miner_outfit_armor true
+      - customplaceholders add %player% recipes 4
+      '8': []
+      '9':
+      - lp user %player% permission set recipe.haste_ring true
+      - customplaceholders add %player% recipes 1
+    key: COBBLESTONE
+    slot: 10
+  SPIDER_EYE:
+    name: 蜘蛛眼
+    category: combat
+    rewards:
+      '1':
+      - '  &c没有可用的奖励'
+      '2':
+      - '  &f节肢之刃 &7配方'
+      '3':
+      - '  &f蜘蛛头饰 &7配方'
+      '4':
+      - '  &a附魔蜘蛛眼 &7配方'
+      '5':
+      - '  &f附魔书 &7(&9节肢杀手 IV&7) 配方'
+    requirements:
+      '1': 50.0
+      '2': 100.0
+      '3': 250.0
+      '4': 1000.0
+      '5': 2500.0
+    commands:
+      '1': []
+      '2':
+      - lp user %player% permission set recipe.spider_sword true
+      - customplaceholders add %player% recipes 1
+      '3':
+      - lp user %player% permission set recipe.spider_hat true
+      - customplaceholders add %player% recipes 1
+      '4':
+      - lp user %player% permission set recipe.enchanted_spider_eye true
+      - customplaceholders add %player% recipes 1
+      '5':
+      - lp user %player% permission set recipe.enchanted_book_bane_of_arthropods_iv true
+      - customplaceholders add %player% recipes 1
+    key: SPIDER_EYE
+    slot: 13
+  GLOWSTONE_DUST:
+    name: 荧石粉
+    category: mining
+    rewards:
+      '1':
+      - '  &c没有可用的奖励'
+      '2':
+      - '  &c没有可用的奖励'
+      '3':
+      - '  &c没有可用的奖励'
+      '4':
+      - '  &a附魔荧石粉 &7配方'
+      '5':
+      - '  &c没有可用的奖励'
+      '6':
+      - '  &a附魔荧石 &7配方'
+    requirements:
+      '1': 50.0
+      '2': 100.0
+      '3': 250.0
+      '4': 1000.0
+      '5': 2500.0
+      '6': 5000.0
+    commands:
+      '1': []
+      '2': []
+      '3': []
+      '4':
+      - lp user %player% permission set recipe.enchanted_glowstone_dust true
+      - customplaceholders add %player% recipes 1
+      '5': []
+      '6':
+      - lp user %player% permission set recipe.enchanted_glowstone true
+      - customplaceholders add %player% recipes 1
+    key: GLOWSTONE_DUST
+    slot: 22
+  GOLD_ORE:
+    name: 金
+    category: mining
+    rewards:
+      '1':
+      - '  &c没有可用的奖励'
+      '2':
+      - '  &c没有可用的奖励'
+      '3':
+      - '  &f附魔书 &7(&9抢夺 II&7) 配方'
+      '4':
+      - '  &a附魔金锭 &7配方'
+      '5':
+      - '  &c没有可用的奖励'
+      '6':
+      - '  &c没有可用的奖励'
+      '7':
+      - '  &9附魔金块 &7配方'
+      '8':
+      - '  &f附魔书 &7(&9时运 II&7) &7配方'
+      '9':
+      - '  &a附魔时钟 &7配方 &8(&4即将推出&8)'
+    requirements:
+      '1': 50.0
+      '2': 100.0
+      '3': 250.0
+      '4': 1000.0
+      '5': 2500.0
+      '6': 5000.0
+      '7': 10000.0
+      '8': 25000.0
+      '9': 50000.0
+    commands:
+      '1': []
+      '2': []
+      '3':
+      - lp user %player% permission set recipe.enchanted_book_looting_ii true
+      - customplaceholders add %player% recipes 1
+      '4':
+      - lp user %player% permission set recipe.enchanted_gold_ingot true
+      - customplaceholders add %player% recipes 1
+      '5': []
+      '6': []
+      '7':
+      - lp user %player% permission set recipe.enchanted_block_of_gold true
+      - customplaceholders add %player% recipes 1
+      '8':
+      - lp user %player% permission set recipe.enchanted_book_fortune_ii true
+      - customplaceholders add %player% recipes 1
+      '9':
+      - lp user %player% permission set recipe.enchanted_clock true
+      - customplaceholders add %player% recipes 1
+    key: GOLD_ORE
+    slot: 13
+  END_STONE:
+    name: 末地石
+    category: mining
+    rewards:
+      '1':
+      - '  &c没有可用的奖励'
+      '2':
+      - '  &c没有可用的奖励'
+      '3':
+      - '  &c没有可用的奖励'
+      '4':
+      - '  &a附魔末地石 &7配方'
+    requirements:
+      '1': 50.0
+      '2': 100.0
+      '3': 250.0
+      '4': 1000.0
+    commands:
+      '1': []
+      '2': []
+      '3': []
+      '4':
+      - lp user %player% permission set recipe.enchanted_end_stone true
+      - customplaceholders add %player% recipes 1
+    key: END_STONE
+    slot: 29
+  TROPICAL_FISH:
+    name: 小丑鱼
+    category: fishing
+    rewards:
+      '1':
+      - '  &f小丑鱼头饰 &7配方'
+      '2':
+      - '  &f水桶 &7交易'
+    requirements:
+      '1': 10.0
+      '2': 25.0
+    commands:
+      '1':
+      - lp user %player% permission set recipe.clownfish_hat true
+      - customplaceholders add %player% recipes 1
+      '2':
+      - lp user %player% permission set trades.water_bucket true
+      - customplaceholders add %player% trades 1
+    key: TROPICAL_FISH
+    slot: 12
+  GRAVEL:
+    name: 沙砾
+    category: mining
+    rewards:
+      '1':
+      - '  &c没有可用的奖励'
+      '2':
+      - '  &f燧石锹 &7配方'
+      '3':
+      - '  &c没有可用的奖励'
+      '4':
+      - '  &f附魔书 &7(&9锋利 IV&7) 配方'
+      '5':
+      - '  &a附魔燧石 &7配方'
+    requirements:
+      '1': 50.0
+      '2': 100.0
+      '3': 250.0
+      '4': 1000.0
+      '5': 2500.0
+    commands:
+      '1': []
+      '2':
+      - lp user %player% permission set recipe.flint_shovel true
+      - customplaceholders add %player% recipes 1
+      '3': []
+      '4':
+      - lp user %player% permission set recipe.enchanted_book_sharpness_iv true
+      - customplaceholders add %player% recipes 1
+      '5':
+      - lp user %player% permission set recipe.enchanted_flint true
+      - customplaceholders add %player% recipes 1
+    key: GRAVEL
+    slot: 23
+  CHICKEN:
+    name: 鸡
+    category: farming
+    rewards:
+      '1':
+      - '  &c没有可用的奖励'
+      '2':
+      - '  &c没有可用的奖励'
+      '3':
+      - '  &f鸡头饰 &7配方'
+      '4':
+      - '  &a附魔生鸡肉 &7配方'
+      '5':
+      - '  &9附魔鸡蛋 &7配方'
+      '6':
+      - '  &f鸡宠物 &7配方 &8(&4即将推出&8)'
+    requirements:
+      '1': 50.0
+      '2': 100.0
+      '3': 250.0
+      '4': 1000.0
+      '5': 2500.0
+      '6': 5000.0
+    commands:
+      '1': []
+      '2': []
+      '3':
+      - lp user %player% permission set recipe.chicken_head true
+      - customplaceholders add %player% recipes 1
+      '4':
+      - lp user %player% permission set recipe.enchanted_raw_chicken true
+      - customplaceholders add %player% recipes 1
+      '5':
+      - lp user %player% permission set recipe.enchanted_egg true
+      - customplaceholders add %player% recipes 1
+      '6':
+      - lp user %player% permission set recipe.chicken_pet true
+      - customplaceholders add %player% recipes 1
+    key: CHICKEN
+    slot: 25
+  COD:
+    name: 鳕鱼
+    category: fishing
+    rewards:
+      '1':
+      - '  &f鳕鱼头饰 &7配方'
+      '2':
+      - '  &c没有可用的奖励'
+      '3':
+      - '  &c没有可用的奖励'
+      '4':
+      - '  &c没有可用的奖励'
+      '5':
+      - '  &c没有可用的奖励'
+      '6':
+      - '  &a附魔鳕鱼 &7配方'
+    requirements:
+      '1': 20.0
+      '2': 50.0
+      '3': 100.0
+      '4': 250.0
+      '5': 500.0
+      '6': 1000.0
+    commands:
+      '1':
+      - lp user %player% permission set recipe.fish_hat true
+      - customplaceholders add %player% recipes 1
+      '2': [] 
+      '3': []
+      '4': []
+      '5': []
+      '6': 
+      - lp user %player% permission set recipe.enchanted_cod true
+      - customplaceholders add %player% recipes 1
+    key: COD
+    slot: 10
+  LEATHER:
+    name: 皮革
+    category: farming
+    rewards:
+      '1':
+      - '  &c没有可用的奖励'
+      '2':
+      - '  &f牛头饰 &7配方'
+      '3':
+      - '  &a小型背包 &7配方 &8(&4即将推出&8)'
+      '4':
+      - '  &a附魔生牛肉 &7配方'
+      '5':
+      - '  &9中型背包 &7配方 &8(&4即将推出&8'
+      '6':
+      - '  &a附魔皮革 &7配方'
+      '7':
+      - '  &c没有可用的奖励'
+      '8':
+      - '  &5大型背包 &7配方 &8(&4即将推出&8'
+    requirements:
+      '1': 50.0
+      '2': 100.0
+      '3': 250.0
+      '4': 1000.0
+      '5': 2500.0
+      '6': 5000.0
+      '7': 10000.0
+      '8': 25000.0
+    commands:
+      '1': []
+      '2':
+      - lp user %player% permission set recipe.cow_head true
+      - customplaceholders add %player% recipes 1
+      '3':
+      - lp user %player% permission set recipe.small_backpack true
+      - customplaceholders add %player% recipes 1
+      '4':
+      - lp user %player% permission set recipe.enchanted_raw_beef true
+      - customplaceholders add %player% recipes 1
+      '5':
+      - lp user %player% permission set recipe.medium_backpack true
+      - customplaceholders add %player% recipes 1
+      '6':
+      - lp user %player% permission set recipe.enchanted_leather true
+      - customplaceholders add %player% recipes 1
+      '7': []
+      '8':
+      - lp user %player% permission set recipe.large_backpack true
+      - customplaceholders add %player% recipes 1
+    key: LEATHER
+    slot: 23
+  OAK_LOG:
+    name: 橡木
+    category: foraging
+    rewards:
+      '1':
+      - '  &c没有可用的奖励'
+      '2':
+      - '  &f橡木树叶 &7交易'
+      '3':
+      - '  &f叶片头饰 &7配方'
+      - '  &f叶片短袍 &7配方'
+      - '  &f叶片裤子 &7配方'
+      - '  &f叶片凉鞋 &7配方'
+      '4':
+      - '  &c没有可用的奖励'
+      '5':
+      - '  &c没有可用的奖励'
+      '6':
+      - '  &a附魔橡木 &7配方'
+      '7':
+      - '  &c没有可用的奖励'
+      '8':
+      - '  &a森林护符 &7配方'
+    requirements:
+      '1': 50.0
+      '2': 100.0
+      '3': 250.0
+      '4': 1000.0
+      '5': 2500.0
+      '6': 5000.0
+      '7': 10000.0
+      '8': 25000.0
+    commands:
+      '1': []
+      '2':
+      - lp user %player% permission set trades.oak_leaves true
+      - customplaceholders add %player% trades 1
+      '3':
+      - lp user %player% permission set recipe.leaflet_armor true
+      - customplaceholders add %player% recipes 4
+      '4': []
+      '5': []
+      '6':
+      - lp user %player% permission set recipe.enchanted_oak_log true
+      - customplaceholders add %player% recipes 1
+      '7': []
+      '8':
+      - lp user %player% permission set recipe.wood_affinity_talisman true
+      - customplaceholders add %player% recipes 1
+    key: OAK_LOG
+    slot: 10
+  BONE:
+    name: 骨头
+    category: combat
+    rewards:
+      '1':
+      - '  &c没有可用的奖励'
+      '2':
+      - '  &c没有可用的奖励'
+      '3':
+      - '  &f附魔书 &7(&9力量 IV&7) 配方'
+      '4':
+      - '  &f骷髅头饰 &7配方'
+      '5':
+      - '  &a附魔骨头 &7配方'
+    requirements:
+      '1': 50.0
+      '2': 100.0
+      '3': 250.0
+      '4': 1000.0
+      '5': 2500.0
+    commands:
+      '1': []
+      '2': [] 
+      '3':
+      - lp user %player% permission set recipe.enchanted_book_power_iv true
+      - customplaceholders add %player% recipes 1
+      '4':
+      - lp user %player% permission set recipe.skeleton_hat true
+      - customplaceholders add %player% recipes 1
+      '5':
+      - lp user %player% permission set recipe.enchanted_bone true
+      - customplaceholders add %player% recipes 1
+    key: BONE
+    slot: 11
+  PUFFERFISH:
+    name: 河豚
+    category: fishing
+    rewards:
+      '1':
+      - '  &f河豚头饰 &7配方'
+      '2':
+      - '  &a附魔河豚 &7配方'
+    requirements:
+      '1': 20.0
+      '2': 50.0
+    commands:
+      '1':
+      - lp user %player% permission set recipe.pufferfish_hat true
+      - customplaceholders add %player% recipes 1
+      '2':
+      - lp user %player% permission set recipe.enchanted_pufferfish true
+      - customplaceholders add %player% recipes 1
+    key: PUFFERFISH
+    slot: 13
+  EMERALD:
+    name: 绿宝石
+    category: mining
+    rewards:
+      '1':
+      - '  &c没有可用的奖励'
+      '2':
+      - '  &f硬币护符 &7配方'
+      '3':
+      - '  &c没有可用的奖励'
+      '4':
+      - '  &a附魔绿宝石 &7配方'
+      '5':
+      - '  &a绿宝石指环 &7配方'
+      '6':
+      - '  &c没有可用的奖励'
+      '7':
+      - '  &9附魔绿宝石块 &7配方'
+      '8':
+      - '  &5绿宝石之刃 &7配方'
+    requirements:
+      '1': 50.0
+      '2': 100.0
+      '3': 250.0
+      '4': 1000.0
+      '5': 5000.0
+      '6': 15000.0
+      '7': 30000.0
+      '8': 50000.0
+    commands:
+      '1': []
+      '2':
+      - lp user %player% permission set recipe.talisman_of_coins true
+      - customplaceholders add %player% recipes 1
+      '3': []
+      '4':
+      - lp user %player% permission set recipe.enchanted_emerald true
+      - customplaceholders add %player% recipes 1
+      '5':
+      - lp user %player% permission set recipe.emerald_ring true
+      - customplaceholders add %player% recipes 1
+      '6': []
+      '7':
+      - lp user %player% permission set recipe.enchanted_block_of_emerald true
+      - customplaceholders add %player% recipes 1
+      '8':
+      - lp user %player% permission set recipe.emerald_blade true
+      - customplaceholders add %player% recipes 1
+    key: EMERALD
+    slot: 16
+  BIRCH_LOG:
+    name: 白桦木
+    category: foraging
+    rewards:
+      '1':
+      - '  &c没有可用的奖励'
+      '2':
+      - '  &f白桦树叶 &7交易'
+      '3':
+      - '  &c没有可用的奖励'
+      '4':
+      - '  &c没有可用的奖励'
+      '5':
+      - '  &c没有可用的奖励'
+      '6':
+      - '  &a附魔白桦木 &7配方'
+    requirements:
+      '1': 50.0
+      '2': 100.0
+      '3': 250.0
+      '4': 1000.0
+      '5': 2500.0
+      '6': 5000.0
+    commands:
+      '1': []
+      '2':
+      - lp user %player% permission set trades.birch_leaves true
+      - customplaceholders add %player% trades 1
+      '3': []
+      '4': []
+      '5': []
+      '6':
+      - lp user %player% permission set recipe.enchanted_birch_log true
+      - customplaceholders add %player% recipes 1
+    key: BIRCH_LOG
+    slot: 12
+  INK_SAC:
+    name: 墨囊
+    category: fishing
+    rewards:
+      '1':
+      - '  &f鱿鱼头饰 &7配方'
+      '2':
+      - '  &c没有可用的奖励'
+      '3':
+      - '  &a附魔墨囊 &7配方'
+    requirements:
+      '1': 20.0
+      '2': 40.0
+      '3': 100.0
+    commands:
+      '1':
+      - lp user %player% permission set recipe.squid_hat true
+      - customplaceholders add %player% recipes 1
+      '2': []
+      '3':
+      - lp user %player% permission set recipe.enchanted_ink_sack true
+      - customplaceholders add %player% recipes 1
+    key: INK_SAC
+    slot: 20
+  PORKCHOP:
+    name: 猪肉
+    category: farming
+    rewards:
+      '1':
+      - '  &c没有可用的奖励'
+      '2':
+      - '  &c没有可用的奖励'
+      '3':
+      - '  &f猪宠物 &7配方 &8(&4即将推出&8)'
+      '4':
+      - '  &a附魔生猪肉 &7配方'
+      '5':
+      - '  &c没有可用的奖励'
+      '6':
+      - '  &c没有可用的奖励'
+      '7':
+      - '  &a附魔熟猪排 &7配方'
+      '8':
+      - '  &5猪人宠物 &7配方 &8(&4即将推出&8)'
+      '9':
+      - '  &6猪人剑 &7配方'
+    requirements:
+      '1': 50.0
+      '2': 100.0
+      '3': 250.0
+      '4': 1000.0
+      '5': 2500.0
+      '6': 5000.0
+      '7': 10000.0
+      '8': 25000.0
+      '9': 50000.0
+    commands:
+      '1': []
+      '2': []
+      '3':
+      - lp user %player% permission set recipe.pig_pet true
+      - customplaceholders add %player% recipes 1
+      '4':
+      - lp user %player% permission set recipe.enchanted_pork true
+      - customplaceholders add %player% recipes 1
+      '5': []
+      '6': []
+      '7':
+      - lp user %player% permission set recipe.enchanted_grilled_pork true
+      - customplaceholders add %player% recipes 1
+      '8':
+      - lp user %player% permission set recipe.pigmen_pet true
+      - customplaceholders add %player% recipes 1
+      '9':
+      - lp user %player% permission set recipe.pigman_sword true
+      - customplaceholders add %player% recipes 1
+    key: PORKCHOP
+    slot: 24
+  PRISMARINE_CRYSTALS:
+    name: 海晶砂粒
+    category: fishing
+    rewards:
+      '1':
+      - '  &c没有可用的奖励'
+      '2':
+      - '  &c没有可用的奖励'
+      '3':
+      - '  &a附魔海晶砂粒 &7配方'
+    requirements:
+      '1': 10.0
+      '2': 25.0
+      '3': 50.0
+    commands:
+      '1': []
+      '2': []
+      '3':
+      - lp user %player% permission set recipe.enchanted_prismarine_crystals true
+      - customplaceholders add %player% recipes 1
+    key: PRISMARINE_CRYSTALS
+    slot: 15
+  ICE:
+    name: 冰
+    category: mining
+    rewards:
+      '1':
+      - '  &c没有可用的奖励'
+      '2':
+      - '  &c没有可用的奖励'
+      '3':
+      - '  &c没有可用的奖励'
+      '4':
+      - '  &a附魔冰 &7配方'
+    requirements:
+      '1': 50.0
+      '2': 100.0
+      '3': 250.0
+      '4': 1000.0
+    commands:
+      '1': []
+      '2': []
+      '3': []
+      '4':
+      - lp user %player% permission set recipe.enchanted_ice true
+      - customplaceholders add %player% recipes 1
+    key: ICE
+    slot: 24
+  CLAY_BALL:
+    name: 粘土
+    category: fishing
+    rewards:
+      '1':
+      - '  &c没有可用的奖励'
+    requirements:
+      '1': 50.0
+    commands:
+      '1': []
+    key: CLAY_BALL
+    slot: 16
+  FEATHER:
+    name: 羽毛
+    category: farming
+    rewards:
+      '1':
+      - '  &f附魔书 &7(&9弹射物保护 IV&7) 配方'
+      '2':
+      - '  &f附魔书 &7(&9摔落保护 IV&7) 配方'
+      '3':
+      - '  &c没有可用的奖励'
+      '4':
+      - '  &f羽毛护符 &7配方'
+      '5':
+      - '  &a附魔羽毛 &7配方'
+      '6':
+      - '  &c没有可用的奖励'
+      '7':
+      - '  &a羽毛指环 &7配方'
+      '8':
+      - '  &c没有可用的奖励'
+      '9':
+      - '  &9羽毛圣物 &7配方'
+    requirements:
+      '1': 50.0
+      '2': 100.0
+      '3': 250.0
+      '4': 1000.0
+      '5': 2500.0
+      '6': 5000.0
+      '7': 10000.0
+      '8': 25000.0
+      '9': 50000.0
+    commands:
+      '1':
+      - lp user %player% permission set recipe.enchanted_book_projectile_protection_iv true
+      - customplaceholders add %player% recipes 1
+      '2':
+      - lp user %player% permission set recipe.enchanted_book_feather_falling_iv true
+      - customplaceholders add %player% recipes 1
+      '3': []
+      '4':
+      - lp user %player% permission set recipe.feather_talisman true
+      - customplaceholders add %player% recipes 1
+      '5':
+      - lp user %player% permission set recipe.enchanted_feather true
+      - customplaceholders add %player% recipes 1
+      '6': []
+      '7':
+      - lp user %player% permission set recipe.feather_ring true
+      - customplaceholders add %player% recipes 1
+      '8': []
+      '9':
+      - lp user %player% permission set recipe.feather_artifact true
+      - customplaceholders add %player% recipes 1
+    key: FEATHER
+    slot: 22
+  NETHERRACK:
+    name: 下界岩
+    category: mining
+    rewards:
+      '1':
+      - '  &c没有可用的奖励'
+      '2':
+      - '  &c没有可用的奖励'
+      '3':
+      - '  &f下界砖块 &7交易'
+      '4':
+      - '  &a附魔下界岩 &7配方'
+    requirements:
+      '1': 50.0
+      '2': 100.0
+      '3': 250.0
+      '4': 1000.0
+    commands:
+      '1': []
+      '2': []
+      '3':
+      - lp user %player% permission set trades.nether_bricks true
+      - customplaceholders add %player% trades 1
+      '4':
+      - lp user %player% permission set recipe.enchanted_netherrack true
+      - customplaceholders add %player% recipes 1
+    key: NETHERRACK
+    slot: 25
+  SPONGE:
+    name: 海绵
+    category: fishing
+    rewards:
+      '1':
+      - '  &c没有可用的奖励'
+      '2':
+      - '  &f海绵 &7交易'
+      '3':
+      - '  &a附魔海绵 &7配方'
+      '4':
+      - '  &c没有可用的奖励'
+      '5':
+      - '  &c没有可用的奖励'
+      '6':
+      - '  &c没有可用的奖励'
+      '7':
+      - '  &9附魔湿海绵 &7配方'
+      '8':
+      - '  &c没有可用的奖励'
+      '9':
+      - '  &5海绵头盔 &7配方'
+      - '  &5海绵胸甲 &7配方'
+      - '  &5海绵护腿 &7配方'
+      - '  &5海绵靴子 &7配方'
+    requirements:
+      '1': 20.0
+      '2': 40.0
+      '3': 100.0
+      '4': 200.0
+      '5': 400.0
+      '6': 800.0
+      '7': 1500.0
+      '8': 2500.0
+      '9': 4000.0
+    commands:
+      '1': []
+      '2':
+      - lp user %player% permission set trades.sponge true
+      - customplaceholders add %player% trades 1
+      '3':
+      - lp user %player% permission set recipe.enchanted_sponge true
+      - customplaceholders add %player% recipes 1
+      '4': []
+      '5': []
+      '6': []
+      '7':
+      - lp user %player% permission set recipe.enchanted_wet_sponge true
+      - customplaceholders add %player% recipes 1
+      '8': []
+      '9':
+      - lp user %player% permission set recipe.sponge_armor true
+      - customplaceholders add %player% recipes 4
+    key: SPONGE
+    slot: 21
+  BLAZE_ROD:
+    name: 烈焰棒
+    category: combat
+    rewards:
+      '1':
+      - '  &c没有可用的奖励'
+      '2':
+      - '  &f烈焰人头饰 &7配方'
+      '3':
+      - '  &f附魔书 &7(&9火焰附加 I&7) 配方'
+      '4':
+      - '  &a附魔烈焰粉 &7配方'
+      '5':
+      - '  &f火焰护符 &7配方'
+      '6':
+      - '  &f附魔书 &7(&9火矢 I&7) 配方'
+      '7':
+      - '  &a附魔烈焰棒 &7配方'
+    requirements:
+      '1': 50.0
+      '2': 100.0
+      '3': 250.0
+      '4': 1000.0
+      '5': 2500.0
+      '6': 5000.0
+      '7': 10000.0
+    commands:
+      '1': []
+      '2':
+      - lp user %player% permission set recipe.blaze_hat true
+      - customplaceholders add %player% recipes 1
+      '3':
+      - lp user %player% permission set recipe.enchanted_book_fire_aspect_i true
+      - customplaceholders add %player% recipes 1
+      '4':
+      - lp user %player% permission set recipe.enchanted_blaze_powder true
+      - customplaceholders add %player% recipes 1
+      '5':
+      - lp user %player% permission set recipe.fire_talisman true
+      - customplaceholders add %player% recipes 1
+      '6':
+      - lp user %player% permission set recipe.enchanted_book_flame_i true
+      - customplaceholders add %player% recipes 1
+      '7':
+      - lp user %player% permission set recipe.enchanted_blaze_rod true
+      - customplaceholders add %player% recipes 1
+    key: BLAZE_ROD
+    slot: 20
+  STRING:
+    name: 线
+    category: combat
+    rewards:
+      '1':
+      - '  &c没有可用的奖励'
+      '2':
+      - '  &f蜘蛛网 &7配方'
+      '3':
+      - '  &c没有可用的奖励'
+      '4':
+      - '  &a附魔线 &7配方'
+      '5':
+      - '  &f附魔书 &7(&9精准采集 I&7) 配方'
+      '6':
+      - '  &c没有可用的奖励'
+      '7':
+      - '  &a抓钩 &7配方 &8(&4即将推出&8)'
+    requirements:
+      '1': 50.0
+      '2': 100.0
+      '3': 250.0
+      '4': 1000.0
+      '5': 2500.0
+      '6': 5000.0
+      '7': 10000.0
+    commands:
+      '1': []
+      '2':
+      - lp user %player% permission set recipe.web true
+      - customplaceholders add %player% recipes 1
+      '3': []
+      '4':
+      - lp user %player% permission set recipe.enchanted_string true
+      - customplaceholders add %player% recipes 1
+      '5':
+      - lp user %player% permission set recipe.enchanted_book_silk_touch_i true
+      - customplaceholders add %player% recipes 1
+      '6': []
+      '7':
+      - lp user %player% permission set recipe.grappling_hook true
+      - customplaceholders add %player% recipes 1
+    key: STRING
+    slot: 12
+  DARK_OAK_LOG:
+    name: 深色橡木
+    category: foraging
+    rewards:
+      '1':
+      - '  &c没有可用的奖励'
+      '2':
+      - '  &f深色橡木树叶 &7交易'
+      '3':
+      - '  &c没有可用的奖励'
+      '4':
+      - '  &c没有可用的奖励'
+      '5':
+      - '  &a附魔深色橡木 &7配方'
+    requirements:
+      '1': 50.0
+      '2': 100.0
+      '3': 250.0
+      '4': 1000.0
+      '5': 2500.0
+    commands:
+      '1': []
+      '2':
+      - lp user %player% permission set trades.dark_oak_leaves true
+      - customplaceholders add %player% trades 1
+      '3': []
+      '4': []
+      '5':
+      - lp user %player% permission set recipe.enchanted_dark_oak_log true
+      - customplaceholders add %player% recipes 1
+    key: DARK_OAK_LOG
+    slot: 13

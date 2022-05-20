@@ -1,0 +1,38 @@
+command /plugin:
+    trigger:
+        if the player doesn't have permission "rank.admin":
+            message "&f未知指令"
+            stop
+        else:
+            message "&c插件列表已被禁用 详情请查看控制台"
+            send "" to console
+            send "插件列表因为安全原因被禁用" to console
+            send "如想启用请输入: /sk disable plugin" to console
+            send "" to console
+            stop
+
+command /pl:
+    trigger:
+        if the player doesn't have permission "rank.admin":
+            message "&f未知指令"
+            stop
+        else:
+            message "&c插件列表已被禁用 详情请查看控制台"
+            send "" to console
+            send "插件列表因为安全原因被禁用" to console
+            send "如想启用请输入: /sk disable plugin" to console
+            send "" to console
+            stop
+
+command /plugins:
+    trigger:
+        if the player doesn't have permission "rank.admin":
+            message "&f未知指令"
+            stop
+        else:
+            message "&c插件列表已被禁用 详情请查看控制台"
+            send "" to console
+            send "插件列表因为安全原因被禁用" to console
+            send "如想启用请输入: /sk disable plugin" to console
+            send "" to console
+            stop

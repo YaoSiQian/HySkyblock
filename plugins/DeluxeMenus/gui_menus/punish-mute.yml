@@ -1,0 +1,142 @@
+menu_title: '禁言 > {target}'
+open_command:
+- punish-mute
+args:
+- target
+args_usage_message: "&c未知命令! (/punish <用户名>)"
+register_command: true
+size: 45
+items:
+
+      player:
+        material: head-{target}
+        slot: 10
+        display_name: '&6{target}'
+        left_click_commands: []
+        right_click_commands: []
+
+      glass:
+        material: BLACK_STAINED_GLASS_PANE
+        slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 11
+        - 17
+        - 18
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24
+        - 25
+        - 26
+        - 27
+        - 28
+        - 29
+        - 30
+        - 31
+        - 32
+        - 33
+        - 35
+        - 36
+        - 37
+        - 38
+        - 39
+        - 41
+        - 42
+        - 43
+        - 44
+        display_name: '&7'
+        left_click_commands: []
+        right_click_commands: []
+
+      1day:
+        material: CLOCK
+        slot: 12
+        amount: 1
+        display_name: '&c1 天'
+        lore:
+        - '&eMute {target} for 1 天'
+        left_click_commands:
+        - '[player] punish-mute-confirm {target} 1d'
+        right_click_commands:
+        - '[player] punish-mute-confirm {target} 1d'
+
+      7days:
+        material: CLOCK
+        slot: 13
+        amount: 7
+        display_name: '&c7 天'
+        lore:
+        - '&eMute {target} for 7 天'
+        left_click_commands:
+        - '[player] punish-mute-confirm {target} 7d'
+        right_click_commands:
+        - '[player] punish-mute-confirm {target} 7d'
+
+      14days:
+        material: CLOCK
+        slot: 14
+        amount: 14
+        display_name: '&c14 天'
+        lore:
+        - '&eMute {target} for 14 天'
+        left_click_commands:
+        - '[player] punish-mute-confirm {target} 14d'
+        right_click_commands:
+        - '[player] punish-mute-confirm {target} 14d'
+
+      30days:
+        material: CLOCK
+        slot: 15
+        amount: 30
+        display_name: '&c30 天'
+        lore:
+        - '&eMute {target} for 30 天'
+        left_click_commands:
+        - '[player] punish-mute-confirm {target} 30d'
+        right_click_commands:
+        - '[player] punish-mute-confirm {target} 30d'
+
+      60days:
+        material: CLOCK
+        slot: 16
+        amount: 60
+        display_name: '&c60 天'
+        lore:
+        - '&eMute {target} for 60 天'
+        left_click_commands:
+        - '[player] punish-mute-confirm {target} 60d'
+        right_click_commands:
+        - '[player] punish-mute-confirm {target} 60d'
+
+      unmute-player:
+        material: GREEN_TERRACOTTA
+        slot: 34
+        display_name: '&a解禁玩家'
+        lore:
+        - '&e解除 {target} 禁言'
+        left_click_commands:
+        - '[player] unmute {target}'
+        right_click_commands:
+        - '[player] unmute {target}'
+        
+        
+
+      back:
+        material: ARROW
+        slot: 40
+        display_name: '&a返回'
+        left_click_commands:
+        - '[player] punish {target}'
+        right_click_commands:
+        - '[player] punish {target}'

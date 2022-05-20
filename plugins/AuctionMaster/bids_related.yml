@@ -1,0 +1,143 @@
+bids-menu-name: '拍卖预览'
+
+bid-history-item: '358:0'
+bid-history-item-name: '&f出价历史'
+bid-history-item-lore:
+  no-bids:
+    - '&7这个物品还没有任何出价'
+    - ''
+    - '&7成为第一个出价的人!'
+  #The lore of the bid history item is dynamic when
+  #it has bids on it, the structure below repeats itself
+  #at every new bid, adding to the lore
+  #Use %bid-amount% for the amount of the bid
+  #Use %bidder-display-name% for bidder's display name
+  #Use %when-bidded% for when the bid was placed (eg. 2 Days) (Ago is not included so you can modify)
+  bid-structure:
+    - '&8&m--------------'
+    - '&7出价: &6%bid-amount% 硬币'
+    - '&7由: %bidder-display-name%'
+    - '&b%when-bidded% 之前'
+
+#This is the message items with "Ending soon" will give when clicked
+too-late-to-open-now: '&c打开得太晚了'
+
+#When the auction is claimed by the seller, the bid history
+#no longer updates %when-bidded% and the message below is added
+#to the bid history item lore
+#Use %date% for the date of the last updated
+bid-history-last-updated-message: '&8最后在 %date% 更新'
+
+submit-bid-cannot-afford-item: '394'
+#Use %bid-amount% for the needed amount (that the player does not have)
+submit-bid-cannot-afford-item-name: '&6提交出价'
+submit-bid-cannot-afford-item-lore:
+  - ''
+  - '&7新出价: &6%bid-amount% 硬币'
+  - ''
+  - '&c无法承担出价!'
+
+submit-bid-item: '371'
+submit-bid-item-name: '&6提交出价'
+submit-bid-item-lore:
+  no-previous-bids:
+    - ''
+    - '&7新出价: &6%bid-amount% 硬币'
+    - ''
+    - '&e点击出价!'
+  #Use %bid-amount% for the amount the bid will have
+  #Use %previous-bid% for the previous bid's amount
+  #Use %coins-to-pay% for the difference between previous bid and actual bid
+  with-previous-bids:
+    - ''
+    - '&7新出价: &6%bid-amount% 硬币'
+    - '&7上个出价: &e%previous-bid% 硬币'
+    - ''
+    - '&7你应该补: &6%coins-to-pay% 硬币的差价'
+    - ''
+    - '&e点击出价!'
+
+collect-bid-item: '41'
+collect-bid-item-name: '&6收集竞拍物品'
+collect-bid-item-lore:
+  #Use %coins% for the amount of coins the player could collect
+  collect-coins:
+    - ''
+    - '&7你在拍卖中'
+    - '&7收到了 &6%coins% 硬币'
+    - ''
+    - '&e点击领取!'
+  collect-item:
+    - ''
+    - '&7你在拍卖中'
+    - '&7有物品待领取'
+    - ''
+    - '&e点击领取!'
+
+#What amount of the previous bid is needed for a new bid
+#Default Example: to bid over a 100 coins bid you need '100 + 15% from 100' minimum
+#If you remove the % it will just take 15 coins instead of a percent
+bid-step: '15%'
+
+#When a bid is lower than this amount
+#the next bid will jump here
+#Set it to 0 to disable it but make sure you know
+#how to handle it
+bid-jump: 20
+
+edit-bid-item: '266'
+#Use %current-bid% for the amount the player has selected to bid
+edit-bid-item-name: '&f出价: &6%current-bid% 硬币'
+#Use %minimum-bid% for the minimum amount you have to bid on the auction
+edit-bid-item-lore:
+  - '&7你至少需要再出价'
+  - '&6%minimum-bid% 硬币 &7来拿下'
+  - '&7本次拍卖的最高出价'
+  - ''
+  - '&e出价最高&7 的玩家'
+  - '&7在拍卖结束时将会获得此物品'
+  - ''
+  - '&7如果你没有达到最高出价'
+  - '&7你可以取回你的出价硬币'
+  - ''
+  - '&e点击编辑出价额度!'
+
+#The sign used for editing has the same text
+#as the starting bid on auction creator
+
+#Message for when you try to edit the bid with a value smaller than needed
+edit-bid-deny-message: '&c你的出价太低了'
+
+#Message for when the bid is placed successfully
+placed-bid-message: '&a你的出价已提交!'
+
+#Message for when you have 28 bids (reached the limit)
+max-bids-reached: '&c你最多可以在 28 个不同的拍卖中出价'
+
+#Message sent to players when they get outbidded
+#Use %outbid-player-display-name% for the name of the outbidder
+#Use %top-bid% for the new top bid
+#Use %bid-item% for the name of the item
+outbid-message:
+  - '&6[拍卖] &f%outbid-player-display-name%&f 在你参与出价的 %bid-item% &f拍卖中出了更高价'
+  - '&f最高出价为 &6%top-bid% 硬币&f. &e&l点击查看'
+
+#Message sent to the seller when someone bids on their auction
+#Use %bidder% for bidder's display name
+#Use %bid-amount% for the bidded amount
+#Use %bid-item% for the name of the item
+bid-message: '&6[拍卖] %bidder% &f在你的 %bid-item% &f出价 &6%bid-amount% 硬币 &f!'
+
+not-enough-money-bid: '&c你没有足够的硬币以出此价'
+
+#This message is added to the lore of some items
+#to let the player know it is their own auction
+own-auction-message: '&a这是你自己的拍卖!'
+
+#To prevent a bug where two players bid the same amount
+#on the same auction (that happening when 2 players have the same view auction menu opened
+#at the same time) this message will be sent to the player if the value they try to submit
+#is already in there
+bid-error-message:
+  - '&c[拍卖错误] &f在你考虑的时候有人已经出价了'
+  - '&c刷新菜单...'

@@ -1,0 +1,33 @@
+levelUpMessage:
+- '&e▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+- '  &6&l收集进度升级 &e%collection_name% &8%previous_level%&8➜&3%current_level%'
+- ''
+- '  &a&l奖励'
+- '&7    &7%level_rewards%'
+- '&e▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+messages:
+  collectionUnlocked: '   &6&l收集解锁 &e%collection_name%'
+  collectionUnlockedHoverMessage: |-
+    &7收集更多的 %collection_name%
+    &7来积累你的收集并解锁奖励!
+    &7
+    &e点击查看你的 %collection_name% 收集!
+  collectionLocked: '&c该收集未解锁!'
+  invalidCommand: '%prefix% &7未知指令!'
+  invalidArguments: '%prefix% &7未知子指令!'
+  invalidPlayer: '%prefix% &7未知玩家'
+  offlinePlayer: |-
+    %prefix% 该玩家不在线!
+    %prefix% 请提醒他上线!
+  reloaded: '%prefix% &7配置已重载'
+  noPermission: '&c你必须是管理员才能使用该指令!'
+  helpMessage: '&7%command% - &e%description%'
+  helpHeader: '      &6&l收集   '
+  helpfooter: '&e<< &6第 %page% 页至第 %maxpage% 页 &e>>'
+  previousPage: '<<'
+  nextPage: '>>'
+  helpPageHoverMessage: 点击前往第 %page% 页
+  unknownCommand: '%prefix% &7指令不存在!'
+  mustBeAPlayer: '%prefix% &7该指令只能玩家输入'
+  setXP: '%prefix% &7你将 %player% 的 %collection%收集 的经验值设置为 %quantity%!'
+  addedXP: '%prefix% &7你将 %player% 的 %collection%收集 的经验值增加了 %quantity%!'

@@ -1,0 +1,262 @@
+menu_title: '管理: {target}'
+open_command:
+- data
+- manage
+- datamanager
+- managedata
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: rank.admin
+      deny_commands:
+        - '[message] &c你没有权限!'
+args:
+- target
+args_usage_message: "&c使用: /managedata <用户名>"
+register_command: true
+size: 54
+items:
+      background:
+        material: BLACK_STAINED_GLASS_PANE
+        slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 17
+        - 18
+        - 26
+        - 27
+        - 35
+        - 36
+        - 44
+        - 45
+        - 46
+        - 47
+        - 48
+        - 49
+        - 50
+        - 51
+        - 52
+        - 53
+        display_name: '&7'
+        lore: []
+        left_click_commands: []
+        right_click_commands: []
+
+      manage:
+        material: head-{target}
+        slot: 4
+        display_name: '&6管理: &e{target}'
+        lore:
+        - '&7点击选项以管理玩家数据'
+        left_click_commands: []
+        right_click_commands: []
+
+      rank:
+        material: NAME_TAG
+        slot: 10
+        display_name: '&6会员 &7- &a&l启用'
+        lore:
+        - '&e点击重置 {target} 的会员'
+        left_click_commands:
+        - '[player] lp user {target} parent set default'
+        - '[message] &c&l已重置 {target} 的会员!'
+        right_click_commands:
+        - '[player] lp user {target} parent set default'
+        - '[message] &c&l已重置 {target} 的会员!'
+
+      island:
+        material: GRASS_BLOCK
+        slot: 11
+        display_name: '&6岛屿 &7- &a&l启用'
+        lore:
+        - '&e点击重置 {target} 的岛屿'
+        left_click_commands:
+        - '[player] bsbadmin unregister {target}'
+        - '[player] bsbadmin unregister {target}'
+        - '[message] &c&l已重置 {target} 的岛屿!'
+        right_click_commands:
+        - '[player] bsbadmin unregister {target}'
+        - '[player] bsbadmin unregister {target}'
+        - '[message] &c&l已重置 {target} 的岛屿!'
+
+      locations:
+        material: FILLED_MAP
+        slot: 12
+        display_name: '&6探索 &7- &a&l启用'
+        lore:
+        - '&e点击重置 {target} 的探索'
+        left_click_commands:
+        - '[player] codex reset {target} all'
+        - '[message] &c&l已重置 {target} 的探索!'
+        right_click_commands:
+        - '[player] codex reset {target} all'
+        - '[message] &c&l已重置 {target} 的探索!'
+
+      skills:
+        material: DIAMOND_SWORD
+        hide_attributes: true
+        slot: 13
+        display_name: '&6技能 & Stats &7- &a&l启用'
+        lore:
+        - '&e点击重置 {target} 技能数据'
+        left_click_commands:
+        - '[player] skills resetdata {target}'
+        - '[player] skills resetdata {target}'
+        - '[message] &c&l已重置 {target} 的技能数据!'
+        right_click_commands:
+        - '[player] skills resetdata {target}'
+        - '[player] skills resetdata {target}'
+        - '[message] &c&l已重置 {target} 的技能数据!'
+
+      collections:
+        material: PAINTING
+        slot: 14
+        display_name: '&c收集 &7- &c&l禁用'
+        lore:
+        - '&c即将推出'
+        left_click_commands: []
+        right_click_commands: []
+
+      inventory:
+        material: CHEST
+        slot: 15
+        display_name: '&6物品栏 &7- &a&l启用'
+        lore:
+        - '&e点击重置 {target} 的物品栏'
+        - ''
+        - '&c注意：玩家必须在线'
+        left_click_commands:
+        - '[player] clear {target}'
+        - '[message] &c&l已重置 {target} 的物品栏!'
+        right_click_commands:
+        - '[player] clear {target}'
+        - '[message] &c&l已重置 {target} 的物品栏!'
+
+      coins:
+        material: GOLD_NUGGET
+        slot: 16
+        display_name: '&6硬币 &7- &a&l启用'
+        lore:
+        - '&e点击重置 {target} 的硬币'
+        left_click_commands:
+        - '[player] eco set {target} 0'
+        - '[message] &c&l已重置 {target} 的硬币!'
+        right_click_commands:
+        - '[player] eco set {target} 0'
+        - '[message] &c&l已重置 {target} 的硬币!'
+
+      bank:
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTM2ZTk0ZjZjMzRhMzU0NjVmY2U0YTkwZjJlMjU5NzYzODllYjk3MDlhMTIyNzM1NzRmZjcwZmQ0ZGFhNjg1MiJ9fX0=
+        slot: 19
+        display_name: '&6存款 &7- &a&l启用'
+        lore:
+        - '&e点击重置 {target} 的存款'
+        left_click_commands:
+        - '[player] rec bank set {target} 0'
+        - '[message] &c&l已重置 {target} 的存款!'
+        right_click_commands:
+        - '[player] rec bank set {target} 0'
+        - '[message] &c&l已重置 {target} 的存款!'
+
+      exp:
+        material: EXPERIENCE_BOTTLE
+        slot: 20
+        display_name: '&6经验 &7- &a&l启用'
+        lore:
+        - '&e点击重置 {target} 的经验'
+        - ''
+        - '&c注意：玩家必须在线'
+        left_click_commands:
+        - '[player] xp reset {target}'
+        - '[message] &c&l已重置 {target} 的经验!'
+        right_click_commands:
+        - '[player] xp reset {target}'
+        - '[message] &c&l已重置 {target} 的经验!'
+
+      bits:
+        material: BEACON
+        slot: 21
+        display_name: '&a点券 &7- &a&l启用'
+        lore:
+        - '&e点击重置 {target} 的点券'
+        left_click_commands:
+        - '[player] customplaceholders set {target} bits 0'
+        - '[message] &c&l已重置 {target} 的点券!'
+        right_click_commands:
+        - '[player] customplaceholders set {target} bits 0'
+        - '[message] &c&l已重置 {target} 的点券!'
+
+      souls:
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjk2OTIzYWQyNDczMTAwMDdmNmFlNWQzMjZkODQ3YWQ1Mzg2NGNmMTZjMzU2NWExODFkYzhlNmIyMGJlMjM4NyJ9fX0=
+        slot: 22
+        display_name: '&6仙女之魂 &7- &a&l启用'
+        lore:
+        - '&e点击重置 {target} 的仙女之魂'
+        left_click_commands:
+        - '[player] souls reset {target}'
+        - '[message] &c&l已重置 {target} 的仙女之魂!'
+        right_click_commands:
+        - '[player] souls reset {target}'
+        - '[message] &c&l已重置 {target} 的仙女之魂!'
+
+      potion-effects:
+        material: POTION
+        slot: 23
+        display_name: '&6药水效果 &7- &a&l启用'
+        lore:
+        - '&e点击重置 {target} 的药水效果'
+        - ''
+        - '&c注意：玩家必须在线'
+        left_click_commands:
+        - '[player] heal {target}'
+        - '[message] &c&l已重置 {target} 的药水效果!'
+        right_click_commands:
+        - '[player] heal {target}'
+        - '[message] &c&l已重置 {target} 的药水效果!'
+
+      ender-chest:
+        material: ENDER_CHEST
+        slot: 24
+        display_name: '&cEnder Chest &7- &c&lDISABLED'
+        lore:
+        - '&c即将推出'
+        left_click_commands: []
+        right_click_commands: []
+        
+      quests:
+        material: WRITABLE_BOOK
+        slot: 24
+        display_name: '&6任务 &7- &a&l启用'
+        lore:
+        - '&e点击重置 {target} 的任务'
+        - ''
+        - '&e注意：如果玩家在线，会自动开始初始任务（破坏原木）'
+        left_click_commands:
+        - '[console] q a moddata fullreset {target}'
+        - '[console] q a moddata start {target} IslandsQuest1<delay=1>'
+        - '[message] &c&l已重置 {target} 的任务!'
+        right_click_commands:
+        - '[console] q a moddata fullreset {target}'
+        - '[console] q a moddata start {target} IslandsQuest1<delay=1>'
+        - '[message] &c&l已重置 {target} 的任务!'
+
+      gems:
+        material: EMERALD
+        slot: 25
+        display_name: '&a宝石 &7- &a&l启用'
+        lore:
+        - '&e点击重置 {target} 宝石'
+        left_click_commands:
+        - '[player] customplaceholders set {target} gems 0'
+        - '[message] &c&l已重置 {target} 的宝石!'
+        right_click_commands:
+        - '[player] customplaceholders set {target} gems 0'
+        - '[message] &c&l已重置 {target} 的宝石!'

@@ -1,0 +1,43 @@
+tasks:
+ quest:
+  type: "position"
+  x: -148
+  y: 57
+  z: -50
+  world: Server
+  distance-padding: 10
+
+display:
+  name: "&e前往谷仓"
+  lore-normal: []
+  lore-started: []
+  type: "PAPER"
+
+rewards:
+  - "emsg {player} &7"
+  - "emsg {player} &6&l  任务完成"
+  - "emsg {player} &6&l  &f首次收获"
+  - "emsg {player} &7"
+  - "emsg {player} &f    &a✔ &f与农民对话"
+  - "emsg {player} &f    &a✔ &f收集小麦"
+  - "emsg {player} &f    &a✔ &f与农民对话"
+  - "emsg {player} &f    &a✔ &f达到农业技能 I"
+  - "emsg {player} &f    &a✔ &f前往谷仓"
+  - "emsg {player} &7"
+  - "emsg {player} &a&l   奖励"
+  - "emsg {player} &a&l   &8+&310 &7农业经验"
+  - "skills addxp {player} Farming 10"
+  - "emsg {player} &7"
+  
+
+placeholders:
+  bossbar: "100"
+  progress: "&7"
+
+options:
+  category: ""
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 14

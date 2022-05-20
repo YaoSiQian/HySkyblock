@@ -1,0 +1,46 @@
+categories:
+  farming:
+    enabled: true
+    displayName: 农业
+    item: GOLDEN_HOE
+    slot: 20
+  mining:
+    enabled: true
+    displayName: 挖矿
+    item: STONE_PICKAXE
+    slot: 21
+  combat:
+    enabled: true
+    displayName: 战斗
+    item: STONE_SWORD
+    slot: 22
+  fishing:
+    enabled: true
+    displayName: 渔业
+    item: FISHING_ROD
+    slot: 23
+  foraging:
+    enabled: true
+    displayName: 林业
+    item: JUNGLE_SAPLING
+    slot: 24
+  special:
+    enabled: true
+    displayName: 特殊
+    item: NETHER_STAR
+    slot: 31
+  enchanting:
+    enabled: false
+    displayName: 附魔
+    item: ENCHANTING_TABLE
+    slot: 29
+  alchemy:
+    enabled: false
+    displayName: 酿造
+    item: BREWING_STAND
+    slot: 30
+  carpentry:
+    enabled: false
+    displayName: 木工
+    item: CRAFTING_TABLE
+    slot: 31

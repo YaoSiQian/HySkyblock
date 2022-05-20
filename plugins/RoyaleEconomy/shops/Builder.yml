@@ -1,0 +1,386 @@
+title: Builder
+permission-to-open: none
+background-color: 15
+items:
+  '2':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: DIRT
+      amount: 8
+    sellingValue: 0.5
+    buyValue: 2.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '3':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: STONE
+      amount: 8
+    sellingValue: 1.0
+    buyValue: 2.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '4':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: STONE_BRICKS
+      amount: 8
+    sellingValue: 0.0
+    buyValue: 2.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '5':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: GRANITE
+      amount: 8
+    sellingValue: 2.0
+    buyValue: 4.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '6':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: DIORITE
+      amount: 8
+    sellingValue: 2.0
+    buyValue: 4.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '7':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: ANDESITE
+      amount: 8
+    sellingValue: 2.0
+    buyValue: 4.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '8':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: MOSSY_COBBLESTONE
+      amount: 8
+    sellingValue: 4.0
+    buyValue: 12.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '9':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: MOSSY_STONE_BRICKS
+      amount: 8
+    sellingValue: 2.0
+    buyValue: 4.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '10':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: NETHER_BRICKS
+      amount: 8
+    sellingValue: 2.0
+    buyValue: 4.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '11':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: SANDSTONE
+      amount: 8
+    sellingValue: 4.0
+    buyValue: 6.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '12':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: RED_SANDSTONE
+      amount: 8
+    sellingValue: 4.0
+    buyValue: 6.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '13':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: ICE
+      amount: 8
+    sellingValue: 0.5
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '14':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: PACKED_ICE
+      amount: 8
+    sellingValue: 3.0
+    buyValue: 9.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '15':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: WHITE_WOOL
+      amount: 8
+    sellingValue: 2.0
+    buyValue: 6.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '16':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: TERRACOTTA
+      amount: 8
+    sellingValue: 2.0
+    buyValue: 4.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '17':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: BRICKS
+      amount: 8
+    sellingValue: 2.0
+    buyValue: 6.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '18':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: GLASS
+      amount: 8
+    sellingValue: 1.0
+    buyValue: 4.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '19':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: QUARTZ_BLOCK
+      amount: 8
+    sellingValue: 4.0
+    buyValue: 32.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '20':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: PRISMARINE
+      amount: 8
+    sellingValue: 5.0
+    buyValue: 10.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '21':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: PRISMARINE_BRICKS
+      amount: 8
+    sellingValue: 5.0
+    buyValue: 10.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '22':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: DARK_PRISMARINE
+      amount: 8
+    sellingValue: 5.0
+    buyValue: 10.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '23':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: SEA_LANTERN
+      amount: 8
+    sellingValue: 20.0
+    buyValue: 60.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '24':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: WATER_BUCKET
+    sellingValue: 6.0
+    buyValue: 12.0
+    detailed: true
+    amount1: 0
+    amount2: 0
+    amount3: 0
+    amount4: 0
+    amount5: 0
+    give-item-on-buy: false
+    exclusive: false
+  '25':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: LAVA_BUCKET
+    sellingValue: 10.0
+    buyValue: 20.0
+    detailed: true
+    amount1: 0
+    amount2: 0
+    amount3: 0
+    amount4: 0
+    amount5: 0
+    give-item-on-buy: false
+    exclusive: false

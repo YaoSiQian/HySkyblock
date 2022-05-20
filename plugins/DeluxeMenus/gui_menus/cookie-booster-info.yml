@@ -1,0 +1,163 @@
+menu_title: '增益曲奇'
+open_command:
+- bcookieinfo
+size: 36
+update_interval: 1
+register_command: false
+items:
+
+
+      cookie:
+        material: COOKIE
+        enchantments:
+        - 'SILK_TOUCH;1'
+        hide_enchantments: true
+        update: true
+        slot: 11
+        display_name: '&6Cookie Booster'
+        lore:
+        - '&7在大厅社区商店获取增益曲奇'
+        - ''
+        - '&d曲奇增益:'
+        - '&8► &b+20% &7技能经验'
+        - '&8► &7死亡时保留 &6硬币 &7和 &d效果'
+        - '&8► &e永久 &7在私人岛屿 &e飞行'
+        - '&8► &7在任何地方访问 &6/ah'
+        - '&8► &7在你的岛屿上 &a无限 &7挂机'
+        - '&8► &7允许使用 &6/anvil &7和 &6/etable'
+        - ''
+        - '&7持续时间: &a%luckperms_expiry_time_cookie.booster%'
+        - ''
+        - '&8点券可以通过激活曲奇效果'
+        - '&8并完成指定任务获得'
+        left_click_commands: []
+        right_click_commands: []
+
+      bits:
+        material: DIAMOND
+        enchantments:
+        - 'SILK_TOUCH;1'
+        hide_enchantments: true
+        update: true
+        slot: 13
+        display_name: '&b点券'
+        lore:
+        - '&7通过增益曲奇获取点券'
+        - '&7并且在社区商店中购买独特的物品'
+        - ''
+        - '&7点券钱包: &b%formatter_number_format_:#,###_{customplaceholders_bits}%'
+        - ''
+        - '&7点券增益: &b1x &7(&e%customplaceholders_fame_rank%&7)'
+        - '&7&6曲奇&7增益: &7可用 &b+4,800 bits'
+        - ''
+        - '&8你声望等级的点券增益'
+        - '&8将会作用于你吃下的每块增益曲奇'
+        left_click_commands: []
+        right_click_commands: []
+
+      fame-rank:
+        material: GOLDEN_HELMET
+        enchantments:
+        - 'SILK_TOUCH;1'
+        hide_enchantments: true
+        hide_attributes: true
+        update: true
+        slot: 15
+        display_name: '&e声望等级'
+        lore:
+        - '&c即将推出'
+        left_click_commands: []
+        right_click_commands: []
+
+      etable:
+        material: ENCHANTING_TABLE
+        slot: 29
+        display_name: '&6附魔台'
+        lore:
+        - '&8/etable'
+        - ''
+        - '&7在空岛生存中的任何地方使用附魔台'
+        - ''
+        - '&e点击查看!'
+        left_click_commands:
+        - '[player] etable'
+        right_click_commands:
+        - '[player] etable'
+
+      anvil:
+        material: ANVIL
+        slot: 30
+        display_name: '&6铁砧'
+        lore:
+        - '&8/anvil'
+        - ''
+        - '&7在空岛生存中的任何地方使用铁砧'
+        - ''
+        - '&e点击查看!'
+        left_click_commands:
+        - '[player] anvil'
+        right_click_commands:
+        - '[player] anvil'
+
+      go-back:
+        material: ARROW
+        slot: 31
+        display_name: '&a返回'
+        lore:
+        - '&7至空岛生存菜单'
+        left_click_commands:
+        - '[openguimenu] skyblock-menu'
+        right_click_commands:
+        - '[openguimenu] skyblock-menu'
+
+      ah:
+        material: GOLDEN_HORSE_ARMOR
+        slot: 32
+        display_name: '&6拍卖行'
+        lore:
+        - '&8/ah'
+        - ''
+        - '&7在空岛生存任意地方访问拍卖菜单'
+        - ''
+        - '&e点击查看!'
+        left_click_commands:
+        - '[player] ah'
+        right_click_commands:
+        - '[player] ah'
+        
+      glass:
+        material: BLACK_STAINED_GLASS_PANE
+        slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 33
+        - 8 
+        - 9
+        - 10
+        - 12
+        - 14
+        - 16
+        - 17
+        - 18
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24
+        - 25
+        - 26
+        - 27
+        - 34
+        - 28
+        - 35
+        display_name: '&7'
+        lore: []
+        left_click_commands: []
+        right_click_commands:  []

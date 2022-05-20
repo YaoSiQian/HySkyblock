@@ -1,0 +1,27 @@
+weapons-menu-item: '283'
+weapons-menu-name: '&6武器'
+weapons-menu-lore:
+  - '&8物品类别'
+  - ''
+  - '&7示例：'
+  - '&8■ &7剑'
+  - '&8■ &7弓'
+  - '&8■ &7斧'
+  - '&8■ &7魔法武器'
+
+#If you have custom items that you want to be in this
+#category, specify their name here
+custom-item-names:
+  - '&a海晶之刃'
+
+custom-item-ids:
+  - '267'
+  - '268'
+  - '271'
+  - '272'
+  - '275'
+  - '276'
+  - '279'
+  - '283'
+  - '286'
+  

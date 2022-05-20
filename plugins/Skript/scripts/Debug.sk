@@ -1,0 +1,66 @@
+command /rarity [<text>]:
+	permission: admin.admin
+	permission message: '&c你没有权限!'
+	trigger:
+		if arg 1 is set:
+			if arg 1 is "uncommon":
+				make the player execute command "/itemedit lore set 1 &a&lUNCOMMON"
+				make the player execute command "/itemedit enchant protection 1"
+				make the player execute command "/itemedit hide enchants"
+				message "&aThe item held is now &lUNCOMMON &atype!"
+				stop
+			if arg 1 is "rare":
+				make the player execute command "/itemedit lore set 1 &9&lRARE"
+				make the player execute command "/itemedit enchant protection 1"
+				make the player execute command "/itemedit hide enchants"
+				message "&aThe item held is now &9&lRARE &atype!"
+				stop
+			else:
+				message "&cThe specified rarity does not exist!"
+				stop
+		else:
+			message "&cPlease specify the rarity! (/rarity <rarity>)"
+			message "&cAvailable rarities: UNCOMMON, RARE"
+			stop
+
+command /debuguuid:
+	aliases: /myuuid, /uuid
+	trigger:
+		message ""
+		message "{debug=Player:%player%,PlayerUUID:%player's uuid%}"
+		message ""
+		stop
+
+command /debugregion:
+	trigger:
+		if player is in "Server":
+			message ""
+			message "{debug=Regions (%amount of regions at player%): %regions at player%&f}"
+			message ""
+			stop
+		else:
+			message "&cYou can't debug the Player Islands world!"
+			stop
+
+command /debugblock:
+	trigger:
+		if targeted block is not set:
+			message "&cYou can't debug air!"
+			stop
+		else:
+			message ""
+			message "{debug=TargetedBlock: %targeted block%}"
+			message ""
+			stop
+
+command /debugitem:
+	trigger:
+		if held item is air:
+			message "&cYou can't debug air!"
+			stop
+		if held item is nether star:
+			message "&cYou can't debug the Skyblock Menu!"
+			stop
+		else:
+			message "{debug=HeldItem: %held item%}"
+			stop

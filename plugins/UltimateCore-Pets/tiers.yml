@@ -1,0 +1,20 @@
+Common:
+  displayName: '&f'
+  tierValue: 0
+  enabled: true
+Uncommon:
+  displayName: '&a'
+  tierValue: 1
+  enabled: true
+Rare:
+  displayName: '&9'
+  tierValue: 2
+  enabled: true
+Epic:
+  displayName: '&5'
+  tierValue: 3
+  enabled: true
+Legendary:
+  displayName: '&6'
+  tierValue: 4
+  enabled: true

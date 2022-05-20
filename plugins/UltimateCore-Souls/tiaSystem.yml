@@ -1,0 +1,15 @@
+tiaSystem:
+  soulsToClaim: 5
+  messages:
+  - ''
+  - '  &d&l仙女之魂转换'
+  - '  &f你获得了永久的属性提升!'
+  - ''
+  - '  &8+&a4 HP &c❤ 生命'
+  - '  &8+&a1 &c❁ 力量'
+  - '  &8+&a1 ❈ 防御'
+  - ''
+  rewards:
+  - skills addability %player% Strength 1
+  - skills addability %player% Health 3
+  - skills addability %player% Defense 1

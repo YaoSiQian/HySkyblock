@@ -1,0 +1,39 @@
+on damage:
+	victim is a player
+	if damage cause is void:
+		cancel event
+		set victim's health to 0
+		stop
+	else:
+		stop
+
+on death:
+	victim is a player
+	if victim is in "islands":
+		if victim has permission "hyperenchants.mainmenu":
+			make the victim execute command "/is"
+			wait 1 ticks
+			send " &c☠ &7你死了!" to victim
+			stop
+		else:
+			make the victim execute command "/is"
+			set victim's balance to victim's balance / 2
+			wait 1 ticks
+			send " &c☠ &7你死了!" to victim
+			send "&c你丢失了 %victim's balance% &c硬币!" to victim
+			stop
+	if victim is in "Server":
+		if victim has permission "booster.cookie":
+			make the victim execute command "/spawn"
+			wait 1 ticks
+			send " &c☠ &7你死了!" to victim
+			stop
+		else:
+			make the victim execute command "/spawn"
+			set victim's balance to victim's balance / 2
+			wait 1 ticks
+			send " &c☠ &7你死了!" to victim
+			send "&c你丢失了 %victim's balance% &c硬币!" to victim
+			stop
+	else:
+		stop

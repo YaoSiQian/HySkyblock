@@ -1,0 +1,105 @@
+use-bin-timer: true
+use-buy-it-now: true
+#This will make the buy-it-now auction to be the default one
+#in the create auction menu (use-buy-it-now needs to be enabled)
+use-buy-it-now-as-default: false
+#This will disable normal auctions
+use-only-buy-it-now: false
+
+buy-it-now-select-price:
+  item-id: '266'
+  #Use %price% for the item price
+  name: '&f物品价格: &6%price%'
+  lore:
+    - '&7你想将此物品卖出的价格'
+    - ''
+    - '&7手续费: &6+%fee% 硬币 &e(1%)'
+    - ''
+    - '&e点击编辑!'
+
+#Use percents from 1 to 100
+buy-it-now-fee: 1
+
+switch-button:
+  switch-to-auction:
+    material: '266'
+    name: '&a切换到拍卖'
+    lore:
+      - '&7经典的拍卖'
+      - '&7许多购买者一轮又一轮的为物品而竞争'
+      - ''
+      - '&e点击切换!'
+  switch-to-bin:
+    material: 27
+    name: '&a切换到 BIN'
+    lore:
+      - '&7BIN 拍卖很普通'
+      - ''
+      - '&7设定一个价格'
+      - '&7然后一名玩家可以以该价格购买该物品'
+      - ''
+      - '&8(BIN 表示 一口价 )'
+      - ''
+      - '&e点击切换!'
+
+buy-it-now-lore:
+  on-going:
+    - '&8&m---------------------'
+    - '&7卖家: %display-name-seller%'
+    - '&7一口价: &6%starting-bid% 硬币'
+    - ''
+    - '&7结束于: &e%duration%'
+    - ''
+    - '&e点击查看!'
+  expired:
+    - '&8&m---------------------'
+    - '&7卖家: %display-name-seller%'
+    - '&7一口价: &6%price% 硬币'
+    - ''
+    - '&7状态: &c流拍!'
+    - ''
+    - '&e点击查看!'
+  #Use %buyer-display-name% for buyer's display name
+  #Use %buyer-name% for buyer's username
+  bought:
+    - '&8&m---------------------'
+    - '&7卖家: %display-name-seller%'
+    - '&7价格: &6%price% 硬币'
+    - ''
+    - '&7由: %buyer-display-name% 购买'
+    - ''
+    - '&e点击查看!'
+
+#Use %item% for item's display name
+#Use %seller-display-name% for seller display's name
+#Use %seller-name% for seller's name
+#Use %coins% for the amount of coins the item was bought for
+bought-item-message: '&e你用 &6%coins% 硬币 &e买了来自于 %seller-display-name% 的 &f%item% &e!'
+
+#卖家 notification for bought item
+bought-seller-notification: '&6[拍卖] %bidder-display-name% &f以 &6%price% 硬币 &f购买了你的 %item%&f!'
+
+sort-item:
+  material: '27'
+  name: '&aBIN 筛选'
+  show-all: '显示全部'
+  bin-only: 'BIN 模式'
+  auctions-only: '拍卖 模式'
+  click-to-switch: '&e点击切换过滤器!'
+
+view-auction-buy-now-button:
+  name: '&6立即购买物品'
+  click-to-buy:
+    material: '371'
+    lore:
+      - ''
+      - '&7价格: &6%price% 硬币'
+      - ''
+      - '&e点击购买!'
+  cannot-afford:
+    material: '394'
+    lore:
+      - ''
+      - '&7价格: &6%price% 硬币'
+      - ''
+      - '&c无法承担出价!'

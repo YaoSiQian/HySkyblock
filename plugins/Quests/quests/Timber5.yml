@@ -1,0 +1,29 @@
+tasks:
+ quest:
+  type: "inventory"
+  item: BIRCH_LOG
+  amount: 100
+
+display:
+  name: "&e收集白桦原木"
+  lore-normal: []
+  lore-started: []
+  type: "PAPER"
+
+rewards:
+  - "emsg {player} &7"
+  - "emsg {player} &6&l  任务完成"
+  - "emsg {player} &6&l  &f收集白桦原木"
+  - "emsg {player} &7"
+
+placeholders:
+  bossbar: "{quest:progress}"
+  progress: "  &7(&e{quest:progress}&7/&a100&7)"
+
+options:
+  category: ""
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 25

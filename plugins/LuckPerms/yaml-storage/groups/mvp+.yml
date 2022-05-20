@@ -1,0 +1,14 @@
+name: mvp+
+permissions:
+- hyperskills.multiplier.runecrafting.2.0
+- rank.MVP+
+- tab.sort.MVP+
+- weight.5
+parents:
+- mvp
+prefixes:
+- '&b[MVP&c+&b] ':
+    priority: 5
+suffixes:
+- '&b':
+    priority: 5

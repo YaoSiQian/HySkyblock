@@ -1,0 +1,175 @@
+menu_title: '电梯'
+open_command:
+- 0
+size: 45
+register_command: false
+items:
+      locked:
+        material: GRAY_DYE
+        priority: 2
+        slots:
+        - 15
+        - 13
+        - 29
+        - 31
+        - 33
+        display_name: '&c???'
+        lore:
+        - '&c在你通过电梯到达这个区域之前'
+        - '&c你必须先探索那里!'
+        left_click_commands: []
+        right_click_commands: []
+        
+      background:
+        material: BLACK_STAINED_GLASS_PANE
+        slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
+        - 12
+        - 14
+        - 16
+        - 17
+        - 18
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24
+        - 25
+        - 26
+        - 27
+        - 28
+        - 30
+        - 32
+        - 34
+        - 35
+        - 36
+        - 37
+        - 38
+        - 39
+        - 40
+        - 41
+        - 42
+        - 43
+        - 44
+        display_name: '&7'
+        lore: []
+        left_click_commands: []
+        right_click_commands: []
+
+      gold-mine:
+        material: GOLD_INGOT
+        slot: 11
+        display_name: '&a黄金矿区'
+        lore:
+        - '&7传送至 &b黄金矿区'
+        - ''
+        - '&e点击传送!'
+        left_click_commands:
+        - '[console] warp one %player_name%'
+        right_click_commands:
+        - '[console] warp one %player_name%'
+
+      lapis-quarry:
+        material: LAPIS_LAZULI
+        priority: 1
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'access.lapis-quarry'
+        slot: 13
+        display_name: '&a青金石采集场'
+        lore:
+        - '&7传送至 &b青金石采集场'
+        - ''
+        - '&e点击传送!'
+        left_click_commands:
+        - '[console] warp two %player_name%'
+        right_click_commands:
+        - '[console] warp two %player_name%'
+
+      pigmens-den:
+        material: redstone
+        slot: 15
+        priority: 1
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'access.pigmens-den'
+        display_name: '&a猪人密穴'
+        lore:
+        - '&7传送至 &b猪人密穴'
+        - ''
+        - '&e点击传送!'
+        left_click_commands:
+        - '[console] warp three %player_name%'
+        right_click_commands:
+        - '[console] warp three %player_name%'
+        
+      slimehill:
+        material: emerald
+        slot: 29
+        priority: 1
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'access.slimehill'
+        display_name: '&a粘液山脉'
+        lore:
+        - '&7传送至 &b粘液山脉'
+        - ''
+        - '&e点击传送!'
+        left_click_commands:
+        - '[console] warp four %player_name%'
+        right_click_commands:
+        - '[console] warp four %player_name%'
+      diamond-reserve:
+        material: diamond
+        priority: 1
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'access.diamond-reserve'
+        slot: 31
+        display_name: '&a钻石保护区'
+        lore:
+        - '&7传送至 &b钻石保护区'
+        - ''
+        - '&e点击传送!'
+        left_click_commands:
+        - '[console] warp five %player_name%'
+        right_click_commands:
+        - '[console] warp five %player_name%'
+
+      obsidian-sanctuary:
+        material: obsidian
+        slot: 33
+        priority: 1
+        display_name: '&a黑曜圣所'
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'access.obsidian-sanctuary'
+        lore:
+        - '&7传送至 &b黑曜圣所'
+        - ''
+        - '&e点击传送!'
+        left_click_commands:
+        - '[console] warp six %player_name%'
+        right_click_commands:
+        - '[console] warp six %player_name%'

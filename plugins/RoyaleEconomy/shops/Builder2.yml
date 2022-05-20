@@ -1,0 +1,602 @@
+title: Rocks & Bricks
+permission-to-open: none
+background-color: 15
+items:
+  '1':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: STONE
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '2':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: GRANITE
+    sellingValue: 0.0
+    buyValue: 3.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '3':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: POLISHED_GRANITE
+    sellingValue: 0.0
+    buyValue: 3.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '4':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: DIORITE
+    sellingValue: 0.0
+    buyValue: 3.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '5':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: POLISHED_DIORITE
+    sellingValue: 0.0
+    buyValue: 3.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '6':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: ANDESITE
+    sellingValue: 0.0
+    buyValue: 3.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '7':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: POLISHED_ANDESITE
+    sellingValue: 0.0
+    buyValue: 3.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '8':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: GRAVEL
+    sellingValue: 0.0
+    buyValue: 22.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '9':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: SMOOTH_STONE_SLAB
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '10':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: COBBLESTONE
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '11':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: COBBLESTONE_STAIRS
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '12':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: COBBLESTONE_SLAB
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '13':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: COBBLESTONE_WALL
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '14':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: MOSSY_COBBLESTONE
+    sellingValue: 0.0
+    buyValue: 8.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '15':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: MOSSY_COBBLESTONE_WALL
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '16':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: GRASS_BLOCK
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '18':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: DIRT
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '19':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: COARSE_DIRT
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '20':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: PODZOL
+    sellingValue: 0.0
+    buyValue: 7.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '22':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: MYCELIUM
+    sellingValue: 0.0
+    buyValue: 7.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '23':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: STONE_BRICKS
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '24':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: STONE_BRICK_STAIRS
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '25':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: STONE_BRICK_SLAB
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '26':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: CHISELED_STONE_BRICKS
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '27':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: CRACKED_STONE_BRICKS
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '28':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: BRICKS
+    sellingValue: 0.0
+    buyValue: 4.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '30':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: BRICK_STAIRS
+    sellingValue: 0.0
+    buyValue: 3.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '31':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: BRICK_SLAB
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '32':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: SANDSTONE
+    sellingValue: 0.0
+    buyValue: 4.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '33':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: SANDSTONE_STAIRS
+    sellingValue: 0.0
+    buyValue: 3.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '34':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: SMOOTH_SANDSTONE_SLAB
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '35':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: SMOOTH_SANDSTONE
+    sellingValue: 0.0
+    buyValue: 4.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '36':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: CHISELED_SANDSTONE
+    sellingValue: 0.0
+    buyValue: 4.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '37':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: SAND
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '38':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: IRON_DOOR
+    sellingValue: 1.0
+    buyValue: 25.0
+    detailed: true
+    amount1: 0
+    amount2: 0
+    amount3: 0
+    amount4: 0
+    amount5: 0
+  '39':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: RED_SANDSTONE
+    sellingValue: 0.0
+    buyValue: 4.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '40':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: RED_SANDSTONE_STAIRS
+    sellingValue: 0.0
+    buyValue: 3.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '41':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: RED_SANDSTONE_SLAB
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '43':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: SMOOTH_RED_SANDSTONE
+    sellingValue: 0.0
+    buyValue: 4.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '44':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: CHISELED_RED_SANDSTONE
+    sellingValue: 0.0
+    buyValue: 4.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '45':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: RED_SAND
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '46':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: IRON_TRAPDOOR
+    sellingValue: 0.0
+    buyValue: 17.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64

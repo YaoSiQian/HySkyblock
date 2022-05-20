@@ -1,0 +1,8 @@
+#usage: %animation:NAME%
+animations:
+  BossBar:
+    change-interval: 1000
+    texts:
+      - "&e&lYou are playing &f&lSURVIVAL &e&lon &f&lMC.SERVER.NET"
+      - "&e&lYou are playing &f&lSURVIVAL &e&lon &b&lMC.SERVER.NET"
+      - "&e&lYou are playing &f&lSURVIVAL &e&lon &a&lMC.SERVER.NET"

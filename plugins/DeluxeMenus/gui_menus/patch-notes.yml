@@ -1,0 +1,53 @@
+menu_title: '更新摘要'
+open_command:
+- patch-notes
+size: 36
+register_command: false
+items:
+
+      release:
+        material: DIAMOND_PICKAXE
+        slot: 10
+        enchantments:
+        - 'SILK_TOUCH;1'
+        hide_enchantments: true
+        hide_attributes: true
+        display_name: '&aSkyblock v0.1'
+        lore:
+        - '&72022 暑假'
+        - ''
+        - '&e点击查看!'
+        left_click_commands:
+        - '[console] ibooks open update-v1.0 %player_name%'
+        right_click_commands:
+        - '[console] ibooks open update-v1.0 %player_name%'
+
+      empty:
+        material: COBWEB
+        slots:
+        - 11
+        - 12
+        - 13
+        - 14
+        - 15
+        - 16
+        display_name: '&c无!'
+        lore:
+        - '&7淦，这里好像没东西…'
+        - ''
+        - '&7只要有新的更新'
+        - '&7他就会出现在这里!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+      go-back:
+        material: ARROW
+        slot: 31
+        display_name: '&a返回'
+        lore:
+        - '&7至 Jerry小管家'
+        left_click_commands:
+        - '[openguimenu] jerry-the-assistant'
+        right_click_commands:
+        - '[openguimenu] jerry-the-assistant'

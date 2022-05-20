@@ -1,0 +1,15 @@
+every 300 seconds:
+	chance of 50%:
+		broadcast "" in all worlds
+		broadcast "&3[玩家须知]" in all worlds
+		broadcast "&f有问题吗? 我们的帮助菜单可能可以帮助到你!" in all worlds
+		broadcast "&f输入 &b/help &f可以看到一些有用的链接" in all worlds
+		broadcast "" in all worlds
+		stop
+	chance of 50%:
+		broadcast "" in all worlds
+		broadcast "&3[玩家须知]" in all worlds
+		broadcast "&f发现一个作弊者? 我们的举报系统可能可以帮助到你!" in all worlds
+		broadcast "&f输入 &b/report <用户名> &f并跟随指引操作即可举报" in all worlds
+		broadcast "" in all worlds
+		stop

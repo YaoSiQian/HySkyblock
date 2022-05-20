@@ -1,0 +1,30 @@
+tasks:
+ quest:
+  type: "inventory"
+  item:
+    quest-item: "woodenpickaxe"
+  amount: 1
+
+display:
+  name: "&e合成木镐"
+  lore-normal: []
+  lore-started: []
+  type: "PAPER"
+
+rewards:
+  - "q a moddata start {player} IslandsQuest4"
+  - "emsg {player} &6&l  新任务目标"
+  - "emsg {player} &6&l  &f与Jerry交谈"
+  - "emsg {player} &7"
+
+placeholders:
+  bossbar: "100"
+  progress: "&7"
+
+options:
+  category: ""
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 3

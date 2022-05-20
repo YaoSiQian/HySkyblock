@@ -1,0 +1,7 @@
+prefix: '&e&lUltimateCore-Trades &7'
+successTradeSound: BLOCK_NOTE_BLOCK_PLING
+failTradeSound: ENTITY_VILLAGER_NO
+mainCommandPerm: ''
+doTradesBackup: true
+deleteBackupsAfterDays: 7
+backupIntervalMinutes: 60

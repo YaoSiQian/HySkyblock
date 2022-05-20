@@ -1,0 +1,58 @@
+# DeluxeMenus 1.13.3-Release main configuration file
+# 
+# A full wiki on how to use this plugin can be found at:
+# https://github.com/help-chat/DeluxeMenus/wiki
+
+debug: false
+check_updates: false
+gui_menus:
+  skyblock-menu:
+    file: skyblock-menu.yml
+  lift-operator:
+    file: lift-operator.yml
+  your-skyblock-profile:
+    file: your-skyblock-profile.yml
+  jerry-the-assistant:
+    file: jerry-the-assistant.yml
+  patch-notes:
+    file: patch-notes.yml
+  deliveries:
+    file: deliveries.yml
+  visits-and-guesting:
+    file: visits-and-guesting.yml
+  rosetta:
+    file: rosetta.yml
+  visit:
+    file: visit.yml
+  datamanager:
+    file: datamanager.yml
+  punish:
+    file: punish.yml
+  punish-mute:
+    file: punish-mute.yml
+  punish-mute-confirm:
+    file: punish-mute-confirm.yml
+  punish-ban:
+    file: punish-ban.yml
+  punish-ban-confirm:
+    file: punish-ban-confirm.yml
+  builder:
+    file: builder.yml
+  community-shop:
+    file: community-shop.yml
+  consume-booster-cookie:
+    file: consume-booster-cookie.yml
+  cookie-booster-info:
+    file: cookie-booster-info.yml
+  enchantment-guide:
+    file: enchantment-guide.yml
+  bits-shop:
+    file: bits-shop.yml
+  language:
+    file: language.yml
+  game-menu:
+    file: game-menu.yml
+  profile-management:
+    file: profile-management.yml
+  fast-travel:
+    file: fast-travel.yml

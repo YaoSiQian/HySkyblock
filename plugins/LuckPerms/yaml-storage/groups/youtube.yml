@@ -1,0 +1,13 @@
+name: youtube
+permissions:
+- rank.YOUTUBE
+- tab.sort.YOUTUBE
+- weight.7
+parents:
+- mvp+
+prefixes:
+- '&c[&f主播&c] ':
+    priority: 7
+suffixes:
+- '&c':
+    priority: 7

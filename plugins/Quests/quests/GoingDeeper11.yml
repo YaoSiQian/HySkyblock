@@ -1,0 +1,45 @@
+tasks:
+ quest:
+  type: "inventory"
+  item: OBSIDIAN
+  amount: 1
+
+display:
+  name: "&e收集黑曜石"
+  lore-normal: []
+  lore-started: []
+  type: "PAPER"
+
+rewards:
+  - "emsg {player} &7"
+  - "emsg {player} &6&l  任务完成"
+  - "emsg {player} &6&l  &f我们需要深入一点"
+  - "emsg {player} &7"
+  - "emsg {player} &f    &a✔ &f与电梯管理员交谈"
+  - "emsg {player} &f    &a✔ &f抵达青金石采伐场"
+  - "emsg {player} &f    &a✔ &f收集青金石"
+  - "emsg {player} &f    &a✔ &f到达猪人密穴"
+  - "emsg {player} &f    &a✔ &f采集红石"
+  - "emsg {player} &f    &a✔ &f到达粘液山脉"
+  - "emsg {player} &f    &a✔ &f收集绿宝石"
+  - "emsg {player} &f    &a✔ &f到达钻石保护区"
+  - "emsg {player} &f    &a✔ &f收集钻石"
+  - "emsg {player} &f    &a✔ &f到达黑耀圣所"
+  - "emsg {player} &f    &a✔ &f收集黑曜石"
+  - "emsg {player} &7"
+  - "emsg {player} &a&l   奖励"
+  - "emsg {player} &a&l   &8+&3115 &7挖矿经验"
+  - "emsg {player} &7"
+  - "skills addxp {player} Mining 115"
+
+placeholders:
+  bossbar: "100"
+  progress: "&7"
+
+options:
+  category: ""
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 42

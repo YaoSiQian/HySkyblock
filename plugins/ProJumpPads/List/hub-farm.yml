@@ -1,0 +1,13 @@
+fly-location:
+  world: Server
+  x: -147.75110883495145
+  y: 69.0
+  z: -49.68445544069277
+name: hub-farm
+pos1X: -85.0
+pos1Z: -49.0
+pos2X: -86.0
+pos2Z: -50.0
+relative-position: 55.0
+permission-1: access.farm
+permission-message: §cYou must be at least Farming Level I to join this island!

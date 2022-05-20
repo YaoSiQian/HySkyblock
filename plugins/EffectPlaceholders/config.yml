@@ -1,0 +1,48 @@
+# Placeholders:
+#   %effect%      - The name of the effect, defined further down.
+#   %value%       - The level of the effect.
+#   %time%        - The time remaining.
+effect-display: "%effect% %value% &f%time%"
+# The time will be measured in seconds and converted to fit the time format you define here.
+# https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html
+time-format: "hh:mm:ss"
+# If the user has multiple effects, it'll be separated with this.
+effect-separator: "\n"
+# If the user does not have any effects, this will be displayed instead.
+no-effect: "&7现在没有状态效果\n饮用药水或喷溅药水来让自己获得状态效果!"
+
+# The displayed names of the effects.
+# On the left is the internal minecraft name, on the right whatever you want.
+effect-names:
+  SPEED: "&9&l速度"
+  SLOW: "&8&l缓慢"
+  FAST_DIGGING: "&e&l急迫"
+  SLOW_DIGGING: "&8&l挖掘疲劳"
+  INCREASE_DAMAGE: "&4&l力量"
+  HEAL: "&c&l瞬间治疗"
+  HARM: "&0&l瞬间伤害"
+  JUMP: "&b&l跳跃提升"
+  CONFUSION: "&2&l反胃"
+  REGENERATION: "&4&l生命恢复"
+  DAMAGE_RESISTANCE: "&f&l抗性提升"
+  FIRE_RESISTANCE: "&c&l防火"
+  WATER_BREATHING: "&9&l水下呼吸"
+  INVISIBILITY: "&7&l隐身"
+  BLINDNESS: "&0&l失明"
+  NIGHT_VISION: "&5&l夜视"
+  HUNGER: "&7&l饥饿"
+  WEAKNESS: "&7&l虚弱"
+  POISON: "&2&l中毒"
+  WITHER: "&0&l凋零"
+  HEALTH_BOOST: "&c&l生命提升"
+  ABSORPTION: "&6&l伤害吸收"
+  SATURATION: "&4&l饱和"
+  GLOWING: "&f&l发光"
+  LUCK: "&2&l幸运"
+  UNLUCK: "&e&l霉运"
+  SLOW_FALLING: "&b&l缓降"
+  DOLPHINS_GRACE: "&1&l海豚的恩惠"
+  BAD_OMEN: "&c&l不祥之兆"
+  HERO_OF_THE_VILLAGE: "&3&l村庄英雄"
+  CONDUIT_POWER: "&b&l潮涌能量"
+  LEVITATION: "&f&l漂浮"

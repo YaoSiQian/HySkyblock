@@ -1,0 +1,5 @@
+every 220 seconds:
+	make the server execute command "/lm kill all Server"
+
+every 5 minutes:
+	make the server execute command "/lm kill all islands /nodrops"

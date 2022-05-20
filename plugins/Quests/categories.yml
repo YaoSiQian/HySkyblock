@@ -1,0 +1,13 @@
+# Categories are a way of grouping up quests.
+# When a player uses /quests, a menu of categories will be presented to them.
+# When a player clicks ona category, a list of quests under that category will show.
+# If categories are disabled, all quests will be shown under one big GUI.
+# Players can access specific categories by command using /quests c [category].
+# If a quest does not have a category, it will not be shown.
+categories:
+  default:
+    display:
+      name: "&a所有任务 &c(管理)"
+      lore:
+        - "&7这一类别包含了举例任务"
+      type: "PAPER"

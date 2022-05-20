@@ -1,0 +1,599 @@
+# Any messages the plugin might send to players.
+messages:
+  # The prefix shown in front of messages.
+  prefix: "&f&l物品标签 &8&l» &7"
+  # Shown AFTER the configuration has been reloaded.
+  reload: "配置已重载"
+
+# Configuration for item options.
+item-additions:
+  # The default options to add to ItemStacks. Will be used unless the type of the ItemStack is defined under custom.
+  default:
+    # The lore to add to the ItemStack. Optional.
+    lore: []
+  # Any other custom options to add to defined ItemStack types.
+  custom:
+    LEATHER_HELMET:
+      name: "&f皮革帽子"
+      lore:
+        - "&7防御: &a+5"
+        - ""
+        - "&8此物品可被洗炼!"
+        - "&f&l普通 头盔"
+      itemflags:
+        - HIDE_ENCHANTS
+        - HIDE_UNBREAKABLE
+        - HIDE_ATTRIBUTES
+      unbreakable: true
+    LEATHER_CHESTPLATE:
+      name: "&f皮革外套"
+      lore:
+        - "&7防御: &a+15"
+        - ""
+        - "&8此物品可被洗炼!"
+        - "&f&l普通 胸甲"
+      itemflags:
+        - HIDE_ENCHANTS
+        - HIDE_UNBREAKABLE
+        - HIDE_ATTRIBUTES
+      unbreakable: true
+    LEATHER_LEGGINGS:
+      name: "&f皮革裤子"
+      lore:
+        - "&7防御: &a+10"
+        - ""
+        - "&8此物品可被洗炼!"
+        - "&f&l普通 护腿"
+      itemflags:
+        - HIDE_ENCHANTS
+        - HIDE_UNBREAKABLE
+        - HIDE_ATTRIBUTES
+      unbreakable: true
+    LEATHER_BOOTS:
+      name: "&f皮革靴子"
+      lore:
+        - "&7防御: &a+5"
+        - ""
+        - "&8此物品可被洗炼!"
+        - "&f&l普通 靴子"
+      itemflags:
+        - HIDE_ENCHANTS
+        - HIDE_UNBREAKABLE
+        - HIDE_ATTRIBUTES
+      unbreakable: true
+    GOLDEN_HELMET:
+      name: "&f金头盔"
+      lore:
+        - "&7防御: &a+5"
+        - ""
+        - "&8此物品可被洗炼!"
+        - "&f&l普通 头盔"
+      itemflags:
+        - HIDE_ENCHANTS
+        - HIDE_UNBREAKABLE
+        - HIDE_ATTRIBUTES
+      unbreakable: true
+    GOLDEN_CHESTPLATE:
+      name: "&f金胸甲"
+      lore:
+        - "&7防御: &a+15"
+        - ""
+        - "&8此物品可被洗炼!"
+        - "&f&l普通 胸甲"
+      itemflags:
+        - HIDE_ENCHANTS
+        - HIDE_UNBREAKABLE
+        - HIDE_ATTRIBUTES
+      unbreakable: true
+    GOLDEN_LEGGINGS:
+      name: "&f金护腿"
+      lore:
+        - "&7防御: &a+10"
+        - ""
+        - "&8此物品可被洗炼!"
+        - "&f&l普通 护腿"
+      itemflags:
+        - HIDE_ENCHANTS
+        - HIDE_UNBREAKABLE
+        - HIDE_ATTRIBUTES
+      unbreakable: true
+    GOLDEN_BOOTS:
+      name: "&f金靴子"
+      lore:
+        - "&7防御: &a+5"
+        - ""
+        - "&8此物品可被洗炼!"
+        - "&f&l普通 靴子"
+      itemflags:
+        - HIDE_ENCHANTS
+        - HIDE_UNBREAKABLE
+        - HIDE_ATTRIBUTES
+      unbreakable: true
+    IRON_HELMET:
+      name: "&f铁头盔"
+      lore:
+        - "&7防御: &a+10"
+        - ""
+        - "&8此物品可被洗炼!"
+        - "&f&l普通 头盔"
+      itemflags:
+        - HIDE_ENCHANTS
+        - HIDE_UNBREAKABLE
+        - HIDE_ATTRIBUTES
+      unbreakable: true
+    IRON_CHESTPLATE:
+      name: "&f铁胸甲"
+      lore:
+        - "&7防御: &a+30"
+        - ""
+        - "&8此物品可被洗炼!"
+        - "&f&l普通 胸甲"
+      itemflags:
+        - HIDE_ENCHANTS
+        - HIDE_UNBREAKABLE
+        - HIDE_ATTRIBUTES
+      unbreakable: true
+    IRON_LEGGINGS:
+      name: "&f铁护腿"
+      lore:
+        - "&7防御: &a+25"
+        - ""
+        - "&8此物品可被洗炼!"
+        - "&f&l普通 护腿"
+      itemflags:
+        - HIDE_ENCHANTS
+        - HIDE_UNBREAKABLE
+        - HIDE_ATTRIBUTES
+      unbreakable: true
+    IRON_BOOTS:
+      name: "&f铁靴子"
+      lore:
+        - "&7防御: &a+15"
+        - ""
+        - "&8此物品可被洗炼!"
+        - "&f&l普通 靴子"
+      itemflags:
+        - HIDE_ENCHANTS
+        - HIDE_UNBREAKABLE
+        - HIDE_ATTRIBUTES
+      unbreakable: true
+    DIAMOND_HELMET:
+      name: '&a钻石头盔'
+      lore:
+        - "&7防御: &a+15"
+        - ""
+        - "&8此物品可被洗炼!"
+        - "&a&l精良 头盔"
+      itemflags:
+        - HIDE_ENCHANTS
+        - HIDE_UNBREAKABLE
+        - HIDE_ATTRIBUTES
+      unbreakable: true
+    DIAMOND_CHESTPLATE:
+      name: '&a钻石胸甲'
+      lore:
+        - "&7防御: &a+40"
+        - ""
+        - "&8此物品可被洗炼!"
+        - "&a&l精良 胸甲"
+      itemflags:
+        - HIDE_ENCHANTS
+        - HIDE_UNBREAKABLE
+        - HIDE_ATTRIBUTES
+      unbreakable: true
+    DIAMOND_LEGGINGS:
+      name: '&a钻石护腿'
+      lore:
+        - "&7防御: &a+30"
+        - ""
+        - "&8此物品可被洗炼!"
+        - "&a&l精良 护腿"
+      itemflags:
+        - HIDE_ENCHANTS
+        - HIDE_UNBREAKABLE
+        - HIDE_ATTRIBUTES
+      unbreakable: true
+    DIAMOND_BOOTS:
+      name: '&a钻石靴子'
+      lore:
+        - "&7防御: &a+15"
+        - ""
+        - "&8此物品可被洗炼!"
+        - "&a&l精良 靴子"
+      itemflags:
+        - HIDE_ENCHANTS
+        - HIDE_UNBREAKABLE
+        - HIDE_ATTRIBUTES
+      unbreakable: true
+    BOW:
+      name: "&f弓"
+      lore:
+        - "&7伤害: &c+30"
+        - ""
+        - "&8此物品可被洗炼!"
+        - "&f&l普通 BOW"
+      itemflags:
+        - HIDE_ENCHANTS
+        - HIDE_UNBREAKABLE
+        - HIDE_ATTRIBUTES
+      unbreakable: true
+    GUNPOWDER:
+      lore:
+        - "&8酿造材料"
+        - "&f&l普通"
+      itemflags: []
+      unbreakable: false
+    REDSTONE:
+      lore:
+        - "&8酿造材料"
+        - "&f&l普通"
+      itemflags: []
+      unbreakable: false
+    NETHER_WART:
+      lore:
+        - "&8酿造材料"
+        - "&f&l普通"
+      itemflags: []
+      unbreakable: false
+    RABBIT_FOOT:
+      lore:
+        - "&8酿造材料"
+        - "&f&l普通"
+      itemflags: []
+      unbreakable: false
+    GLISTERING_MELON_SLICE:
+      lore:
+        - "&8酿造材料"
+        - "&f&l普通"
+      itemflags: []
+      unbreakable: false
+    SPIDER_EYE:
+      lore:
+        - "&8酿造材料"
+        - "&f&l普通"
+      itemflags: []
+      unbreakable: false
+    BLAZE_POWDER:
+      lore:
+        - "&8酿造材料"
+        - "&f&l普通"
+      itemflags: []
+      unbreakable: false
+    GHAST_TEAR:
+      lore:
+        - "&8酿造材料"
+        - "&f&l普通"
+      itemflags: []
+      unbreakable: false
+    MAGMA_CREAM:
+      lore:
+        - "&8酿造材料"
+        - "&f&l普通"
+      itemflags: []
+      unbreakable: false
+    GOLDEN_CARROT:
+      lore:
+        - "&8酿造材料"
+        - "&f&l普通"
+      itemflags: []
+      unbreakable: false
+    WOODEN_SWORD:
+      lore:
+        - "&7伤害: &c+20"
+        - ""
+        - "&8此物品可被洗炼!"
+        - "&f&l普通 剑"
+      itemflags:
+        - HIDE_ENCHANTS
+        - HIDE_UNBREAKABLE
+        - HIDE_ATTRIBUTES
+      unbreakable: true
+    GOLDEN_SWORD:
+      lore:
+        - "&7伤害: &c+20"
+        - ""
+        - "&8此物品可被洗炼!"
+        - "&f&l普通 剑"
+      itemflags:
+        - HIDE_ENCHANTS
+        - HIDE_UNBREAKABLE
+        - HIDE_ATTRIBUTES
+      unbreakable: true
+    STONE_SWORD:
+      lore:
+        - "&7伤害: &c+25"
+        - ""
+        - "&8此物品可被洗炼!"
+        - "&f&l普通 剑"
+      itemflags:
+        - HIDE_ENCHANTS
+        - HIDE_UNBREAKABLE
+        - HIDE_ATTRIBUTES
+      unbreakable: true
+    IRON_SWORD:
+      lore:
+        - "&7伤害: &c+30"
+        - ""
+        - "&8此物品可被洗炼!"
+        - "&f&l普通 剑"
+      itemflags:
+        - HIDE_ENCHANTS
+        - HIDE_UNBREAKABLE
+        - HIDE_ATTRIBUTES
+      unbreakable: true
+    DIAMOND_SWORD:
+      name: '&a钻石剑'
+      lore:
+        - "&7伤害: &c+35"
+        - ""
+        - "&8此物品可被洗炼!"
+        - "&a&l精良 剑"
+      itemflags:
+        - HIDE_ENCHANTS
+        - HIDE_UNBREAKABLE
+        - HIDE_ATTRIBUTES
+      unbreakable: true
+    WOODEN_PICKAXE:
+      name: "&f木镐"
+      lore:
+        - "&7伤害: &c+20"
+        - ""
+        - "&8此物品可被洗炼!"
+        - "&f&l普通 PICKAXE"
+      itemflags:
+        - HIDE_ENCHANTS
+        - HIDE_UNBREAKABLE
+        - HIDE_ATTRIBUTES
+      unbreakable: true
+    GOLDEN_PICKAXE:
+      name: "&f金镐"
+      lore:
+        - "&7伤害: &c+15"
+        - ""
+        - "&f&l普通 PICKAXE"
+      itemflags:
+        - HIDE_ENCHANTS
+        - HIDE_UNBREAKABLE
+        - HIDE_ATTRIBUTES
+      unbreakable: true
+    STONE_PICKAXE:
+      name: "&f石镐"
+      lore:
+        - "&7伤害: &c+20"
+        - ""
+        - "&8此物品可被洗炼!"
+        - "&f&l普通 PICKAXE"
+      itemflags:
+        - HIDE_ENCHANTS
+        - HIDE_UNBREAKABLE
+        - HIDE_ATTRIBUTES
+      unbreakable: true
+    IRON_PICKAXE:
+      name: "&f铁镐"
+      lore:
+        - "&7伤害: &c+25"
+        - ""
+        - "&8此物品可被洗炼!"
+        - "&f&l普通 PICKAXE"
+      itemflags:
+        - HIDE_ENCHANTS
+        - HIDE_UNBREAKABLE
+        - HIDE_ATTRIBUTES
+      unbreakable: true
+    DIAMOND_PICKAXE:
+      name: '&a钻石镐'
+      lore:
+        - "&7伤害: &c+30"
+        - ""
+        - "&8此物品可被洗炼!"
+        - "&a&l精良 PICKAXE"
+      itemflags:
+        - HIDE_ENCHANTS
+        - HIDE_UNBREAKABLE
+        - HIDE_ATTRIBUTES
+      unbreakable: true
+    WOODEN_AXE:
+      name: "&f木斧"
+      lore:
+        - "&7伤害: &c+10"
+        - ""
+        - "&f&l普通 斧"
+      itemflags:
+        - HIDE_ENCHANTS
+        - HIDE_UNBREAKABLE
+        - HIDE_ATTRIBUTES
+      unbreakable: true
+    STONE_AXE:
+      name: "&f石斧"
+      lore:
+        - "&7伤害: &c+15"
+        - ""
+        - "&8此物品可被洗炼!"
+        - "&f&l普通 斧"
+      itemflags:
+        - HIDE_ENCHANTS
+        - HIDE_UNBREAKABLE
+        - HIDE_ATTRIBUTES
+      unbreakable: true
+    GOLDEN_AXE:
+      name: "&f金斧"
+      lore:
+        - "&7伤害: &c+20"
+        - ""
+        - "&f&l普通 斧"
+      itemflags:
+        - HIDE_ENCHANTS
+        - HIDE_UNBREAKABLE
+        - HIDE_ATTRIBUTES
+      unbreakable: true
+    IRON_AXE:
+      name: "&f铁斧"
+      lore:
+        - "&7伤害: &c+25"
+        - ""
+        - "&8此物品可被洗炼!"
+        - "&f&l普通 斧"
+      itemflags:
+        - HIDE_ENCHANTS
+        - HIDE_UNBREAKABLE
+        - HIDE_ATTRIBUTES
+      unbreakable: true
+    DIAMOND_AXE:
+      name: '&a钻石斧'
+      lore:
+        - "&7伤害: &c+30"
+        - ""
+        - "&8此物品可被洗炼!"
+        - "&a&l精良 斧"
+      itemflags:
+        - HIDE_ENCHANTS
+        - HIDE_UNBREAKABLE
+        - HIDE_ATTRIBUTES
+      unbreakable: true
+    WOODEN_SHOVEL:
+      name: "&f木锹"
+      lore:
+        - "&7伤害: &c+15"
+        - ""
+        - "&f&l普通 锹"
+      itemflags:
+        - HIDE_ENCHANTS
+        - HIDE_UNBREAKABLE
+        - HIDE_ATTRIBUTES
+      unbreakable: true
+    GOLDEN_SHOVEL:
+      name: "&f金锹"
+      lore:
+        - "&7伤害: &c+15"
+        - ""
+        - "&f&l普通 锹"
+      itemflags:
+        - HIDE_ENCHANTS
+        - HIDE_UNBREAKABLE
+        - HIDE_ATTRIBUTES
+      unbreakable: true
+    STONE_SHOVEL:
+      name: "&f石锹"
+      lore:
+        - "&7伤害: &c+20"
+        - ""
+        - "&f&l普通 锹"
+      itemflags:
+        - HIDE_ENCHANTS
+        - HIDE_UNBREAKABLE
+        - HIDE_ATTRIBUTES
+      unbreakable: true
+    IRON_SHOVEL:
+      name: "&f铁锹"
+      lore:
+        - "&7伤害: &c+25"
+        - ""
+        - "&f&l普通 锹"
+      itemflags:
+        - HIDE_ENCHANTS
+        - HIDE_UNBREAKABLE
+        - HIDE_ATTRIBUTES
+      unbreakable: true
+    DIAMOND_SHOVEL:
+      name: '&a钻石锹'
+      lore:
+        - "&7伤害: &c+30"
+        - ""
+        - "&a&l精良 锹"
+      itemflags:
+        - HIDE_ENCHANTS
+        - HIDE_UNBREAKABLE
+        - HIDE_ATTRIBUTES
+      unbreakable: true
+    WOODEN_HOE:
+      name: "&f木锄"
+      lore:
+        - "&f&l普通 锄"
+      itemflags:
+        - HIDE_ENCHANTS
+        - HIDE_UNBREAKABLE
+        - HIDE_ATTRIBUTES
+      unbreakable: true
+    GOLDEN_HOE:
+      name: "&f金锄"
+      lore:
+        - "&f&l普通 锄"
+      itemflags:
+        - HIDE_ENCHANTS
+        - HIDE_UNBREAKABLE
+        - HIDE_ATTRIBUTES
+      unbreakable: true
+    STONE_HOE:
+      name: "&f石锄"
+      lore:
+        - "&f&l普通 锄"
+      itemflags:
+        - HIDE_ENCHANTS
+        - HIDE_UNBREAKABLE
+        - HIDE_ATTRIBUTES
+      unbreakable: true
+    IRON_HOE:
+      name: "&f铁锄"
+      lore:
+        - "&f&l普通 锄"
+      itemflags:
+        - HIDE_ENCHANTS
+        - HIDE_UNBREAKABLE
+        - HIDE_ATTRIBUTES
+      unbreakable: true
+    DIAMOND_HOE:
+      name: '&a钻石锄'
+      lore:
+        - "&8此物品可被洗炼!"
+        - "&a&l精良 锄"
+      itemflags:
+        - HIDE_ENCHANTS
+        - HIDE_UNBREAKABLE
+        - HIDE_ATTRIBUTES
+      unbreakable: true
+    FISHING_ROD:
+      name: "&f钓鱼竿"
+      lore:
+        - "&7伤害: &c+10"
+        - ""
+        - "&8此物品可被洗炼!"
+        - "&f&l普通 钓鱼竿"
+      itemflags:
+        - HIDE_ENCHANTS
+        - HIDE_UNBREAKABLE
+      unbreakable: true
+    FERMENTED_SPIDER_EYE:
+      lore:
+        - "&8酿造材料"
+        - "&f&l普通"
+      itemflags: []
+      unbreakable: false
+    SUGAR:
+      lore:
+        - "&8酿造材料"
+        - "&f&l普通"
+      itemflags: []
+      unbreakable: false
+    GLOWSTONE_DUST:
+      lore:
+        - "&8酿造材料"
+        - "&f&l普通"
+      itemflags: []
+      unbreakable: false
+    SHIELD:
+      lore:
+        - "&f&l普通"
+      itemflags:
+        - HIDE_UNBREAKABLE
+      unbreakable: true
+    NETHERITE_HELMET:
+      name: "&6下界合金头盔"
+      lore:
+        - "&7防御: &a+30"
+        - ""
+        - "&6&l传奇 头盔"
+      itemflags:
+        - HIDE_ENCHANTS
+        - HIDE_UNBREAKABLE
+        - HIDE_ATTRIBUTES
+      unbreakable: false

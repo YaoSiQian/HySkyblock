@@ -1,0 +1,42 @@
+refresh-date: 1617112120
+items:
+  '1':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: NETHER_WART
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"酿造材料"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"普通"}],"text":""}'
+    rarity: epic
+    stock: 500
+    price: 5.0
+  '2':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: ACACIA_PRESSURE_PLATE
+      amount: 64
+    rarity: common
+    stock: 500
+    price: 5.0
+  '3':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: GHAST_TEAR
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"普通"}],"text":""}'
+    rarity: rare
+    stock: 500
+    price: 5.0
+items-cache:
+- 1 493
+- 3 496
+- 2 498

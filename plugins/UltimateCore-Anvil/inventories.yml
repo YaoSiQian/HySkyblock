@@ -1,0 +1,105 @@
+backButtons: true
+renameGUI:
+  title: '重命名:'
+anvilGUI:
+  size: 54
+  title: 铁砧
+  items:
+    errorItem:
+      material: BARRIER
+      amount: 1
+      title: '&c错误'
+      lore:
+      - '%error_information%'
+      isGlowing: false
+    infoItem:
+      material: BARRIER
+      amount: 1
+      title: '&c铁砧'
+      lore:
+      - '&7将目标物品放在左边'
+      - '&7消耗物品放在右边来合并魔咒!'
+      isGlowing: false
+    combineItemsNormal:
+      material: ANVIL
+      amount: 1
+      title: '&a合并物品'
+      lore:
+      - '&7将下方左右两边的物品合并'
+      isGlowing: false
+    nameTag:
+      enabled: false
+      material: NAME_TAG
+      amount: 1
+      title: '&a重命名命名牌'
+      lore:
+      - '&7修改命名牌的名称'
+      isGlowing: false
+      slot: 31
+    combineItemsToFuse:
+      material: ANVIL
+      amount: 1
+      title: '&a合并物品'
+      lore:
+      - '&7将下方左右两边的物品合并'
+      - ''
+      - '&7花费'
+      - '&3%cost_amount% 经验等级'
+      - ''
+      - '&e点击合并!'
+      isGlowing: true
+    itemPreview:
+      material: STONE
+      amount: 1
+      title: '%item_name%'
+      lore:
+      - '%item_description%'
+      - ''
+      - '&8▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+      - '&a这是你将要获得的物品'
+      - '&a点击下方的 &c铁砧 &a来合并'
+      isGlowing: false
+    itemToUpgrade:
+      amount: 1
+      title: '&6需要升级的物品'
+      lore:
+      - '&7你想要合并的目标物品'
+      - '&7应该放在这边'
+      isGlowing: false
+    itemToSacrifice:
+      amount: 1
+      title: '&6用作消耗的物品'
+      lore:
+      - '&7你为了合并目标物品而需要消耗的物品'
+      - '&7应该放在这边'
+      isGlowing: false
+    emptyMaterial: RED_STAINED_GLASS_PANE
+    succesMaterial: LIME_STAINED_GLASS_PANE
+buttons:
+  nextPage:
+    material: ARROW
+    amount: 1
+    title: '&e下一页'
+    lore: []
+    slot: 50
+    isGlowing: false
+  previousPage:
+    material: ARROW
+    amount: 1
+    title: '&e上一页'
+    lore: []
+    slot: 48
+    isGlowing: false
+  background:
+    material: BLACK_STAINED_GLASS_PANE
+    amount: 1
+    title: ' '
+    lore: []
+    isGlowing: false
+  closeButton:
+    material: BARRIER
+    amount: 1
+    title: '&c关闭'
+    lore: []
+    slot: 49
+    isGlowing: false

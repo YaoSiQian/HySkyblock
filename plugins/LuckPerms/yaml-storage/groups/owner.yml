@@ -1,0 +1,14 @@
+name: owner
+permissions:
+- '*'
+- rank.OWNER
+- tab.sort.OWNER
+- weight.10
+parents:
+- admin
+prefixes:
+- '&c[腐竹] ':
+    priority: 10
+suffixes:
+- '&c':
+    priority: 10

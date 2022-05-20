@@ -1,0 +1,1247 @@
+recipes:
+  poison_potion_i:
+    inputItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:awkward
+    outputItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Poison
+          Potion"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Poison
+          I "},{"italic":false,"color":"white","text":"(0:45)"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Deals
+          "},{"italic":false,"color":"red","text":"3 HP "},{"italic":false,"color":"gray","text":"damage
+          per"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"second."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        ItemFlags:
+        - HIDE_POTION_EFFECTS
+        potion-type: minecraft:poison
+    fuelItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: SPIDER_EYE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Brewing
+          Ingredient"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+    time: 20
+  awkward_potion:
+    inputItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:water
+    outputItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:awkward
+    fuelItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: NETHER_WART
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Brewing
+          Ingredient"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+    time: 20
+  regeneration_potion_i_1min:
+    inputItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Regeneration
+          Potion"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"Regeneration
+          I "},{"italic":false,"color":"white","text":"(0:45)"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Grants
+          health regeneration of"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"+5
+          HP "},{"italic":false,"color":"gray","text":"per second."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        ItemFlags:
+        - HIDE_POTION_EFFECTS
+        potion-type: minecraft:regeneration
+    outputItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Regeneration
+          Potion"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"Regeneration
+          I "},{"italic":false,"color":"white","text":"(1:30)"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Grants
+          health regeneration of"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"+5
+          HP "},{"italic":false,"color":"gray","text":"per second."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        ItemFlags:
+        - HIDE_POTION_EFFECTS
+        potion-type: minecraft:long_regeneration
+    fuelItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: REDSTONE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Brewing
+          Ingredient"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+    time: 20
+  regeneration_potion_i:
+    inputItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:awkward
+    outputItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Regeneration
+          Potion"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"Regeneration
+          I "},{"italic":false,"color":"white","text":"(0:45)"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Grants
+          health regeneration of"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"+5
+          HP "},{"italic":false,"color":"gray","text":"per second."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        ItemFlags:
+        - HIDE_POTION_EFFECTS
+        potion-type: minecraft:regeneration
+    fuelItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: GHAST_TEAR
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Brewing
+          Ingredient"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+    time: 20
+  night_vision_potion_8min:
+    inputItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Night
+          Vision Potion"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Night
+          Vision "},{"italic":false,"color":"white","text":"(3:00)"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Grants
+          night vision."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        ItemFlags:
+        - HIDE_POTION_EFFECTS
+        potion-type: minecraft:night_vision
+    outputItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Night
+          Vision Potion"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Night
+          Vision "},{"italic":false,"color":"white","text":"(8:00)"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Grants
+          night vision."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        ItemFlags:
+        - HIDE_POTION_EFFECTS
+        potion-type: minecraft:long_night_vision
+    fuelItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: REDSTONE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Brewing
+          Ingredient"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+    time: 20
+  speed_potion_ii:
+    inputItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Speed
+          Potion"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Speed
+          I "},{"italic":false,"color":"white","text":"(3:00)"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Grants
+          "},{"italic":false,"color":"green","text":"+20% "},{"italic":false,"color":"white","text":"✦
+          Speed"},{"italic":false,"color":"gray","text":"."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        ItemFlags:
+        - HIDE_POTION_EFFECTS
+        potion-type: minecraft:swiftness
+    outputItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Speed
+          Potion"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Speed
+          II "},{"italic":false,"color":"white","text":"(1:30)"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Grants
+          "},{"italic":false,"color":"green","text":"+40% "},{"italic":false,"color":"white","text":"✦
+          Speed"},{"italic":false,"color":"gray","text":"."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        ItemFlags:
+        - HIDE_POTION_EFFECTS
+        potion-type: minecraft:strong_swiftness
+    fuelItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: GLOWSTONE_DUST
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Brewing
+          Ingredient"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+    time: 20
+  speed_potion_i_8min:
+    inputItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Speed
+          Potion"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Speed
+          I "},{"italic":false,"color":"white","text":"(3:00)"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Grants
+          "},{"italic":false,"color":"green","text":"+20% "},{"italic":false,"color":"white","text":"✦
+          Speed"},{"italic":false,"color":"gray","text":"."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        ItemFlags:
+        - HIDE_POTION_EFFECTS
+        potion-type: minecraft:swiftness
+    outputItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Speed
+          Potion"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Speed
+          I "},{"italic":false,"color":"white","text":"(8:00)"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Grants
+          "},{"italic":false,"color":"green","text":"+20% "},{"italic":false,"color":"white","text":"✦
+          Speed"},{"italic":false,"color":"gray","text":"."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        ItemFlags:
+        - HIDE_POTION_EFFECTS
+        potion-type: minecraft:long_swiftness
+    fuelItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: REDSTONE
+    time: 20
+  poison_potion_i_1min:
+    inputItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Poison
+          Potion"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Poison
+          I "},{"italic":false,"color":"white","text":"(0:45)"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Deals
+          "},{"italic":false,"color":"red","text":"3 HP "},{"italic":false,"color":"gray","text":"damage
+          per"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"second."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        ItemFlags:
+        - HIDE_POTION_EFFECTS
+        potion-type: minecraft:poison
+    outputItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Poison
+          Potion"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Poison
+          I "},{"italic":false,"color":"white","text":"(1:30)"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Deals
+          "},{"italic":false,"color":"red","text":"3 HP "},{"italic":false,"color":"gray","text":"damage
+          per"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"second."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        ItemFlags:
+        - HIDE_POTION_EFFECTS
+        potion-type: minecraft:long_poison
+    fuelItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: REDSTONE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Brewing
+          Ingredient"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+    time: 20
+  splash_poison_potion_i_1min:
+    inputItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Poison
+          Potion"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Poison
+          I "},{"italic":false,"color":"white","text":"(1:30)"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Deals
+          "},{"italic":false,"color":"red","text":"3 HP "},{"italic":false,"color":"gray","text":"damage
+          per"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"second."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        ItemFlags:
+        - HIDE_POTION_EFFECTS
+        potion-type: minecraft:long_poison
+    outputItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Splash
+          Poison Potion"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Poison
+          I "},{"italic":false,"color":"white","text":"(1:30)"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Deals
+          "},{"italic":false,"color":"red","text":"3 HP "},{"italic":false,"color":"gray","text":"damage
+          per"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"second."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        ItemFlags:
+        - HIDE_POTION_EFFECTS
+        potion-type: minecraft:long_poison
+    fuelItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: GUNPOWDER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Brewing
+          Ingredient"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+    time: 20
+  strength_potion_ii:
+    inputItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Strength
+          Potion"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"Strength
+          I "},{"italic":false,"color":"white","text":"(3:00)"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Increases
+          "},{"italic":false,"color":"red","text":"❁ Strength "},{"italic":false,"color":"gray","text":"by"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"+20%"},{"italic":false,"color":"gray","text":"."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        ItemFlags:
+        - HIDE_POTION_EFFECTS
+        potion-type: minecraft:strength
+    outputItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Strength
+          Potion"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"Strength
+          II "},{"italic":false,"color":"white","text":"(1:30)"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Increases
+          "},{"italic":false,"color":"red","text":"❁ Strength "},{"italic":false,"color":"gray","text":"by"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"+40%"},{"italic":false,"color":"gray","text":"."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        ItemFlags:
+        - HIDE_POTION_EFFECTS
+        potion-type: minecraft:strong_strength
+    fuelItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: GLOWSTONE_DUST
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Brewing
+          Ingredient"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+    time: 20
+  healing_potion_i:
+    inputItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:awkward
+    outputItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Healing
+          Potion"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"Healing
+          I"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Instantly
+          heals for "},{"italic":false,"color":"green","text":"+50 HP"},{"italic":false,"color":"gray","text":"."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        ItemFlags:
+        - HIDE_POTION_EFFECTS
+        potion-type: minecraft:healing
+    fuelItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: GLISTERING_MELON_SLICE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Brewing
+          Ingredient"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+    time: 20
+  splash_poison_potion_ii:
+    inputItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Poison
+          Potion"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Poison
+          II "},{"italic":false,"color":"white","text":"(0:21)"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Deals
+          "},{"italic":false,"color":"red","text":"6 HP "},{"italic":false,"color":"gray","text":"damage
+          per"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"second."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        ItemFlags:
+        - HIDE_POTION_EFFECTS
+        potion-type: minecraft:strong_poison
+    outputItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Splash
+          Poison Potion"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Poison
+          II "},{"italic":false,"color":"white","text":"(0:21)"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Deals
+          "},{"italic":false,"color":"red","text":"6 HP "},{"italic":false,"color":"gray","text":"damage
+          per"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"second."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        ItemFlags:
+        - HIDE_POTION_EFFECTS
+        potion-type: minecraft:strong_poison
+    fuelItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: GUNPOWDER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Brewing
+          Ingredient"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+    time: 20
+  poison_potion_ii:
+    inputItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Poison
+          Potion"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Poison
+          I "},{"italic":false,"color":"white","text":"(0:45)"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Deals
+          "},{"italic":false,"color":"red","text":"3 HP "},{"italic":false,"color":"gray","text":"damage
+          per"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"second."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        ItemFlags:
+        - HIDE_POTION_EFFECTS
+        potion-type: minecraft:poison
+    outputItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Poison
+          Potion"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Poison
+          II "},{"italic":false,"color":"white","text":"(0:21)"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Deals
+          "},{"italic":false,"color":"red","text":"6 HP "},{"italic":false,"color":"gray","text":"damage
+          per"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"second."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        ItemFlags:
+        - HIDE_POTION_EFFECTS
+        potion-type: minecraft:strong_poison
+    fuelItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: GLOWSTONE_DUST
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Brewing
+          Ingredient"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+    time: 20
+  jump_boost_potion_ii:
+    inputItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Jump
+          Boost Potion"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Jump
+          Boost I "},{"italic":false,"color":"white","text":"(3:00)"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Grants
+          Jump Boost I."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        ItemFlags:
+        - HIDE_POTION_EFFECTS
+        potion-type: minecraft:leaping
+    outputItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Jump
+          Boost Potion"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Jump
+          Boost II "},{"italic":false,"color":"white","text":"(1:30)"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Grants
+          Jump Boost II."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        ItemFlags:
+        - HIDE_POTION_EFFECTS
+        potion-type: minecraft:strong_leaping
+    fuelItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: GLOWSTONE_DUST
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Brewing
+          Ingredient"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+    time: 20
+  strength_potion_i_8min:
+    inputItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Strength
+          Potion"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"Strength
+          I "},{"italic":false,"color":"white","text":"(3:00)"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Increases
+          "},{"italic":false,"color":"red","text":"❁ Strength "},{"italic":false,"color":"gray","text":"by"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"+20%"},{"italic":false,"color":"gray","text":"."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        ItemFlags:
+        - HIDE_POTION_EFFECTS
+        potion-type: minecraft:strength
+    outputItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Strength
+          Potion"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"Strength
+          I "},{"italic":false,"color":"white","text":"(8:00)"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Increases
+          "},{"italic":false,"color":"red","text":"❁ Strength "},{"italic":false,"color":"gray","text":"by"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"+20%"},{"italic":false,"color":"gray","text":"."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        ItemFlags:
+        - HIDE_POTION_EFFECTS
+        potion-type: minecraft:long_strength
+    fuelItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: REDSTONE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Brewing
+          Ingredient"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+    time: 20
+  speed_potion_i:
+    inputItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:awkward
+    outputItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Speed
+          Potion"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Speed
+          I "},{"italic":false,"color":"white","text":"(3:00)"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Grants
+          "},{"italic":false,"color":"green","text":"+20% "},{"italic":false,"color":"white","text":"✦
+          Speed"},{"italic":false,"color":"gray","text":"."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        ItemFlags:
+        - HIDE_POTION_EFFECTS
+        potion-type: minecraft:swiftness
+    fuelItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: SUGAR
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Brewing
+          Ingredient"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+    time: 20
+  splash_poison_potion_i:
+    inputItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Poison
+          Potion"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Poison
+          I "},{"italic":false,"color":"white","text":"(0:45)"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Deals
+          "},{"italic":false,"color":"red","text":"3 HP "},{"italic":false,"color":"gray","text":"damage
+          per"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"second."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        ItemFlags:
+        - HIDE_POTION_EFFECTS
+        potion-type: minecraft:poison
+    outputItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Splash
+          Poison Potion"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Poison
+          I "},{"italic":false,"color":"white","text":"(0:45)"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Deals
+          "},{"italic":false,"color":"red","text":"3 HP "},{"italic":false,"color":"gray","text":"damage
+          per"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"second."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        ItemFlags:
+        - HIDE_POTION_EFFECTS
+        potion-type: minecraft:poison
+    fuelItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: GUNPOWDER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Brewing
+          Ingredient"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+    time: 20
+  regeneration_potion_ii:
+    inputItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Regeneration
+          Potion"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"Regeneration
+          I "},{"italic":false,"color":"white","text":"(0:45)"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Grants
+          health regeneration of"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"+5
+          HP "},{"italic":false,"color":"gray","text":"per second."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        ItemFlags:
+        - HIDE_POTION_EFFECTS
+        potion-type: minecraft:regeneration
+    outputItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Regeneration
+          Potion"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"Regeneration
+          II "},{"italic":false,"color":"white","text":"(0:22)"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Grants
+          health regeneration of"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"+10
+          HP "},{"italic":false,"color":"gray","text":"per second."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        ItemFlags:
+        - HIDE_POTION_EFFECTS
+        potion-type: minecraft:strong_regeneration
+    fuelItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: GLOWSTONE_DUST
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Brewing
+          Ingredient"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+    time: 20
+  fire_resistance_potion_8min:
+    inputItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Fire
+          Resistance Potion"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Fire
+          Resistance "},{"italic":false,"color":"white","text":"(3:00)"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Provides
+          immunity to fire"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"and
+          lava."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        ItemFlags:
+        - HIDE_POTION_EFFECTS
+        potion-type: minecraft:fire_resistance
+    outputItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Fire
+          Resistance Potion"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Fire
+          Resistance "},{"italic":false,"color":"white","text":"(8:00)"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Provides
+          immunity to fire"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"and
+          lava."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        ItemFlags:
+        - HIDE_POTION_EFFECTS
+        potion-type: minecraft:long_fire_resistance
+    fuelItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: REDSTONE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Brewing
+          Ingredient"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+    time: 20
+  night_vision_potion:
+    inputItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:awkward
+    outputItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Night
+          Vision Potion"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Night
+          Vision "},{"italic":false,"color":"white","text":"(3:00)"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Grants
+          night vision."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        ItemFlags:
+        - HIDE_POTION_EFFECTS
+        potion-type: minecraft:night_vision
+    fuelItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: GOLDEN_CARROT
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Brewing
+          Ingredient"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+    time: 20
+  jump_boost_potion_i_8min:
+    inputItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Jump
+          Boost Potion"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Jump
+          Boost I "},{"italic":false,"color":"white","text":"(3:00)"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Grants
+          Jump Boost I."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        ItemFlags:
+        - HIDE_POTION_EFFECTS
+        potion-type: minecraft:leaping
+    outputItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Jump
+          Boost Potion"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Jump
+          Boost I "},{"italic":false,"color":"white","text":"(8:00)"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Grants
+          Jump Boost I."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        ItemFlags:
+        - HIDE_POTION_EFFECTS
+        potion-type: minecraft:long_leaping
+    fuelItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: REDSTONE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Brewing
+          Ingredient"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+    time: 20
+  healing_potion_ii:
+    inputItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Healing
+          Potion"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"Healing
+          I"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Instantly
+          heals for "},{"italic":false,"color":"green","text":"+50 HP"},{"italic":false,"color":"gray","text":"."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        ItemFlags:
+        - HIDE_POTION_EFFECTS
+        potion-type: minecraft:healing
+    outputItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Healing
+          Potion"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"Healing
+          II"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Instantly
+          heals for "},{"italic":false,"color":"green","text":"+100 HP"},{"italic":false,"color":"gray","text":"."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        ItemFlags:
+        - HIDE_POTION_EFFECTS
+        potion-type: minecraft:strong_healing
+    fuelItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: GLOWSTONE_DUST
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Brewing
+          Ingredient"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+    time: 20
+  fire_resistance_potion:
+    inputItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:awkward
+    outputItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Fire
+          Resistance Potion"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Fire
+          Resistance "},{"italic":false,"color":"white","text":"(3:00)"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Provides
+          immunity to fire"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"and
+          lava."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        ItemFlags:
+        - HIDE_POTION_EFFECTS
+        potion-type: minecraft:fire_resistance
+    fuelItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: MAGMA_CREAM
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Brewing
+          Ingredient"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+    time: 20
+  jump_boost_potion_i:
+    inputItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:awkward
+    outputItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Jump
+          Boost Potion"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Jump
+          Boost I "},{"italic":false,"color":"white","text":"(3:00)"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Grants
+          Jump Boost I."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        ItemFlags:
+        - HIDE_POTION_EFFECTS
+        potion-type: minecraft:leaping
+    fuelItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: RABBIT_FOOT
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Brewing
+          Ingredient"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+    time: 20
+  strength_potion_i:
+    inputItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:awkward
+    outputItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Strength
+          Potion"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"Strength
+          I "},{"italic":false,"color":"white","text":"(3:00)"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Increases
+          "},{"italic":false,"color":"red","text":"❁ Strength "},{"italic":false,"color":"gray","text":"by"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"+20%"},{"italic":false,"color":"gray","text":"."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        ItemFlags:
+        - HIDE_POTION_EFFECTS
+        potion-type: minecraft:strength
+    fuelItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: BLAZE_POWDER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Brewing
+          Ingredient"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+    time: 20

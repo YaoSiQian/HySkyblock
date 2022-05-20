@@ -1,0 +1,45 @@
+# --{ =-=-=-=-=-=-=-=-=-= ItemJoin's Custom Item Configurations, by RockinChaos =-=-=-=-=-=-=-=-=-= }--
+# See the tutorial page for a more in-depth explanation; https://github.com/RockinChaos/ItemJoin/wiki
+# Join the discord for easy plugin support; https://discord.gg/D5FnJ7C
+# 
+# Modifying the Version will cause this file to break and regenerate.
+items-Version: 8
+items-Delay: 2
+items-Overwrite: false
+items-Spamming: false
+items-RestrictCount: false
+items:
+  SKYBLOCK-MENU:
+    id: NETHER_STAR
+    slot: 8
+    name: '&a空岛生存菜单 &7(右键点击)'
+    lore:
+    - '&7查看你所有的空岛生存进度'
+    - '&7包括你的技能, 收集, 配方以及更多!'
+    - ''
+    - '&e点击打开!'
+    interact:
+    - 'player: sbmenu'
+    itemflags: inventory-modify, death-drops, self-drops, dynamic, placement
+    triggers: join, respawn, world-change
+    permission-node: essentials.spawn
+    enabled-worlds: ALL
+  EMERALD_BLADE:
+    id: EMERALD
+    slot: 7
+    name: '&5绿宝石之刃'
+    lore:
+    - '<delay:20>&7伤害: &c+%math_0_({checkitem_amount_mat:EMERALD}-1)/32+130%'
+    - ''
+    - '&7一个由至纯的 &2绿宝石 &7合成的武器'
+    - '&7它会随着你物品栏中的'
+    - '&2绿宝石 &7增多而变强'
+    - ''
+    - '&7当前额外伤害: &a%math_1_({checkitem_amount_mat:EMERALD}-1)/32%'
+    - ''
+    - '&8此物品可被洗炼!'
+    - '&5&l史诗 剑'
+    itemflags: death-drops, dynamic
+    triggers: none
+    permission-node: rank.default
+    enabled-worlds: ALL

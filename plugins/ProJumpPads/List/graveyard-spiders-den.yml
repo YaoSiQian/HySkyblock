@@ -1,0 +1,13 @@
+fly-location:
+  world: Server
+  x: 240.37940161266062
+  y: 67.62020963829163
+  z: -37.65081288366618
+name: graveyard-spiders-den
+pos1X: 173.0
+pos1Z: -41.0
+pos2X: 174.0
+pos2Z: -39.0
+relative-position: 57.0
+permission-1: access.spiders-den
+permission-message: §cYou must be at least Combat Level I to join this island!

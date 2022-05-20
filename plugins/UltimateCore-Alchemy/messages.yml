@@ -1,0 +1,18 @@
+messages:
+  invalidCommand: '%prefix% &7未知指令!'
+  invalidArguments: '%prefix% &7未知子指令!'
+  filesReloaded: '%prefix% &7文件已重载'
+  itemInHand: '%prefix% &7You must have an item in your hand!'
+  recipeCreated: '%prefix% &7You has created a new recipe &a%recipe_name%&7!'
+  recipeRemoved: '%prefix% &7You has removed recipe &a%recipe_name%&7!'
+  notCreated: '%prefix% &7This recipe is not created!'
+  alreadyCreated: '%prefix% &7This recipe is already created!'
+  recipeCanceled: '%prefix% &7There aren''t items to create this recipe!'
+  reloaded: '%prefix% &7配置已重载'
+  noPermission: '%prefix% &7你没有权限'
+  helpMessage: '&7%command% - &e%description%'
+  helpHeader: '      &6&lUltimateCore-Alchemy   '
+  helpfooter: '&e<< &6第 %page% 页至第 %maxpage% 页 &e>>'
+  previousPage: '<<'
+  nextPage: '>>'
+  helpPageHoverMessage: 点击前往第 %page% 页

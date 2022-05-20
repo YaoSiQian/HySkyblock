@@ -1,0 +1,461 @@
+# -------------[HyperRegions]-------------#
+# regenTime: if min and max is not equals
+# it'll select a random number between
+# min and max.
+# ----------------------------------------#
+regRegions:
+  GRAVEL:
+    regions: ['spiders-den']
+    regenTime:
+      min: 10
+      max: 15
+    isTripleBlock: false
+    blockBroken:
+      material: GRAVEL
+      data: 0
+    blockWhileRegen:
+      material: BEDROCK
+      data: 0
+    blocksAfter:
+      '1':
+        material: GRAVEL
+        data: 0
+        chance: 100
+  BIRCH_LOG:
+    regions: ['forest-island', 'birch-forest', 'spruce-forest', 'dark-oak-forest', 'acacia-forest', 'jungle-forest']
+    regenTime:
+      min: 10
+      max: 20
+    isTripleBlock: false
+    blockBroken:
+      material: BIRCH_LOG
+      data: 2
+    blockWhileRegen:
+      material: AIR
+      data: 0
+    blocksAfter:
+      '1':
+        material: BIRCH_LOG
+        data: 2
+        chance: 100
+  CARROTS:
+    regions: ['farm', 'farm2', 'farm3', 'farm4', 'farm5']
+    regenTime:
+      min: 10
+      max: 25
+    isTripleBlock: false
+    blockBroken:
+      material: CARROTS
+      data: 7
+    blockWhileRegen:
+      material: AIR
+      data: 0
+    blocksAfter:
+      '1':
+        material: CARROTS
+        data: 7
+        chance: 100
+  SUGAR_CANE:
+    regions: []
+    regenTime:
+      min: 5
+      max: 5
+    isTripleBlock: false
+    blockBroken:
+      material: SUGAR_CANE
+      data: 0
+    blockWhileRegen:
+      material: AIR
+      data: 0
+    blocksAfter:
+      '1':
+        material: SUGAR_CANE
+        data: 0
+        chance: 100
+  POTATOES:
+    regions: ['farm', 'farm2', 'farm3', 'farm4', 'farm5']
+    regenTime:
+      min: 10
+      max: 25
+    isTripleBlock: false
+    blockBroken:
+      material: POTATOES
+      data: 7
+    blockWhileRegen:
+      material: AIR
+      data: 0
+    blocksAfter:
+      '1':
+        material: POTATOES
+        data: 7
+        chance: 100
+  PUMPKIN:
+    regions: ['farm', 'farm2', 'farm3', 'farm4', 'farm5']
+    regenTime:
+      min: 15
+      max: 25
+    isTripleBlock: false
+    blockBroken:
+      material: PUMPKIN
+      data: 0
+    blockWhileRegen:
+      material: AIR
+      data: 0
+    blocksAfter:
+      '1':
+        material: PUMPKIN
+        data: 0
+        chance: 100
+  WHEAT:
+    regions: ['what-farm', 'wheat-farm-2', 'wheat-farm-3', 'farm', 'farm2', 'farm3', 'farm4', 'farm5']
+    regenTime:
+      min: 10
+      max: 25
+    isTripleBlock: false
+    blockBroken:
+      material: WHEAT
+      data: 7
+    blockWhileRegen:
+      material: AIR
+      data: 0
+    blocksAfter:
+      '1':
+        material: WHEAT
+        data: 7
+        chance: 100
+  MELON:
+    regions: ['farm', 'farm2', 'farm3', 'farm4', 'farm5']
+    regenTime:
+      min: 15
+      max: 25
+    isTripleBlock: false
+    blockBroken:
+      material: MELON
+      data: 0
+    blockWhileRegen:
+      material: AIR
+      data: 0
+    blocksAfter:
+      '1':
+        material: MELON
+        data: 0
+        chance: 100
+  ACACIA_LOG:
+    regions: ['forest-island', 'birch-forest', 'spruce-forest', 'dark-oak-forest', 'acacia-forest', 'jungle-forest']
+    regenTime:
+      min: 10
+      max: 20
+    isTripleBlock: false
+    blockBroken:
+      material: ACACIA_LOG
+      data: 0
+    blockWhileRegen:
+      material: AIR
+      data: 0
+    blocksAfter:
+      '1':
+        material: ACACIA_LOG
+        data: 0
+        chance: 100
+  STONE:
+    regions: ['coal-mine', 'deep-caverns', 'gold-mine', 'lapis-quarry', 'pigmans-den', 'slimehill', 'diamond-reserve', 'obsidian-sanctuary']
+    regenTime:
+      min: 7
+      max: 7
+    isTripleBlock: false
+    blockBroken:
+      material: STONE
+      data: 0
+    blockWhileRegen:
+      material: COBBLESTONE
+      data: 0
+    blocksAfter:
+      '1':
+        material: STONE
+        data: 0
+        chance: 100
+  COAL_ORE:
+    regions: ['coal-mine', 'deep-caverns', 'gold-mine', 'lapis-quarry', 'pigmans-den', 'slimehill', 'diamond-reserve', 'obsidian-sanctuary']
+    regenTime:
+      min: 12
+      max: 12
+    isTripleBlock: false
+    blockBroken:
+      material: COAL_ORE
+      data: 0
+    blockWhileRegen:
+      material: COBBLESTONE
+      data: 0
+    blocksAfter:
+      '1':
+        material: COAL_ORE
+        data: 0
+        chance: 100
+  GOLD_ORE:
+    regions: ['coal-mine', 'deep-caverns', 'gold-mine', 'lapis-quarry', 'pigmans-den', 'slimehill', 'diamond-reserve', 'obsidian-sanctuary']
+    regenTime:
+      min: 17
+      max: 17
+    isTripleBlock: false
+    blockBroken:
+      material: GOLD_ORE
+      data: 0
+    blockWhileRegen:
+      material: COBBLESTONE
+      data: 0
+    blocksAfter:
+      '1':
+        material: GOLD_ORE
+        data: 1
+        chance: 100
+  IRON_ORE:
+    regions: ['coal-mine', 'deep-caverns', 'gold-mine', 'lapis-quarry', 'pigmans-den', 'slimehill', 'diamond-reserve', 'obsidian-sanctuary']
+    regenTime:
+      min: 15
+      max: 15
+    isTripleBlock: false
+    blockBroken:
+      material: IRON_ORE
+      data: 0
+    blockWhileRegen:
+      material: COBBLESTONE
+      data: 0
+    blocksAfter:
+      '1':
+        material: IRON_ORE
+        data: 0
+        chance: 100
+  COBBLESTONE:
+    regions: ['coal-mine', 'deep-caverns', 'gold-mine', 'lapis-quarry', 'pigmans-den', 'slimehill', 'diamond-reserve', 'obsidian-sanctuary']
+    regenTime:
+      min: -1
+      max: -1
+    isTripleBlock: false
+    blockBroken:
+      material: COBBLESTONE
+      data: 0
+    blockWhileRegen:
+      material: BEDROCK
+      data: 0
+    blocksAfter: []
+  JUNGLE_LOG:
+    regions: ['forest-island', 'birch-forest', 'spruce-forest', 'dark-oak-forest', 'acacia-forest', 'jungle-forest']
+    regenTime:
+      min: 10
+      max: 20
+    isTripleBlock: false
+    blockBroken:
+      material: JUNGLE_LOG
+      data: 3
+    blockWhileRegen:
+      material: AIR
+      data: 0
+    blocksAfter:
+      '1':
+        material: JUNGLE_LOG
+        data: 3
+        chance: 100
+  NETHER_WART:
+    regions: ['blazing-fortress']
+    regenTime:
+      min: 10
+      max: 20
+    isTripleBlock: false
+    blockBroken:
+      material: NETHER_WART
+      data: 3
+    blockWhileRegen:
+      material: AIR
+      data: 0
+    blocksAfter:
+      '1':
+        material: NETHER_WART
+        data: 3
+        chance: 100
+  NETHERRACK:
+    regions: ['blazing-fortress']
+    regenTime:
+      min: 15
+      max: 15
+    isTripleBlock: false
+    blockBroken:
+      material: NETHERRACK
+      data: 0
+    blockWhileRegen:
+      material: BEDROCK
+      data: 0
+    blocksAfter:
+      '1':
+        material: NETHERRACK
+        data: 0
+        chance: 100
+  SPRUCE_LOG:
+    regions: ['forest-island', 'birch-forest', 'spruce-forest', 'dark-oak-forest', 'acacia-forest', 'jungle-forest']
+    regenTime:
+      min: 10
+      max: 20
+    isTripleBlock: false
+    blockBroken:
+      material: SPRUCE_LOG
+      data: 1
+    blockWhileRegen:
+      material: AIR
+      data: 0
+    blocksAfter:
+      '1':
+        material: SPRUCE_LOG
+        data: 1
+        chance: 100
+  OAK_LOG:
+    regions: ['forest', 'forest-island', 'birch-forest', 'spruce-forest', 'dark-oak-forest', 'acacia-forest', 'jungle-forest']
+    regenTime:
+      min: 10
+      max: 20
+    isTripleBlock: false
+    blockBroken:
+      material: OAK_LOG
+      data: 0
+    blockWhileRegen:
+      material: AIR
+      data: 0
+    blocksAfter:
+      '1':
+        material: OAK_LOG
+        data: 0
+        chance: 100
+  DARK_OAK_LOG:
+    regions: ['forest-island', 'birch-forest', 'spruce-forest', 'dark-oak-forest', 'acacia-forest', 'jungle-forest']
+    regenTime:
+      min: 10
+      max: 20
+    isTripleBlock: false
+    blockBroken:
+      material: DARK_OAK_LOG
+      data: 1
+    blockWhileRegen:
+      material: AIR
+      data: 0
+    blocksAfter:
+      '1':
+        material: DARK_OAK_LOG
+        data: 1
+        chance: 100
+  LAPIS_ORE:
+    regions: ['coal-mine', 'deep-caverns', 'gold-mine', 'lapis-quarry', 'pigmans-den', 'slimehill', 'diamond-reserve', 'obsidian-sanctuary']
+    regenTime:
+      min: 15
+      max: 15
+    isTripleBlock: false
+    blockBroken:
+      material: LAPIS_ORE
+      data: 0
+    blockWhileRegen:
+      material: COBBLESTONE
+      data: 0
+    blocksAfter:
+      '1':
+        material: LAPIS_ORE
+        data: 1
+        chance: 100
+  REDSTONE_ORE:
+    regions: ['coal-mine', 'deep-caverns', 'gold-mine', 'lapis-quarry', 'pigmans-den', 'slimehill', 'diamond-reserve', 'obsidian-sanctuary']
+    regenTime:
+      min: 20
+      max: 20
+    isTripleBlock: false
+    blockBroken:
+      material: REDSTONE_ORE
+      data: 0
+    blockWhileRegen:
+      material: COBBLESTONE
+      data: 0
+    blocksAfter:
+      '1':
+        material: REDSTONE_ORE
+        data: 1
+        chance: 100
+  LIT_REDSTONE_ORE:
+    regions: ['coal-mine', 'deep-caverns', 'gold-mine', 'lapis-quarry', 'pigmans-den', 'slimehill', 'diamond-reserve', 'obsidian-sanctuary']
+    regenTime:
+      min: 20
+      max: 20
+    isTripleBlock: false
+    blockBroken:
+      material: LIT_REDSTONE_ORE
+      data: 0
+    blockWhileRegen:
+      material: COBBLESTONE
+      data: 0
+    blocksAfter:
+      '1':
+        material: LIT_REDSTONE_ORE
+        data: 1
+        chance: 100
+  EMERALD_ORE:
+    regions: ['coal-mine', 'deep-caverns', 'gold-mine', 'lapis-quarry', 'pigmans-den', 'slimehill', 'diamond-reserve', 'obsidian-sanctuary']
+    regenTime:
+      min: 23
+      max: 23
+    isTripleBlock: false
+    blockBroken:
+      material: EMERALD_ORE
+      data: 0
+    blockWhileRegen:
+      material: COBBLESTONE
+      data: 0
+    blocksAfter:
+      '1':
+        material: EMERALD_ORE
+        data: 1
+        chance: 100
+  DIAMOND_ORE:
+    regions: ['coal-mine', 'deep-caverns', 'gold-mine', 'lapis-quarry', 'pigmans-den', 'slimehill', 'diamond-reserve', 'obsidian-sanctuary']
+    regenTime:
+      min: 25
+      max: 25
+    isTripleBlock: false
+    blockBroken:
+      material: DIAMOND_ORE
+      data: 0
+    blockWhileRegen:
+      material: COBBLESTONE
+      data: 0
+    blocksAfter:
+      '1':
+        material: DIAMOND_ORE
+        data: 1
+        chance: 100
+  OBSIDIAN:
+    regions: ['coal-mine', 'deep-caverns', 'gold-mine', 'lapis-quarry', 'pigmans-den', 'slimehill', 'diamond-reserve', 'obsidian-sanctuary']
+    regenTime:
+      min: 40
+      max: 40
+    isTripleBlock: false
+    blockBroken:
+      material: OBSIDIAN
+      data: 0
+    blockWhileRegen:
+      material: COBBLESTONE
+      data: 0
+    blocksAfter:
+      '1':
+        material: OBSIDIAN
+        data: 1
+        chance: 100
+  BIRCH_LEAVES:
+    regions: ['forest-island', 'birch-forest']
+    regenTime:
+      min: 3
+      max: 3
+    isTripleBlock: false
+    blockBroken:
+      material: BIRCH_LEAVES
+      data: 0
+    blockWhileRegen:
+      material: AIR
+      data: 0
+    blocksAfter:
+      '1':
+        material: BIRCH_LEAVES
+        data: 1
+        chance: 100

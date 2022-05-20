@@ -1,0 +1,223 @@
+# Any messages the plugin might send to players.
+messages:
+  # The prefix shown in front of messages.
+  prefix: "&f&lNPC 介绍 &8&l» &7"
+  # Shown AFTER the configuration has been reloaded.
+  reload: "配置已重载"
+
+# The amount of seconds in between messages and between the final message and the command.
+seconds-between-actions: 2
+
+# List of NPCs that should do something
+introductions:
+  1:
+    messages:
+      - "&e[NPC] Leo&f: &f你可以通过提升 &a橡木收集&f 进度来解锁 &a叶片护甲"
+      - "&e[NPC] Leo&f: &b村庄&f&f西方有一片&b森林&f，你可以在那里收集橡木"
+      - "&e[NPC] Leo&f: &f想查看你的收集进度和奖励，打开 &a空岛生存菜单&f 中的 &a收集菜单&f！"
+    message-sound: "ENTITY_VILLAGER_NO"
+    command: "[player]talkedcommand"
+  2:
+    messages:
+      - "&e[NPC] Duke&f: &f你是新来的吗？你可以看到这里有很多东西值得探索！"
+      - "&e[NPC] Duke&f: &f我的建议是一开始先去 &b农场&f，或是 &b煤炭矿区&f，它们都在这的西边或南边"
+      - "&e[NPC] Duke&f: &f如果你需要一些木头，最好的采伐地点在 &b村庄 &f的北方！"
+    message-sound: "ENTITY_VILLAGER_NO"
+    command: "[player]talkedcommand"
+  3:
+    messages:
+      - "&e[NPC] Lynn&f: &f如果你在执行任务期间迷路了，打开 &a空岛生存菜单&f 中的 &a任务记录&f！"
+    message-sound: "ENTITY_VILLAGER_NO"
+    command: "[player]talkedcommand"
+  6:
+    messages:
+      - "&e[NPC] Andrew&f: &f这个游戏还会有重大更新，不要忘记常常查看 &aQQ群 / QQ频道&f 了解更新！"
+      - "&e[NPC] Andrew&f: &f如果你希望和其他玩家共同交流空岛生存，请查看空岛生存的 &a频道&f！"
+    message-sound: "ENTITY_VILLAGER_NO"
+    command: "[player]talkedcommand"
+  7:
+    messages:
+      - "&e[NPC] Jack&f: &f你的 &a空岛生存菜单&f 中的 &a空岛生存资料&f 可以展示你详细的当前属性值！"
+      - "&e[NPC] Jack&f: &f游戏中一共有7种属性，包括 &c❤ 生命&f、&c❁ 力量 &f和 &a❇ 防御&f."
+      - "&e[NPC] Jack&f: &f装备的盔甲、武器，和物品栏中的饰品都会提升你的属性值"
+      - "&e[NPC] Jack&f: &f此外，提升你的技能等级可以永久提升你的某些属性！"
+      - "&e[NPC] Jack&f: &f你的 &c❤ 生命&f 属性越高，你的生命回复越快！"
+    message-sound: "ENTITY_VILLAGER_NO"
+    command: "[player]talkedcommand"
+  8:
+    messages:
+      - "&e[NPC] Jamie&f: &f你可能已经注意到了你有法力栏！"
+      - "&e[NPC] Jamie&f: &f有些物品带有神秘的属性，称为技能"
+      - "&e[NPC] Jamie&f: &f这些技能会消耗法力 "
+    message-sound: "ENTITY_VILLAGER_NO"
+    command: "[player]talkedcommand"
+  9:
+    messages:
+      - "&e[NPC] Tom&f: &f所有的空岛生存配方都可以通过 &a空岛生存菜单&f 中的 &a合成手册 &f找到"
+    message-sound: "ENTITY_VILLAGER_NO"
+    command: "[player]talkedcommand"
+  10:
+    messages:
+      - "&e[NPC] Felix&f: &f你可以打开你的 &a空岛生存菜单&f 中的 &a末影箱"
+      - "&e[NPC] Felix&f: &f把物品存放在此箱子内以随时拿出！"
+    message-sound: "ENTITY_VILLAGER_NO"
+    command: "[player]talkedcommand"
+  11:
+    messages:
+      - "&e[NPC] Liam&f: &f总有一天，村庄的这些房屋将会按硬币出租！"
+      - "&e[NPC] Liam&f: &f玩家、合作者、甚至公会，所有人都可以租用它们！"
+    message-sound: "ENTITY_VILLAGER_NO"
+    command: "[player]talkedcommand"
+  12:
+    messages:
+      - "&e[NPC] Ryu&f: &f在空岛生存中有9个技能！"
+      - "&e[NPC] Ryu&f: &f农业、挖矿、林业、钓鱼、战斗、附魔、酿造、木工和符文合成"
+      - "&e[NPC] Ryu&f: &f在 &a空岛生存菜单&f 中的 &a技能菜单&f，了解更多！"
+    message-sound: "ENTITY_VILLAGER_NO"
+    command: "[player]talkedcommand"
+  20:
+    messages:
+      - "&e[NPC] &b电梯管理员&f: &f噢，你回来了！"
+    message-sound: "ENTITY_VILLAGER_NO"
+    command: "[player]liftoperator"
+  21:
+    messages:
+      - "&e[NPC] &b电梯管理员&f: &f噢，你回来了！"
+    message-sound: "ENTITY_VILLAGER_NO"
+    command: "[player]liftoperator"
+  22:
+    messages:
+      - "&e[NPC] &b电梯管理员&f: &f噢，你回来了！"
+    message-sound: "ENTITY_VILLAGER_NO"
+    command: "[player]liftoperator"
+  23:
+    messages:
+      - "&e[NPC] &b电梯管理员&f: &f噢，你回来了！"
+    message-sound: "ENTITY_VILLAGER_NO"
+    command: "[player]liftoperator"
+  24:
+    messages:
+      - "&e[NPC] &b电梯管理员&f: &f噢，你回来了！"
+    message-sound: "ENTITY_VILLAGER_NO"
+    command: "[player]liftoperator"
+  199:
+    messages:
+      - "&e[NPC] &6拍卖大师&f: &f嗨，我是拍卖大师"
+      - "&e[NPC] &6拍卖大师&f: &f在拍卖行里可以将珍贵物品上架拍卖！"
+      - "&e[NPC] &6拍卖大师&f: &f你也可能会想回这来看看别的玩家在卖些什么，看看你能不能捡个小便宜"
+      - "&e[NPC] &6拍卖大师&f: &f如果你想开始你的第一次拍卖，或者你想看看现在正在拍卖的物品，请告诉我"
+    message-sound: "ENTITY_VILLAGER_NO"
+    command: "[player]ah"
+  191:
+    messages:
+      - "&e[NPC] 农场商人: &f你可以在我这里购买或卖出农作物！"
+      - "&e[NPC] 农场商人: &f我专门贩卖小麦、胡萝卜、土豆和西瓜！"
+      - "&e[NPC] 农场商人: &f再次点击我打开农夫商店！"
+    message-sound: "ENTITY_VILLAGER_NO"
+    command: "[player]reshop open farmmerchant"
+  190:
+    messages:
+      - "&e[NPC] 木材商人: &f向我购买和收购木头或斧头！"
+      - "&e[NPC] 木材商人: &f再次点击我打开伐木商店！"
+    message-sound: "ENTITY_VILLAGER_NO"
+    command: "[player]reshop open lumbermerchant"
+  192:
+    messages:
+      - "&e[NPC] 矿物商人: &f我的专长是矿石、石头、和挖矿工具"
+      - "&e[NPC] 矿物商人: &f再次点击我打开矿工商店！"
+    message-sound: "ENTITY_VILLAGER_NO"
+    command: "[player]reshop open minemerchant"
+  194:
+    messages:
+      - "&e[NPC] 建筑师: &f建造总有回报！"
+      - "&e[NPC] 建筑师: &f再次点击我打开建筑商店！"
+    message-sound: "ENTITY_VILLAGER_NO"
+    command: "[player]buildershop"
+  195:
+    messages:
+      - "&e[NPC] 装备商人: &f一个没护甲的战士不是一个好战士！"
+      - "&e[NPC] 装备商人: &f再次点击我打开护甲匠商店！"
+    message-sound: "ENTITY_VILLAGER_NO"
+    command: "[player]reshop open armorsmith"
+  188:
+    messages:
+      - "&e[NPC] 冒险家: &f每个岛屿，从这里到这个世界边缘，我全都见过！"
+      - "&e[NPC] 冒险家: &f多年来，我得到了各种护符和圣物"
+      - "&e[NPC] 冒险家: &f出个价，你就能得到它们！"
+      - "&e[NPC] 冒险家: &f再次点击我打开冒险者的商店！"
+    message-sound: "ENTITY_VILLAGER_NO"
+    command: "[player]reshop open adventurer"
+  193:
+    messages:
+      - "&e[NPC] 渔业商人: &f钓鱼是我的生意。我收购和销售任何鱼，钓鱼竿和你发现的宝藏！"
+      - "&e[NPC] 渔业商人: &f再次点击我打开渔夫商店！"
+    message-sound: "ENTITY_VILLAGER_NO"
+    command: "[player]reshop open fishmerchant"
+  196:
+    messages:
+      - "&e[NPC] Weaponsmith: &f你需要一些强力武器以在荒野求生！幸运的是，我有！"
+      - "&e[NPC] Weaponsmith: &f再次点击我打开武器匠商店！"
+    message-sound: "ENTITY_VILLAGER_NO"
+    command: "[player]reshop open weaponsmith"
+  197:
+    messages:
+      - "&e[NPC] 图书管理员: &f你好！欢迎来到图书馆！"
+      - "&e[NPC] 图书管理员: &f图书馆是为你一站式服务的商店，里面的东西都十分吸引人。有附魔物品，附魔书等等！"
+      - "&e[NPC] 图书管理员: &f你可以通过点击附魔台来附魔物品。附魔会消耗你的等级 - 你花费的等级越多，你更有可能获得更好的附魔"
+      - "&e[NPC] 图书管理员: &f使用附魔台来附魔一个物品！"
+    message-sound: "ENTITY_VILLAGER_NO"
+    command: "[player]reshop open librarian"
+  198:
+    messages:
+      - "&e[NPC] 炼药师&f: &f黑暗笼罩着你，%player%."
+      - "&e[NPC] 炼药师&f: &f我在我的烈焰中看到，你注定能拥有最好的奖励"
+      - "&e[NPC] 炼药师&f: &f现在，你不应该让它进入你的脑袋"
+      - "&e[NPC] 炼药师&f: &f再次点击我打开炼药商店！"
+    message-sound: "ENTITY_VILLAGER_NO"
+    command: "[player]reshop open alchemist"
+  200:
+    messages:
+      - "&e[NPC] 银行家&f: &f你好！"
+      - "&e[NPC] 银行家&f: &f你可能想在你冒险时将硬币存放在一个安全的地方"
+      - "&e[NPC] 银行家&f: &f把你的硬币存在我这里，你还会在每个季度开始时赚取利息！"
+    message-sound: "ENTITY_VILLAGER_NO"
+    command: "[player]bank"
+  201:
+    messages:
+      - "&e[NPC] Dusk&f: &f你可以在我后面的符文基架上将任何&d符文&f附加到武器上或者盔甲上"
+      - "&e[NPC] Dusk&f: &f你也可以融合两个&d符文&f，有机会获得一个有更好特效的高级符文！"
+    message-sound: "ENTITY_VILLAGER_NO"
+    command: "[player]nocommand"
+  220:
+    messages:
+      - "&e[NPC] &7Pat&f: &f你喜欢燧石吗？我喜欢燧石！你还可以从我这里买燧石！"
+      - "&e[NPC] &7Pat&f: &f我的兄弟正在蜘蛛巢穴挖沙砾。我们就是沙砾兄弟！！"
+      - "&e[NPC] &7Pat&f: &f再次点击我打开我的商店！"
+    message-sound: "ENTITY_VILLAGER_NO"
+    command: "[player]reshop open pat"
+  221:
+    messages:
+      - "&e[NPC] &eBea&f: &f嗨！ 你有宠物吗?"
+      - "&e[NPC] &eBea&f: &f宠物是你在空岛生存中冒险的小伙伴！"
+      - "&e[NPC] &eBea&f: &f就个人来说，我觉得 &e蜜蜂&f 宠物很棒！"
+    message-sound: "ENTITY_VILLAGER_NO"
+    command: "[player]reshop open bea"
+  266:
+    messages:
+      - "&e[NPC] &d仙女缇娅&f: &f欢迎来到仙女池塘，&7%player%&f！ 我是缇娅"
+      - "&e[NPC] &d仙女缇娅&f: &f你可能已经发现了散落在岛屿周围的奇怪宝珠"
+      - "&e[NPC] &d仙女缇娅&f: &f他们是我已故的姐妹们的灵魂"
+      - "&e[NPC] &d仙女缇娅&f: &f如果你在旅途中发现更多，请回来交给我！"
+    message-sound: "ENTITY_VILLAGER_NO"
+    command: "[player]souls tiamenu"
+  267:
+    messages:
+      - "&e[NPC] Rosetta&f: &f嘿！ &7%player%&f！！！"
+      - "&e[NPC] Rosetta&f: &f不知道该以什么装备为目标?"
+      - "&e[NPC] Rosetta&f: &f试试我的 &a开荒物品&f！"
+    message-sound: "ENTITY_VILLAGER_NO"
+    command: "[player]rosetta"
+  19:
+    messages: []
+    message-sound: "ENTITY_VILLAGER_NO"
+    command: "[player]liftoperator"

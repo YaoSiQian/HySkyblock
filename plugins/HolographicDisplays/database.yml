@@ -1,0 +1,120 @@
+hub:
+  location: Server, 0.559, 63.200, 15.146
+  lines:
+  - '&b传送至:'
+  - '&a你的岛屿'
+hub-farm:
+  location: Server, -83.509, 59.200, -49.017
+  lines:
+  - '&b传送至:'
+  - '&a农场'
+  - '&c需要 农业等级 I'
+farm-hub:
+  location: Server, -142.579, 60.200, -50.000
+  lines:
+  - '&b传送至:'
+  - '&a大厅岛屿'
+hub-birchforest:
+  location: Server, -10.988, 60.200, -93.478
+  lines:
+  - '&b传送至:'
+  - '&a桦木森林'
+  - '&c需要 林业等级 I'
+hub-graveyard:
+  location: Server, 63.498, 61.200, -54.047
+  lines:
+  - '&b传送至:'
+  - '&a墓地'
+hub-mine:
+  location: Server, 58.500, 63.200, 92.500
+  lines:
+  - '&b传送至:'
+  - '&a煤炭矿区'
+mine-hub:
+  location: Server, 74.008, 63.200, 131.481
+  lines:
+  - '&b传送至:'
+  - '&a大厅岛屿'
+graveyard-hub:
+  location: Server, 106.501, 61.200, -53.010
+  lines:
+  - '&b传送至:'
+  - '&a大厅岛屿'
+birchforest-hub:
+  location: Server, -11.944, 60.200, -147.505
+  lines:
+  - '&b传送至:'
+  - '&a大厅岛屿'
+birchforest-spruceforest:
+  location: Server, -30.977, 60.200, -177.501
+  lines:
+  - '&b传送至:'
+  - '&a云杉树林'
+spruceforest-birchforest:
+  location: Server, -30.979, 73.200, -199.680
+  lines:
+  - '&b传送至:'
+  - '&a桦木森林'
+spruceforest-darkoakforest:
+  location: Server, -54.996, 72.200, -246.516
+  lines:
+  - '&b传送至:'
+  - '&a深色橡木树林'
+darkoakforest-spruceforest:
+  location: Server, -54.990, 86.200, -264.501
+  lines:
+  - '&b传送至:'
+  - '&a云杉树林'
+darkoakforest-acaciaforest:
+  location: Server, -33.994, 83.200, -325.515
+  lines:
+  - '&b传送至:'
+  - '&a热带树林'
+acaciaforest-darkoakforest:
+  location: Server, -31.001, 97.200, -345.504
+  lines:
+  - '&b传送至:'
+  - '&a深色橡木树林'
+acaciaforest-jungleforest:
+  location: Server, -31.989, 95.200, -395.530
+  lines:
+  - '&b传送至:'
+  - '&a丛林树林'
+jungleforest-acaciaforest:
+  location: Server, -33.065, 112.200, -419.490
+  lines:
+  - '&b传送至:'
+  - '&a热带树林'
+graveyard-spiders-den:
+  location: Server, 172.500, 61.200, -39.500
+  lines:
+  - '&b传送至:'
+  - '&a蜘蛛巢穴'
+  - '&c需要 战斗等级 I'
+spiders-den-graveyard:
+  location: Server, 232.500, 62.200, -38.500
+  lines:
+  - '&b传送至:'
+  - '&a墓地'
+mine-deep-caverns:
+  location: Server, 130.997, 80.200, 237.513
+  lines:
+  - '&b传送至:'
+  - '&a深层矿洞'
+  - '&c需要 挖矿等级 I'
+deep-caverns-mine:
+  location: Server, 134.949, 110.200, 320.492
+  lines:
+  - '&b传送至:'
+  - '&a煤炭矿区'
+spiders-den-nether:
+  location: Server, 436.485, 163.200, -32.049
+  lines:
+  - '&b传送至:'
+  - '&a烈焰堡垒'
+  - '&c需要 战斗等级 V'
+nether-spiders-den:
+  location: Server, 591.506, 79.200, -54.013
+  lines:
+  - '&b传送至:'
+  - '&a蜘蛛巢穴'

@@ -1,0 +1,5273 @@
+commands:
+  Carpentry:
+    '0':
+    - eco give %player% 100
+    '1':
+    - eco give %player% 100
+    '2':
+    - eco give %player% 100
+    '3':
+    - eco give %player% 100
+    '4':
+    - eco give %player% 100
+    '5':
+    - eco give %player% 100
+    '6':
+    - eco give %player% 100
+    '7':
+    - eco give %player% 100
+    '8':
+    - eco give %player% 100
+    '9':
+    - eco give %player% 100
+    '10':
+    - eco give %player% 100
+    '11':
+    - eco give %player% 100
+    '12':
+    - eco give %player% 100
+    '13':
+    - eco give %player% 100
+    '14':
+    - eco give %player% 100
+    '15':
+    - eco give %player% 100
+    '16':
+    - eco give %player% 100
+    '17':
+    - eco give %player% 100
+    '18':
+    - eco give %player% 100
+    '19':
+    - eco give %player% 100
+    '20':
+    - eco give %player% 100
+    '21':
+    - eco give %player% 100
+    '22':
+    - eco give %player% 100
+    '23':
+    - eco give %player% 100
+    '24':
+    - eco give %player% 100
+    '25':
+    - eco give %player% 100
+    '26':
+    - eco give %player% 100
+    '27':
+    - eco give %player% 100
+    '28':
+    - eco give %player% 100
+    '29':
+    - eco give %player% 100
+    '30':
+    - eco give %player% 100
+    '31':
+    - eco give %player% 100
+    '32':
+    - eco give %player% 100
+    '33':
+    - eco give %player% 100
+    '34':
+    - eco give %player% 100
+    '35':
+    - eco give %player% 100
+    '36':
+    - eco give %player% 100
+    '37':
+    - eco give %player% 100
+    '38':
+    - eco give %player% 100
+    '39':
+    - eco give %player% 100
+    '40':
+    - eco give %player% 100
+    '41':
+    - eco give %player% 100
+    '42':
+    - eco give %player% 100
+    '43':
+    - eco give %player% 100
+    '44':
+    - eco give %player% 100
+    '45':
+    - eco give %player% 100
+    '46':
+    - eco give %player% 100
+    '47':
+    - eco give %player% 100
+    '48':
+    - eco give %player% 100
+    '49':
+    - eco give %player% 100
+    '50':
+    - eco give %player% 100
+  Social:
+    '0':
+    - eco give %player% 100
+    '1':
+    - eco give %player% 100
+    '2':
+    - eco give %player% 100
+    '3':
+    - eco give %player% 100
+    '4':
+    - eco give %player% 100
+    '5':
+    - eco give %player% 100
+    '6':
+    - eco give %player% 100
+    '7':
+    - eco give %player% 100
+    '8':
+    - eco give %player% 100
+    '9':
+    - eco give %player% 100
+    '10':
+    - eco give %player% 100
+    '11':
+    - eco give %player% 100
+    '12':
+    - eco give %player% 100
+    '13':
+    - eco give %player% 100
+    '14':
+    - eco give %player% 100
+    '15':
+    - eco give %player% 100
+    '16':
+    - eco give %player% 100
+    '17':
+    - eco give %player% 100
+    '18':
+    - eco give %player% 100
+    '19':
+    - eco give %player% 100
+    '20':
+    - eco give %player% 100
+    '21':
+    - eco give %player% 100
+    '22':
+    - eco give %player% 100
+    '23':
+    - eco give %player% 100
+    '24':
+    - eco give %player% 100
+    '25':
+    - eco give %player% 100
+    '26':
+    - eco give %player% 100
+    '27':
+    - eco give %player% 100
+    '28':
+    - eco give %player% 100
+    '29':
+    - eco give %player% 100
+    '30':
+    - eco give %player% 100
+    '31':
+    - eco give %player% 100
+    '32':
+    - eco give %player% 100
+    '33':
+    - eco give %player% 100
+    '34':
+    - eco give %player% 100
+    '35':
+    - eco give %player% 100
+    '36':
+    - eco give %player% 100
+    '37':
+    - eco give %player% 100
+    '38':
+    - eco give %player% 100
+    '39':
+    - eco give %player% 100
+    '40':
+    - eco give %player% 100
+    '41':
+    - eco give %player% 100
+    '42':
+    - eco give %player% 100
+    '43':
+    - eco give %player% 100
+    '44':
+    - eco give %player% 100
+    '45':
+    - eco give %player% 100
+    '46':
+    - eco give %player% 100
+    '47':
+    - eco give %player% 100
+    '48':
+    - eco give %player% 100
+    '49':
+    - eco give %player% 100
+    '50':
+    - eco give %player% 100
+  Farming:
+    '0':
+    - skills addperk %player% Crop_Chance 4.0
+    - skills addability %player% Health 1.0
+    - lp user %player% permission set access.farm true
+    - eco give %player% 25
+    '1':
+    - skills addperk %player% Crop_Chance 4.0
+    - skills addability %player% Health 1.0
+    - eco give %player% 50
+    '2':
+    - skills addperk %player% Crop_Chance 4.0
+    - skills addability %player% Health 1.0
+    - eco give %player% 100
+    '3':
+    - skills addperk %player% Crop_Chance 4.0
+    - skills addability %player% Health 1.0
+    - eco give %player% 200
+    '4':
+    - skills addperk %player% Crop_Chance 4.0
+    - skills addability %player% Health 1.0
+    - eco give %player% 300
+    '5':
+    - skills addperk %player% Crop_Chance 4.0
+    - skills addability %player% Health 1.0
+    - eco give %player% 400
+    '6':
+    - skills addperk %player% Crop_Chance 4.0
+    - skills addability %player% Health 1.0
+    - eco give %player% 500
+    '7':
+    - skills addperk %player% Crop_Chance 4.0
+    - skills addability %player% Health 1.0
+    - eco give %player% 600
+    '8':
+    - skills addperk %player% Crop_Chance 4.0
+    - skills addability %player% Health 1.0
+    - eco give %player% 700
+    '9':
+    - skills addperk %player% Crop_Chance 4.0
+    - skills addability %player% Health 1.0
+    - eco give %player% 800
+    '10':
+    - skills addperk %player% Crop_Chance 4.0
+    - skills addability %player% Health 1.0
+    - eco give %player% 900
+    '11':
+    - skills addperk %player% Crop_Chance 4.0
+    - skills addability %player% Health 1.0
+    - eco give %player% 1000
+    '12':
+    - skills addperk %player% Crop_Chance 4.0
+    - skills addability %player% Health 1.0
+    - eco give %player% 1100
+    '13':
+    - skills addperk %player% Crop_Chance 4.0
+    - skills addability %player% Health 1.0
+    - eco give %player% 1200
+    '14':
+    - skills addperk %player% Crop_Chance 4.0
+    - skills addability %player% Health 3.0
+    - eco give %player% 1300
+    '15':
+    - skills addperk %player% Crop_Chance 4.0
+    - skills addability %player% Health 3.0
+    - eco give %player% 1400
+    '16':
+    - skills addperk %player% Crop_Chance 4.0
+    - skills addability %player% Health 3.0
+    - eco give %player% 1500
+    '17':
+    - skills addperk %player% Crop_Chance 4.0
+    - skills addability %player% Health 3.0
+    - eco give %player% 1600
+    '18':
+    - skills addperk %player% Crop_Chance 4.0
+    - skills addability %player% Health 3.0
+    - eco give %player% 1800
+    '19':
+    - skills addperk %player% Crop_Chance 4.0
+    - skills addability %player% Health 4.0
+    - eco give %player% 2000
+    '20':
+    - skills addperk %player% Crop_Chance 4.0
+    - skills addability %player% Health 4.0
+    - eco give %player% 2200
+    '21':
+    - skills addperk %player% Crop_Chance 4.0
+    - skills addability %player% Health 4.0
+    - eco give %player% 2400
+    '22':
+    - skills addperk %player% Crop_Chance 4.0
+    - skills addability %player% Health 4.0
+    - eco give %player% 2600
+    '23':
+    - skills addperk %player% Crop_Chance 4.0
+    - skills addability %player% Health 4.0
+    - eco give %player% 2800
+    '24':
+    - skills addperk %player% Crop_Chance 4.0
+    - skills addability %player% Health 4.0
+    - eco give %player% 3000
+    '25':
+    - skills addperk %player% Crop_Chance 1.0
+    - skills addability %player% Health 0.4
+    - eco give %player% 100
+    '26':
+    - skills addperk %player% Crop_Chance 1.0
+    - skills addability %player% Health 0.4
+    - eco give %player% 100
+    '27':
+    - skills addperk %player% Crop_Chance 1.0
+    - skills addability %player% Health 0.4
+    - eco give %player% 100
+    '28':
+    - skills addperk %player% Crop_Chance 1.0
+    - skills addability %player% Health 0.4
+    - eco give %player% 100
+    '29':
+    - skills addperk %player% Crop_Chance 1.0
+    - skills addability %player% Health 0.4
+    - eco give %player% 100
+    '30':
+    - skills addperk %player% Crop_Chance 1.0
+    - skills addability %player% Health 0.4
+    - eco give %player% 100
+    '31':
+    - skills addperk %player% Crop_Chance 1.0
+    - skills addability %player% Health 0.4
+    - eco give %player% 100
+    '32':
+    - skills addperk %player% Crop_Chance 1.0
+    - skills addability %player% Health 0.4
+    - eco give %player% 100
+    '33':
+    - skills addperk %player% Crop_Chance 1.0
+    - skills addability %player% Health 0.4
+    - eco give %player% 100
+    '34':
+    - skills addperk %player% Crop_Chance 1.0
+    - skills addability %player% Health 0.4
+    - eco give %player% 100
+    '35':
+    - skills addperk %player% Crop_Chance 1.0
+    - skills addability %player% Health 0.4
+    - eco give %player% 100
+    '36':
+    - skills addperk %player% Crop_Chance 1.0
+    - skills addability %player% Health 0.4
+    - eco give %player% 100
+    '37':
+    - skills addperk %player% Crop_Chance 1.0
+    - skills addability %player% Health 0.4
+    - eco give %player% 100
+    '38':
+    - skills addperk %player% Crop_Chance 1.0
+    - skills addability %player% Health 0.4
+    - eco give %player% 100
+    '39':
+    - skills addperk %player% Crop_Chance 1.0
+    - skills addability %player% Health 0.4
+    - eco give %player% 100
+    '40':
+    - skills addperk %player% Crop_Chance 1.0
+    - skills addability %player% Health 0.4
+    - eco give %player% 100
+    '41':
+    - skills addperk %player% Crop_Chance 1.0
+    - skills addability %player% Health 0.4
+    - eco give %player% 100
+    '42':
+    - skills addperk %player% Crop_Chance 1.0
+    - skills addability %player% Health 0.4
+    - eco give %player% 100
+    '43':
+    - skills addperk %player% Crop_Chance 1.0
+    - skills addability %player% Health 0.4
+    - eco give %player% 100
+    '44':
+    - skills addperk %player% Crop_Chance 1.0
+    - skills addability %player% Health 0.4
+    - eco give %player% 100
+    '45':
+    - skills addperk %player% Crop_Chance 1.0
+    - skills addability %player% Health 0.4
+    - eco give %player% 100
+    '46':
+    - skills addperk %player% Crop_Chance 1.0
+    - skills addability %player% Health 0.4
+    - eco give %player% 100
+    '47':
+    - skills addperk %player% Crop_Chance 1.0
+    - skills addability %player% Health 0.4
+    - eco give %player% 100
+    '48':
+    - skills addperk %player% Crop_Chance 1.0
+    - skills addability %player% Health 0.4
+    - eco give %player% 100
+    '49':
+    - skills addperk %player% Crop_Chance 1.0
+    - skills addability %player% Health 0.4
+    - eco give %player% 100
+    '50':
+    - skills addperk %player% Crop_Chance 1.0
+    - skills addability %player% Health 0.4
+    - eco give %player% 100
+  Mining:
+    '0':
+    - skills addperk %player% Ore_Chance 4.0
+    - skills addability %player% Defense 1.0
+    - lp user %player% permission set access.deep-caverns true
+    - eco give %player% 25
+    '1':
+    - skills addperk %player% Ore_Chance 4.0
+    - skills addability %player% Defense 1.0
+    - eco give %player% 50
+    '2':
+    - skills addperk %player% Ore_Chance 4.0
+    - skills addability %player% Defense 1.0
+    - eco give %player% 100
+    '3':
+    - skills addperk %player% Ore_Chance 4.0
+    - skills addability %player% Defense 1.0
+    - eco give %player% 200
+    '4':
+    - skills addperk %player% Ore_Chance 4.0
+    - skills addability %player% Defense 1.0
+    - eco give %player% 300
+    '5':
+    - skills addperk %player% Ore_Chance 4.0
+    - skills addability %player% Defense 1.0
+    - eco give %player% 400
+    '6':
+    - skills addperk %player% Ore_Chance 4.0
+    - skills addability %player% Defense 1.0
+    - eco give %player% 500
+    '7':
+    - skills addperk %player% Ore_Chance 4.0
+    - skills addability %player% Defense 1.0
+    - eco give %player% 600
+    '8':
+    - skills addperk %player% Ore_Chance 4.0
+    - skills addability %player% Defense 1.0
+    - eco give %player% 700
+    '9':
+    - skills addperk %player% Ore_Chance 4.0
+    - skills addability %player% Defense 1.0
+    - eco give %player% 800
+    '10':
+    - skills addperk %player% Ore_Chance 4.0
+    - skills addability %player% Defense 1.0
+    - eco give %player% 900
+    '11':
+    - skills addperk %player% Ore_Chance 4.0
+    - skills addability %player% Defense 1.0
+    - eco give %player% 1000
+    '12':
+    - skills addperk %player% Ore_Chance 4.0
+    - skills addability %player% Defense 1.0
+    - eco give %player% 1100
+    '13':
+    - skills addperk %player% Ore_Chance 4.0
+    - skills addability %player% Defense 1.0
+    - eco give %player% 1200
+    '14':
+    - skills addperk %player% Ore_Chance 4.0
+    - skills addability %player% Defense 2.0
+    - eco give %player% 1300
+    '15':
+    - skills addperk %player% Ore_Chance 4.0
+    - skills addability %player% Defense 2.0
+    - eco give %player% 1400
+    '16':
+    - skills addperk %player% Ore_Chance 4.0
+    - skills addability %player% Defense 2.0
+    - eco give %player% 1500
+    '17':
+    - skills addperk %player% Ore_Chance 4.0
+    - skills addability %player% Defense 2.0
+    - eco give %player% 1600
+    '18':
+    - skills addperk %player% Ore_Chance 4.0
+    - skills addability %player% Defense 2.0
+    - eco give %player% 1800
+    '19':
+    - skills addperk %player% Ore_Chance 4.0
+    - skills addability %player% Defense 2.0
+    - eco give %player% 2000
+    '20':
+    - skills addperk %player% Ore_Chance 4.0
+    - skills addability %player% Defense 2.0
+    - eco give %player% 2200
+    '21':
+    - skills addperk %player% Ore_Chance 4.0
+    - skills addability %player% Defense 2.0
+    - eco give %player% 2400
+    '22':
+    - skills addperk %player% Ore_Chance 4.0
+    - skills addability %player% Defense 2.0
+    - eco give %player% 2600
+    '23':
+    - skills addperk %player% Ore_Chance 4.0
+    - skills addability %player% Defense 2.0
+    - eco give %player% 2800
+    '24':
+    - skills addperk %player% Ore_Chance 4.0
+    - skills addability %player% Defense 2.0
+    - eco give %player% 3000
+    '25':
+    - skills addperk %player% Ore_Chance 1.0
+    - skills addability %player% Defense 4.0
+    - eco give %player% 100
+    '26':
+    - skills addperk %player% Ore_Chance 1.0
+    - skills addability %player% Defense 4.0
+    - eco give %player% 100
+    '27':
+    - skills addperk %player% Ore_Chance 1.0
+    - skills addability %player% Defense 4.0
+    - eco give %player% 100
+    '28':
+    - skills addperk %player% Ore_Chance 1.0
+    - skills addability %player% Defense 4.0
+    - eco give %player% 100
+    '29':
+    - skills addperk %player% Ore_Chance 1.0
+    - skills addability %player% Defense 4.0
+    - eco give %player% 100
+    '30':
+    - skills addperk %player% Ore_Chance 1.0
+    - skills addability %player% Defense 4.0
+    - eco give %player% 100
+    '31':
+    - skills addperk %player% Ore_Chance 1.0
+    - skills addability %player% Defense 4.0
+    - eco give %player% 100
+    '32':
+    - skills addperk %player% Ore_Chance 1.0
+    - skills addability %player% Defense 4.0
+    - eco give %player% 100
+    '33':
+    - skills addperk %player% Ore_Chance 1.0
+    - skills addability %player% Defense 4.0
+    - eco give %player% 100
+    '34':
+    - skills addperk %player% Ore_Chance 1.0
+    - skills addability %player% Defense 4.0
+    - eco give %player% 100
+    '35':
+    - skills addperk %player% Ore_Chance 1.0
+    - skills addability %player% Defense 4.0
+    - eco give %player% 100
+    '36':
+    - skills addperk %player% Ore_Chance 1.0
+    - skills addability %player% Defense 4.0
+    - eco give %player% 100
+    '37':
+    - skills addperk %player% Ore_Chance 1.0
+    - skills addability %player% Defense 4.0
+    - eco give %player% 100
+    '38':
+    - skills addperk %player% Ore_Chance 1.0
+    - skills addability %player% Defense 4.0
+    - eco give %player% 100
+    '39':
+    - skills addperk %player% Ore_Chance 1.0
+    - skills addability %player% Defense 4.0
+    - eco give %player% 100
+    '40':
+    - skills addperk %player% Ore_Chance 1.0
+    - skills addability %player% Defense 4.0
+    - eco give %player% 100
+    '41':
+    - skills addperk %player% Ore_Chance 1.0
+    - skills addability %player% Defense 4.0
+    - eco give %player% 100
+    '42':
+    - skills addperk %player% Ore_Chance 1.0
+    - skills addability %player% Defense 4.0
+    - eco give %player% 100
+    '43':
+    - skills addperk %player% Ore_Chance 1.0
+    - skills addability %player% Defense 4.0
+    - eco give %player% 100
+    '44':
+    - skills addperk %player% Ore_Chance 1.0
+    - skills addability %player% Defense 4.0
+    - eco give %player% 100
+    '45':
+    - skills addperk %player% Ore_Chance 1.0
+    - skills addability %player% Defense 4.0
+    - eco give %player% 100
+    '46':
+    - skills addperk %player% Ore_Chance 1.0
+    - skills addability %player% Defense 4.0
+    - eco give %player% 100
+    '47':
+    - skills addperk %player% Ore_Chance 1.0
+    - skills addability %player% Defense 4.0
+    - eco give %player% 100
+    '48':
+    - skills addperk %player% Ore_Chance 1.0
+    - skills addability %player% Defense 4.0
+    - eco give %player% 100
+    '49':
+    - skills addperk %player% Ore_Chance 1.0
+    - skills addability %player% Defense 4.0
+    - eco give %player% 100
+    '50':
+    - skills addperk %player% Ore_Chance 1.0
+    - skills addability %player% Defense 4.0
+    - eco give %player% 100
+  Taming:
+    '0':
+    - skills addperk %player% Pet_Exp 1.0
+    - skills addability %player% Pet_Luck 1.0
+    - eco give %player% 25
+    '1':
+    - skills addperk %player% Pet_Exp 1.0
+    - skills addability %player% Pet_Luck 1.0
+    - eco give %player% 50
+    '2':
+    - skills addperk %player% Pet_Exp 1.0
+    - skills addability %player% Pet_Luck 1.0
+    - eco give %player% 100
+    '3':
+    - skills addperk %player% Pet_Exp 1.0
+    - skills addability %player% Pet_Luck 1.0
+    - eco give %player% 200
+    '4':
+    - skills addperk %player% Pet_Exp 1.0
+    - skills addability %player% Pet_Luck 1.0
+    - eco give %player% 300
+    '5':
+    - skills addperk %player% Pet_Exp 1.0
+    - skills addability %player% Pet_Luck 1.0
+    - eco give %player% 400
+    '6':
+    - skills addperk %player% Pet_Exp 1.0
+    - skills addability %player% Pet_Luck 1.0
+    - eco give %player% 500
+    '7':
+    - skills addperk %player% Pet_Exp 1.0
+    - skills addability %player% Pet_Luck 1.0
+    - eco give %player% 600
+    '8':
+    - skills addperk %player% Pet_Exp 1.0
+    - skills addability %player% Pet_Luck 1.0
+    - eco give %player% 700
+    '9':
+    - skills addperk %player% Pet_Exp 1.0
+    - skills addability %player% Pet_Luck 1.0
+    - eco give %player% 800
+    '10':
+    - skills addperk %player% Pet_Exp 1.0
+    - skills addability %player% Pet_Luck 1.0
+    - eco give %player% 900
+    '11':
+    - skills addperk %player% Pet_Exp 1.0
+    - skills addability %player% Pet_Luck 1.0
+    - eco give %player% 1000
+    '12':
+    - skills addperk %player% Pet_Exp 1.0
+    - skills addability %player% Pet_Luck 1.0
+    - eco give %player% 1100
+    '13':
+    - skills addperk %player% Pet_Exp 1.0
+    - skills addability %player% Pet_Luck 1.0
+    - eco give %player% 1200
+    '14':
+    - skills addperk %player% Pet_Exp 1.0
+    - skills addability %player% Pet_Luck 1.0
+    - eco give %player% 1300
+    '15':
+    - skills addperk %player% Pet_Exp 1.0
+    - skills addability %player% Pet_Luck 1.0
+    - eco give %player% 1400
+    '16':
+    - skills addperk %player% Pet_Exp 1.0
+    - skills addability %player% Pet_Luck 1.0
+    - eco give %player% 1500
+    '17':
+    - skills addperk %player% Pet_Exp 1.0
+    - skills addability %player% Pet_Luck 1.0
+    - eco give %player% 1600
+    '18':
+    - skills addperk %player% Pet_Exp 1.0
+    - skills addability %player% Pet_Luck 1.0
+    - eco give %player% 1800
+    '19':
+    - skills addperk %player% Pet_Exp 1.0
+    - skills addability %player% Pet_Luck 1.0
+    - eco give %player% 2000
+    '20':
+    - skills addperk %player% Pet_Exp 1.0
+    - skills addability %player% Pet_Luck 1.0
+    - eco give %player% 2200
+    '21':
+    - skills addperk %player% Pet_Exp 1.0
+    - skills addability %player% Pet_Luck 1.0
+    - eco give %player% 2400
+    '22':
+    - skills addperk %player% Pet_Exp 1.0
+    - skills addability %player% Pet_Luck 1.0
+    - eco give %player% 2600
+    '23':
+    - skills addperk %player% Pet_Exp 1.0
+    - skills addability %player% Pet_Luck 1.0
+    - eco give %player% 2800
+    '24':
+    - skills addperk %player% Pet_Exp 1.0
+    - skills addability %player% Pet_Luck 1.0
+    - eco give %player% 3000
+    '25':
+    - skills addperk %player% Pet_Exp 1.0
+    - skills addability %player% Pet_Luck 1.0
+    - eco give %player% 100
+    '26':
+    - skills addperk %player% Pet_Exp 1.0
+    - skills addability %player% Pet_Luck 1.0
+    - eco give %player% 100
+    '27':
+    - skills addperk %player% Pet_Exp 1.0
+    - skills addability %player% Pet_Luck 1.0
+    - eco give %player% 100
+    '28':
+    - skills addperk %player% Pet_Exp 1.0
+    - skills addability %player% Pet_Luck 1.0
+    - eco give %player% 100
+    '29':
+    - skills addperk %player% Pet_Exp 1.0
+    - skills addability %player% Pet_Luck 1.0
+    - eco give %player% 100
+    '30':
+    - skills addperk %player% Pet_Exp 1.0
+    - skills addability %player% Pet_Luck 1.0
+    - eco give %player% 100
+    '31':
+    - skills addperk %player% Pet_Exp 1.0
+    - skills addability %player% Pet_Luck 1.0
+    - eco give %player% 100
+    '32':
+    - skills addperk %player% Pet_Exp 1.0
+    - skills addability %player% Pet_Luck 1.0
+    - eco give %player% 100
+    '33':
+    - skills addperk %player% Pet_Exp 1.0
+    - skills addability %player% Pet_Luck 1.0
+    - eco give %player% 100
+    '34':
+    - skills addperk %player% Pet_Exp 1.0
+    - skills addability %player% Pet_Luck 1.0
+    - eco give %player% 100
+    '35':
+    - skills addperk %player% Pet_Exp 1.0
+    - skills addability %player% Pet_Luck 1.0
+    - eco give %player% 100
+    '36':
+    - skills addperk %player% Pet_Exp 1.0
+    - skills addability %player% Pet_Luck 1.0
+    - eco give %player% 100
+    '37':
+    - skills addperk %player% Pet_Exp 1.0
+    - skills addability %player% Pet_Luck 1.0
+    - eco give %player% 100
+    '38':
+    - skills addperk %player% Pet_Exp 1.0
+    - skills addability %player% Pet_Luck 1.0
+    - eco give %player% 100
+    '39':
+    - skills addperk %player% Pet_Exp 1.0
+    - skills addability %player% Pet_Luck 1.0
+    - eco give %player% 100
+    '40':
+    - skills addperk %player% Pet_Exp 1.0
+    - skills addability %player% Pet_Luck 1.0
+    - eco give %player% 100
+    '41':
+    - skills addperk %player% Pet_Exp 1.0
+    - skills addability %player% Pet_Luck 1.0
+    - eco give %player% 100
+    '42':
+    - skills addperk %player% Pet_Exp 1.0
+    - skills addability %player% Pet_Luck 1.0
+    - eco give %player% 100
+    '43':
+    - skills addperk %player% Pet_Exp 1.0
+    - skills addability %player% Pet_Luck 1.0
+    - eco give %player% 100
+    '44':
+    - skills addperk %player% Pet_Exp 1.0
+    - skills addability %player% Pet_Luck 1.0
+    - eco give %player% 100
+    '45':
+    - skills addperk %player% Pet_Exp 1.0
+    - skills addability %player% Pet_Luck 1.0
+    - eco give %player% 100
+    '46':
+    - skills addperk %player% Pet_Exp 1.0
+    - skills addability %player% Pet_Luck 1.0
+    - eco give %player% 100
+    '47':
+    - skills addperk %player% Pet_Exp 1.0
+    - skills addability %player% Pet_Luck 1.0
+    - eco give %player% 100
+    '48':
+    - skills addperk %player% Pet_Exp 1.0
+    - skills addability %player% Pet_Luck 1.0
+    - eco give %player% 100
+    '49':
+    - skills addperk %player% Pet_Exp 1.0
+    - skills addability %player% Pet_Luck 1.0
+    - eco give %player% 100
+    '50':
+    - skills addperk %player% Pet_Exp 1.0
+    - skills addability %player% Pet_Luck 1.0
+    - eco give %player% 100
+  Combat:
+    '0':
+    - skills addperk %player% Mob_Chance 4.0
+    - skills addability %player% Crit_Chance 0.5
+    - lp user %player% permission set access.spiders-den true
+    - eco give %player% 25
+    '1':
+    - skills addperk %player% Mob_Chance 4.0
+    - skills addability %player% Crit_Chance 0.5
+    - eco give %player% 50
+    '2':
+    - skills addperk %player% Mob_Chance 4.0
+    - skills addability %player% Crit_Chance 0.5
+    - eco give %player% 100
+    '3':
+    - skills addperk %player% Mob_Chance 4.0
+    - skills addability %player% Crit_Chance 0.5
+    - eco give %player% 200
+    '4':
+    - skills addperk %player% Mob_Chance 4.0
+    - skills addability %player% Crit_Chance 0.5
+    - lp user %player% permission set access.blazing-fortress true
+    - eco give %player% 300
+    '5':
+    - skills addperk %player% Mob_Chance 4.0
+    - skills addability %player% Crit_Chance 0.5
+    - eco give %player% 400
+    '6':
+    - skills addperk %player% Mob_Chance 4.0
+    - skills addability %player% Crit_Chance 0.5
+    - eco give %player% 500
+    '7':
+    - skills addperk %player% Mob_Chance 4.0
+    - skills addability %player% Crit_Chance 0.5
+    - eco give %player% 600
+    '8':
+    - skills addperk %player% Mob_Chance 4.0
+    - skills addability %player% Crit_Chance 0.5
+    - eco give %player% 700
+    '9':
+    - skills addperk %player% Mob_Chance 4.0
+    - skills addability %player% Crit_Chance 0.5
+    - eco give %player% 800
+    '10':
+    - skills addperk %player% Mob_Chance 4.0
+    - skills addability %player% Crit_Chance 0.5
+    - eco give %player% 900
+    '11':
+    - skills addperk %player% Mob_Chance 4.0
+    - skills addability %player% Crit_Chance 0.5
+    - lp user %player% permission set access.the-end true
+    - eco give %player% 1000
+    '12':
+    - skills addperk %player% Mob_Chance 4.0
+    - skills addability %player% Crit_Chance 0.5
+    - eco give %player% 1100
+    '13':
+    - skills addperk %player% Mob_Chance 4.0
+    - skills addability %player% Crit_Chance 0.5
+    - eco give %player% 1200
+    '14':
+    - skills addperk %player% Mob_Chance 4.0
+    - skills addability %player% Crit_Chance 0.5
+    - eco give %player% 1300
+    '15':
+    - skills addperk %player% Mob_Chance 4.0
+    - skills addability %player% Crit_Chance 0.5
+    - eco give %player% 1400
+    '16':
+    - skills addperk %player% Mob_Chance 4.0
+    - skills addability %player% Crit_Chance 0.5
+    - eco give %player% 1500
+    '17':
+    - skills addperk %player% Mob_Chance 4.0
+    - skills addability %player% Crit_Chance 0.5
+    - eco give %player% 1600
+    '18':
+    - skills addperk %player% Mob_Chance 4.0
+    - skills addability %player% Crit_Chance 0.5
+    - eco give %player% 1800
+    '19':
+    - skills addperk %player% Mob_Chance 4.0
+    - skills addability %player% Crit_Chance 0.5
+    - eco give %player% 2000
+    '20':
+    - skills addperk %player% Mob_Chance 4.0
+    - skills addability %player% Crit_Chance 0.5
+    - eco give %player% 2200
+    '21':
+    - skills addperk %player% Mob_Chance 4.0
+    - skills addability %player% Crit_Chance 0.5
+    - eco give %player% 2400
+    '22':
+    - skills addperk %player% Mob_Chance 4.0
+    - skills addability %player% Crit_Chance 0.5
+    - eco give %player% 2600
+    '23':
+    - skills addperk %player% Mob_Chance 4.0
+    - skills addability %player% Crit_Chance 0.5
+    - eco give %player% 2800
+    '24':
+    - skills addperk %player% Mob_Chance 4.0
+    - skills addability %player% Crit_Chance 0.5
+    - eco give %player% 3000
+    '25':
+    - skills addperk %player% Mob_Chance 1.0
+    - skills addability %player% Crit_Damage 1.0
+    - eco give %player% 100
+    '26':
+    - skills addperk %player% Mob_Chance 1.0
+    - skills addability %player% Crit_Damage 1.0
+    - eco give %player% 100
+    '27':
+    - skills addperk %player% Mob_Chance 1.0
+    - skills addability %player% Crit_Damage 1.0
+    - eco give %player% 100
+    '28':
+    - skills addperk %player% Mob_Chance 1.0
+    - skills addability %player% Crit_Damage 1.0
+    - eco give %player% 100
+    '29':
+    - skills addperk %player% Mob_Chance 1.0
+    - skills addability %player% Crit_Damage 1.0
+    - eco give %player% 100
+    '30':
+    - skills addperk %player% Mob_Chance 1.0
+    - skills addability %player% Crit_Damage 1.0
+    - eco give %player% 100
+    '31':
+    - skills addperk %player% Mob_Chance 1.0
+    - skills addability %player% Crit_Damage 1.0
+    - eco give %player% 100
+    '32':
+    - skills addperk %player% Mob_Chance 1.0
+    - skills addability %player% Crit_Damage 1.0
+    - eco give %player% 100
+    '33':
+    - skills addperk %player% Mob_Chance 1.0
+    - skills addability %player% Crit_Damage 1.0
+    - eco give %player% 100
+    '34':
+    - skills addperk %player% Mob_Chance 1.0
+    - skills addability %player% Crit_Damage 1.0
+    - eco give %player% 100
+    '35':
+    - skills addperk %player% Mob_Chance 1.0
+    - skills addability %player% Crit_Damage 1.0
+    - eco give %player% 100
+    '36':
+    - skills addperk %player% Mob_Chance 1.0
+    - skills addability %player% Crit_Damage 1.0
+    - eco give %player% 100
+    '37':
+    - skills addperk %player% Mob_Chance 1.0
+    - skills addability %player% Crit_Damage 1.0
+    - eco give %player% 100
+    '38':
+    - skills addperk %player% Mob_Chance 1.0
+    - skills addability %player% Crit_Damage 1.0
+    - eco give %player% 100
+    '39':
+    - skills addperk %player% Mob_Chance 1.0
+    - skills addability %player% Crit_Damage 1.0
+    - eco give %player% 100
+    '40':
+    - skills addperk %player% Mob_Chance 1.0
+    - skills addability %player% Crit_Damage 1.0
+    - eco give %player% 100
+    '41':
+    - skills addperk %player% Mob_Chance 1.0
+    - skills addability %player% Crit_Damage 1.0
+    - eco give %player% 100
+    '42':
+    - skills addperk %player% Mob_Chance 1.0
+    - skills addability %player% Crit_Damage 1.0
+    - eco give %player% 100
+    '43':
+    - skills addperk %player% Mob_Chance 1.0
+    - skills addability %player% Crit_Damage 1.0
+    - eco give %player% 100
+    '44':
+    - skills addperk %player% Mob_Chance 1.0
+    - skills addability %player% Crit_Damage 1.0
+    - eco give %player% 100
+    '45':
+    - skills addperk %player% Mob_Chance 1.0
+    - skills addability %player% Crit_Damage 1.0
+    - eco give %player% 100
+    '46':
+    - skills addperk %player% Mob_Chance 1.0
+    - skills addability %player% Crit_Damage 1.0
+    - eco give %player% 100
+    '47':
+    - skills addperk %player% Mob_Chance 1.0
+    - skills addability %player% Crit_Damage 1.0
+    - eco give %player% 100
+    '48':
+    - skills addperk %player% Mob_Chance 1.0
+    - skills addability %player% Crit_Damage 1.0
+    - eco give %player% 100
+    '49':
+    - skills addperk %player% Mob_Chance 1.0
+    - skills addability %player% Crit_Damage 1.0
+    - eco give %player% 100
+    '50':
+    - skills addperk %player% Mob_Chance 1.0
+    - skills addability %player% Crit_Damage 1.0
+    - eco give %player% 100
+  Runecrafting:
+    '0':
+    - eco give %player% 25
+    '1':
+    - eco give %player% 25
+    '2':
+    - eco give %player% 25
+    '3':
+    - eco give %player% 25
+    '4':
+    - eco give %player% 25
+    '5':
+    - eco give %player% 25
+    '6':
+    - eco give %player% 25
+    '7':
+    - eco give %player% 25
+    '8':
+    - eco give %player% 25
+    '9':
+    - eco give %player% 25
+    '10':
+    - eco give %player% 25
+    '11':
+    - eco give %player% 25
+    '12':
+    - eco give %player% 25
+    '13':
+    - eco give %player% 25
+    '14':
+    - eco give %player% 25
+    '15':
+    - eco give %player% 25
+    '16':
+    - eco give %player% 25
+    '17':
+    - eco give %player% 25
+    '18':
+    - eco give %player% 25
+    '19':
+    - eco give %player% 25
+    '20':
+    - eco give %player% 25
+    '21':
+    - eco give %player% 25
+    '22':
+    - eco give %player% 25
+    '23':
+    - eco give %player% 25
+    '24':
+    - eco give %player% 25
+    '25':
+    - eco give %player% 100
+    '26':
+    - eco give %player% 100
+    '27':
+    - eco give %player% 100
+    '28':
+    - eco give %player% 100
+    '29':
+    - eco give %player% 100
+    '30':
+    - eco give %player% 100
+    '31':
+    - eco give %player% 100
+    '32':
+    - eco give %player% 100
+    '33':
+    - eco give %player% 100
+    '34':
+    - eco give %player% 100
+    '35':
+    - eco give %player% 100
+    '36':
+    - eco give %player% 100
+    '37':
+    - eco give %player% 100
+    '38':
+    - eco give %player% 100
+    '39':
+    - eco give %player% 100
+    '40':
+    - eco give %player% 100
+    '41':
+    - eco give %player% 100
+    '42':
+    - eco give %player% 100
+    '43':
+    - eco give %player% 100
+    '44':
+    - eco give %player% 100
+    '45':
+    - eco give %player% 100
+    '46':
+    - eco give %player% 100
+    '47':
+    - eco give %player% 100
+    '48':
+    - eco give %player% 100
+    '49':
+    - eco give %player% 100
+    '50':
+    - eco give %player% 100
+  Enchanting:
+    '0':
+    - skills addperk %player% Exp_Chance 4.0
+    - skills addability %player% Max_Intelligence 1.0
+    - eco give %player% 25
+    '1':
+    - skills addperk %player% Exp_Chance 4.0
+    - skills addability %player% Max_Intelligence 1.0
+    - eco give %player% 50
+    '2':
+    - skills addperk %player% Exp_Chance 4.0
+    - skills addability %player% Max_Intelligence 1.0
+    - eco give %player% 100
+    '3':
+    - skills addperk %player% Exp_Chance 4.0
+    - skills addability %player% Max_Intelligence 1.0
+    - eco give %player% 200
+    '4':
+    - skills addperk %player% Exp_Chance 4.0
+    - skills addability %player% Max_Intelligence 1.0
+    - eco give %player% 300
+    '5':
+    - skills addperk %player% Exp_Chance 4.0
+    - skills addability %player% Max_Intelligence 1.0
+    - eco give %player% 400
+    '6':
+    - skills addperk %player% Exp_Chance 4.0
+    - skills addability %player% Max_Intelligence 1.0
+    - eco give %player% 500
+    '7':
+    - skills addperk %player% Exp_Chance 4.0
+    - skills addability %player% Max_Intelligence 1.0
+    - eco give %player% 600
+    '8':
+    - skills addperk %player% Exp_Chance 4.0
+    - skills addability %player% Max_Intelligence 1.0
+    - eco give %player% 700
+    '9':
+    - skills addperk %player% Exp_Chance 4.0
+    - skills addability %player% Max_Intelligence 1.0
+    - eco give %player% 800
+    '10':
+    - skills addperk %player% Exp_Chance 4.0
+    - skills addability %player% Max_Intelligence 1.0
+    - eco give %player% 900
+    '11':
+    - skills addperk %player% Exp_Chance 4.0
+    - skills addability %player% Max_Intelligence 1.0
+    - eco give %player% 1000
+    '12':
+    - skills addperk %player% Exp_Chance 4.0
+    - skills addability %player% Max_Intelligence 1.0
+    - eco give %player% 1100
+    '13':
+    - skills addperk %player% Exp_Chance 4.0
+    - skills addability %player% Max_Intelligence 1.0
+    - eco give %player% 1200
+    '14':
+    - skills addperk %player% Exp_Chance 4.0
+    - skills addability %player% Max_Intelligence 2.0
+    - eco give %player% 1300
+    '15':
+    - skills addperk %player% Exp_Chance 4.0
+    - skills addability %player% Max_Intelligence 2.0
+    - eco give %player% 1400
+    '16':
+    - skills addperk %player% Exp_Chance 4.0
+    - skills addability %player% Max_Intelligence 2.0
+    - eco give %player% 1500
+    '17':
+    - skills addperk %player% Exp_Chance 4.0
+    - skills addability %player% Max_Intelligence 2.0
+    - eco give %player% 1600
+    '18':
+    - skills addperk %player% Exp_Chance 4.0
+    - skills addability %player% Max_Intelligence 2.0
+    - eco give %player% 1800
+    '19':
+    - skills addperk %player% Exp_Chance 4.0
+    - skills addability %player% Max_Intelligence 2.0
+    - eco give %player% 2000
+    '20':
+    - skills addperk %player% Exp_Chance 4.0
+    - skills addability %player% Max_Intelligence 2.0
+    - eco give %player% 2200
+    '21':
+    - skills addperk %player% Exp_Chance 4.0
+    - skills addability %player% Max_Intelligence 2.0
+    - eco give %player% 2400
+    '22':
+    - skills addperk %player% Exp_Chance 4.0
+    - skills addability %player% Max_Intelligence 2.0
+    - eco give %player% 2600
+    '23':
+    - skills addperk %player% Exp_Chance 4.0
+    - skills addability %player% Max_Intelligence 2.0
+    - eco give %player% 2800
+    '24':
+    - skills addperk %player% Exp_Chance 4.0
+    - skills addability %player% Max_Intelligence 2.0
+    - eco give %player% 3000
+    '25':
+    - skills addperk %player% Exp_Chance 1.0
+    - skills addability %player% Max_Intelligence 4.0
+    - eco give %player% 100
+    '26':
+    - skills addperk %player% Exp_Chance 1.0
+    - skills addability %player% Max_Intelligence 4.0
+    - eco give %player% 100
+    '27':
+    - skills addperk %player% Exp_Chance 1.0
+    - skills addability %player% Max_Intelligence 4.0
+    - eco give %player% 100
+    '28':
+    - skills addperk %player% Exp_Chance 1.0
+    - skills addability %player% Max_Intelligence 4.0
+    - eco give %player% 100
+    '29':
+    - skills addperk %player% Exp_Chance 1.0
+    - skills addability %player% Max_Intelligence 4.0
+    - eco give %player% 100
+    '30':
+    - skills addperk %player% Exp_Chance 1.0
+    - skills addability %player% Max_Intelligence 4.0
+    - eco give %player% 100
+    '31':
+    - skills addperk %player% Exp_Chance 1.0
+    - skills addability %player% Max_Intelligence 4.0
+    - eco give %player% 100
+    '32':
+    - skills addperk %player% Exp_Chance 1.0
+    - skills addability %player% Max_Intelligence 4.0
+    - eco give %player% 100
+    '33':
+    - skills addperk %player% Exp_Chance 1.0
+    - skills addability %player% Max_Intelligence 4.0
+    - eco give %player% 100
+    '34':
+    - skills addperk %player% Exp_Chance 1.0
+    - skills addability %player% Max_Intelligence 4.0
+    - eco give %player% 100
+    '35':
+    - skills addperk %player% Exp_Chance 1.0
+    - skills addability %player% Max_Intelligence 4.0
+    - eco give %player% 100
+    '36':
+    - skills addperk %player% Exp_Chance 1.0
+    - skills addability %player% Max_Intelligence 4.0
+    - eco give %player% 100
+    '37':
+    - skills addperk %player% Exp_Chance 1.0
+    - skills addability %player% Max_Intelligence 4.0
+    - eco give %player% 100
+    '38':
+    - skills addperk %player% Exp_Chance 1.0
+    - skills addability %player% Max_Intelligence 4.0
+    - eco give %player% 100
+    '39':
+    - skills addperk %player% Exp_Chance 1.0
+    - skills addability %player% Max_Intelligence 4.0
+    - eco give %player% 100
+    '40':
+    - skills addperk %player% Exp_Chance 1.0
+    - skills addability %player% Max_Intelligence 4.0
+    - eco give %player% 100
+    '41':
+    - skills addperk %player% Exp_Chance 1.0
+    - skills addability %player% Max_Intelligence 4.0
+    - eco give %player% 100
+    '42':
+    - skills addperk %player% Exp_Chance 1.0
+    - skills addability %player% Max_Intelligence 4.0
+    - eco give %player% 100
+    '43':
+    - skills addperk %player% Exp_Chance 1.0
+    - skills addability %player% Max_Intelligence 4.0
+    - eco give %player% 100
+    '44':
+    - skills addperk %player% Exp_Chance 1.0
+    - skills addability %player% Max_Intelligence 4.0
+    - eco give %player% 100
+    '45':
+    - skills addperk %player% Exp_Chance 1.0
+    - skills addability %player% Max_Intelligence 4.0
+    - eco give %player% 100
+    '46':
+    - skills addperk %player% Exp_Chance 1.0
+    - skills addability %player% Max_Intelligence 4.0
+    - eco give %player% 100
+    '47':
+    - skills addperk %player% Exp_Chance 1.0
+    - skills addability %player% Max_Intelligence 4.0
+    - eco give %player% 100
+    '48':
+    - skills addperk %player% Exp_Chance 1.0
+    - skills addability %player% Max_Intelligence 4.0
+    - eco give %player% 100
+    '49':
+    - skills addperk %player% Exp_Chance 1.0
+    - skills addability %player% Max_Intelligence 4.0
+    - eco give %player% 100
+    '50':
+    - skills addperk %player% Exp_Chance 1.0
+    - skills addability %player% Max_Intelligence 4.0
+    - eco give %player% 100
+  Dungeoneering:
+    '0':
+    - skills addability %player% Speed 4.0
+    - eco give %player% 100
+    '1':
+    - skills addability %player% Speed 4.0
+    - eco give %player% 100
+    '2':
+    - skills addability %player% Speed 4.0
+    - eco give %player% 100
+    '3':
+    - skills addability %player% Speed 4.0
+    - eco give %player% 100
+    '4':
+    - skills addability %player% Speed 4.0
+    - eco give %player% 100
+    '5':
+    - skills addability %player% Speed 4.0
+    - eco give %player% 100
+    '6':
+    - skills addability %player% Speed 4.0
+    - eco give %player% 100
+    '7':
+    - skills addability %player% Speed 4.0
+    - eco give %player% 100
+    '8':
+    - skills addability %player% Speed 4.0
+    - eco give %player% 100
+    '9':
+    - skills addability %player% Speed 4.0
+    - eco give %player% 100
+    '10':
+    - skills addability %player% Speed 4.0
+    - eco give %player% 100
+    '11':
+    - skills addability %player% Speed 4.0
+    - eco give %player% 100
+    '12':
+    - skills addability %player% Speed 4.0
+    - eco give %player% 100
+    '13':
+    - skills addability %player% Speed 4.0
+    - eco give %player% 100
+    '14':
+    - skills addability %player% Speed 4.0
+    - eco give %player% 100
+    '15':
+    - skills addability %player% Speed 4.0
+    - eco give %player% 100
+    '16':
+    - skills addability %player% Speed 4.0
+    - eco give %player% 100
+    '17':
+    - skills addability %player% Speed 4.0
+    - eco give %player% 100
+    '18':
+    - skills addability %player% Speed 4.0
+    - eco give %player% 100
+    '19':
+    - skills addability %player% Speed 4.0
+    - eco give %player% 100
+    '20':
+    - skills addability %player% Speed 4.0
+    - eco give %player% 100
+    '21':
+    - skills addability %player% Speed 4.0
+    - eco give %player% 100
+    '22':
+    - skills addability %player% Speed 4.0
+    - eco give %player% 100
+    '23':
+    - skills addability %player% Speed 4.0
+    - eco give %player% 100
+    '24':
+    - skills addability %player% Speed 4.0
+    - eco give %player% 100
+    '25':
+    - skills addability %player% Speed 4.0
+    - eco give %player% 100
+    '26':
+    - skills addability %player% Speed 4.0
+    - eco give %player% 100
+    '27':
+    - skills addability %player% Speed 4.0
+    - eco give %player% 100
+    '28':
+    - skills addability %player% Speed 4.0
+    - eco give %player% 100
+    '29':
+    - skills addability %player% Speed 4.0
+    - eco give %player% 100
+    '30':
+    - skills addability %player% Speed 4.0
+    - eco give %player% 100
+    '31':
+    - skills addability %player% Speed 4.0
+    - eco give %player% 100
+    '32':
+    - skills addability %player% Speed 4.0
+    - eco give %player% 100
+    '33':
+    - skills addability %player% Speed 4.0
+    - eco give %player% 100
+    '34':
+    - skills addability %player% Speed 4.0
+    - eco give %player% 100
+    '35':
+    - skills addability %player% Speed 4.0
+    - eco give %player% 100
+    '36':
+    - skills addability %player% Speed 4.0
+    - eco give %player% 100
+    '37':
+    - skills addability %player% Speed 4.0
+    - eco give %player% 100
+    '38':
+    - skills addability %player% Speed 4.0
+    - eco give %player% 100
+    '39':
+    - skills addability %player% Speed 4.0
+    - eco give %player% 100
+    '40':
+    - skills addability %player% Speed 4.0
+    - eco give %player% 100
+    '41':
+    - skills addability %player% Speed 4.0
+    - eco give %player% 100
+    '42':
+    - skills addability %player% Speed 4.0
+    - eco give %player% 100
+    '43':
+    - skills addability %player% Speed 4.0
+    - eco give %player% 100
+    '44':
+    - skills addability %player% Speed 4.0
+    - eco give %player% 100
+    '45':
+    - skills addability %player% Speed 4.0
+    - eco give %player% 100
+    '46':
+    - skills addability %player% Speed 4.0
+    - eco give %player% 100
+    '47':
+    - skills addability %player% Speed 4.0
+    - eco give %player% 100
+    '48':
+    - skills addability %player% Speed 4.0
+    - eco give %player% 100
+    '49':
+    - skills addability %player% Speed 4.0
+    - eco give %player% 100
+    '50':
+    - skills addability %player% Speed 4.0
+    - eco give %player% 100
+  Foraging:
+    '0':
+    - skills addperk %player% Log_Chance 4.0
+    - skills addability %player% Strength 1.0
+    - lp user %player% permission set access.birch-forest true
+    - eco give %player% 25
+    '1':
+    - skills addperk %player% Log_Chance 4.0
+    - skills addability %player% Strength 1.0
+    - eco give %player% 50
+    '2':
+    - skills addperk %player% Log_Chance 4.0
+    - skills addability %player% Strength 1.0
+    - eco give %player% 100
+    '3':
+    - skills addperk %player% Log_Chance 4.0
+    - skills addability %player% Strength 1.0
+    - eco give %player% 200
+    '4':
+    - skills addperk %player% Log_Chance 4.0
+    - skills addability %player% Strength 1.0
+    - eco give %player% 300
+    '5':
+    - skills addperk %player% Log_Chance 4.0
+    - skills addability %player% Strength 1.0
+    - eco give %player% 400
+    '6':
+    - skills addperk %player% Log_Chance 4.0
+    - skills addability %player% Strength 1.0
+    - eco give %player% 500
+    '7':
+    - skills addperk %player% Log_Chance 4.0
+    - skills addability %player% Strength 1.0
+    - eco give %player% 600
+    '8':
+    - skills addperk %player% Log_Chance 4.0
+    - skills addability %player% Strength 1.0
+    - eco give %player% 700
+    '9':
+    - skills addperk %player% Log_Chance 4.0
+    - skills addability %player% Strength 1.0
+    - eco give %player% 800
+    '10':
+    - skills addperk %player% Log_Chance 4.0
+    - skills addability %player% Strength 1.0
+    - eco give %player% 900
+    '11':
+    - skills addperk %player% Log_Chance 4.0
+    - skills addability %player% Strength 1.0
+    - eco give %player% 1000
+    '12':
+    - skills addperk %player% Log_Chance 4.0
+    - skills addability %player% Strength 1.0
+    - eco give %player% 1100
+    '13':
+    - skills addperk %player% Log_Chance 4.0
+    - skills addability %player% Strength 1.0
+    - eco give %player% 1200
+    '14':
+    - skills addperk %player% Log_Chance 4.0
+    - skills addability %player% Strength 2.0
+    - eco give %player% 1300
+    '15':
+    - skills addperk %player% Log_Chance 4.0
+    - skills addability %player% Strength 2.0
+    - eco give %player% 1400
+    '16':
+    - skills addperk %player% Log_Chance 4.0
+    - skills addability %player% Strength 2.0
+    - eco give %player% 1500
+    '17':
+    - skills addperk %player% Log_Chance 4.0
+    - skills addability %player% Strength 2.0
+    - eco give %player% 1600
+    '18':
+    - skills addperk %player% Log_Chance 4.0
+    - skills addability %player% Strength 2.0
+    - eco give %player% 1800
+    '19':
+    - skills addperk %player% Log_Chance 4.0
+    - skills addability %player% Strength 2.0
+    - eco give %player% 2000
+    '20':
+    - skills addperk %player% Log_Chance 4.0
+    - skills addability %player% Strength 2.0
+    - eco give %player% 2200
+    '21':
+    - skills addperk %player% Log_Chance 4.0
+    - skills addability %player% Strength 2.0
+    - eco give %player% 2400
+    '22':
+    - skills addperk %player% Log_Chance 4.0
+    - skills addability %player% Strength 2.0
+    - eco give %player% 2600
+    '23':
+    - skills addperk %player% Log_Chance 4.0
+    - skills addability %player% Strength 2.0
+    - eco give %player% 2800
+    '24':
+    - skills addperk %player% Log_Chance 4.0
+    - skills addability %player% Strength 2.0
+    - eco give %player% 3000
+    '25':
+    - skills addperk %player% Log_Chance 1.0
+    - skills addability %player% Strength 0.4
+    - eco give %player% 100
+    '26':
+    - skills addperk %player% Log_Chance 1.0
+    - skills addability %player% Strength 0.4
+    - eco give %player% 100
+    '27':
+    - skills addperk %player% Log_Chance 1.0
+    - skills addability %player% Strength 0.4
+    - eco give %player% 100
+    '28':
+    - skills addperk %player% Log_Chance 1.0
+    - skills addability %player% Strength 0.4
+    - eco give %player% 100
+    '29':
+    - skills addperk %player% Log_Chance 1.0
+    - skills addability %player% Strength 0.4
+    - eco give %player% 100
+    '30':
+    - skills addperk %player% Log_Chance 1.0
+    - skills addability %player% Strength 0.4
+    - eco give %player% 100
+    '31':
+    - skills addperk %player% Log_Chance 1.0
+    - skills addability %player% Strength 0.4
+    - eco give %player% 100
+    '32':
+    - skills addperk %player% Log_Chance 1.0
+    - skills addability %player% Strength 0.4
+    - eco give %player% 100
+    '33':
+    - skills addperk %player% Log_Chance 1.0
+    - skills addability %player% Strength 0.4
+    - eco give %player% 100
+    '34':
+    - skills addperk %player% Log_Chance 1.0
+    - skills addability %player% Strength 0.4
+    - eco give %player% 100
+    '35':
+    - skills addperk %player% Log_Chance 1.0
+    - skills addability %player% Strength 0.4
+    - eco give %player% 100
+    '36':
+    - skills addperk %player% Log_Chance 1.0
+    - skills addability %player% Strength 0.4
+    - eco give %player% 100
+    '37':
+    - skills addperk %player% Log_Chance 1.0
+    - skills addability %player% Strength 0.4
+    - eco give %player% 100
+    '38':
+    - skills addperk %player% Log_Chance 1.0
+    - skills addability %player% Strength 0.4
+    - eco give %player% 100
+    '39':
+    - skills addperk %player% Log_Chance 1.0
+    - skills addability %player% Strength 0.4
+    - eco give %player% 100
+    '40':
+    - skills addperk %player% Log_Chance 1.0
+    - skills addability %player% Strength 0.4
+    - eco give %player% 100
+    '41':
+    - skills addperk %player% Log_Chance 1.0
+    - skills addability %player% Strength 0.4
+    - eco give %player% 100
+    '42':
+    - skills addperk %player% Log_Chance 1.0
+    - skills addability %player% Strength 0.4
+    - eco give %player% 100
+    '43':
+    - skills addperk %player% Log_Chance 1.0
+    - skills addability %player% Strength 0.4
+    - eco give %player% 100
+    '44':
+    - skills addperk %player% Log_Chance 1.0
+    - skills addability %player% Strength 0.4
+    - eco give %player% 100
+    '45':
+    - skills addperk %player% Log_Chance 1.0
+    - skills addability %player% Strength 0.4
+    - eco give %player% 100
+    '46':
+    - skills addperk %player% Log_Chance 1.0
+    - skills addability %player% Strength 0.4
+    - eco give %player% 100
+    '47':
+    - skills addperk %player% Log_Chance 1.0
+    - skills addability %player% Strength 0.4
+    - eco give %player% 100
+    '48':
+    - skills addperk %player% Log_Chance 1.0
+    - skills addability %player% Strength 0.4
+    - eco give %player% 100
+    '49':
+    - skills addperk %player% Log_Chance 1.0
+    - skills addability %player% Strength 0.4
+    - eco give %player% 100
+    '50':
+    - skills addperk %player% Log_Chance 1.0
+    - skills addability %player% Strength 0.4
+    - eco give %player% 100
+  Alchemy:
+    '0':
+    - skills addperk %player% Potions_Chance 1.0
+    - skills addability %player% Max_Intelligence 1.0
+    - eco give %player% 25
+    '1':
+    - skills addperk %player% Potions_Chance 1.0
+    - skills addability %player% Max_Intelligence 1.0
+    - eco give %player% 50
+    '2':
+    - skills addperk %player% Potions_Chance 1.0
+    - skills addability %player% Max_Intelligence 1.0
+    - eco give %player% 100
+    '3':
+    - skills addperk %player% Potions_Chance 1.0
+    - skills addability %player% Max_Intelligence 1.0
+    - eco give %player% 200
+    '4':
+    - skills addperk %player% Potions_Chance 1.0
+    - skills addability %player% Max_Intelligence 1.0
+    - eco give %player% 300
+    '5':
+    - skills addperk %player% Potions_Chance 1.0
+    - skills addability %player% Max_Intelligence 1.0
+    - eco give %player% 400
+    '6':
+    - skills addperk %player% Potions_Chance 1.0
+    - skills addability %player% Max_Intelligence 1.0
+    - eco give %player% 500
+    '7':
+    - skills addperk %player% Potions_Chance 1.0
+    - skills addability %player% Max_Intelligence 1.0
+    - eco give %player% 600
+    '8':
+    - skills addperk %player% Potions_Chance 1.0
+    - skills addability %player% Max_Intelligence 1.0
+    - eco give %player% 700
+    '9':
+    - skills addperk %player% Potions_Chance 1.0
+    - skills addability %player% Max_Intelligence 1.0
+    - eco give %player% 800
+    '10':
+    - skills addperk %player% Potions_Chance 1.0
+    - skills addability %player% Max_Intelligence 1.0
+    - eco give %player% 900
+    '11':
+    - skills addperk %player% Potions_Chance 1.0
+    - skills addability %player% Max_Intelligence 1.0
+    - eco give %player% 1000
+    '12':
+    - skills addperk %player% Potions_Chance 1.0
+    - skills addability %player% Max_Intelligence 1.0
+    - eco give %player% 1100
+    '13':
+    - skills addperk %player% Potions_Chance 1.0
+    - skills addability %player% Max_Intelligence 1.0
+    - eco give %player% 1200
+    '14':
+    - skills addperk %player% Potions_Chance 1.0
+    - skills addability %player% Max_Intelligence 2.0
+    - eco give %player% 1300
+    '15':
+    - skills addperk %player% Potions_Chance 1.0
+    - skills addability %player% Max_Intelligence 2.0
+    - eco give %player% 1400
+    '16':
+    - skills addperk %player% Potions_Chance 1.0
+    - skills addability %player% Max_Intelligence 2.0
+    - eco give %player% 1500
+    '17':
+    - skills addperk %player% Potions_Chance 1.0
+    - skills addability %player% Max_Intelligence 2.0
+    - eco give %player% 1600
+    '18':
+    - skills addperk %player% Potions_Chance 1.0
+    - skills addability %player% Max_Intelligence 2.0
+    - eco give %player% 1800
+    '19':
+    - skills addperk %player% Potions_Chance 1.0
+    - skills addability %player% Max_Intelligence 2.0
+    - eco give %player% 2000
+    '20':
+    - skills addperk %player% Potions_Chance 1.0
+    - skills addability %player% Max_Intelligence 2.0
+    - eco give %player% 2200
+    '21':
+    - skills addperk %player% Potions_Chance 1.0
+    - skills addability %player% Max_Intelligence 2.0
+    - eco give %player% 2400
+    '22':
+    - skills addperk %player% Potions_Chance 1.0
+    - skills addability %player% Max_Intelligence 2.0
+    - eco give %player% 2600
+    '23':
+    - skills addperk %player% Potions_Chance 1.0
+    - skills addability %player% Max_Intelligence 2.0
+    - eco give %player% 2800
+    '24':
+    - skills addperk %player% Potions_Chance 1.0
+    - skills addability %player% Max_Intelligence 2.0
+    - eco give %player% 3000
+    '25':
+    - skills addperk %player% Potions_Chance 1.0
+    - eco give %player% 100
+    '26':
+    - skills addperk %player% Potions_Chance 1.0
+    - eco give %player% 100
+    '27':
+    - skills addperk %player% Potions_Chance 1.0
+    - eco give %player% 100
+    '28':
+    - skills addperk %player% Potions_Chance 1.0
+    - eco give %player% 100
+    '29':
+    - skills addperk %player% Potions_Chance 1.0
+    - eco give %player% 100
+    '30':
+    - skills addperk %player% Potions_Chance 1.0
+    - eco give %player% 100
+    '31':
+    - skills addperk %player% Potions_Chance 1.0
+    - eco give %player% 100
+    '32':
+    - skills addperk %player% Potions_Chance 1.0
+    - eco give %player% 100
+    '33':
+    - skills addperk %player% Potions_Chance 1.0
+    - eco give %player% 100
+    '34':
+    - skills addperk %player% Potions_Chance 1.0
+    - eco give %player% 100
+    '35':
+    - skills addperk %player% Potions_Chance 1.0
+    - eco give %player% 100
+    '36':
+    - skills addperk %player% Potions_Chance 1.0
+    - eco give %player% 100
+    '37':
+    - skills addperk %player% Potions_Chance 1.0
+    - eco give %player% 100
+    '38':
+    - skills addperk %player% Potions_Chance 1.0
+    - eco give %player% 100
+    '39':
+    - skills addperk %player% Potions_Chance 1.0
+    - eco give %player% 100
+    '40':
+    - skills addperk %player% Potions_Chance 1.0
+    - eco give %player% 100
+    '41':
+    - skills addperk %player% Potions_Chance 1.0
+    - eco give %player% 100
+    '42':
+    - skills addperk %player% Potions_Chance 1.0
+    - eco give %player% 100
+    '43':
+    - skills addperk %player% Potions_Chance 1.0
+    - eco give %player% 100
+    '44':
+    - skills addperk %player% Potions_Chance 1.0
+    - eco give %player% 100
+    '45':
+    - skills addperk %player% Potions_Chance 1.0
+    - eco give %player% 100
+    '46':
+    - skills addperk %player% Potions_Chance 1.0
+    - eco give %player% 100
+    '47':
+    - skills addperk %player% Potions_Chance 1.0
+    - eco give %player% 100
+    '48':
+    - skills addperk %player% Potions_Chance 1.0
+    - eco give %player% 100
+    '49':
+    - skills addperk %player% Potions_Chance 1.0
+    - eco give %player% 100
+    '50':
+    - skills addperk %player% Potions_Chance 1.0
+    - eco give %player% 100
+  Fishing:
+    '0':
+    - skills addperk %player% Sea_Creature_Chance 0.2
+    - skills addability %player% Health 2.0
+    - eco give %player% 25
+    '1':
+    - skills addperk %player% Sea_Creature_Chance 0.2
+    - skills addability %player% Health 2.0
+    - eco give %player% 50
+    '2':
+    - skills addperk %player% Sea_Creature_Chance 0.2
+    - skills addability %player% Health 2.0
+    - eco give %player% 100
+    '3':
+    - skills addperk %player% Sea_Creature_Chance 0.2
+    - skills addability %player% Health 2.0
+    - eco give %player% 200
+    '4':
+    - skills addperk %player% Sea_Creature_Chance 0.2
+    - skills addability %player% Health 2.0
+    - eco give %player% 300
+    '5':
+    - skills addperk %player% Sea_Creature_Chance 0.2
+    - skills addability %player% Health 2.0
+    - eco give %player% 400
+    '6':
+    - skills addperk %player% Sea_Creature_Chance 0.2
+    - skills addability %player% Health 2.0
+    - eco give %player% 500
+    '7':
+    - skills addperk %player% Sea_Creature_Chance 0.2
+    - skills addability %player% Health 2.0
+    - eco give %player% 600
+    '8':
+    - skills addperk %player% Sea_Creature_Chance 0.2
+    - skills addability %player% Health 2.0
+    - eco give %player% 700
+    '9':
+    - skills addperk %player% Sea_Creature_Chance 0.2
+    - skills addability %player% Health 2.0
+    - eco give %player% 800
+    '10':
+    - skills addperk %player% Sea_Creature_Chance 0.2
+    - skills addability %player% Health 2.0
+    - eco give %player% 900
+    '11':
+    - skills addperk %player% Sea_Creature_Chance 0.2
+    - skills addability %player% Health 2.0
+    - eco give %player% 1000
+    '12':
+    - skills addperk %player% Sea_Creature_Chance 0.2
+    - skills addability %player% Health 2.0
+    - eco give %player% 1100
+    '13':
+    - skills addperk %player% Sea_Creature_Chance 0.2
+    - skills addability %player% Health 2.0
+    - eco give %player% 1200
+    '14':
+    - skills addperk %player% Sea_Creature_Chance 0.2
+    - skills addability %player% Health 3.0
+    - eco give %player% 1300
+    '15':
+    - skills addperk %player% Sea_Creature_Chance 0.2
+    - skills addability %player% Health 3.0
+    - eco give %player% 1400
+    '16':
+    - skills addperk %player% Sea_Creature_Chance 0.2
+    - skills addability %player% Health 3.0
+    - eco give %player% 1500
+    '17':
+    - skills addperk %player% Sea_Creature_Chance 0.2
+    - skills addability %player% Health 3.0
+    - eco give %player% 1600
+    '18':
+    - skills addperk %player% Sea_Creature_Chance 0.2
+    - skills addability %player% Health 3.0
+    - eco give %player% 1800
+    '19':
+    - skills addperk %player% Sea_Creature_Chance 0.2
+    - skills addability %player% Health 3.0
+    - eco give %player% 2000
+    '20':
+    - skills addperk %player% Sea_Creature_Chance 0.2
+    - skills addability %player% Health 4.0
+    - eco give %player% 2200
+    '21':
+    - skills addperk %player% Sea_Creature_Chance 0.2
+    - skills addability %player% Health 4.0
+    - eco give %player% 2400
+    '22':
+    - skills addperk %player% Sea_Creature_Chance 0.2
+    - skills addability %player% Health 4.0
+    - eco give %player% 2600
+    '23':
+    - skills addperk %player% Sea_Creature_Chance 0.2
+    - skills addability %player% Health 4.0
+    - eco give %player% 2800
+    '24':
+    - skills addperk %player% Sea_Creature_Chance 0.2
+    - skills addability %player% Health 4.0
+    - eco give %player% 3000
+    '25':
+    - skills addperk %player% Sea_Creature_Chance 0.2
+    - skills addability %player% Health 0.4
+    - eco give %player% 100
+    '26':
+    - skills addperk %player% Sea_Creature_Chance 0.2
+    - skills addability %player% Health 0.4
+    - eco give %player% 100
+    '27':
+    - skills addperk %player% Sea_Creature_Chance 0.2
+    - skills addability %player% Health 0.4
+    - eco give %player% 100
+    '28':
+    - skills addperk %player% Sea_Creature_Chance 0.2
+    - skills addability %player% Health 0.4
+    - eco give %player% 100
+    '29':
+    - skills addperk %player% Sea_Creature_Chance 0.2
+    - skills addability %player% Health 0.4
+    - eco give %player% 100
+    '30':
+    - skills addperk %player% Sea_Creature_Chance 0.2
+    - skills addability %player% Health 0.4
+    - eco give %player% 100
+    '31':
+    - skills addperk %player% Sea_Creature_Chance 0.2
+    - skills addability %player% Health 0.4
+    - eco give %player% 100
+    '32':
+    - skills addperk %player% Sea_Creature_Chance 0.2
+    - skills addability %player% Health 0.4
+    - eco give %player% 100
+    '33':
+    - skills addperk %player% Sea_Creature_Chance 0.2
+    - skills addability %player% Health 0.4
+    - eco give %player% 100
+    '34':
+    - skills addperk %player% Sea_Creature_Chance 0.2
+    - skills addability %player% Health 0.4
+    - eco give %player% 100
+    '35':
+    - skills addperk %player% Sea_Creature_Chance 0.2
+    - skills addability %player% Health 0.4
+    - eco give %player% 100
+    '36':
+    - skills addperk %player% Sea_Creature_Chance 0.2
+    - skills addability %player% Health 0.4
+    - eco give %player% 100
+    '37':
+    - skills addperk %player% Sea_Creature_Chance 0.2
+    - skills addability %player% Health 0.4
+    - eco give %player% 100
+    '38':
+    - skills addperk %player% Sea_Creature_Chance 0.2
+    - skills addability %player% Health 0.4
+    - eco give %player% 100
+    '39':
+    - skills addperk %player% Sea_Creature_Chance 0.2
+    - skills addability %player% Health 0.4
+    - eco give %player% 100
+    '40':
+    - skills addperk %player% Sea_Creature_Chance 0.2
+    - skills addability %player% Health 0.4
+    - eco give %player% 100
+    '41':
+    - skills addperk %player% Sea_Creature_Chance 0.2
+    - skills addability %player% Health 0.4
+    - eco give %player% 100
+    '42':
+    - skills addperk %player% Sea_Creature_Chance 0.2
+    - skills addability %player% Health 0.4
+    - eco give %player% 100
+    '43':
+    - skills addperk %player% Sea_Creature_Chance 0.2
+    - skills addability %player% Health 0.4
+    - eco give %player% 100
+    '44':
+    - skills addperk %player% Sea_Creature_Chance 0.2
+    - skills addability %player% Health 0.4
+    - eco give %player% 100
+    '45':
+    - skills addperk %player% Sea_Creature_Chance 0.2
+    - skills addability %player% Health 0.4
+    - eco give %player% 100
+    '46':
+    - skills addperk %player% Sea_Creature_Chance 0.2
+    - skills addability %player% Health 0.4
+    - eco give %player% 100
+    '47':
+    - skills addperk %player% Sea_Creature_Chance 0.2
+    - skills addability %player% Health 0.4
+    - eco give %player% 100
+    '48':
+    - skills addperk %player% Sea_Creature_Chance 0.2
+    - skills addability %player% Health 0.4
+    - eco give %player% 100
+    '49':
+    - skills addperk %player% Sea_Creature_Chance 0.2
+    - skills addability %player% Health 0.4
+    - eco give %player% 100
+    '50':
+    - skills addperk %player% Sea_Creature_Chance 0.2
+    - skills addability %player% Health 0.4
+    - eco give %player% 100
+rewardPlaceholders:
+  Carpentry:
+    '0':
+    - '&c    &7New &fRecipes'
+    - '&c    &8+&6100 &7Coins'
+    '1':
+    - '&c    &7New &fRecipes'
+    - '&c    &8+&6100 &7Coins'
+    '2':
+    - '&c    &7New &fRecipes'
+    - '&c    &8+&6100 &7Coins'
+    '3':
+    - '&c    &7New &fRecipes'
+    - '&c    &8+&6100 &7Coins'
+    '4':
+    - '&c    &7New &fRecipes'
+    - '&c    &8+&6100 &7Coins'
+    '5':
+    - '&c    &7New &fRecipes'
+    - '&c    &8+&6100 &7Coins'
+    '6':
+    - '&c    &7New &fRecipes'
+    - '&c    &8+&6100 &7Coins'
+    '7':
+    - '&c    &7New &fRecipes'
+    - '&c    &8+&6100 &7Coins'
+    '8':
+    - '&c    &7New &fRecipes'
+    - '&c    &8+&6100 &7Coins'
+    '9':
+    - '&c    &7New &fRecipes'
+    - '&c    &8+&6100 &7Coins'
+    '10':
+    - '&c    &7New &fRecipes'
+    - '&c    &8+&6100 &7Coins'
+    '11':
+    - '&c    &7New &fRecipes'
+    - '&c    &8+&6100 &7Coins'
+    '12':
+    - '&c    &7New &fRecipes'
+    - '&c    &8+&6100 &7Coins'
+    '13':
+    - '&c    &7New &fRecipes'
+    - '&c    &8+&6100 &7Coins'
+    '14':
+    - '&c    &7New &fRecipes'
+    - '&c    &8+&6100 &7Coins'
+    '15':
+    - '&c    &7New &fRecipes'
+    - '&c    &8+&6100 &7Coins'
+    '16':
+    - '&c    &7New &fRecipes'
+    - '&c    &8+&6100 &7Coins'
+    '17':
+    - '&c    &7New &fRecipes'
+    - '&c    &8+&6100 &7Coins'
+    '18':
+    - '&c    &7New &fRecipes'
+    - '&c    &8+&6100 &7Coins'
+    '19':
+    - '&c    &7New &fRecipes'
+    - '&c    &8+&6100 &7Coins'
+    '20':
+    - '&c    &7New &fRecipes'
+    - '&c    &8+&6100 &7Coins'
+    '21':
+    - '&c    &7New &fRecipes'
+    - '&c    &8+&6100 &7Coins'
+    '22':
+    - '&c    &7New &fRecipes'
+    - '&c    &8+&6100 &7Coins'
+    '23':
+    - '&c    &7New &fRecipes'
+    - '&c    &8+&6100 &7Coins'
+    '24':
+    - '&c    &7New &fRecipes'
+    - '&c    &8+&6100 &7Coins'
+    '25':
+    - '&c    &7New &fRecipes'
+    - '&c    &8+&6100 &7Coins'
+    '26':
+    - '&c    &7New &fRecipes'
+    - '&c    &8+&6100 &7Coins'
+    '27':
+    - '&c    &7New &fRecipes'
+    - '&c    &8+&6100 &7Coins'
+    '28':
+    - '&c    &7New &fRecipes'
+    - '&c    &8+&6100 &7Coins'
+    '29':
+    - '&c    &7New &fRecipes'
+    - '&c    &8+&6100 &7Coins'
+    '30':
+    - '&c    &7New &fRecipes'
+    - '&c    &8+&6100 &7Coins'
+    '31':
+    - '&c    &7New &fRecipes'
+    - '&c    &8+&6100 &7Coins'
+    '32':
+    - '&c    &7New &fRecipes'
+    - '&c    &8+&6100 &7Coins'
+    '33':
+    - '&c    &7New &fRecipes'
+    - '&c    &8+&6100 &7Coins'
+    '34':
+    - '&c    &7New &fRecipes'
+    - '&c    &8+&6100 &7Coins'
+    '35':
+    - '&c    &7New &fRecipes'
+    - '&c    &8+&6100 &7Coins'
+    '36':
+    - '&c    &7New &fRecipes'
+    - '&c    &8+&6100 &7Coins'
+    '37':
+    - '&c    &7New &fRecipes'
+    - '&c    &8+&6100 &7Coins'
+    '38':
+    - '&c    &7New &fRecipes'
+    - '&c    &8+&6100 &7Coins'
+    '39':
+    - '&c    &7New &fRecipes'
+    - '&c    &8+&6100 &7Coins'
+    '40':
+    - '&c    &7New &fRecipes'
+    - '&c    &8+&6100 &7Coins'
+    '41':
+    - '&c    &7New &fRecipes'
+    - '&c    &8+&6100 &7Coins'
+    '42':
+    - '&c    &7New &fRecipes'
+    - '&c    &8+&6100 &7Coins'
+    '43':
+    - '&c    &7New &fRecipes'
+    - '&c    &8+&6100 &7Coins'
+    '44':
+    - '&c    &7New &fRecipes'
+    - '&c    &8+&6100 &7Coins'
+    '45':
+    - '&c    &7New &fRecipes'
+    - '&c    &8+&6100 &7Coins'
+    '46':
+    - '&c    &7New &fRecipes'
+    - '&c    &8+&6100 &7Coins'
+    '47':
+    - '&c    &7New &fRecipes'
+    - '&c    &8+&6100 &7Coins'
+    '48':
+    - '&c    &7New &fRecipes'
+    - '&c    &8+&6100 &7Coins'
+    '49':
+    - '&c    &7New &fRecipes'
+    - '&c    &8+&6100 &7Coins'
+    '50':
+    - '&c    &7New &fRecipes'
+    - '&c    &8+&6100 &7Coins'
+  Social:
+    '0':
+    - '&dCooming Soon'
+    '1':
+    - '&dCooming Soon'
+    '2':
+    - '&dCooming Soon'
+    '3':
+    - '&dCooming Soon'
+    '4':
+    - '&dCooming Soon'
+    '5':
+    - '&dCooming Soon'
+    '6':
+    - '&dCooming Soon'
+    '7':
+    - '&dCooming Soon'
+    '8':
+    - '&dCooming Soon'
+    '9':
+    - '&dCooming Soon'
+    '10':
+    - '&dCooming Soon'
+    '11':
+    - '&dCooming Soon'
+    '12':
+    - '&dCooming Soon'
+    '13':
+    - '&dCooming Soon'
+    '14':
+    - '&dCooming Soon'
+    '15':
+    - '&dCooming Soon'
+    '16':
+    - '&dCooming Soon'
+    '17':
+    - '&dCooming Soon'
+    '18':
+    - '&dCooming Soon'
+    '19':
+    - '&dCooming Soon'
+    '20':
+    - '&dCooming Soon'
+    '21':
+    - '&dCooming Soon'
+    '22':
+    - '&dCooming Soon'
+    '23':
+    - '&dCooming Soon'
+    '24':
+    - '&dCooming Soon'
+    '25':
+    - '&dCooming Soon'
+    '26':
+    - '&dCooming Soon'
+    '27':
+    - '&dCooming Soon'
+    '28':
+    - '&dCooming Soon'
+    '29':
+    - '&dCooming Soon'
+    '30':
+    - '&dCooming Soon'
+    '31':
+    - '&dCooming Soon'
+    '32':
+    - '&dCooming Soon'
+    '33':
+    - '&dCooming Soon'
+    '34':
+    - '&dCooming Soon'
+    '35':
+    - '&dCooming Soon'
+    '36':
+    - '&dCooming Soon'
+    '37':
+    - '&dCooming Soon'
+    '38':
+    - '&dCooming Soon'
+    '39':
+    - '&dCooming Soon'
+    '40':
+    - '&dCooming Soon'
+    '41':
+    - '&dCooming Soon'
+    '42':
+    - '&dCooming Soon'
+    '43':
+    - '&dCooming Soon'
+    '44':
+    - '&dCooming Soon'
+    '45':
+    - '&dCooming Soon'
+    '46':
+    - '&dCooming Soon'
+    '47':
+    - '&dCooming Soon'
+    '48':
+    - '&dCooming Soon'
+    '49':
+    - '&dCooming Soon'
+    '50':
+    - '&dCooming Soon'
+  Farming:
+    '25':
+    - '&e   Farmhand %next_level%:'
+    - '&c     &825.0➜&a26.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '26':
+    - '&e   Farmhand %next_level%:'
+    - '&c     &826.0➜&a27.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '27':
+    - '&e   Farmhand %next_level%:'
+    - '&c     &827.0➜&a28.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '28':
+    - '&e   Farmhand %next_level%:'
+    - '&c     &828.0➜&a29.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '29':
+    - '&e   Farmhand %next_level%:'
+    - '&c     &829.0➜&a30.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '30':
+    - '&e   Farmhand %next_level%:'
+    - '&c     &830.0➜&a31.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '31':
+    - '&e   Farmhand %next_level%:'
+    - '&c     &831.0➜&a32.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '32':
+    - '&e   Farmhand %next_level%:'
+    - '&c     &832.0➜&a33.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '33':
+    - '&e   Farmhand %next_level%:'
+    - '&c     &833.0➜&a34.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '34':
+    - '&e   Farmhand %next_level%:'
+    - '&c     &834.0➜&a35.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '35':
+    - '&e   Farmhand %next_level%:'
+    - '&c     &835.0➜&a36.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '36':
+    - '&e   Farmhand %next_level%:'
+    - '&c     &836.0➜&a37.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '37':
+    - '&e   Farmhand %next_level%:'
+    - '&c     &837.0➜&a38.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '38':
+    - '&e   Farmhand %next_level%:'
+    - '&c     &838.0➜&a39.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '39':
+    - '&e   Farmhand %next_level%:'
+    - '&c     &839.0➜&a40.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '40':
+    - '&e   Farmhand %next_level%:'
+    - '&c     &840.0➜&a41.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '41':
+    - '&e   Farmhand %next_level%:'
+    - '&c     &841.0➜&a42.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '42':
+    - '&e   Farmhand %next_level%:'
+    - '&c     &842.0➜&a43.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '43':
+    - '&e   Farmhand %next_level%:'
+    - '&c     &843.0➜&a44.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '44':
+    - '&e   Farmhand %next_level%:'
+    - '&c     &844.0➜&a45.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '45':
+    - '&e   Farmhand %next_level%:'
+    - '&c     &845.0➜&a46.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '46':
+    - '&e   Farmhand %next_level%:'
+    - '&c     &846.0➜&a47.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '47':
+    - '&e   Farmhand %next_level%:'
+    - '&c     &847.0➜&a48.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '48':
+    - '&e   Farmhand %next_level%:'
+    - '&c     &848.0➜&a49.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '49':
+    - '&e   Farmhand %next_level%:'
+    - '&c     &849.0➜&a50.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '50':
+    - '&e   Farmhand %next_level%:'
+    - '&c     &850.0➜&a51.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '0':
+    - '&e  Farmhand %next_level%'
+    - '   &fGrants &a+4 &6☘ Farming'
+    - '   &6Fortune&5, which increases your'
+    - '   &5chance for multiple crops.'
+    - ' &8+&a2 HP &c❤ Health'
+    - '  &aAccess to &bThe Farm Island'
+    - ' &8+&625 &7Coins'
+    '1':
+    - '&e  Farmhand %next_level%'
+    - '   &fGrants &a+&84➜&a8 &6☘'
+    - '   &6Farming Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple crops.'
+    - ' &8+&a2 HP &c❤ Health'
+    - ' &8+&650 &7Coins'
+    '2':
+    - '&e  Farmhand %next_level%'
+    - '   &fGrants &a+&84➜&a12 &6☘'
+    - '   &6Farming Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple crops.'
+    - ' &8+&a2 HP &c❤ Health'
+    - ' &8+&6100 &7Coins'
+    '3':
+    - '&e  Farmhand %next_level%'
+    - '   &fGrants &a+&812➜&a16 &6☘'
+    - '   &6Farming Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple crops.'
+    - ' &8+&a2 HP &c❤ Health'
+    - ' &8+&6200 &7Coins'
+    '4':
+    - '&e  Farmhand %next_level%'
+    - '   &fGrants &a+&816➜&a20 &6☘'
+    - '   &6Farming Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple crops.'
+    - ' &8+&a2 HP &c❤ Health'
+    - ' &8+&6300 &7Coins'
+    '5':
+    - '&e  Farmhand %next_level%'
+    - '   &fGrants &a+&820➜&a24 &6☘'
+    - '   &6Farming Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple crops.'
+    - ' &8+&a2 HP &c❤ Health'
+    - ' &8+&6400 &7Coins'
+    '6':
+    - '&e  Farmhand %next_level%'
+    - '   &fGrants &a+&824➜&a28 &6☘'
+    - '   &6Farming Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple crops.'
+    - ' &8+&a2 HP &c❤ Health'
+    - ' &8+&6500 &7Coins'
+    '7':
+    - '&e  Farmhand %next_level%'
+    - '   &fGrants &a+&828➜&a32 &6☘'
+    - '   &6Farming Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple crops.'
+    - ' &8+&a2 HP &c❤ Health'
+    - ' &8+&6600 &7Coins'
+    '8':
+    - '&e  Farmhand %next_level%'
+    - '   &fGrants &a+&832➜&a36 &6☘'
+    - '   &6Farming Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple crops.'
+    - ' &8+&a2 HP &c❤ Health'
+    - ' &8+&6700 &7Coins'
+    '9':
+    - '&e  Farmhand %next_level%'
+    - '   &fGrants &a+&836➜&a40 &6☘'
+    - '   &6Farming Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple crops.'
+    - ' &8+&a2 HP &c❤ Health'
+    - ' &8+&6800 &7Coins'
+    '10':
+    - '&e  Farmhand %next_level%'
+    - '   &fGrants &a+&840➜&a44 &6☘'
+    - '   &6Farming Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple crops.'
+    - ' &8+&a2 HP &c❤ Health'
+    - ' &8+&6900 &7Coins'
+    '11':
+    - '&e  Farmhand %next_level%'
+    - '   &fGrants &a+&844➜&a48 &6☘'
+    - '   &6Farming Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple crops.'
+    - ' &8+&a2 HP &c❤ Health'
+    - ' &8+&61,000 &7Coins'
+    '12':
+    - '&e  Farmhand %next_level%'
+    - '   &fGrants &a+&848➜&a52 &6☘'
+    - '   &6Farming Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple crops.'
+    - ' &8+&a2 HP &c❤ Health'
+    - ' &8+&61,100 &7Coins'
+    '13':
+    - '&e  Farmhand %next_level%'
+    - '   &fGrants &a+&852➜&a56 &6☘'
+    - '   &6Farming Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple crops.'
+    - ' &8+&a2 HP &c❤ Health'
+    - ' &8+&61,200 &7Coins'
+    '14':
+    - '&e  Farmhand %next_level%'
+    - '   &fGrants &a+&856➜&a60 &6☘'
+    - '   &6Farming Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple crops.'
+    - ' &8+&a3 HP &c❤ Health'
+    - ' &8+&61,300 &7Coins'
+    '15':
+    - '&e  Farmhand %next_level%'
+    - '   &fGrants &a+&860➜&a64 &6☘'
+    - '   &6Farming Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple crops.'
+    - ' &8+&a3 HP &c❤ Health'
+    - ' &8+&61,400 &7Coins'
+    '16':
+    - '&e  Farmhand %next_level%'
+    - '   &fGrants &a+&864➜&a68 &6☘'
+    - '   &6Farming Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple crops.'
+    - ' &8+&a3 HP &c❤ Health'
+    - ' &8+&61,500 &7Coins'
+    '17':
+    - '&e  Farmhand %next_level%'
+    - '   &fGrants &a+&868➜&a72 &6☘'
+    - '   &6Farming Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple crops.'
+    - ' &8+&a3 HP &c❤ Health'
+    - ' &8+&61,600 &7Coins'
+    '18':
+    - '&e  Farmhand %next_level%'
+    - '   &fGrants &a+&872➜&a76 &6☘'
+    - '   &6Farming Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple crops.'
+    - ' &8+&a3 HP &c❤ Health'
+    - ' &8+&61,800 &7Coins'
+    '19':
+    - '&e  Farmhand %next_level%'
+    - '   &fGrants &a+&876➜&a80 &6☘'
+    - '   &6Farming Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple crops.'
+    - ' &8+&a4 HP &c❤ Health'
+    - ' &8+&62,000 &7Coins'
+    '20':
+    - '&e  Farmhand %next_level%'
+    - '   &fGrants &a+&880➜&a84 &6☘'
+    - '   &6Farming Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple crops.'
+    - ' &8+&a4 HP &c❤ Health'
+    - ' &8+&62,200 &7Coins'
+    '21':
+    - '&e  Farmhand %next_level%'
+    - '   &fGrants &a+&884➜&a88 &6☘'
+    - '   &6Farming Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple crops.'
+    - ' &8+&a4 HP &c❤ Health'
+    - ' &8+&62,400 &7Coins'
+    '22':
+    - '&e  Farmhand %next_level%'
+    - '   &fGrants &a+&888➜&a92 &6☘'
+    - '   &6Farming Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple crops.'
+    - ' &8+&a4 HP &c❤ Health'
+    - ' &8+&62,600 &7Coins'
+    '23':
+    - '&e  Farmhand %next_level%'
+    - '   &fGrants &a+&892➜&a96 &6☘'
+    - '   &6Farming Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple crops.'
+    - ' &8+&a4 HP &c❤ Health'
+    - ' &8+&62,800 &7Coins'
+    '24':
+    - '&e  Farmhand %next_level%'
+    - '   &fGrants &a+&896➜&a100 &6☘'
+    - '   &6Farming Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple crops.'
+    - ' &8+&a4 HP &c❤ Health'
+    - ' &8+&63,000 &7Coins'
+  Mining:
+    '0':
+    - '&e  Spelunker %next_level%'
+    - '   &fGrants &a+4 &6☘ Mining'
+    - '   &6Fortune&5, which increases your'
+    - '   &5chance for multiple ore drops.'
+    - ' &8+&a1 ❈ Defense'
+    - '  &aAccess to &bDeep Caverns'
+    - ' &8+&625 &7Coins'
+    '1':
+    - '&e  Spelunker %next_level%'
+    - '   &fGrants &a+&84➜&a8 &6☘ Mining'
+    - '   &6Fortune&5, which increases your'
+    - '   &5chance for multiple ore drops.'
+    - ' &8+&a1 ❈ Defense'
+    - ' &8+&650 &7Coins'
+    '2':
+    - '&e  Spelunker %next_level%'
+    - '   &fGrants &a+&84➜&a12 &6☘'
+    - '   &6Mining Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple ore drops.'
+    - ' &8+&a1 ❈ Defense'
+    - ' &8+&6100 &7Coins'
+    '3':
+    - '&e  Spelunker %next_level%'
+    - '   &fGrants &a+&812➜&a16 &6☘'
+    - '   &6Mining Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple ore drops.'
+    - ' &8+&a1 ❈ Defense'
+    - ' &8+&6200 &7Coins'
+    '4':
+    - '&e  Spelunker %next_level%'
+    - '   &fGrants &a+&816➜&a20 &6☘'
+    - '   &6Mining Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple ore drops.'
+    - ' &8+&a1 ❈ Defense'
+    - ' &8+&6300 &7Coins'
+    '5':
+    - '&e  Spelunker %next_level%'
+    - '   &fGrants &a+&820➜&a24 &6☘'
+    - '   &6Mining Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple ore drops.'
+    - ' &8+&a1 ❈ Defense'
+    - ' &8+&6400 &7Coins'
+    '6':
+    - '&e  Spelunker %next_level%'
+    - '   &fGrants &a+&824➜&a28 &6☘'
+    - '   &6Mining Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple ore drops.'
+    - ' &8+&a1 ❈ Defense'
+    - ' &8+&6500 &7Coins'
+    '7':
+    - '&e  Spelunker %next_level%'
+    - '   &fGrants &a+&828➜&a32 &6☘'
+    - '   &6Mining Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple ore drops.'
+    - ' &8+&a1 ❈ Defense'
+    - ' &8+&6600 &7Coins'
+    '8':
+    - '&e  Spelunker %next_level%'
+    - '   &fGrants &a+&832➜&a36 &6☘'
+    - '   &6Mining Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple ore drops.'
+    - ' &8+&a1 ❈ Defense'
+    - ' &8+&6700 &7Coins'
+    '9':
+    - '&e  Spelunker %next_level%'
+    - '   &fGrants &a+&836➜&a40 &6☘'
+    - '   &6Mining Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple ore drops.'
+    - ' &8+&a1 ❈ Defense'
+    - ' &8+&6800 &7Coins'
+    '10':
+    - '&e  Spelunker %next_level%'
+    - '   &fGrants &a+&840➜&a44 &6☘'
+    - '   &6Mining Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple ore drops.'
+    - ' &8+&a1 ❈ Defense'
+    - ' &8+&6900 &7Coins'
+    '11':
+    - '&e  Spelunker %next_level%'
+    - '   &fGrants &a+&844➜&a48 &6☘'
+    - '   &6Mining Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple ore drops.'
+    - ' &8+&a1 ❈ Defense'
+    - ' &8+&61,000 &7Coins'
+    '12':
+    - '&e  Spelunker %next_level%'
+    - '   &fGrants &a+&848➜&a52 &6☘'
+    - '   &6Mining Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple ore drops.'
+    - ' &8+&a1 ❈ Defense'
+    - ' &8+&61,100 &7Coins'
+    '13':
+    - '&e  Spelunker %next_level%'
+    - '   &fGrants &a+&852➜&a56 &6☘'
+    - '   &6Mining Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple ore drops.'
+    - ' &8+&a1 ❈ Defense'
+    - ' &8+&61,200 &7Coins'
+    '14':
+    - '&e  Spelunker %next_level%'
+    - '   &fGrants &a+&856➜&a60 &6☘'
+    - '   &6Mining Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple ore drops.'
+    - ' &8+&a2 ❈ Defense'
+    - ' &8+&61,300 &7Coins'
+    '15':
+    - '&e  Spelunker %next_level%'
+    - '   &fGrants &a+&860➜&a64 &6☘'
+    - '   &6Mining Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple ore drops.'
+    - ' &8+&a2 ❈ Defense'
+    - ' &8+&61,400 &7Coins'
+    '16':
+    - '&e  Spelunker %next_level%'
+    - '   &fGrants &a+&864➜&a68 &6☘'
+    - '   &6Mining Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple ore drops.'
+    - ' &8+&a2 ❈ Defense'
+    - ' &8+&61,500 &7Coins'
+    '17':
+    - '&e  Spelunker %next_level%'
+    - '   &fGrants &a+&868➜&a72 &6☘'
+    - '   &6Mining Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple ore drops.'
+    - ' &8+&a2 ❈ Defense'
+    - ' &8+&61,600 &7Coins'
+    '18':
+    - '&e  Spelunker %next_level%'
+    - '   &fGrants &a+&872➜&a76 &6☘'
+    - '   &6Mining Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple ore drops.'
+    - ' &8+&a2 ❈ Defense'
+    - ' &8+&61,800 &7Coins'
+    '19':
+    - '&e  Spelunker %next_level%'
+    - '   &fGrants &a+&876➜&a80 &6☘'
+    - '   &6Mining Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple ore drops.'
+    - ' &8+&a2 ❈ Defense'
+    - ' &8+&62,000 &7Coins'
+    '20':
+    - '&e  Spelunker %next_level%'
+    - '   &fGrants &a+&880➜&a84 &6☘'
+    - '   &6Mining Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple ore drops.'
+    - ' &8+&a2 ❈ Defense'
+    - ' &8+&62,200 &7Coins'
+    '21':
+    - '&e  Spelunker %next_level%'
+    - '   &fGrants &a+&884➜&a88 &6☘'
+    - '   &6Mining Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple ore drops.'
+    - ' &8+&a2 ❈ Defense'
+    - ' &8+&62,400 &7Coins'
+    '22':
+    - '&e  Spelunker %next_level%'
+    - '   &fGrants &a+&888➜&a92 &6☘'
+    - '   &6Mining Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple ore drops.'
+    - ' &8+&a2 ❈ Defense'
+    - ' &8+&62,600 &7Coins'
+    '23':
+    - '&e  Spelunker %next_level%'
+    - '   &fGrants &a+&892➜&a96 &6☘'
+    - '   &6Mining Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple ore drops.'
+    - ' &8+&a2 ❈ Defense'
+    - ' &8+&62,800 &7Coins'
+    '24':
+    - '&e  Spelunker %next_level%'
+    - '   &fGrants &a+&896➜&a100 &6☘'
+    - '   &6Mining Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple ore drops.'
+    - ' &8+&a2 ❈ Defense'
+    - ' &8+&63,000 &7Coins'
+    '25':
+    - '&e   Spelunker %next_level%:'
+    - '&c     &825.0➜&a26.0% &fchance to get double'
+    - '&c     &fores.'
+    - '&c     &8+&a4 ❈ Defense'
+    - '&c     &8+&6100 &7Coins'
+    '26':
+    - '&e   Spelunker %next_level%:'
+    - '&c     &826.0➜&a27.0% &fchance to get double'
+    - '&c     &fores.'
+    - '&c     &8+&a4 ❈ Defense'
+    - '&c     &8+&6100 &7Coins'
+    '27':
+    - '&e   Spelunker %next_level%:'
+    - '&c     &827.0➜&a28.0% &fchance to get double'
+    - '&c     &fores.'
+    - '&c     &8+&a4 ❈ Defense'
+    - '&c     &8+&6100 &7Coins'
+    '28':
+    - '&e   Spelunker %next_level%:'
+    - '&c     &828.0➜&a29.0% &fchance to get double'
+    - '&c     &fores.'
+    - '&c     &8+&a4 ❈ Defense'
+    - '&c     &8+&6100 &7Coins'
+    '29':
+    - '&e   Spelunker %next_level%:'
+    - '&c     &829.0➜&a30.0% &fchance to get double'
+    - '&c     &fores.'
+    - '&c     &8+&a4 ❈ Defense'
+    - '&c     &8+&6100 &7Coins'
+    '30':
+    - '&e   Spelunker %next_level%:'
+    - '&c     &830.0➜&a31.0% &fchance to get double'
+    - '&c     &fores.'
+    - '&c     &8+&a4 ❈ Defense'
+    - '&c     &8+&6100 &7Coins'
+    '31':
+    - '&e   Spelunker %next_level%:'
+    - '&c     &831.0➜&a32.0% &fchance to get double'
+    - '&c     &fores.'
+    - '&c     &8+&a4 ❈ Defense'
+    - '&c     &8+&6100 &7Coins'
+    '32':
+    - '&e   Spelunker %next_level%:'
+    - '&c     &832.0➜&a33.0% &fchance to get double'
+    - '&c     &fores.'
+    - '&c     &8+&a4 ❈ Defense'
+    - '&c     &8+&6100 &7Coins'
+    '33':
+    - '&e   Spelunker %next_level%:'
+    - '&c     &833.0➜&a34.0% &fchance to get double'
+    - '&c     &fores.'
+    - '&c     &8+&a4 ❈ Defense'
+    - '&c     &8+&6100 &7Coins'
+    '34':
+    - '&e   Spelunker %next_level%:'
+    - '&c     &834.0➜&a35.0% &fchance to get double'
+    - '&c     &fores.'
+    - '&c     &8+&a4 ❈ Defense'
+    - '&c     &8+&6100 &7Coins'
+    '35':
+    - '&e   Spelunker %next_level%:'
+    - '&c     &835.0➜&a36.0% &fchance to get double'
+    - '&c     &fores.'
+    - '&c     &8+&a4 ❈ Defense'
+    - '&c     &8+&6100 &7Coins'
+    '36':
+    - '&e   Spelunker %next_level%:'
+    - '&c     &836.0➜&a37.0% &fchance to get double'
+    - '&c     &fores.'
+    - '&c     &8+&a4 ❈ Defense'
+    - '&c     &8+&6100 &7Coins'
+    '37':
+    - '&e   Spelunker %next_level%:'
+    - '&c     &837.0➜&a38.0% &fchance to get double'
+    - '&c     &fores.'
+    - '&c     &8+&a4 ❈ Defense'
+    - '&c     &8+&6100 &7Coins'
+    '38':
+    - '&e   Spelunker %next_level%:'
+    - '&c     &838.0➜&a39.0% &fchance to get double'
+    - '&c     &fores.'
+    - '&c     &8+&a4 ❈ Defense'
+    - '&c     &8+&6100 &7Coins'
+    '39':
+    - '&e   Spelunker %next_level%:'
+    - '&c     &839.0➜&a40.0% &fchance to get double'
+    - '&c     &fores.'
+    - '&c     &8+&a4 ❈ Defense'
+    - '&c     &8+&6100 &7Coins'
+    '40':
+    - '&e   Spelunker %next_level%:'
+    - '&c     &840.0➜&a41.0% &fchance to get double'
+    - '&c     &fores.'
+    - '&c     &8+&a4 ❈ Defense'
+    - '&c     &8+&6100 &7Coins'
+    '41':
+    - '&e   Spelunker %next_level%:'
+    - '&c     &841.0➜&a42.0% &fchance to get double'
+    - '&c     &fores.'
+    - '&c     &8+&a4 ❈ Defense'
+    - '&c     &8+&6100 &7Coins'
+    '42':
+    - '&e   Spelunker %next_level%:'
+    - '&c     &842.0➜&a43.0% &fchance to get double'
+    - '&c     &fores.'
+    - '&c     &8+&a4 ❈ Defense'
+    - '&c     &8+&6100 &7Coins'
+    '43':
+    - '&e   Spelunker %next_level%:'
+    - '&c     &843.0➜&a44.0% &fchance to get double'
+    - '&c     &fores.'
+    - '&c     &8+&a4 ❈ Defense'
+    - '&c     &8+&6100 &7Coins'
+    '44':
+    - '&e   Spelunker %next_level%:'
+    - '&c     &844.0➜&a45.0% &fchance to get double'
+    - '&c     &fores.'
+    - '&c     &8+&a4 ❈ Defense'
+    - '&c     &8+&6100 &7Coins'
+    '45':
+    - '&e   Spelunker %next_level%:'
+    - '&c     &845.0➜&a46.0% &fchance to get double'
+    - '&c     &fores.'
+    - '&c     &8+&a4 ❈ Defense'
+    - '&c     &8+&6100 &7Coins'
+    '46':
+    - '&e   Spelunker %next_level%:'
+    - '&c     &846.0➜&a47.0% &fchance to get double'
+    - '&c     &fores.'
+    - '&c     &8+&a4 ❈ Defense'
+    - '&c     &8+&6100 &7Coins'
+    '47':
+    - '&e   Spelunker %next_level%:'
+    - '&c     &847.0➜&a48.0% &fchance to get double'
+    - '&c     &fores.'
+    - '&c     &8+&a4 ❈ Defense'
+    - '&c     &8+&6100 &7Coins'
+    '48':
+    - '&e   Spelunker %next_level%:'
+    - '&c     &848.0➜&a49.0% &fchance to get double'
+    - '&c     &fores.'
+    - '&c     &8+&a4 ❈ Defense'
+    - '&c     &8+&6100 &7Coins'
+    '49':
+    - '&e   Spelunker %next_level%:'
+    - '&c     &849.0➜&a50.0% &fchance to get double'
+    - '&c     &fores.'
+    - '&c     &8+&a4 ❈ Defense'
+    - '&c     &8+&6100 &7Coins'
+    '50':
+    - '&e   Spelunker %next_level%:'
+    - '&c     &850.0➜&a51.0% &fchance to get double'
+    - '&c     &fores.'
+    - '&c     &8+&a4 ❈ Defense'
+    - '&c     &8+&6100 &7Coins'
+  Taming:
+    '0':
+    - '&e  Zoologist %next_level%'
+    - '&f    Gain &a1% &fextra pet exp.'
+    - '&8   +&a1 &d♣ Pet Luck'
+    - '&8   +&625 &7Coins'
+    '1':
+    - '&e  Zoologist %next_level%'
+    - '&f    Gain &81➜&a2% &fextra pet exp.'
+    - '&8   +&a1 &d♣ Pet Luck'
+    - '&8   +&650 &7Coins'
+    '2':
+    - '&e  Zoologist %next_level%'
+    - '&f    Gain &82➜&a3% &fextra pet exp.'
+    - '&8   +&a1 &d♣ Pet Luck'
+    - '&8   +&6100 &7Coins'
+    '3':
+    - '&e  Zoologist %next_level%'
+    - '&f    Gain &83➜&a4% &fextra pet exp.'
+    - '&8   +&a1 &d♣ Pet Luck'
+    - '&8   +&6200 &7Coins'
+    '4':
+    - '&e  Zoologist %next_level%'
+    - '&f    Gain &84➜&a5% &fextra pet exp.'
+    - '&8   +&a1 &d♣ Pet Luck'
+    - '&8   +&6300 &7Coins'
+    '5':
+    - '&e  Zoologist %next_level%'
+    - '&f    Gain &85➜&a6% &fextra pet exp.'
+    - '&8   +&a1 &d♣ Pet Luck'
+    - '&8   +&6400 &7Coins'
+    '6':
+    - '&e  Zoologist %next_level%'
+    - '&f    Gain &86➜&a7% &fextra pet exp.'
+    - '&8   +&a1 &d♣ Pet Luck'
+    - '&8   +&6500 &7Coins'
+    '7':
+    - '&e  Zoologist %next_level%'
+    - '&f    Gain &87➜&a8% &fextra pet exp.'
+    - '&8   +&a1 &d♣ Pet Luck'
+    - '&8   +&6600 &7Coins'
+    '8':
+    - '&e  Zoologist %next_level%'
+    - '&f    Gain &88➜&a9% &fextra pet exp.'
+    - '&8   +&a1 &d♣ Pet Luck'
+    - '&8   +&6700 &7Coins'
+    '9':
+    - '&e  Zoologist %next_level%'
+    - '&f    Gain &89➜&a10% &fextra pet'
+    - '&f    exp.'
+    - '&8   +&a1 &d♣ Pet Luck'
+    - '&8   +&6800 &7Coins'
+    '10':
+    - '&e  Zoologist %next_level%'
+    - '&f    Gain &810➜&a11% &fextra pet'
+    - '&f    exp.'
+    - '&8   +&a1 &d♣ Pet Luck'
+    - '&8   +&6900 &7Coins'
+    '11':
+    - '&e  Zoologist %next_level%'
+    - '&f    Gain &811➜&a12% &fextra pet'
+    - '&f    exp.'
+    - '&8   +&a1 &d♣ Pet Luck'
+    - '&8   +&61,000 &7Coins'
+    '12':
+    - '&e  Zoologist %next_level%'
+    - '&f    Gain &812➜&a13% &fextra pet'
+    - '&f    exp.'
+    - '&8   +&a1 &d♣ Pet Luck'
+    - '&8   +&61,100 &7Coins'
+    '13':
+    - '&e  Zoologist %next_level%'
+    - '&f    Gain &813➜&a14% &fextra pet'
+    - '&f    exp.'
+    - '&8   +&a1 &d♣ Pet Luck'
+    - '&8   +&61,200 &7Coins'
+    '14':
+    - '&e  Zoologist %next_level%'
+    - '&f    Gain &814➜&a15% &fextra pet'
+    - '&f    exp.'
+    - '&8   +&a1 &d♣ Pet Luck'
+    - '&8   +&61,300 &7Coins'
+    '15':
+    - '&e  Zoologist %next_level%'
+    - '&f    Gain &815➜&a16% &fextra pet'
+    - '&f    exp.'
+    - '&8   +&a1 &d♣ Pet Luck'
+    - '&8   +&61,400 &7Coins'
+    '16':
+    - '&e  Zoologist %next_level%'
+    - '&f    Gain &816➜&a17% &fextra pet'
+    - '&f    exp.'
+    - '&8   +&a1 &d♣ Pet Luck'
+    - '&8   +&61,500 &7Coins'
+    '17':
+    - '&e  Zoologist %next_level%'
+    - '&f    Gain &817➜&a18% &fextra pet'
+    - '&f    exp.'
+    - '&8   +&a1 &d♣ Pet Luck'
+    - '&8   +&61,600 &7Coins'
+    '18':
+    - '&e  Zoologist %next_level%'
+    - '&f    Gain &818➜&a19% &fextra pet'
+    - '&f    exp.'
+    - '&8   +&a1 &d♣ Pet Luck'
+    - '&8   +&61,800 &7Coins'
+    '19':
+    - '&e  Zoologist %next_level%'
+    - '&f    Gain &819➜&a20% &fextra pet'
+    - '&f    exp.'
+    - '&8   +&a1 &d♣ Pet Luck'
+    - '&8   +&62,000 &7Coins'
+    '20':
+    - '&e  Zoologist %next_level%'
+    - '&f    Gain &820➜&a21% &fextra pet'
+    - '&f    exp.'
+    - '&8   +&a1 &d♣ Pet Luck'
+    - '&8   +&62,200 &7Coins'
+    '21':
+    - '&e  Zoologist %next_level%'
+    - '&f    Gain &821➜&a22% &fextra pet'
+    - '&f    exp.'
+    - '&8   +&a1 &d♣ Pet Luck'
+    - '&8   +&62,400 &7Coins'
+    '22':
+    - '&e  Zoologist %next_level%'
+    - '&f    Gain &822➜&a23% &fextra pet'
+    - '&f    exp.'
+    - '&8   +&a1 &d♣ Pet Luck'
+    - '&8   +&62,600 &7Coins'
+    '23':
+    - '&e  Zoologist %next_level%'
+    - '&f    Gain &823➜&a24% &fextra pet'
+    - '&f    exp.'
+    - '&8   +&a1 &d♣ Pet Luck'
+    - '&8   +&62,800 &7Coins'
+    '24':
+    - '&e  Zoologist %next_level%'
+    - '&f    Gain &824➜&a25% &fextra pet'
+    - '&f    exp.'
+    - '&8   +&a1 &d♣ Pet Luck'
+    - '&8   +&63,000 &7Coins'
+    '25':
+    - '     &f&fGain &825.0➜&a26.0% &fextra pet'
+    - '    &8+&a1 &d♣ Pet Luck'
+    - '    &8+&6100&7 Coins'
+    '26':
+    - '     &f&fGain &826.0➜&a27.0% &fextra pet'
+    - '    &8+&a1 &d♣ Pet Luck'
+    - '    &8+&6100&7 Coins'
+    '27':
+    - '     &f&fGain &827.0➜&a28.0% &fextra pet'
+    - '    &8+&a1 &d♣ Pet Luck'
+    - '    &8+&6100&7 Coins'
+    '28':
+    - '     &f&fGain &828.0➜&a29.0% &fextra pet'
+    - '    &8+&a1 &d♣ Pet Luck'
+    - '    &8+&6100&7 Coins'
+    '29':
+    - '     &f&fGain &829.0➜&a30.0% &fextra pet'
+    - '    &8+&a1 &d♣ Pet Luck'
+    - '    &8+&6100&7 Coins'
+    '30':
+    - '     &f&fGain &830.0➜&a31.0% &fextra pet'
+    - '    &8+&a1 &d♣ Pet Luck'
+    - '    &8+&6100&7 Coins'
+    '31':
+    - '     &f&fGain &831.0➜&a32.0% &fextra pet'
+    - '    &8+&a1 &d♣ Pet Luck'
+    - '    &8+&6100&7 Coins'
+    '32':
+    - '     &f&fGain &832.0➜&a33.0% &fextra pet'
+    - '    &8+&a1 &d♣ Pet Luck'
+    - '    &8+&6100&7 Coins'
+    '33':
+    - '     &f&fGain &833.0➜&a34.0% &fextra pet'
+    - '    &8+&a1 &d♣ Pet Luck'
+    - '    &8+&6100&7 Coins'
+    '34':
+    - '     &f&fGain &834.0➜&a35.0% &fextra pet'
+    - '    &8+&a1 &d♣ Pet Luck'
+    - '    &8+&6100&7 Coins'
+    '35':
+    - '     &f&fGain &835.0➜&a36.0% &fextra pet'
+    - '    &8+&a1 &d♣ Pet Luck'
+    - '    &8+&6100&7 Coins'
+    '36':
+    - '     &f&fGain &836.0➜&a37.0% &fextra pet'
+    - '    &8+&a1 &d♣ Pet Luck'
+    - '    &8+&6100&7 Coins'
+    '37':
+    - '     &f&fGain &837.0➜&a38.0% &fextra pet'
+    - '    &8+&a1 &d♣ Pet Luck'
+    - '    &8+&6100&7 Coins'
+    '38':
+    - '     &f&fGain &838.0➜&a39.0% &fextra pet'
+    - '    &8+&a1 &d♣ Pet Luck'
+    - '    &8+&6100&7 Coins'
+    '39':
+    - '     &f&fGain &839.0➜&a40.0% &fextra pet'
+    - '    &8+&a1 &d♣ Pet Luck'
+    - '    &8+&6100&7 Coins'
+    '40':
+    - '     &f&fGain &840.0➜&a41.0% &fextra pet'
+    - '    &8+&a1 &d♣ Pet Luck'
+    - '    &8+&6100&7 Coins'
+    '41':
+    - '     &f&fGain &841.0➜&a42.0% &fextra pet'
+    - '    &8+&a1 &d♣ Pet Luck'
+    - '    &8+&6100&7 Coins'
+    '42':
+    - '     &f&fGain &842.0➜&a43.0% &fextra pet'
+    - '    &8+&a1 &d♣ Pet Luck'
+    - '    &8+&6100&7 Coins'
+    '43':
+    - '     &f&fGain &843.0➜&a44.0% &fextra pet'
+    - '    &8+&a1 &d♣ Pet Luck'
+    - '    &8+&6100&7 Coins'
+    '44':
+    - '     &f&fGain &844.0➜&a45.0% &fextra pet'
+    - '    &8+&a1 &d♣ Pet Luck'
+    - '    &8+&6100&7 Coins'
+    '45':
+    - '     &f&fGain &845.0➜&a46.0% &fextra pet'
+    - '    &8+&a1 &d♣ Pet Luck'
+    - '    &8+&6100&7 Coins'
+    '46':
+    - '     &f&fGain &846.0➜&a47.0% &fextra pet'
+    - '    &8+&a1 &d♣ Pet Luck'
+    - '    &8+&6100&7 Coins'
+    '47':
+    - '     &f&fGain &847.0➜&a48.0% &fextra pet'
+    - '    &8+&a1 &d♣ Pet Luck'
+    - '    &8+&6100&7 Coins'
+    '48':
+    - '     &f&fGain &848.0➜&a49.0% &fextra pet'
+    - '    &8+&a1 &d♣ Pet Luck'
+    - '    &8+&6100&7 Coins'
+    '49':
+    - '     &f&fGain &849.0➜&a50.0% &fextra pet'
+    - '    &8+&a1 &d♣ Pet Luck'
+    - '    &8+&6100&7 Coins'
+    '50':
+    - '     &f&fGain &850.0➜&a51.0% &fextra pet'
+    - '    &8+&a1 &d♣ Pet Luck'
+    - '    &8+&6100&7 Coins'
+  Combat:
+    '0':
+    - '&e  Warrior %next_level%'
+    - '   &fDeal &a4% &fmore damage to'
+    - '   &fmobs.'
+    - ' &8+&a0.5% &9☣ Crit Chance'
+    - '  &aAccess to &cSpider''s Den'
+    - ' &8+&625 &7Coins'
+    '1':
+    - '&e  Warrior %next_level%'
+    - '   &fDeal &84➜&a8% &fmore damage to'
+    - '   &fmobs.'
+    - ' &8+&a0.5% &9☣ Crit Chance'
+    - ' &8+&650 &7Coins'
+    '2':
+    - '&e  Warrior %next_level%'
+    - '   &fDeal &88➜&a12% &fmore damage'
+    - '   &fto mobs.'
+    - ' &8+&a0.5% &9☣ Crit Chance'
+    - ' &8+&6100 &7Coins'
+    '3':
+    - '&e  Warrior %next_level%'
+    - '   &fDeal &812➜&a16% &fmore damage'
+    - '   &fto mobs.'
+    - ' &8+&a0.5% &9☣ Crit Chance'
+    - ' &8+&6200 &7Coins'
+    '4':
+    - '&e  Warrior %next_level%'
+    - '   &fDeal &816➜&a20% &fmore damage'
+    - '   &fto mobs.'
+    - ' &8+&a0.5% &9☣ Crit Chance'
+    - '  &aAccess to &cBlazing Fortress'
+    - ' &8+&6300 &7Coins'
+    '5':
+    - '&e  Warrior %next_level%'
+    - '   &fDeal &820➜&a24% &fmore damage'
+    - '   &fto mobs.'
+    - ' &8+&a0.5% &9☣ Crit Chance'
+    - ' &8+&6400 &7Coins'
+    '6':
+    - '&e  Warrior %next_level%'
+    - '   &fDeal &824➜&a28% &fmore damage'
+    - '   &fto mobs.'
+    - ' &8+&a0.5% &9☣ Crit Chance'
+    - ' &8+&6500 &7Coins'
+    '7':
+    - '&e  Warrior %next_level%'
+    - '   &fDeal &828➜&a32% &fmore damage'
+    - '   &fto mobs.'
+    - ' &8+&a0.5% &9☣ Crit Chance'
+    - ' &8+&6600 &7Coins'
+    '8':
+    - '&e  Warrior %next_level%'
+    - '   &fDeal &832➜&a36% &fmore damage'
+    - '   &fto mobs.'
+    - ' &8+&a0.5% &9☣ Crit Chance'
+    - ' &8+&6700 &7Coins'
+    '9':
+    - '&e  Warrior %next_level%'
+    - '   &fDeal &836➜&a40% &fmore damage'
+    - '   &fto mobs.'
+    - ' &8+&a0.5% &9☣ Crit Chance'
+    - ' &8+&6800 &7Coins'
+    '10':
+    - '&e  Warrior %next_level%'
+    - '   &fDeal &840➜&a44% &fmore damage'
+    - '   &fto mobs.'
+    - ' &8+&a0.5% &9☣ Crit Chance'
+    - ' &8+&6900 &7Coins'
+    '11':
+    - '&e  Warrior %next_level%'
+    - '   &fDeal &844➜&a48% &fmore damage'
+    - '   &fto mobs.'
+    - ' &8+&a0.5% &9☣ Crit Chance'
+    - '  &aAccess to &dThe End'
+    - ' &8+&61,000 &7Coins'
+    '12':
+    - '&e  Warrior %next_level%'
+    - '   &fDeal &848➜&a52% &fmore damage'
+    - '   &fto mobs.'
+    - ' &8+&a0.5% &9☣ Crit Chance'
+    - ' &8+&61,100 &7Coins'
+    '13':
+    - '&e  Warrior %next_level%'
+    - '   &fDeal &852➜&a56% &fmore damage'
+    - '   &fto mobs.'
+    - ' &8+&a0.5% &9☣ Crit Chance'
+    - ' &8+&61,200 &7Coins'
+    '14':
+    - '&e  Warrior %next_level%'
+    - '   &fDeal &856➜&a60% &fmore damage'
+    - '   &fto mobs.'
+    - ' &8+&a0.5% &9☣ Crit Chance'
+    - ' &8+&61,300 &7Coins'
+    '15':
+    - '&e  Warrior %next_level%'
+    - '   &fDeal &860➜&a64% &fmore damage'
+    - '   &fto mobs.'
+    - ' &8+&a0.5% &9☣ Crit Chance'
+    - ' &8+&61,400 &7Coins'
+    '16':
+    - '&e  Warrior %next_level%'
+    - '   &fDeal &864➜&a68% &fmore damage'
+    - '   &fto mobs.'
+    - ' &8+&a0.5% &9☣ Crit Chance'
+    - ' &8+&61,500 &7Coins'
+    '17':
+    - '&e  Warrior %next_level%'
+    - '   &fDeal &868➜&a72% &fmore damage'
+    - '   &fto mobs.'
+    - ' &8+&a0.5% &9☣ Crit Chance'
+    - ' &8+&61,600 &7Coins'
+    '18':
+    - '&e  Warrior %next_level%'
+    - '   &fDeal &872➜&a76% &fmore damage'
+    - '   &fto mobs.'
+    - ' &8+&a0.5% &9☣ Crit Chance'
+    - ' &8+&61,800 &7Coins'
+    '19':
+    - '&e  Warrior %next_level%'
+    - '   &fDeal &876➜&a80% &fmore damage'
+    - '   &fto mobs.'
+    - ' &8+&a0.5% &9☣ Crit Chance'
+    - ' &8+&62,000 &7Coins'
+    '20':
+    - '&e  Warrior %next_level%'
+    - '   &fDeal &880➜&a84% &fmore damage'
+    - '   &fto mobs.'
+    - ' &8+&a0.5% &9☣ Crit Chance'
+    - ' &8+&62,200 &7Coins'
+    '21':
+    - '&e  Warrior %next_level%'
+    - '   &fDeal &884➜&a88% &fmore damage'
+    - '   &fto mobs.'
+    - ' &8+&a0.5% &9☣ Crit Chance'
+    - ' &8+&62,400 &7Coins'
+    '22':
+    - '&e  Warrior %next_level%'
+    - '   &fDeal &888➜&a92% &fmore damage'
+    - '   &fto mobs.'
+    - ' &8+&a0.5% &9☣ Crit Chance'
+    - ' &8+&62,600 &7Coins'
+    '23':
+    - '&e  Warrior %next_level%'
+    - '   &fDeal &892➜&a96% &fmore damage'
+    - '   &fto mobs.'
+    - ' &8+&a0.5% &9☣ Crit Chance'
+    - ' &8+&62,800 &7Coins'
+    '24':
+    - '&e  Warrior %next_level%'
+    - '   &fDeal &896➜&a100% &fmore damage'
+    - '   &fto mobs.'
+    - ' &8+&a0.5% &9☣ Crit Chance'
+    - ' &8+&63,000 &7Coins'
+    '25':
+    - '&e   Warrior %next_level%:'
+    - '&c     &fDeal &825.0➜&a26.0% &fmore damage'
+    - '&c     &fto mobs.'
+    - '&c     &8+&a2 &9☣ Crit Damage'
+    - '&c     &8+&6100 &7Coins'
+    '26':
+    - '&e   Warrior %next_level%:'
+    - '&c     &fDeal &826.0➜&a27.0% &fmore damage'
+    - '&c     &fto mobs.'
+    - '&c     &8+&a2 &9☣ Crit Damage'
+    - '&c     &8+&6100 &7Coins'
+    '27':
+    - '&e   Warrior %next_level%:'
+    - '&c     &fDeal &827.0➜&a28.0% &fmore damage'
+    - '&c     &fto mobs.'
+    - '&c     &8+&a2 &9☣ Crit Damage'
+    - '&c     &8+&6100 &7Coins'
+    '28':
+    - '&e   Warrior %next_level%:'
+    - '&c     &fDeal &828.0➜&a29.0% &fmore damage'
+    - '&c     &fto mobs.'
+    - '&c     &8+&a2 &9☣ Crit Damage'
+    - '&c     &8+&6100 &7Coins'
+    '29':
+    - '&e   Warrior %next_level%:'
+    - '&c     &fDeal &829.0➜&a30.0% &fmore damage'
+    - '&c     &fto mobs.'
+    - '&c     &8+&a2 &9☣ Crit Damage'
+    - '&c     &8+&6100 &7Coins'
+    '30':
+    - '&e   Warrior %next_level%:'
+    - '&c     &fDeal &830.0➜&a31.0% &fmore damage'
+    - '&c     &fto mobs.'
+    - '&c     &8+&a2 &9☣ Crit Damage'
+    - '&c     &8+&6100 &7Coins'
+    '31':
+    - '&e   Warrior %next_level%:'
+    - '&c     &fDeal &831.0➜&a32.0% &fmore damage'
+    - '&c     &fto mobs.'
+    - '&c     &8+&a2 &9☣ Crit Damage'
+    - '&c     &8+&6100 &7Coins'
+    '32':
+    - '&e   Warrior %next_level%:'
+    - '&c     &fDeal &832.0➜&a33.0% &fmore damage'
+    - '&c     &fto mobs.'
+    - '&c     &8+&a2 &9☣ Crit Damage'
+    - '&c     &8+&6100 &7Coins'
+    '33':
+    - '&e   Warrior %next_level%:'
+    - '&c     &fDeal &833.0➜&a34.0% &fmore damage'
+    - '&c     &fto mobs.'
+    - '&c     &8+&a2 &9☣ Crit Damage'
+    - '&c     &8+&6100 &7Coins'
+    '34':
+    - '&e   Warrior %next_level%:'
+    - '&c     &fDeal &834.0➜&a35.0% &fmore damage'
+    - '&c     &fto mobs.'
+    - '&c     &8+&a2 &9☣ Crit Damage'
+    - '&c     &8+&6100 &7Coins'
+    '35':
+    - '&e   Warrior %next_level%:'
+    - '&c     &fDeal &835.0➜&a36.0% &fmore damage'
+    - '&c     &fto mobs.'
+    - '&c     &8+&a2 &9☣ Crit Damage'
+    - '&c     &8+&6100 &7Coins'
+    '36':
+    - '&e   Warrior %next_level%:'
+    - '&c     &fDeal &836.0➜&a37.0% &fmore damage'
+    - '&c     &fto mobs.'
+    - '&c     &8+&a2 &9☣ Crit Damage'
+    - '&c     &8+&6100 &7Coins'
+    '37':
+    - '&e   Warrior %next_level%:'
+    - '&c     &fDeal &837.0➜&a38.0% &fmore damage'
+    - '&c     &fto mobs.'
+    - '&c     &8+&a2 &9☣ Crit Damage'
+    - '&c     &8+&6100 &7Coins'
+    '38':
+    - '&e   Warrior %next_level%:'
+    - '&c     &fDeal &838.0➜&a39.0% &fmore damage'
+    - '&c     &fto mobs.'
+    - '&c     &8+&a2 &9☣ Crit Damage'
+    - '&c     &8+&6100 &7Coins'
+    '39':
+    - '&e   Warrior %next_level%:'
+    - '&c     &fDeal &839.0➜&a40.0% &fmore damage'
+    - '&c     &fto mobs.'
+    - '&c     &8+&a2 &9☣ Crit Damage'
+    - '&c     &8+&6100 &7Coins'
+    '40':
+    - '&e   Warrior %next_level%:'
+    - '&c     &fDeal &840.0➜&a41.0% &fmore damage'
+    - '&c     &fto mobs.'
+    - '&c     &8+&a2 &9☣ Crit Damage'
+    - '&c     &8+&6100 &7Coins'
+    '41':
+    - '&e   Warrior %next_level%:'
+    - '&c     &fDeal &841.0➜&a42.0% &fmore damage'
+    - '&c     &fto mobs.'
+    - '&c     &8+&a2 &9☣ Crit Damage'
+    - '&c     &8+&6100 &7Coins'
+    '42':
+    - '&e   Warrior %next_level%:'
+    - '&c     &fDeal &842.0➜&a43.0% &fmore damage'
+    - '&c     &fto mobs.'
+    - '&c     &8+&a2 &9☣ Crit Damage'
+    - '&c     &8+&6100 &7Coins'
+    '43':
+    - '&e   Warrior %next_level%:'
+    - '&c     &fDeal &843.0➜&a44.0% &fmore damage'
+    - '&c     &fto mobs.'
+    - '&c     &8+&a2 &9☣ Crit Damage'
+    - '&c     &8+&6100 &7Coins'
+    '44':
+    - '&e   Warrior %next_level%:'
+    - '&c     &fDeal &844.0➜&a45.0% &fmore damage'
+    - '&c     &fto mobs.'
+    - '&c     &8+&a2 &9☣ Crit Damage'
+    - '&c     &8+&6100 &7Coins'
+    '45':
+    - '&e   Warrior %next_level%:'
+    - '&c     &fDeal &845.0➜&a46.0% &fmore damage'
+    - '&c     &fto mobs.'
+    - '&c     &8+&a2 &9☣ Crit Damage'
+    - '&c     &8+&6100 &7Coins'
+    '46':
+    - '&e   Warrior %next_level%:'
+    - '&c     &fDeal &846.0➜&a47.0% &fmore damage'
+    - '&c     &fto mobs.'
+    - '&c     &8+&a2 &9☣ Crit Damage'
+    - '&c     &8+&6100 &7Coins'
+    '47':
+    - '&e   Warrior %next_level%:'
+    - '&c     &fDeal &847.0➜&a48.0% &fmore damage'
+    - '&c     &fto mobs.'
+    - '&c     &8+&a2 &9☣ Crit Damage'
+    - '&c     &8+&6100 &7Coins'
+    '48':
+    - '&e   Warrior %next_level%:'
+    - '&c     &fDeal &848.0➜&a49.0% &fmore damage'
+    - '&c     &fto mobs.'
+    - '&c     &8+&a2 &9☣ Crit Damage'
+    - '&c     &8+&6100 &7Coins'
+    '49':
+    - '&e   Warrior %next_level%:'
+    - '&c     &fDeal &849.0➜&a50.0% &fmore damage'
+    - '&c     &fto mobs.'
+    - '&c     &8+&a2 &9☣ Crit Damage'
+    - '&c     &8+&6100 &7Coins'
+    '50':
+    - '&e   Warrior %next_level%:'
+    - '&c     &fDeal &850.0➜&a51.0% &fmore damage'
+    - '&c     &fto mobs.'
+    - '&c     &8+&a2 &9☣ Crit Damage'
+    - '&c     &8+&6100 &7Coins'
+  Runecrafting:
+    '0':
+    - '  &7Access to Level &51 &7Runes'
+    '1':
+    - '  &7Access to Level &52 &7Runes'
+    '2':
+    - '  &7Access to Level &53 &7Runes'
+    '3':
+    - '  &7Access to Level &54 &7Runes'
+    '4':
+    - '  &7Access to Level &55 &7Runes'
+    '5':
+    - '  &7Access to Level &56 &7Runes'
+    '6':
+    - '  &7Access to Level &57 &7Runes'
+    '7':
+    - '  &7Access to Level &58 &7Runes'
+    '8':
+    - '  &7Access to Level &59 &7Runes'
+    '9':
+    - '  &7Access to Level &510 &7Runes'
+    '10':
+    - '  &7Access to Level &511 &7Runes'
+    '11':
+    - '  &7Access to Level &512 &7Runes'
+    '12':
+    - '  &7Access to Level &513 &7Runes'
+    '13':
+    - '  &7Access to Level &514 &7Runes'
+    '14':
+    - '  &7Access to Level &515 &7Runes'
+    '15':
+    - '  &7Access to Level &516 &7Runes'
+    '16':
+    - '  &7Access to Level &517 &7Runes'
+    '17':
+    - '  &7Access to Level &518 &7Runes'
+    '18':
+    - '  &7Access to Level &519 &7Runes'
+    '19':
+    - '  &7Access to Level &520 &7Runes'
+    '20':
+    - '  &7Access to Level &521 &7Runes'
+    '21':
+    - '  &7Access to Level &522 &7Runes'
+    '22':
+    - '  &7Access to Level &523 &7Runes'
+    '23':
+    - '  &7Access to Level &524 &7Runes'
+    '24':
+    - '  &7Access to Level &525 &7Runes'
+    '25':
+    - '&c    &7Access to Level &5XXVI &7Runes'
+    '26':
+    - '&c    &7Access to Level &5XXVII &7Runes'
+    '27':
+    - '&c    &7Access to Level &5XXVIII &7Runes'
+    '28':
+    - '&c    &7Access to Level &5XXIX &7Runes'
+    '29':
+    - '&c    &7Access to Level &5XXX &7Runes'
+    '30':
+    - '&c    &7Access to Level &5XXXI &7Runes'
+    '31':
+    - '&c    &7Access to Level &5XXXII &7Runes'
+    '32':
+    - '&c    &7Access to Level &5XXXIII &7Runes'
+    '33':
+    - '&c    &7Access to Level &5XXXIV &7Runes'
+    '34':
+    - '&c    &7Access to Level &5XXXV &7Runes'
+    '35':
+    - '&c    &7Access to Level &5XXXVI &7Runes'
+    '36':
+    - '&c    &7Access to Level &5XXXVII &7Runes'
+    '37':
+    - '&c    &7Access to Level &5XXXVIII &7Runes'
+    '38':
+    - '&c    &7Access to Level &5XXXIX &7Runes'
+    '39':
+    - '&c    &7Access to Level &5XL &7Runes'
+    '40':
+    - '&c    &7Access to Level &5XLI &7Runes'
+    '41':
+    - '&c    &7Access to Level &5XLII &7Runes'
+    '42':
+    - '&c    &7Access to Level &5XLIII &7Runes'
+    '43':
+    - '&c    &7Access to Level &5XLIV &7Runes'
+    '44':
+    - '&c    &7Access to Level &5XLV &7Runes'
+    '45':
+    - '&c    &7Access to Level &5XLVI &7Runes'
+    '46':
+    - '&c    &7Access to Level &5XLVII &7Runes'
+    '47':
+    - '&c    &7Access to Level &5XLVIII &7Runes'
+    '48':
+    - '&c    &7Access to Level &5XLIX &7Runes'
+    '49':
+    - '&c    &7Access to Level &5L &7Runes'
+    '50':
+    - '&c    &7Access to Level &5LI &7Runes'
+  Enchanting:
+    '0':
+    - '&e  Conjurer %next_level%'
+    - '&f    Gain &a4% &fmore experience'
+    - '&f    orbs from any source.'
+    - '&8   +&a1 &b✎ Intelligence'
+    - '&8   +&625 &7Coins'
+    '1':
+    - '&e  Conjurer %next_level%'
+    - '&f    Gain &84➜&a8% &fmore'
+    - '&f    experience orbs from any source.'
+    - '&8   +&a1 &b✎ Intelligence'
+    - '&8   +&650 &7Coins'
+    '2':
+    - '&e  Conjurer %next_level%'
+    - '&f    Gain &88➜&a12% &fmore'
+    - '&f    experience orbs from any source.'
+    - '&8   +&a1 &b✎ Intelligence'
+    - '&8   +&6100 &7Coins'
+    '3':
+    - '&e  Conjurer %next_level%'
+    - '&f    Gain &812➜&a16% &fmore'
+    - '&f    experience orbs from any source.'
+    - '&8   +&a1 &b✎ Intelligence'
+    - '&8   +&6200 &7Coins'
+    '4':
+    - '&e  Conjurer %next_level%'
+    - '&f    Gain &816➜&a20% &fmore'
+    - '&f    experience orbs from any source.'
+    - '&8   +&a1 &b✎ Intelligence'
+    - '&8   +&6300 &7Coins'
+    '5':
+    - '&e  Conjurer %next_level%'
+    - '&f    Gain &820➜&a24% &fmore'
+    - '&f    experience orbs from any source.'
+    - '&8   +&a1 &b✎ Intelligence'
+    - '&8   +&6400 &7Coins'
+    '6':
+    - '&e  Conjurer %next_level%'
+    - '&f    Gain &824➜&a28% &fmore'
+    - '&f    experience orbs from any source.'
+    - '&8   +&a1 &b✎ Intelligence'
+    - '&8   +&6500 &7Coins'
+    '7':
+    - '&e  Conjurer %next_level%'
+    - '&f    Gain &828➜&a32% &fmore'
+    - '&f    experience orbs from any source.'
+    - '&8   +&a1 &b✎ Intelligence'
+    - '&8   +&6600 &7Coins'
+    '8':
+    - '&e  Conjurer %next_level%'
+    - '&f    Gain &832➜&a36% &fmore'
+    - '&f    experience orbs from any source.'
+    - '&8   +&a1 &b✎ Intelligence'
+    - '&8   +&6700 &7Coins'
+    '9':
+    - '&e  Conjurer %next_level%'
+    - '&f    Gain &836➜&a40% &fmore'
+    - '&f    experience orbs from any source.'
+    - '&8   +&a1 &b✎ Intelligence'
+    - '&8   +&6800 &7Coins'
+    '10':
+    - '&e  Conjurer %next_level%'
+    - '&f    Gain &840➜&a44% &fmore'
+    - '&f    experience orbs from any source.'
+    - '&8   +&a1 &b✎ Intelligence'
+    - '&8   +&6900 &7Coins'
+    '11':
+    - '&e  Conjurer %next_level%'
+    - '&f    Gain &844➜&a48% &fmore'
+    - '&f    experience orbs from any source.'
+    - '&8   +&a1 &b✎ Intelligence'
+    - '&8   +&61,000 &7Coins'
+    '12':
+    - '&e  Conjurer %next_level%'
+    - '&f    Gain &848➜&a52% &fmore'
+    - '&f    experience orbs from any source.'
+    - '&8   +&a1 &b✎ Intelligence'
+    - '&8   +&61,100 &7Coins'
+    '13':
+    - '&e  Conjurer %next_level%'
+    - '&f    Gain &852➜&a56% &fmore'
+    - '&f    experience orbs from any source.'
+    - '&8   +&a1 &b✎ Intelligence'
+    - '&8   +&61,200 &7Coins'
+    '14':
+    - '&e  Conjurer %next_level%'
+    - '&f    Gain &856➜&a60% &fmore'
+    - '&f    experience orbs from any source.'
+    - '&8   +&a2 &b✎ Intelligence'
+    - '&8   +&61,300 &7Coins'
+    '15':
+    - '&e  Conjurer %next_level%'
+    - '&f    Gain &860➜&a64% &fmore'
+    - '&f    experience orbs from any source.'
+    - '&8   +&a2 &b✎ Intelligence'
+    - '&8   +&61,400 &7Coins'
+    '16':
+    - '&e  Conjurer %next_level%'
+    - '&f    Gain &864➜&a68% &fmore'
+    - '&f    experience orbs from any source.'
+    - '&8   +&a2 &b✎ Intelligence'
+    - '&8   +&61,500 &7Coins'
+    '17':
+    - '&e  Conjurer %next_level%'
+    - '&f    Gain &868➜&a72% &fmore'
+    - '&f    experience orbs from any source.'
+    - '&8   +&a2 &b✎ Intelligence'
+    - '&8   +&61,600 &7Coins'
+    '18':
+    - '&e  Conjurer %next_level%'
+    - '&f    Gain &872➜&a76% &fmore'
+    - '&f    experience orbs from any source.'
+    - '&8   +&a2 &b✎ Intelligence'
+    - '&8   +&61,800 &7Coins'
+    '19':
+    - '&e  Conjurer %next_level%'
+    - '&f    Gain &876➜&a80% &fmore'
+    - '&f    experience orbs from any source.'
+    - '&8   +&a2 &b✎ Intelligence'
+    - '&8   +&62,000 &7Coins'
+    '20':
+    - '&e  Conjurer %next_level%'
+    - '&f    Gain &880➜&a84% &fmore'
+    - '&f    experience orbs from any source.'
+    - '&8   +&a2 &b✎ Intelligence'
+    - '&8   +&62,200 &7Coins'
+    '21':
+    - '&e  Conjurer %next_level%'
+    - '&f    Gain &884➜&a88% &fmore'
+    - '&f    experience orbs from any source.'
+    - '&8   +&a2 &b✎ Intelligence'
+    - '&8   +&62,400 &7Coins'
+    '22':
+    - '&e  Conjurer %next_level%'
+    - '&f    Gain &888➜&a92% &fmore'
+    - '&f    experience orbs from any source.'
+    - '&8   +&a2 &b✎ Intelligence'
+    - '&8   +&62,600 &7Coins'
+    '23':
+    - '&e  Conjurer %next_level%'
+    - '&f    Gain &892➜&a96% &fmore'
+    - '&f    experience orbs from any source.'
+    - '&8   +&a2 &b✎ Intelligence'
+    - '&8   +&62,800 &7Coins'
+    '24':
+    - '&e  Conjurer %next_level%'
+    - '&f    Gain &896➜&a100% &fmore'
+    - '&f    experience orbs from any source.'
+    - '&8   +&a2 &b✎ Intelligence'
+    - '&8   +&63,000 &7Coins'
+    '25':
+    - '&e   Conjurer %next_level%:'
+    - '&c     &825.0➜&a26.0% &fmore experience'
+    - '&c     &ffrom any source.'
+    - '&c     &8+&a1 &b✎ Inteligence'
+    - '&c     &8+&6100 &7Coins'
+    '26':
+    - '&e   Conjurer %next_level%:'
+    - '&c     &826.0➜&a27.0% &fmore experience'
+    - '&c     &ffrom any source.'
+    - '&c     &8+&a1 &b✎ Inteligence'
+    - '&c     &8+&6100 &7Coins'
+    '27':
+    - '&e   Conjurer %next_level%:'
+    - '&c     &827.0➜&a28.0% &fmore experience'
+    - '&c     &ffrom any source.'
+    - '&c     &8+&a1 &b✎ Inteligence'
+    - '&c     &8+&6100 &7Coins'
+    '28':
+    - '&e   Conjurer %next_level%:'
+    - '&c     &828.0➜&a29.0% &fmore experience'
+    - '&c     &ffrom any source.'
+    - '&c     &8+&a1 &b✎ Inteligence'
+    - '&c     &8+&6100 &7Coins'
+    '29':
+    - '&e   Conjurer %next_level%:'
+    - '&c     &829.0➜&a30.0% &fmore experience'
+    - '&c     &ffrom any source.'
+    - '&c     &8+&a1 &b✎ Inteligence'
+    - '&c     &8+&6100 &7Coins'
+    '30':
+    - '&e   Conjurer %next_level%:'
+    - '&c     &830.0➜&a31.0% &fmore experience'
+    - '&c     &ffrom any source.'
+    - '&c     &8+&a1 &b✎ Inteligence'
+    - '&c     &8+&6100 &7Coins'
+    '31':
+    - '&e   Conjurer %next_level%:'
+    - '&c     &831.0➜&a32.0% &fmore experience'
+    - '&c     &ffrom any source.'
+    - '&c     &8+&a1 &b✎ Inteligence'
+    - '&c     &8+&6100 &7Coins'
+    '32':
+    - '&e   Conjurer %next_level%:'
+    - '&c     &832.0➜&a33.0% &fmore experience'
+    - '&c     &ffrom any source.'
+    - '&c     &8+&a1 &b✎ Inteligence'
+    - '&c     &8+&6100 &7Coins'
+    '33':
+    - '&e   Conjurer %next_level%:'
+    - '&c     &833.0➜&a34.0% &fmore experience'
+    - '&c     &ffrom any source.'
+    - '&c     &8+&a1 &b✎ Inteligence'
+    - '&c     &8+&6100 &7Coins'
+    '34':
+    - '&e   Conjurer %next_level%:'
+    - '&c     &834.0➜&a35.0% &fmore experience'
+    - '&c     &ffrom any source.'
+    - '&c     &8+&a1 &b✎ Inteligence'
+    - '&c     &8+&6100 &7Coins'
+    '35':
+    - '&e   Conjurer %next_level%:'
+    - '&c     &835.0➜&a36.0% &fmore experience'
+    - '&c     &ffrom any source.'
+    - '&c     &8+&a1 &b✎ Inteligence'
+    - '&c     &8+&6100 &7Coins'
+    '36':
+    - '&e   Conjurer %next_level%:'
+    - '&c     &836.0➜&a37.0% &fmore experience'
+    - '&c     &ffrom any source.'
+    - '&c     &8+&a1 &b✎ Inteligence'
+    - '&c     &8+&6100 &7Coins'
+    '37':
+    - '&e   Conjurer %next_level%:'
+    - '&c     &837.0➜&a38.0% &fmore experience'
+    - '&c     &ffrom any source.'
+    - '&c     &8+&a1 &b✎ Inteligence'
+    - '&c     &8+&6100 &7Coins'
+    '38':
+    - '&e   Conjurer %next_level%:'
+    - '&c     &838.0➜&a39.0% &fmore experience'
+    - '&c     &ffrom any source.'
+    - '&c     &8+&a1 &b✎ Inteligence'
+    - '&c     &8+&6100 &7Coins'
+    '39':
+    - '&e   Conjurer %next_level%:'
+    - '&c     &839.0➜&a40.0% &fmore experience'
+    - '&c     &ffrom any source.'
+    - '&c     &8+&a1 &b✎ Inteligence'
+    - '&c     &8+&6100 &7Coins'
+    '40':
+    - '&e   Conjurer %next_level%:'
+    - '&c     &840.0➜&a41.0% &fmore experience'
+    - '&c     &ffrom any source.'
+    - '&c     &8+&a1 &b✎ Inteligence'
+    - '&c     &8+&6100 &7Coins'
+    '41':
+    - '&e   Conjurer %next_level%:'
+    - '&c     &841.0➜&a42.0% &fmore experience'
+    - '&c     &ffrom any source.'
+    - '&c     &8+&a1 &b✎ Inteligence'
+    - '&c     &8+&6100 &7Coins'
+    '42':
+    - '&e   Conjurer %next_level%:'
+    - '&c     &842.0➜&a43.0% &fmore experience'
+    - '&c     &ffrom any source.'
+    - '&c     &8+&a1 &b✎ Inteligence'
+    - '&c     &8+&6100 &7Coins'
+    '43':
+    - '&e   Conjurer %next_level%:'
+    - '&c     &843.0➜&a44.0% &fmore experience'
+    - '&c     &ffrom any source.'
+    - '&c     &8+&a1 &b✎ Inteligence'
+    - '&c     &8+&6100 &7Coins'
+    '44':
+    - '&e   Conjurer %next_level%:'
+    - '&c     &844.0➜&a45.0% &fmore experience'
+    - '&c     &ffrom any source.'
+    - '&c     &8+&a1 &b✎ Inteligence'
+    - '&c     &8+&6100 &7Coins'
+    '45':
+    - '&e   Conjurer %next_level%:'
+    - '&c     &845.0➜&a46.0% &fmore experience'
+    - '&c     &ffrom any source.'
+    - '&c     &8+&a1 &b✎ Inteligence'
+    - '&c     &8+&6100 &7Coins'
+    '46':
+    - '&e   Conjurer %next_level%:'
+    - '&c     &846.0➜&a47.0% &fmore experience'
+    - '&c     &ffrom any source.'
+    - '&c     &8+&a1 &b✎ Inteligence'
+    - '&c     &8+&6100 &7Coins'
+    '47':
+    - '&e   Conjurer %next_level%:'
+    - '&c     &847.0➜&a48.0% &fmore experience'
+    - '&c     &ffrom any source.'
+    - '&c     &8+&a1 &b✎ Inteligence'
+    - '&c     &8+&6100 &7Coins'
+    '48':
+    - '&e   Conjurer %next_level%:'
+    - '&c     &848.0➜&a49.0% &fmore experience'
+    - '&c     &ffrom any source.'
+    - '&c     &8+&a1 &b✎ Inteligence'
+    - '&c     &8+&6100 &7Coins'
+    '49':
+    - '&e   Conjurer %next_level%:'
+    - '&c     &849.0➜&a50.0% &fmore experience'
+    - '&c     &ffrom any source.'
+    - '&c     &8+&a1 &b✎ Inteligence'
+    - '&c     &8+&6100 &7Coins'
+    '50':
+    - '&e   Conjurer %next_level%:'
+    - '&c     &850.0➜&a51.0% &fmore experience'
+    - '&c     &ffrom any source.'
+    - '&c     &8+&a1 &b✎ Inteligence'
+    - '&c     &8+&6100 &7Coins'
+  Dungeoneering:
+    '0':
+    - '&c     &80.0➜&a0.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c    &8+&a2 HP &c♥ Health'
+    - '&c    &8+&6100 &7Coins'
+    '1':
+    - '&c     &80.0➜&a0.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c    &8+&a2 HP &c♥ Health'
+    - '&c    &8+&6100 &7Coins'
+    '2':
+    - '&c     &80.0➜&a0.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c    &8+&a2 HP &c♥ Health'
+    - '&c    &8+&6100 &7Coins'
+    '3':
+    - '&c     &80.0➜&a0.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c    &8+&a2 HP &c♥ Health'
+    - '&c    &8+&6100 &7Coins'
+    '4':
+    - '&c     &80.0➜&a0.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c    &8+&a2 HP &c♥ Health'
+    - '&c    &8+&6100 &7Coins'
+    '5':
+    - '&c     &80.0➜&a0.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c    &8+&a2 HP &c♥ Health'
+    - '&c    &8+&6100 &7Coins'
+    '6':
+    - '&c     &80.0➜&a0.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c    &8+&a2 HP &c♥ Health'
+    - '&c    &8+&6100 &7Coins'
+    '7':
+    - '&c     &80.0➜&a0.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c    &8+&a2 HP &c♥ Health'
+    - '&c    &8+&6100 &7Coins'
+    '8':
+    - '&c     &80.0➜&a0.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c    &8+&a2 HP &c♥ Health'
+    - '&c    &8+&6100 &7Coins'
+    '9':
+    - '&c     &80.0➜&a0.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c    &8+&a2 HP &c♥ Health'
+    - '&c    &8+&6100 &7Coins'
+    '10':
+    - '&c     &80.0➜&a0.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c    &8+&a2 HP &c♥ Health'
+    - '&c    &8+&6100 &7Coins'
+    '11':
+    - '&c     &80.0➜&a0.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c    &8+&a2 HP &c♥ Health'
+    - '&c    &8+&6100 &7Coins'
+    '12':
+    - '&c     &80.0➜&a0.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c    &8+&a2 HP &c♥ Health'
+    - '&c    &8+&6100 &7Coins'
+    '13':
+    - '&c     &80.0➜&a0.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c    &8+&a2 HP &c♥ Health'
+    - '&c    &8+&6100 &7Coins'
+    '14':
+    - '&c     &80.0➜&a0.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c    &8+&a2 HP &c♥ Health'
+    - '&c    &8+&6100 &7Coins'
+    '15':
+    - '&c     &80.0➜&a0.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c    &8+&a2 HP &c♥ Health'
+    - '&c    &8+&6100 &7Coins'
+    '16':
+    - '&c     &80.0➜&a0.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c    &8+&a2 HP &c♥ Health'
+    - '&c    &8+&6100 &7Coins'
+    '17':
+    - '&c     &80.0➜&a0.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c    &8+&a2 HP &c♥ Health'
+    - '&c    &8+&6100 &7Coins'
+    '18':
+    - '&c     &80.0➜&a0.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c    &8+&a2 HP &c♥ Health'
+    - '&c    &8+&6100 &7Coins'
+    '19':
+    - '&c     &80.0➜&a0.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c    &8+&a2 HP &c♥ Health'
+    - '&c    &8+&6100 &7Coins'
+    '20':
+    - '&c     &80.0➜&a0.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c    &8+&a2 HP &c♥ Health'
+    - '&c    &8+&6100 &7Coins'
+    '21':
+    - '&c     &80.0➜&a0.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c    &8+&a2 HP &c♥ Health'
+    - '&c    &8+&6100 &7Coins'
+    '22':
+    - '&c     &80.0➜&a0.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c    &8+&a2 HP &c♥ Health'
+    - '&c    &8+&6100 &7Coins'
+    '23':
+    - '&c     &80.0➜&a0.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c    &8+&a2 HP &c♥ Health'
+    - '&c    &8+&6100 &7Coins'
+    '24':
+    - '&c     &80.0➜&a0.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c    &8+&a2 HP &c♥ Health'
+    - '&c    &8+&6100 &7Coins'
+    '25':
+    - '&c     &80.0➜&a0.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c    &8+&a2 HP &c♥ Health'
+    - '&c    &8+&6100 &7Coins'
+    '26':
+    - '&c     &80.0➜&a0.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c    &8+&a2 HP &c♥ Health'
+    - '&c    &8+&6100 &7Coins'
+    '27':
+    - '&c     &80.0➜&a0.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c    &8+&a2 HP &c♥ Health'
+    - '&c    &8+&6100 &7Coins'
+    '28':
+    - '&c     &80.0➜&a0.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c    &8+&a2 HP &c♥ Health'
+    - '&c    &8+&6100 &7Coins'
+    '29':
+    - '&c     &80.0➜&a0.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c    &8+&a2 HP &c♥ Health'
+    - '&c    &8+&6100 &7Coins'
+    '30':
+    - '&c     &80.0➜&a0.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c    &8+&a2 HP &c♥ Health'
+    - '&c    &8+&6100 &7Coins'
+    '31':
+    - '&c     &80.0➜&a0.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c    &8+&a2 HP &c♥ Health'
+    - '&c    &8+&6100 &7Coins'
+    '32':
+    - '&c     &80.0➜&a0.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c    &8+&a2 HP &c♥ Health'
+    - '&c    &8+&6100 &7Coins'
+    '33':
+    - '&c     &80.0➜&a0.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c    &8+&a2 HP &c♥ Health'
+    - '&c    &8+&6100 &7Coins'
+    '34':
+    - '&c     &80.0➜&a0.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c    &8+&a2 HP &c♥ Health'
+    - '&c    &8+&6100 &7Coins'
+    '35':
+    - '&c     &80.0➜&a0.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c    &8+&a2 HP &c♥ Health'
+    - '&c    &8+&6100 &7Coins'
+    '36':
+    - '&c     &80.0➜&a0.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c    &8+&a2 HP &c♥ Health'
+    - '&c    &8+&6100 &7Coins'
+    '37':
+    - '&c     &80.0➜&a0.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c    &8+&a2 HP &c♥ Health'
+    - '&c    &8+&6100 &7Coins'
+    '38':
+    - '&c     &80.0➜&a0.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c    &8+&a2 HP &c♥ Health'
+    - '&c    &8+&6100 &7Coins'
+    '39':
+    - '&c     &80.0➜&a0.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c    &8+&a2 HP &c♥ Health'
+    - '&c    &8+&6100 &7Coins'
+    '40':
+    - '&c     &80.0➜&a0.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c    &8+&a2 HP &c♥ Health'
+    - '&c    &8+&6100 &7Coins'
+    '41':
+    - '&c     &80.0➜&a0.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c    &8+&a2 HP &c♥ Health'
+    - '&c    &8+&6100 &7Coins'
+    '42':
+    - '&c     &80.0➜&a0.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c    &8+&a2 HP &c♥ Health'
+    - '&c    &8+&6100 &7Coins'
+    '43':
+    - '&c     &80.0➜&a0.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c    &8+&a2 HP &c♥ Health'
+    - '&c    &8+&6100 &7Coins'
+    '44':
+    - '&c     &80.0➜&a0.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c    &8+&a2 HP &c♥ Health'
+    - '&c    &8+&6100 &7Coins'
+    '45':
+    - '&c     &80.0➜&a0.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c    &8+&a2 HP &c♥ Health'
+    - '&c    &8+&6100 &7Coins'
+    '46':
+    - '&c     &80.0➜&a0.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c    &8+&a2 HP &c♥ Health'
+    - '&c    &8+&6100 &7Coins'
+    '47':
+    - '&c     &80.0➜&a0.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c    &8+&a2 HP &c♥ Health'
+    - '&c    &8+&6100 &7Coins'
+    '48':
+    - '&c     &80.0➜&a0.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c    &8+&a2 HP &c♥ Health'
+    - '&c    &8+&6100 &7Coins'
+    '49':
+    - '&c     &80.0➜&a0.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c    &8+&a2 HP &c♥ Health'
+    - '&c    &8+&6100 &7Coins'
+    '50':
+    - '&c     &80.0➜&a0.0% &fchance to get double'
+    - '&c     &fcrops.'
+    - '&c    &8+&a2 HP &c♥ Health'
+    - '&c    &8+&6100 &7Coins'
+  Foraging:
+    '0':
+    - '&e  Logger %next_level%'
+    - '   &fGrants &a+4 &6☘ Foraging'
+    - '   &6Fortune&5, which increases your'
+    - '   &5chance for multiple logs.'
+    - ' &8+&a1 &c❁ Strength'
+    - '  &aAccess to &aForest Island'
+    - ' &8+&625 &7Coins'
+    '1':
+    - '&e  Logger %next_level%'
+    - '   &fGrants &a+&84➜&a8 &6☘'
+    - '   &6Foraging Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple logs.'
+    - ' &8+&a1 &c❁ Strength'
+    - ' &8+&650 &7Coins'
+    '2':
+    - '&e  Logger %next_level%'
+    - '   &fGrants &a+&84➜&a12 &6☘'
+    - '   &6Foraging Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple logs.'
+    - ' &8+&a1 &c❁ Strength'
+    - ' &8+&6100 &7Coins'
+    '3':
+    - '&e  Logger %next_level%'
+    - '   &fGrants &a+&812➜&a16 &6☘'
+    - '   &6Foraging Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple logs.'
+    - ' &8+&a1 &c❁ Strength'
+    - ' &8+&6200 &7Coins'
+    '4':
+    - '&e  Logger %next_level%'
+    - '   &fGrants &a+&816➜&a20 &6☘'
+    - '   &6Foraging Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple logs.'
+    - ' &8+&a1 &c❁ Strength'
+    - ' &8+&6300 &7Coins'
+    '5':
+    - '&e  Logger %next_level%'
+    - '   &fGrants &a+&820➜&a24 &6☘'
+    - '   &6Foraging Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple logs.'
+    - ' &8+&a1 &c❁ Strength'
+    - ' &8+&6400 &7Coins'
+    '6':
+    - '&e  Logger %next_level%'
+    - '   &fGrants &a+&824➜&a28 &6☘'
+    - '   &6Foraging Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple logs.'
+    - ' &8+&a1 &c❁ Strength'
+    - ' &8+&6500 &7Coins'
+    '7':
+    - '&e  Logger %next_level%'
+    - '   &fGrants &a+&828➜&a32 &6☘'
+    - '   &6Foraging Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple logs.'
+    - ' &8+&a1 &c❁ Strength'
+    - ' &8+&6600 &7Coins'
+    '8':
+    - '&e  Logger %next_level%'
+    - '   &fGrants &a+&832➜&a36 &6☘'
+    - '   &6Foraging Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple logs.'
+    - ' &8+&a1 &c❁ Strength'
+    - ' &8+&6700 &7Coins'
+    '9':
+    - '&e  Logger %next_level%'
+    - '   &fGrants &a+&836➜&a40 &6☘'
+    - '   &6Foraging Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple logs.'
+    - ' &8+&a1 &c❁ Strength'
+    - ' &8+&6800 &7Coins'
+    '10':
+    - '&e  Logger %next_level%'
+    - '   &fGrants &a+&840➜&a44 &6☘'
+    - '   &6Foraging Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple logs.'
+    - ' &8+&a1 &c❁ Strength'
+    - ' &8+&6900 &7Coins'
+    '11':
+    - '&e  Logger %next_level%'
+    - '   &fGrants &a+&844➜&a48 &6☘'
+    - '   &6Foraging Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple logs.'
+    - ' &8+&a1 &c❁ Strength'
+    - ' &8+&61,000 &7Coins'
+    '12':
+    - '&e  Logger %next_level%'
+    - '   &fGrants &a+&848➜&a52 &6☘'
+    - '   &6Foraging Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple logs.'
+    - ' &8+&a1 &c❁ Strength'
+    - ' &8+&61,100 &7Coins'
+    '13':
+    - '&e  Logger %next_level%'
+    - '   &fGrants &a+&852➜&a56 &6☘'
+    - '   &6Foraging Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple logs.'
+    - ' &8+&a1 &c❁ Strength'
+    - ' &8+&61,200 &7Coins'
+    '14':
+    - '&e  Logger %next_level%'
+    - '   &fGrants &a+&856➜&a60 &6☘'
+    - '   &6Foraging Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple logs.'
+    - ' &8+&a2 &c❁ Strength'
+    - ' &8+&61,300 &7Coins'
+    '15':
+    - '&e  Logger %next_level%'
+    - '   &fGrants &a+&860➜&a64 &6☘'
+    - '   &6Foraging Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple logs.'
+    - ' &8+&a2 &c❁ Strength'
+    - ' &8+&61,400 &7Coins'
+    '16':
+    - '&e  Logger %next_level%'
+    - '   &fGrants &a+&864➜&a68 &6☘'
+    - '   &6Foraging Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple logs.'
+    - ' &8+&a2 &c❁ Strength'
+    - ' &8+&61,500 &7Coins'
+    '17':
+    - '&e  Logger %next_level%'
+    - '   &fGrants &a+&868➜&a72 &6☘'
+    - '   &6Foraging Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple logs.'
+    - ' &8+&a2 &c❁ Strength'
+    - ' &8+&61,600 &7Coins'
+    '18':
+    - '&e  Logger %next_level%'
+    - '   &fGrants &a+&872➜&a76 &6☘'
+    - '   &6Foraging Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple logs.'
+    - ' &8+&a2 &c❁ Strength'
+    - ' &8+&61,800 &7Coins'
+    '19':
+    - '&e  Logger %next_level%'
+    - '   &fGrants &a+&876➜&a80 &6☘'
+    - '   &6Foraging Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple logs.'
+    - ' &8+&a2 &c❁ Strength'
+    - ' &8+&62,000 &7Coins'
+    '20':
+    - '&e  Logger %next_level%'
+    - '   &fGrants &a+&880➜&a84 &6☘'
+    - '   &6Foraging Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple logs.'
+    - ' &8+&a2 &c❁ Strength'
+    - ' &8+&62,200 &7Coins'
+    '21':
+    - '&e  Logger %next_level%'
+    - '   &fGrants &a+&884➜&a88 &6☘'
+    - '   &6Foraging Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple logs.'
+    - ' &8+&a2 &c❁ Strength'
+    - ' &8+&62,400 &7Coins'
+    '22':
+    - '&e  Logger %next_level%'
+    - '   &fGrants &a+&888➜&a92 &6☘'
+    - '   &6Foraging Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple logs.'
+    - ' &8+&a2 &c❁ Strength'
+    - ' &8+&62,600 &7Coins'
+    '23':
+    - '&e  Logger %next_level%'
+    - '   &fGrants &a+&892➜&a96 &6☘'
+    - '   &6Foraging Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple logs.'
+    - ' &8+&a2 &c❁ Strength'
+    - ' &8+&62,800 &7Coins'
+    '24':
+    - '&e  Logger %next_level%'
+    - '   &fGrants &a+&896➜&a100 &6☘'
+    - '   &6Foraging Fortune&5, which'
+    - '   &5increases your chance for'
+    - '   &5multiple logs.'
+    - ' &8+&a2 &c❁ Strength'
+    - ' &8+&63,000 &7Coins'
+    '25':
+    - '&e   Logger %next_level%:'
+    - '&c     &825.0➜&a26.0% &fchance to get double'
+    - '&c     &flogs.'
+    - '&c     &8+&a1 &c✿ Strength'
+    - '&c     &8+&6100$ &7Coins'
+    '26':
+    - '&e   Logger %next_level%:'
+    - '&c     &826.0➜&a27.0% &fchance to get double'
+    - '&c     &flogs.'
+    - '&c     &8+&a1 &c✿ Strength'
+    - '&c     &8+&6100$ &7Coins'
+    '27':
+    - '&e   Logger %next_level%:'
+    - '&c     &827.0➜&a28.0% &fchance to get double'
+    - '&c     &flogs.'
+    - '&c     &8+&a1 &c✿ Strength'
+    - '&c     &8+&6100$ &7Coins'
+    '28':
+    - '&e   Logger %next_level%:'
+    - '&c     &828.0➜&a29.0% &fchance to get double'
+    - '&c     &flogs.'
+    - '&c     &8+&a1 &c✿ Strength'
+    - '&c     &8+&6100$ &7Coins'
+    '29':
+    - '&e   Logger %next_level%:'
+    - '&c     &829.0➜&a30.0% &fchance to get double'
+    - '&c     &flogs.'
+    - '&c     &8+&a1 &c✿ Strength'
+    - '&c     &8+&6100$ &7Coins'
+    '30':
+    - '&e   Logger %next_level%:'
+    - '&c     &830.0➜&a31.0% &fchance to get double'
+    - '&c     &flogs.'
+    - '&c     &8+&a1 &c✿ Strength'
+    - '&c     &8+&6100$ &7Coins'
+    '31':
+    - '&e   Logger %next_level%:'
+    - '&c     &831.0➜&a32.0% &fchance to get double'
+    - '&c     &flogs.'
+    - '&c     &8+&a1 &c✿ Strength'
+    - '&c     &8+&6100$ &7Coins'
+    '32':
+    - '&e   Logger %next_level%:'
+    - '&c     &832.0➜&a33.0% &fchance to get double'
+    - '&c     &flogs.'
+    - '&c     &8+&a1 &c✿ Strength'
+    - '&c     &8+&6100$ &7Coins'
+    '33':
+    - '&e   Logger %next_level%:'
+    - '&c     &833.0➜&a34.0% &fchance to get double'
+    - '&c     &flogs.'
+    - '&c     &8+&a1 &c✿ Strength'
+    - '&c     &8+&6100$ &7Coins'
+    '34':
+    - '&e   Logger %next_level%:'
+    - '&c     &834.0➜&a35.0% &fchance to get double'
+    - '&c     &flogs.'
+    - '&c     &8+&a1 &c✿ Strength'
+    - '&c     &8+&6100$ &7Coins'
+    '35':
+    - '&e   Logger %next_level%:'
+    - '&c     &835.0➜&a36.0% &fchance to get double'
+    - '&c     &flogs.'
+    - '&c     &8+&a1 &c✿ Strength'
+    - '&c     &8+&6100$ &7Coins'
+    '36':
+    - '&e   Logger %next_level%:'
+    - '&c     &836.0➜&a37.0% &fchance to get double'
+    - '&c     &flogs.'
+    - '&c     &8+&a1 &c✿ Strength'
+    - '&c     &8+&6100$ &7Coins'
+    '37':
+    - '&e   Logger %next_level%:'
+    - '&c     &837.0➜&a38.0% &fchance to get double'
+    - '&c     &flogs.'
+    - '&c     &8+&a1 &c✿ Strength'
+    - '&c     &8+&6100$ &7Coins'
+    '38':
+    - '&e   Logger %next_level%:'
+    - '&c     &838.0➜&a39.0% &fchance to get double'
+    - '&c     &flogs.'
+    - '&c     &8+&a1 &c✿ Strength'
+    - '&c     &8+&6100$ &7Coins'
+    '39':
+    - '&e   Logger %next_level%:'
+    - '&c     &839.0➜&a40.0% &fchance to get double'
+    - '&c     &flogs.'
+    - '&c     &8+&a1 &c✿ Strength'
+    - '&c     &8+&6100$ &7Coins'
+    '40':
+    - '&e   Logger %next_level%:'
+    - '&c     &840.0➜&a41.0% &fchance to get double'
+    - '&c     &flogs.'
+    - '&c     &8+&a1 &c✿ Strength'
+    - '&c     &8+&6100$ &7Coins'
+    '41':
+    - '&e   Logger %next_level%:'
+    - '&c     &841.0➜&a42.0% &fchance to get double'
+    - '&c     &flogs.'
+    - '&c     &8+&a1 &c✿ Strength'
+    - '&c     &8+&6100$ &7Coins'
+    '42':
+    - '&e   Logger %next_level%:'
+    - '&c     &842.0➜&a43.0% &fchance to get double'
+    - '&c     &flogs.'
+    - '&c     &8+&a1 &c✿ Strength'
+    - '&c     &8+&6100$ &7Coins'
+    '43':
+    - '&e   Logger %next_level%:'
+    - '&c     &843.0➜&a44.0% &fchance to get double'
+    - '&c     &flogs.'
+    - '&c     &8+&a1 &c✿ Strength'
+    - '&c     &8+&6100$ &7Coins'
+    '44':
+    - '&e   Logger %next_level%:'
+    - '&c     &844.0➜&a45.0% &fchance to get double'
+    - '&c     &flogs.'
+    - '&c     &8+&a1 &c✿ Strength'
+    - '&c     &8+&6100$ &7Coins'
+    '45':
+    - '&e   Logger %next_level%:'
+    - '&c     &845.0➜&a46.0% &fchance to get double'
+    - '&c     &flogs.'
+    - '&c     &8+&a1 &c✿ Strength'
+    - '&c     &8+&6100$ &7Coins'
+    '46':
+    - '&e   Logger %next_level%:'
+    - '&c     &846.0➜&a47.0% &fchance to get double'
+    - '&c     &flogs.'
+    - '&c     &8+&a1 &c✿ Strength'
+    - '&c     &8+&6100$ &7Coins'
+    '47':
+    - '&e   Logger %next_level%:'
+    - '&c     &847.0➜&a48.0% &fchance to get double'
+    - '&c     &flogs.'
+    - '&c     &8+&a1 &c✿ Strength'
+    - '&c     &8+&6100$ &7Coins'
+    '48':
+    - '&e   Logger %next_level%:'
+    - '&c     &848.0➜&a49.0% &fchance to get double'
+    - '&c     &flogs.'
+    - '&c     &8+&a1 &c✿ Strength'
+    - '&c     &8+&6100$ &7Coins'
+    '49':
+    - '&e   Logger %next_level%:'
+    - '&c     &849.0➜&a50.0% &fchance to get double'
+    - '&c     &flogs.'
+    - '&c     &8+&a1 &c✿ Strength'
+    - '&c     &8+&6100$ &7Coins'
+    '50':
+    - '&e   Logger %next_level%:'
+    - '&c     &850.0➜&a51.0% &fchance to get double'
+    - '&c     &flogs.'
+    - '&c     &8+&a1 &c✿ Strength'
+    - '&c     &8+&6100$ &7Coins'
+  Alchemy:
+    '0':
+    - '&e  Brewer %next_level%'
+    - '&f    Potions that you brew have a'
+    - '&f    &a1% &flonger duration.'
+    - '&8   +&a1 &b✎ Intelligence'
+    - '&8   +&625 &7Coins'
+    '1':
+    - '&e  Brewer %next_level%'
+    - '&f    Potions that you brew have a'
+    - '&f    &81➜&a2% &flonger duration.'
+    - '&8   +&a1 &b✎ Intelligence'
+    - '&8   +&650 &7Coins'
+    '2':
+    - '&e  Brewer %next_level%'
+    - '&f    Potions that you brew have a'
+    - '&f    &82➜&a3% &flonger duration.'
+    - '&8   +&a1 &b✎ Intelligence'
+    - '&8   +&6100 &7Coins'
+    '3':
+    - '&e  Brewer %next_level%'
+    - '&f    Potions that you brew have a'
+    - '&f    &83➜&a4% &flonger duration.'
+    - '&8   +&a1 &b✎ Intelligence'
+    - '&8   +&6200 &7Coins'
+    '4':
+    - '&e  Brewer %next_level%'
+    - '&f    Potions that you brew have a'
+    - '&f    &84➜&a5% &flonger duration.'
+    - '&8   +&a1 &b✎ Intelligence'
+    - '&8   +&6300 &7Coins'
+    '5':
+    - '&e  Brewer %next_level%'
+    - '&f    Potions that you brew have a'
+    - '&f    &85➜&a6% &flonger duration.'
+    - '&8   +&a1 &b✎ Intelligence'
+    - '&8   +&6400 &7Coins'
+    '6':
+    - '&e  Brewer %next_level%'
+    - '&f    Potions that you brew have a'
+    - '&f    &86➜&a7% &flonger duration.'
+    - '&8   +&a1 &b✎ Intelligence'
+    - '&8   +&6500 &7Coins'
+    '7':
+    - '&e  Brewer %next_level%'
+    - '&f    Potions that you brew have a'
+    - '&f    &87➜&a8% &flonger duration.'
+    - '&8   +&a1 &b✎ Intelligence'
+    - '&8   +&6600 &7Coins'
+    '8':
+    - '&e  Brewer %next_level%'
+    - '&f    Potions that you brew have a'
+    - '&f    &88➜&a9% &flonger duration.'
+    - '&8   +&a1 &b✎ Intelligence'
+    - '&8   +&6700 &7Coins'
+    '9':
+    - '&e  Brewer %next_level%'
+    - '&f    Potions that you brew have a'
+    - '&f    &89➜&a10% &flonger duration.'
+    - '&8   +&a1 &b✎ Intelligence'
+    - '&8   +&6800 &7Coins'
+    '10':
+    - '&e  Brewer %next_level%'
+    - '&f    Potions that you brew have a'
+    - '&f    &810➜&a11% &flonger duration.'
+    - '&8   +&a1 &b✎ Intelligence'
+    - '&8   +&6900 &7Coins'
+    '11':
+    - '&e  Brewer %next_level%'
+    - '&f    Potions that you brew have a'
+    - '&f    &811➜&a12% &flonger duration.'
+    - '&8   +&a1 &b✎ Intelligence'
+    - '&8   +&61,000 &7Coins'
+    '12':
+    - '&e  Brewer %next_level%'
+    - '&f    Potions that you brew have a'
+    - '&f    &812➜&a13% &flonger duration.'
+    - '&8   +&a1 &b✎ Intelligence'
+    - '&8   +&61,100 &7Coins'
+    '13':
+    - '&e  Brewer %next_level%'
+    - '&f    Potions that you brew have a'
+    - '&f    &813➜&a14% &flonger duration.'
+    - '&8   +&a1 &b✎ Intelligence'
+    - '&8   +&61,200 &7Coins'
+    '14':
+    - '&e  Brewer %next_level%'
+    - '&f    Potions that you brew have a'
+    - '&f    &814➜&a15% &flonger duration.'
+    - '&8   +&a2 &b✎ Intelligence'
+    - '&8   +&61,300 &7Coins'
+    '15':
+    - '&e  Brewer %next_level%'
+    - '&f    Potions that you brew have a'
+    - '&f    &815➜&a16% &flonger duration.'
+    - '&8   +&a2 &b✎ Intelligence'
+    - '&8   +&61,400 &7Coins'
+    '16':
+    - '&e  Brewer %next_level%'
+    - '&f    Potions that you brew have a'
+    - '&f    &816➜&a17% &flonger duration.'
+    - '&8   +&a2 &b✎ Intelligence'
+    - '&8   +&61,500 &7Coins'
+    '17':
+    - '&e  Brewer %next_level%'
+    - '&f    Potions that you brew have a'
+    - '&f    &817➜&a18% &flonger duration.'
+    - '&8   +&a2 &b✎ Intelligence'
+    - '&8   +&61,600 &7Coins'
+    '18':
+    - '&e  Brewer %next_level%'
+    - '&f    Potions that you brew have a'
+    - '&f    &818➜&a19% &flonger duration.'
+    - '&8   +&a2 &b✎ Intelligence'
+    - '&8   +&61,800 &7Coins'
+    '19':
+    - '&e  Brewer %next_level%'
+    - '&f    Potions that you brew have a'
+    - '&f    &819➜&a20% &flonger duration.'
+    - '&8   +&a2 &b✎ Intelligence'
+    - '&8   +&62,000 &7Coins'
+    '20':
+    - '&e  Brewer %next_level%'
+    - '&f    Potions that you brew have a'
+    - '&f    &820➜&a21% &flonger duration.'
+    - '&8   +&a2 &b✎ Intelligence'
+    - '&8   +&62,200 &7Coins'
+    '21':
+    - '&e  Brewer %next_level%'
+    - '&f    Potions that you brew have a'
+    - '&f    &821➜&a22% &flonger duration.'
+    - '&8   +&a2 &b✎ Intelligence'
+    - '&8   +&62,400 &7Coins'
+    '22':
+    - '&e  Brewer %next_level%'
+    - '&f    Potions that you brew have a'
+    - '&f    &822➜&a23% &flonger duration.'
+    - '&8   +&a2 &b✎ Intelligence'
+    - '&8   +&62,600 &7Coins'
+    '23':
+    - '&e  Brewer %next_level%'
+    - '&f    Potions that you brew have a'
+    - '&f    &823➜&a24% &flonger duration.'
+    - '&8   +&a2 &b✎ Intelligence'
+    - '&8   +&62,800 &7Coins'
+    '24':
+    - '&e  Brewer %next_level%'
+    - '&f    Potions that you brew have a'
+    - '&f    &824➜&a25% &flonger duration.'
+    - '&8   +&a2 &b✎ Intelligence'
+    - '&8   +&63,000 &7Coins'
+    '25':
+    - '&e   Brewer %next_level%:'
+    - '&c     &fPotions that you brew have a &825.0➜&a26.0%'
+    - '&c     &flonger duration.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '26':
+    - '&e   Brewer %next_level%:'
+    - '&c     &fPotions that you brew have a &826.0➜&a27.0%'
+    - '&c     &flonger duration.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '27':
+    - '&e   Brewer %next_level%:'
+    - '&c     &fPotions that you brew have a &827.0➜&a28.0%'
+    - '&c     &flonger duration.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '28':
+    - '&e   Brewer %next_level%:'
+    - '&c     &fPotions that you brew have a &828.0➜&a29.0%'
+    - '&c     &flonger duration.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '29':
+    - '&e   Brewer %next_level%:'
+    - '&c     &fPotions that you brew have a &829.0➜&a30.0%'
+    - '&c     &flonger duration.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '30':
+    - '&e   Brewer %next_level%:'
+    - '&c     &fPotions that you brew have a &830.0➜&a31.0%'
+    - '&c     &flonger duration.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '31':
+    - '&e   Brewer %next_level%:'
+    - '&c     &fPotions that you brew have a &831.0➜&a32.0%'
+    - '&c     &flonger duration.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '32':
+    - '&e   Brewer %next_level%:'
+    - '&c     &fPotions that you brew have a &832.0➜&a33.0%'
+    - '&c     &flonger duration.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '33':
+    - '&e   Brewer %next_level%:'
+    - '&c     &fPotions that you brew have a &833.0➜&a34.0%'
+    - '&c     &flonger duration.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '34':
+    - '&e   Brewer %next_level%:'
+    - '&c     &fPotions that you brew have a &834.0➜&a35.0%'
+    - '&c     &flonger duration.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '35':
+    - '&e   Brewer %next_level%:'
+    - '&c     &fPotions that you brew have a &835.0➜&a36.0%'
+    - '&c     &flonger duration.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '36':
+    - '&e   Brewer %next_level%:'
+    - '&c     &fPotions that you brew have a &836.0➜&a37.0%'
+    - '&c     &flonger duration.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '37':
+    - '&e   Brewer %next_level%:'
+    - '&c     &fPotions that you brew have a &837.0➜&a38.0%'
+    - '&c     &flonger duration.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '38':
+    - '&e   Brewer %next_level%:'
+    - '&c     &fPotions that you brew have a &838.0➜&a39.0%'
+    - '&c     &flonger duration.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '39':
+    - '&e   Brewer %next_level%:'
+    - '&c     &fPotions that you brew have a &839.0➜&a40.0%'
+    - '&c     &flonger duration.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '40':
+    - '&e   Brewer %next_level%:'
+    - '&c     &fPotions that you brew have a &840.0➜&a41.0%'
+    - '&c     &flonger duration.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '41':
+    - '&e   Brewer %next_level%:'
+    - '&c     &fPotions that you brew have a &841.0➜&a42.0%'
+    - '&c     &flonger duration.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '42':
+    - '&e   Brewer %next_level%:'
+    - '&c     &fPotions that you brew have a &842.0➜&a43.0%'
+    - '&c     &flonger duration.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '43':
+    - '&e   Brewer %next_level%:'
+    - '&c     &fPotions that you brew have a &843.0➜&a44.0%'
+    - '&c     &flonger duration.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '44':
+    - '&e   Brewer %next_level%:'
+    - '&c     &fPotions that you brew have a &844.0➜&a45.0%'
+    - '&c     &flonger duration.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '45':
+    - '&e   Brewer %next_level%:'
+    - '&c     &fPotions that you brew have a &845.0➜&a46.0%'
+    - '&c     &flonger duration.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '46':
+    - '&e   Brewer %next_level%:'
+    - '&c     &fPotions that you brew have a &846.0➜&a47.0%'
+    - '&c     &flonger duration.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '47':
+    - '&e   Brewer %next_level%:'
+    - '&c     &fPotions that you brew have a &847.0➜&a48.0%'
+    - '&c     &flonger duration.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '48':
+    - '&e   Brewer %next_level%:'
+    - '&c     &fPotions that you brew have a &848.0➜&a49.0%'
+    - '&c     &flonger duration.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '49':
+    - '&e   Brewer %next_level%:'
+    - '&c     &fPotions that you brew have a &849.0➜&a50.0%'
+    - '&c     &flonger duration.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '50':
+    - '&e   Brewer %next_level%:'
+    - '&c     &fPotions that you brew have a &850.0➜&a51.0%'
+    - '&c     &flonger duration.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+  Fishing:
+    '0':
+    - '&e  Treasure Hunter %next_level%'
+    - '&f    Increases the chance to find'
+    - '&f    treasure when fishing by'
+    - '&a    &a0.2%&f.'
+    - '&8   +&a2 HP &c❤ Health'
+    - '&8   +&625 &7Coins'
+    '1':
+    - '&e  Treasure Hunter %next_level%'
+    - '&f    Increases the chance to find'
+    - '&f    treasure when fishing by'
+    - '&a    &80.2➜&a0.4%&f.'
+    - '&8   +&a2 HP &c❤ Health'
+    - '&8   +&650 &7Coins'
+    '2':
+    - '&e  Treasure Hunter %next_level%'
+    - '&f    Increases the chance to find'
+    - '&f    treasure when fishing by'
+    - '&a    &80.4➜&a0.6%&f.'
+    - '&8   +&a2 HP &c❤ Health'
+    - '&8   +&6100 &7Coins'
+    '3':
+    - '&e  Treasure Hunter %next_level%'
+    - '&f    Increases the chance to find'
+    - '&f    treasure when fishing by'
+    - '&a    &80.6➜&a0.8%&f.'
+    - '&8   +&a2 HP &c❤ Health'
+    - '&8   +&6200 &7Coins'
+    '4':
+    - '&e  Treasure Hunter %next_level%'
+    - '&f    Increases the chance to find'
+    - '&f    treasure when fishing by'
+    - '&a    &80.8➜&a1%&f.'
+    - '&8   +&a2 HP &c❤ Health'
+    - '&8   +&6300 &7Coins'
+    '5':
+    - '&e  Treasure Hunter %next_level%'
+    - '&f    Increases the chance to find'
+    - '&f    treasure when fishing by'
+    - '&a    &81➜&a1.2%&f.'
+    - '&8   +&a2 HP &c❤ Health'
+    - '&8   +&6400 &7Coins'
+    '6':
+    - '&e  Treasure Hunter %next_level%'
+    - '&f    Increases the chance to find'
+    - '&f    treasure when fishing by'
+    - '&a    &81.2➜&a1.4%&f.'
+    - '&8   +&a2 HP &c❤ Health'
+    - '&8   +&6500 &7Coins'
+    '7':
+    - '&e  Treasure Hunter %next_level%'
+    - '&f    Increases the chance to find'
+    - '&f    treasure when fishing by'
+    - '&a    &81.4➜&a1.6%&f.'
+    - '&8   +&a2 HP &c❤ Health'
+    - '&8   +&6600 &7Coins'
+    '8':
+    - '&e  Treasure Hunter %next_level%'
+    - '&f    Increases the chance to find'
+    - '&f    treasure when fishing by'
+    - '&a    &81.6➜&a1.8%&f.'
+    - '&8   +&a2 HP &c❤ Health'
+    - '&8   +&6700 &7Coins'
+    '9':
+    - '&e  Treasure Hunter %next_level%'
+    - '&f    Increases the chance to find'
+    - '&f    treasure when fishing by'
+    - '&a    &81.8➜&a2%&f.'
+    - '&8   +&a2 HP &c❤ Health'
+    - '&8   +&6800 &7Coins'
+    '10':
+    - '&e  Treasure Hunter %next_level%'
+    - '&f    Increases the chance to find'
+    - '&f    treasure when fishing by'
+    - '&a    &82➜&a2.2%&f.'
+    - '&8   +&a2 HP &c❤ Health'
+    - '&8   +&6900 &7Coins'
+    '11':
+    - '&e  Treasure Hunter %next_level%'
+    - '&f    Increases the chance to find'
+    - '&f    treasure when fishing by'
+    - '&a    &82.2➜&a2.4%&f.'
+    - '&8   +&a2 HP &c❤ Health'
+    - '&8   +&61,000 &7Coins'
+    '12':
+    - '&e  Treasure Hunter %next_level%'
+    - '&f    Increases the chance to find'
+    - '&f    treasure when fishing by'
+    - '&a    &82.4➜&a2.6%&f.'
+    - '&8   +&a2 HP &c❤ Health'
+    - '&8   +&61,100 &7Coins'
+    '13':
+    - '&e  Treasure Hunter %next_level%'
+    - '&f    Increases the chance to find'
+    - '&f    treasure when fishing by'
+    - '&a    &82.6➜&a2.8%&f.'
+    - '&8   +&a2 HP &c❤ Health'
+    - '&8   +&61,200 &7Coins'
+    '14':
+    - '&e  Treasure Hunter %next_level%'
+    - '&f    Increases the chance to find'
+    - '&f    treasure when fishing by'
+    - '&a    &82.8➜&a3%&f.'
+    - '&8   +&a3 HP &c❤ Health'
+    - '&8   +&61,300 &7Coins'
+    '15':
+    - '&e  Treasure Hunter %next_level%'
+    - '&f    Increases the chance to find'
+    - '&f    treasure when fishing by'
+    - '&a    &83➜&a3.2%&f.'
+    - '&8   +&a3 HP &c❤ Health'
+    - '&8   +&61,400 &7Coins'
+    '16':
+    - '&e  Treasure Hunter %next_level%'
+    - '&f    Increases the chance to find'
+    - '&f    treasure when fishing by'
+    - '&a    &83.2➜&a3.4%&f.'
+    - '&8   +&a3 HP &c❤ Health'
+    - '&8   +&61,500 &7Coins'
+    '17':
+    - '&e  Treasure Hunter %next_level%'
+    - '&f    Increases the chance to find'
+    - '&f    treasure when fishing by'
+    - '&a    &83.4➜&a3.6%&f.'
+    - '&8   +&a3 HP &c❤ Health'
+    - '&8   +&61,600 &7Coins'
+    '18':
+    - '&e  Treasure Hunter %next_level%'
+    - '&f    Increases the chance to find'
+    - '&f    treasure when fishing by'
+    - '&a    &83.6➜&a3.8%&f.'
+    - '&8   +&a3 HP &c❤ Health'
+    - '&8   +&61,800 &7Coins'
+    '19':
+    - '&e  Treasure Hunter %next_level%'
+    - '&f    Increases the chance to find'
+    - '&f    treasure when fishing by'
+    - '&a    &83.8➜&a4%&f.'
+    - '&8   +&a4 HP &c❤ Health'
+    - '&8   +&62,000 &7Coins'
+    '20':
+    - '&e  Treasure Hunter %next_level%'
+    - '&f    Increases the chance to find'
+    - '&f    treasure when fishing by'
+    - '&a    &84➜&a4.2%&f.'
+    - '&8   +&a4 HP &c❤ Health'
+    - '&8   +&62,200 &7Coins'
+    '21':
+    - '&e  Treasure Hunter %next_level%'
+    - '&f    Increases the chance to find'
+    - '&f    treasure when fishing by'
+    - '&a    &84.2➜&a4.4%&f.'
+    - '&8   +&a4 HP &c❤ Health'
+    - '&8   +&62,400 &7Coins'
+    '22':
+    - '&e  Treasure Hunter %next_level%'
+    - '&f    Increases the chance to find'
+    - '&f    treasure when fishing by'
+    - '&a    &84.4➜&a4.6%&f.'
+    - '&8   +&a4 HP &c❤ Health'
+    - '&8   +&62,600 &7Coins'
+    '23':
+    - '&e  Treasure Hunter %next_level%'
+    - '&f    Increases the chance to find'
+    - '&f    treasure when fishing by'
+    - '&a    &84.6➜&a4.8%&f.'
+    - '&8   +&a4 HP &c❤ Health'
+    - '&8   +&62,800 &7Coins'
+    '24':
+    - '&e  Treasure Hunter %next_level%'
+    - '&f    Increases the chance to find'
+    - '&f    treasure when fishing by'
+    - '&a    &84.8➜&a5%&f.'
+    - '&8   +&a4 HP &c❤ Health'
+    - '&8   +&63,000 &7Coins'
+    '25':
+    - '&e   Treasure Hunter %next_level%:'
+    - '&c     &85.0➜&a5.2% &fchance to get'
+    - '&c     &frewards by fishing.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '26':
+    - '&e   Treasure Hunter %next_level%:'
+    - '&c     &85.2➜&a5.4% &fchance to get'
+    - '&c     &frewards by fishing.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '27':
+    - '&e   Treasure Hunter %next_level%:'
+    - '&c     &85.4➜&a5.6% &fchance to get'
+    - '&c     &frewards by fishing.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '28':
+    - '&e   Treasure Hunter %next_level%:'
+    - '&c     &85.6➜&a5.8% &fchance to get'
+    - '&c     &frewards by fishing.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '29':
+    - '&e   Treasure Hunter %next_level%:'
+    - '&c     &85.8➜&a6.0% &fchance to get'
+    - '&c     &frewards by fishing.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '30':
+    - '&e   Treasure Hunter %next_level%:'
+    - '&c     &86.0➜&a6.2% &fchance to get'
+    - '&c     &frewards by fishing.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '31':
+    - '&e   Treasure Hunter %next_level%:'
+    - '&c     &86.2➜&a6.4% &fchance to get'
+    - '&c     &frewards by fishing.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '32':
+    - '&e   Treasure Hunter %next_level%:'
+    - '&c     &86.4➜&a6.6% &fchance to get'
+    - '&c     &frewards by fishing.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '33':
+    - '&e   Treasure Hunter %next_level%:'
+    - '&c     &86.6➜&a6.8% &fchance to get'
+    - '&c     &frewards by fishing.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '34':
+    - '&e   Treasure Hunter %next_level%:'
+    - '&c     &86.8➜&a7.0% &fchance to get'
+    - '&c     &frewards by fishing.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '35':
+    - '&e   Treasure Hunter %next_level%:'
+    - '&c     &87.0➜&a7.2% &fchance to get'
+    - '&c     &frewards by fishing.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '36':
+    - '&e   Treasure Hunter %next_level%:'
+    - '&c     &87.2➜&a7.4% &fchance to get'
+    - '&c     &frewards by fishing.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '37':
+    - '&e   Treasure Hunter %next_level%:'
+    - '&c     &87.4➜&a7.6% &fchance to get'
+    - '&c     &frewards by fishing.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '38':
+    - '&e   Treasure Hunter %next_level%:'
+    - '&c     &87.6➜&a7.8% &fchance to get'
+    - '&c     &frewards by fishing.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '39':
+    - '&e   Treasure Hunter %next_level%:'
+    - '&c     &87.8➜&a8.0% &fchance to get'
+    - '&c     &frewards by fishing.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '40':
+    - '&e   Treasure Hunter %next_level%:'
+    - '&c     &88.0➜&a8.2% &fchance to get'
+    - '&c     &frewards by fishing.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '41':
+    - '&e   Treasure Hunter %next_level%:'
+    - '&c     &88.2➜&a8.4% &fchance to get'
+    - '&c     &frewards by fishing.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '42':
+    - '&e   Treasure Hunter %next_level%:'
+    - '&c     &88.4➜&a8.6% &fchance to get'
+    - '&c     &frewards by fishing.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '43':
+    - '&e   Treasure Hunter %next_level%:'
+    - '&c     &88.6➜&a8.8% &fchance to get'
+    - '&c     &frewards by fishing.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '44':
+    - '&e   Treasure Hunter %next_level%:'
+    - '&c     &88.8➜&a9.0% &fchance to get'
+    - '&c     &frewards by fishing.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '45':
+    - '&e   Treasure Hunter %next_level%:'
+    - '&c     &89.0➜&a9.2% &fchance to get'
+    - '&c     &frewards by fishing.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '46':
+    - '&e   Treasure Hunter %next_level%:'
+    - '&c     &89.2➜&a9.4% &fchance to get'
+    - '&c     &frewards by fishing.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '47':
+    - '&e   Treasure Hunter %next_level%:'
+    - '&c     &89.4➜&a9.6% &fchance to get'
+    - '&c     &frewards by fishing.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '48':
+    - '&e   Treasure Hunter %next_level%:'
+    - '&c     &89.6➜&a9.8% &fchance to get'
+    - '&c     &frewards by fishing.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '49':
+    - '&e   Treasure Hunter %next_level%:'
+    - '&c     &89.8➜&a10.0% &fchance to get'
+    - '&c     &frewards by fishing.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'
+    '50':
+    - '&e   Treasure Hunter %next_level%:'
+    - '&c     &810.0➜&a10.2% &fchance to get'
+    - '&c     &frewards by fishing.'
+    - '&c     &8+&a2 HP &c♥ Health'
+    - '&c     &8+&6100 &7Coins'

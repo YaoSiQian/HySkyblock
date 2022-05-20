@@ -1,0 +1,24 @@
+messages:
+  invalidCommand: '%prefix% &7未知指令!'
+  invalidArguments: '%prefix% &7未知子指令!'
+  unknownCommand: '%prefix% &7指令不存在!'
+  mustBeAPlayer: '%prefix% &7该指令只能玩家输入'
+  invalidPlayer: '%prefix% &7未知玩家'
+  offlinePlayer: '%prefix% 该玩家不在线!'
+  reloaded: '%prefix% &7配置已重载'
+  noPermission: '%prefix% &7你没有权限'
+  helpMessage: '&7%command% - &e%description%'
+  helpHeader: '      &6&l铁砧   '
+  helpfooter: '&e<< &6第 %page% 页至第 %maxpage% 页 &e>>'
+  previousPage: '<<'
+  nextPage: '>>'
+  helpPageHoverMessage: 点击前往第 %page% 页
+  defaultName: 输入名称...
+  renameTitle: '&2花费: %cost%'
+  itemToPickup: '&c铁砧上有一个待拾取的物品'
+  xpErrorMessage: '&c你没有足够的经验等级!'
+errorInformation:
+  incompatibleItems:
+  - '&7你不能合并这两个物品!'
+  incompatibleEnchantments:
+  - '&7你为这个此物品增加附魔此魔咒!'

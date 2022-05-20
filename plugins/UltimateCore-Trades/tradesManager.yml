@@ -1,0 +1,359 @@
+trades:
+  '1':
+    tradeItemDisplayName: '&fCoal &8x%trade_item_amount%'
+    description:
+    - ''
+    - '&7Cost'
+    - '&fOak Wood &8x%cost_item_amount%'
+    moneyCost: 0.0
+    slot: 10
+    page: 1
+    permission: rank.default
+    costItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: OAK_LOG
+    tradeItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: COAL
+      amount: 2
+  '2':
+    tradeItemDisplayName: '&fGrass &8x%trade_item_amount%'
+    description:
+    - ''
+    - '&7Cost'
+    - '&fDirt &8x%cost_item_amount%'
+    moneyCost: 0.0
+    slot: 11
+    page: 1
+    permission: rank.default
+    tradeItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: GRASS_BLOCK
+      amount: 4
+    costItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: DIRT
+      amount: 4
+  '3':
+    tradeItemDisplayName: '&fDirt &8x%trade_item_amount%'
+    description:
+    - ''
+    - '&7Cost'
+    - '&fSeeds &8x%cost_item_amount%'
+    moneyCost: 0.0
+    slot: 12
+    page: 1
+    permission: trades.dirt
+    tradeItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: DIRT
+      amount: 2
+    costItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: WHEAT_SEEDS
+      amount: 8
+  '4':
+    tradeItemDisplayName: '&fClay &8x%trade_item_amount%'
+    description:
+    - ''
+    - '&7Cost'
+    - '&fSeeds &8x%cost_item_amount%'
+    moneyCost: 0.0
+    slot: 13
+    page: 1
+    permission: rank.default
+    tradeItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: CLAY_BALL
+    costItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: WHEAT_SEEDS
+      amount: 12
+  '5':
+    tradeItemDisplayName: '&fOak Leaves &8x%trade_item_amount%'
+    description:
+    - ''
+    - '&7Cost'
+    - '&fOak Sapling &8x%cost_item_amount%'
+    moneyCost: 0.0
+    slot: 14
+    page: 1
+    permission: trades.oak_leaves
+    tradeItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: OAK_LEAVES
+    costItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: OAK_SAPLING
+  '6':
+    tradeItemDisplayName: '&fSpruce Leaves &8x%trade_item_amount%'
+    description:
+    - ''
+    - '&7Cost'
+    - '&fBirch Sapling &8x%cost_item_amount%'
+    moneyCost: 0.0
+    slot: 15
+    page: 1
+    permission: trades.spruce_leaves
+    tradeItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: SPRUCE_LEAVES
+    costItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: SPRUCE_SAPLING
+  '7':
+    tradeItemDisplayName: '&fBirch Leaves &8x%trade_item_amount%'
+    description:
+    - ''
+    - '&7Cost'
+    - '&fBirch Sapling &8x%cost_item_amount%'
+    moneyCost: 0.0
+    slot: 16
+    page: 1
+    permission: trades.birch_leaves
+    tradeItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: BIRCH_LEAVES
+    costItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: BIRCH_SAPLING
+  '8':
+    tradeItemDisplayName: '&fJungle Leaves &8x%trade_item_amount%'
+    description:
+    - ''
+    - '&7Cost'
+    - '&fJungle Sapling &8x%cost_item_amount%'
+    moneyCost: 0.0
+    slot: 19
+    page: 1
+    permission: trades.jungle_leaves
+    tradeItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: JUNGLE_LEAVES
+    costItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: JUNGLE_SAPLING
+  '9':
+    tradeItemDisplayName: '&fVines &8x%trade_item_amount%'
+    description:
+    - ''
+    - '&7Cost'
+    - '&fJungle Leaves &8x%cost_item_amount%'
+    moneyCost: 0.0
+    slot: 20
+    page: 1
+    permission: trades.vines
+    tradeItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: VINE
+    costItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: JUNGLE_LEAVES
+      amount: 5
+  '10':
+    tradeItemDisplayName: '&fAcacia Leaves &8x%trade_item_amount%'
+    description:
+    - ''
+    - '&7Cost'
+    - '&fAcacia Sapling &8x%cost_item_amount%'
+    moneyCost: 0.0
+    slot: 21
+    page: 1
+    permission: trades.acacia_leaves
+    tradeItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: ACACIA_LEAVES
+    costItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: ACACIA_SAPLING
+  '11':
+    tradeItemDisplayName: '&fDark Oak Leaves &8x%trade_item_amount%'
+    description:
+    - ''
+    - '&7Cost'
+    - '&fDark Oak Sapling &8x%cost_item_amount%'
+    moneyCost: 0.0
+    slot: 22
+    page: 1
+    permission: trades.dark_oak_leaves
+    tradeItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: DARK_OAK_LEAVES
+    costItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: DARK_OAK_SAPLING
+  '12':
+    tradeItemDisplayName: '&fTall Grass &8x%trade_item_amount%'
+    description:
+    - ''
+    - '&7Cost'
+    - '&fDirt &8x%cost_item_amount%'
+    moneyCost: 0.0
+    slot: 23
+    page: 1
+    permission: trades.tall_grass
+    tradeItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: TALL_GRASS
+    costItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: DIRT
+      amount: 8
+  '13':
+    tradeItemDisplayName: '&fFern &8x%trade_item_amount%'
+    description:
+    - ''
+    - '&7Cost'
+    - '&fDirt &8x%cost_item_amount%'
+    moneyCost: 0.0
+    slot: 24
+    page: 1
+    permission: trades.fern
+    tradeItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: FERN
+    costItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: DIRT
+      amount: 8
+  '14':
+    tradeItemDisplayName: '&fDead Bush &8x%trade_item_amount%'
+    description:
+    - ''
+    - '&7Cost'
+    - '&fDirt &8x%cost_item_amount%'
+    moneyCost: 0.0
+    slot: 25
+    page: 1
+    permission: trades.dead_bush
+    tradeItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: DEAD_BUSH
+    costItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: DIRT
+      amount: 8
+  '15':
+    tradeItemDisplayName: '&fWater Bucket &8x%trade_item_amount%'
+    description:
+    - ''
+    - '&7Cost'
+    - '&612 Coins'
+    moneyCost: 12.0
+    slot: 28
+    page: 1
+    permission: trades.water_bucket
+    tradeItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: WATER_BUCKET
+  '16':
+    tradeItemDisplayName: '&fLava Bucket &8x%trade_item_amount%'
+    description:
+    - ''
+    - '&7Cost'
+    - '&620 Coins'
+    moneyCost: 20.0
+    slot: 29
+    page: 1
+    permission: trades.lava_bucket
+    tradeItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: LAVA_BUCKET
+  '17':
+    tradeItemDisplayName: '&fMilk Bucket &8x%trade_item_amount%'
+    description:
+    - ''
+    - '&7Cost'
+    - '&650 Coins'
+    moneyCost: 50.0
+    slot: 30
+    page: 1
+    permission: trades.milk_bucket
+    tradeItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: MILK_BUCKET
+  '18':
+    tradeItemDisplayName: '&fRed Sand &8x%trade_item_amount%'
+    description:
+    - ''
+    - '&7Cost'
+    - '&fSand &8x%cost_item_amount%'
+    moneyCost: 0.0
+    slot: 31
+    page: 1
+    permission: trades.red_sand
+    tradeItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: RED_SAND
+    costItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: SAND
+  '19':
+    tradeItemDisplayName: '&fNether Bricks &8x%trade_item_amount%'
+    description:
+    - ''
+    - '&7Cost'
+    - '&fNetherrack &8x%cost_item_amount%'
+    moneyCost: 0.0
+    slot: 32
+    page: 1
+    permission: trades.nether_bricks
+    tradeItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: NETHER_BRICK
+    costItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: NETHERRACK
+  '20':
+    tradeItemDisplayName: '&fSponge &8x%trade_item_amount%'
+    description:
+    - ''
+    - '&7Cost'
+    - '&fWet Sponge &8x%cost_item_amount%'
+    moneyCost: 0.0
+    slot: 33
+    page: 1
+    permission: trades.sponge
+    tradeItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: SPONGE
+    costItem:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: WET_SPONGE

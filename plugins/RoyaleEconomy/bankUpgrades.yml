@@ -1,0 +1,451 @@
+bank-upgrades:
+  #Indexes must be from 0 to max index
+  #0 is the default account everyone starts with
+  maximum-index: 4
+  0:
+    name: '&a新手账户'
+    lore:
+      - ''
+      - '&a>&m--------&r &6利息部分 &a&m--------&a<'
+      - ' &e第一个 &610 &e百万硬币可以获得 &b2% &e的利息'
+      - ' &e从 &610 &e到 &615 &e百万硬币可以获得 &b1% &e的利息'
+      - ''
+      - ' &7最大利息: &6250,000'
+      - '   &8(伴随 15,000,000 余额)'
+      - '&a>&m---------------------------------&a<'
+      - ''
+      - '&7最大余额: &65 千万硬币'
+      - ''
+      - '&7这是你的初始账户'
+    maximum-balance: 50000000
+    #What you need to upgrade to this upgrade
+    requirements:
+      coins: 0
+      permission: 'none'
+    deny-message: '&c你没有足够的硬币!'
+    percentages:
+      #You can add and edit more procents and the "first", "second" name of the percentage doesn't really matter
+      #For the amount of coins a player has it will receive a percentage from the category he is in
+      #Procents also stack
+      #For the example below if player has 13 million coins he will receive 2% from 10 million + 1% from 3 million (13 million - 10 million)
+      first:
+        percent: 2
+        minimum-coins: 1
+        maximum-coins: 10000000
+      second:
+        percent: 1
+        minimum-coins: 10000001
+        maximum-coins: 15000000
+  1:
+    name: '&6金卡账户'
+    lore:
+      - ''
+      - '&6>&m--------&r &6利息部分 &6&m--------&6<'
+      - ' &e第一个 &610 &e百万硬币可以获得 &b2% &e的利息'
+      - ' &e从 &610 &e到 &620 &e百万硬币可以获得 &b1% &e的利息'
+      - ''
+      - ' &7最大利息: &6300,000'
+      - '   &8(伴随 20,000,000 余额)'
+      - '&6>&m---------------------------------&6<'
+      - ''
+      - '&7最大余额: &61 亿硬币'
+      - ''
+      - '&7花费: &65,000,000 硬币'
+    maximum-balance: 100000000
+    #What you need to upgrade to this upgrade
+    requirements:
+      coins: 5000000
+      permission: 'none'
+    upgrade-message:
+      - '&f你升级到了 &6金卡账户&f!'
+      - '&f你的最大银行余额是 &61 亿硬币'
+      - '&f你现在的最大利息是 &6300,000 硬币'
+    deny-message: '&c你没有足够的硬币!'
+    percentages:
+      #You can add and edit more procents and the "first", "second" name of the percentage doesn't really matter
+      #For the amount of coins a player has it will receive a percentage from the category he is in
+      #Procents also stack
+      #For the example below if player has 13 million coins he will receive 2% from 10 million + 1% from 3 million (13 million - 10 million)
+      first:
+        percent: 2
+        minimum-coins: 1
+        maximum-coins: 10000000
+      second:
+        percent: 1
+        minimum-coins: 10000001
+        maximum-coins: 20000000
+  2:
+    name: '&d至尊账户'
+    lore:
+      - ''
+      - '&d>&m--------&r &6利息部分 &d&m--------&d<'
+      - ' &e第一个 &610 &e百万硬币可以获得 &b2% &e的利息'
+      - ' &e从 &610 &e到 &620 &e百万硬币可以获得 &b1% &e的利息'
+      - ' &e从 &620 &e到 &630 &e百万硬币可以获得 &b0.5% &e的利息'
+      - ''
+      - ' &7最大利息: &6350,000'
+      - '   &8(伴随 30,000,000 余额)'
+      - '&d>&m---------------------------------&d<'
+      - ''
+      - '&7最大余额: &62.5 亿硬币'
+      - ''
+      - '&7花费: &610,000,000 硬币'
+    maximum-balance: 250000000
+    #What you need to upgrade to this upgrade
+    requirements:
+      coins: 10000000
+      permission: 'none'
+    upgrade-message:
+      - '&f你升级到了 &d至尊账户&f!'
+      - '&f你的最大银行余额是 &62.5 亿硬币'
+      - '&f你现在的最大利息是 &6350,000 硬币'
+    deny-message: '&c你没有足够的硬币!'
+    percentages:
+      #You can add and edit more procents and the "first", "second" name of the percentage doesn't really matter
+      #For the amount of coins a player has it will receive a percentage from the category he is in
+      #Procents also stack
+      #For the example below if player has 13 million coins he will receive 2% from 10 million + 1% from 3 million (13 million - 10 million)
+      first:
+        percent: 2
+        minimum-coins: 1
+        maximum-coins: 10000000
+      second:
+        percent: 1
+        minimum-coins: 10000001
+        maximum-coins: 20000000
+      third:
+        percent: 0.5
+        minimum-coins: 20000001
+        maximum-coins: 30000000
+  3:
+    name: '&5超·至尊账户'
+    lore:
+      - ''
+      - '&5>&m--------&r &6利息部分 &5&m--------&5<'
+      - ' &e第一个 &610 &e百万硬币可以获得 &b2% &e的利息'
+      - ' &e从 &610 &e到 &620 &e百万硬币可以获得 &b1% &e的利息'
+      - ' &e从 &620 &e到 &630 &e百万硬币可以获得 &b0.5% &e的利息'
+      - ' &e从 &630 &e到 &650 &e百万硬币可以获得 &b0.2% &e的利息'
+      - ''
+      - ' &7最大利息: &6390,000'
+      - '   &8(伴随 50,000,000 余额)'
+      - '&5>&m---------------------------------&5<'
+      - ''
+      - '&7最大余额: &65 亿硬币'
+      - ''
+      - '&7花费: &625,000,000 硬币'
+    maximum-balance: 500000000
+    #What you need to upgrade to this upgrade
+    requirements:
+      coins: 25000000
+      permission: 'none'
+    upgrade-message:
+      - '&f你升级到了 &5超·至尊账户&f!'
+      - '&f你的最大银行余额是 &65 亿硬币'
+      - '&f你现在的最大利息是 &6390,000 硬币'
+    deny-message: '&c你没有足够的硬币!'
+    percentages:
+      #You can add and edit more procents and the "first", "second" name of the percentage doesn't really matter
+      #For the amount of coins a player has it will receive a percentage from the category he is in
+      #Procents also stack
+      #For the example below if player has 13 million coins he will receive 2% from 10 million + 1% from 3 million (13 million - 10 million)
+      first:
+        percent: 2
+        minimum-coins: 1
+        maximum-coins: 10000000
+      second:
+        percent: 1
+        minimum-coins: 10000001
+        maximum-coins: 20000000
+      third:
+        percent: 0.5
+        minimum-coins: 20000001
+        maximum-coins: 30000000
+      forth:
+        percent: 0.2
+        minimum-coins: 30000001
+        maximum-coins: 50000000
+  4:
+    name: '&c首席账户'
+    lore:
+      - ''
+      - '&c>&m--------&r &6利息部分 &c&m--------&c<'
+      - ' &e第一个 &610 &e百万硬币可以获得 &b2% &e的利息'
+      - ' &e从 &610 &e到 &620 &e百万硬币可以获得 &b1% &e的利息'
+      - ' &e从 &620 &e到 &630 &e百万硬币可以获得 &b0.5% &e的利息'
+      - ' &e从 &630 &e到 &650 &e百万硬币可以获得 &b0.2% &e的利息'
+      - ' &e从 &650 &e到 &6160 &e百万硬币可以获得 &b0.1% &e的利息'
+      - ''
+      - ' &7最大利息: &6500,000'
+      - '   &8(伴随 160,000,000 余额)'
+      - '&c>&m---------------------------------&c<'
+      - ''
+      - '&7最大余额: &610 亿硬币'
+      - ''
+      - '&7花费: &650,000,000 硬币'
+    maximum-balance: 1000000000
+    #What you need to upgrade to this upgrade
+    requirements:
+      coins: 50000000
+      permission: 'none'
+    upgrade-message:
+      - '&f你升级到了 &c首席账户&f!'
+      - '&f你的最大银行余额是 &610 亿硬币'
+      - '&f你现在的最大利息是 &6500,000 硬币'
+    deny-message: '&c你没有足够的硬币!'
+    percentages:
+      #You can add and edit more procents and the "first", "second" name of the percentage doesn't really matter
+      #For the amount of coins a player has it will receive a percentage from the category he is in
+      #Procents also stack
+      #For the example below if player has 13 million coins he will receive 2% from 10 million + 1% from 3 million (13 million - 10 million)
+      first:
+        percent: 2
+        minimum-coins: 1
+        maximum-coins: 10000000
+      second:
+        percent: 1
+        minimum-coins: 10000001
+        maximum-coins: 20000000
+      third:
+        percent: 0.5
+        minimum-coins: 20000001
+        maximum-coins: 30000000
+      forth:
+        percent: 0.2
+        minimum-coins: 30000001
+        maximum-coins: 50000000
+      fifth:
+        percent: 0.1
+        minimum-coins: 50000001
+        maximum-coins: 160000000
+
+shared-bank-upgrades:
+  #Indexes must be from 0 to max index
+  #0 is the default account everyone starts with
+  maximum-index: 4
+  0:
+    player-limit: 4
+    name: '&a新手账户'
+    lore:
+      - ''
+      - '&a>&m--------&r &6利息部分 &a&m--------&a<'
+      - ' &e第一个 &610 &e百万硬币可以获得 &b2% &e的利息'
+      - ' &e从 &610 &e到 &615 &e百万硬币可以获得 &b1% &e的利息'
+      - ''
+      - ' &7最大利息: &6250,000'
+      - '   &8(伴随 15,000,000 余额)'
+      - '&a>&m---------------------------------&a<'
+      - ''
+      - '&7最大余额: &650 Million 硬币'
+      - '&7玩家限制: &b4 个玩家'
+      - ''
+      - '&7这是你的初始账户'
+    maximum-balance: 50000000
+    #What you need to upgrade to this upgrade
+    requirements:
+      coins: 0
+      permission: 'none'
+    deny-message: '&c你没有足够的硬币!'
+    percentages:
+      #You can add and edit more procents and the "first", "second" name of the percentage doesn't really matter
+      #For the amount of coins a player has it will receive a percentage from the category he is in
+      #Procents also stack
+      #For the example below if player has 13 million coins he will receive 2% from 10 million + 1% from 3 million (13 million - 10 million)
+      first:
+        percent: 2
+        minimum-coins: 1
+        maximum-coins: 10000000
+      second:
+        percent: 1
+        minimum-coins: 10000001
+        maximum-coins: 15000000
+  1:
+    player-limit: 4
+    name: '&6金卡账户'
+    lore:
+      - ''
+      - '&6>&m--------&r &6利息部分 &6&m--------&6<'
+      - ' &e第一个 &610 &e百万硬币可以获得 &b2% &e的利息'
+      - ' &e从 &610 &e到 &620 &e百万硬币可以获得 &b1% &e的利息'
+      - ''
+      - ' &7最大利息: &6300,000'
+      - '   &8(伴随 20,000,000 余额)'
+      - '&6>&m---------------------------------&6<'
+      - ''
+      - '&7最大余额: &61 亿硬币'
+      - '&7玩家限制: &b4 个玩家'
+      - ''
+      - '&7花费: &65,000,000 硬币'
+    maximum-balance: 100000000
+    #What you need to upgrade to this upgrade
+    requirements:
+      coins: 5000000
+      permission: 'none'
+    upgrade-message:
+      - '&f你升级到了 &6金卡账户&f!'
+      - '&f你的最大银行余额是 &61 亿硬币'
+      - '&f你现在的最大利息是 &6300,000 硬币'
+    deny-message: '&c你没有足够的硬币!'
+    percentages:
+      #You can add and edit more procents and the "first", "second" name of the percentage doesn't really matter
+      #For the amount of coins a player has it will receive a percentage from the category he is in
+      #Procents also stack
+      #For the example below if player has 13 million coins he will receive 2% from 10 million + 1% from 3 million (13 million - 10 million)
+      first:
+        percent: 2
+        minimum-coins: 1
+        maximum-coins: 10000000
+      second:
+        percent: 1
+        minimum-coins: 10000001
+        maximum-coins: 20000000
+  2:
+    player-limit: 5
+    name: '&d至尊账户'
+    lore:
+      - ''
+      - '&d>&m--------&r &6利息部分 &d&m--------&d<'
+      - ' &e第一个 &610 &e百万硬币可以获得 &b2% &e的利息'
+      - ' &e从 &610 &e到 &620 &e百万硬币可以获得 &b1% &e的利息'
+      - ' &e从 &620 &e到 &630 &e百万硬币可以获得 &b0.5% &e的利息'
+      - ''
+      - ' &7最大利息: &6350,000'
+      - '   &8(伴随 30,000,000 余额)'
+      - '&d>&m---------------------------------&d<'
+      - ''
+      - '&7最大余额: &62.5 亿硬币'
+      - '&7玩家限制: &b5 个玩家'
+      - ''
+      - '&7花费: &610,000,000 硬币'
+    maximum-balance: 250000000
+    #What you need to upgrade to this upgrade
+    requirements:
+      coins: 10000000
+      permission: 'none'
+    upgrade-message:
+      - '&f你升级到了 &d至尊账户&f!'
+      - '&f你的最大银行余额是 &62.5 亿硬币'
+      - '&f你现在的最大利息是 &6350,000 硬币'
+    deny-message: '&c你没有足够的硬币!'
+    percentages:
+      #You can add and edit more procents and the "first", "second" name of the percentage doesn't really matter
+      #For the amount of coins a player has it will receive a percentage from the category he is in
+      #Procents also stack
+      #For the example below if player has 13 million coins he will receive 2% from 10 million + 1% from 3 million (13 million - 10 million)
+      first:
+        percent: 2
+        minimum-coins: 1
+        maximum-coins: 10000000
+      second:
+        percent: 1
+        minimum-coins: 10000001
+        maximum-coins: 20000000
+      third:
+        percent: 0.5
+        minimum-coins: 20000001
+        maximum-coins: 30000000
+  3:
+    player-limit: 5
+    name: '&5超·至尊账户'
+    lore:
+      - ''
+      - '&5>&m--------&r &6利息部分 &5&m--------&5<'
+      - ' &e第一个 &610 &e百万硬币可以获得 &b2% &e的利息'
+      - ' &e从 &610 &e到 &620 &e百万硬币可以获得 &b1% &e的利息'
+      - ' &e从 &620 &e到 &630 &e百万硬币可以获得 &b0.5% &e的利息'
+      - ' &e从 &630 &e到 &650 &e百万硬币可以获得 &b0.2% &e的利息'
+      - ''
+      - ' &7最大利息: &6390,000'
+      - '   &8(伴随 50,000,000 余额)'
+      - '&5>&m---------------------------------&5<'
+      - ''
+      - '&7最大余额: &65 亿硬币'
+      - '&7玩家限制: &b5 个玩家'
+      - ''
+      - '&7花费: &625,000,000 硬币'
+    maximum-balance: 500000000
+    #What you need to upgrade to this upgrade
+    requirements:
+      coins: 25000000
+      permission: 'none'
+    upgrade-message:
+      - '&f你升级到了 &5超·至尊账户&f!'
+      - '&f你的最大银行余额是 &65 亿硬币'
+      - '&f你现在的最大利息是 &6390,000 硬币'
+    deny-message: '&c你没有足够的硬币!'
+    percentages:
+      #You can add and edit more procents and the "first", "second" name of the percentage doesn't really matter
+      #For the amount of coins a player has it will receive a percentage from the category he is in
+      #Procents also stack
+      #For the example below if player has 13 million coins he will receive 2% from 10 million + 1% from 3 million (13 million - 10 million)
+      first:
+        percent: 2
+        minimum-coins: 1
+        maximum-coins: 10000000
+      second:
+        percent: 1
+        minimum-coins: 10000001
+        maximum-coins: 20000000
+      third:
+        percent: 0.5
+        minimum-coins: 20000001
+        maximum-coins: 30000000
+      forth:
+        percent: 0.2
+        minimum-coins: 30000001
+        maximum-coins: 50000000
+  4:
+    player-limit: 6
+    name: '&c首席账户'
+    lore:
+      - ''
+      - '&c>&m--------&r &6利息部分 &c&m--------&c<'
+      - ' &e第一个 &610 &e百万硬币可以获得 &b2% &e的利息'
+      - ' &e从 &610 &e到 &620 &e百万硬币可以获得 &b1% &e的利息'
+      - ' &e从 &620 &e到 &630 &e百万硬币可以获得 &b0.5% &e的利息'
+      - ' &e从 &630 &e到 &650 &e百万硬币可以获得 &b0.2% &e的利息'
+      - ' &e从 &650 &e到 &6160 &e百万硬币可以获得 &b0.1% &e的利息'
+      - ''
+      - ' &7最大利息: &6500,000'
+      - '   &8(伴随 160,000,000 余额)'
+      - '&c>&m---------------------------------&c<'
+      - ''
+      - '&7最大余额: &610 亿硬币'
+      - '&7玩家限制: &b6 个玩家'
+      - ''
+      - '&7花费: &650,000,000 硬币'
+    maximum-balance: 1000000000
+    #What you need to upgrade to this upgrade
+    requirements:
+      coins: 50000000
+      permission: 'none'
+    upgrade-message:
+      - '&f你升级到了 &c首席账户&f!'
+      - '&f你的最大银行余额是 &610 亿硬币'
+      - '&f你现在的最大利息是 &6500,000 硬币'
+    deny-message: '&c你没有足够的硬币!'
+    percentages:
+      #You can add and edit more procents and the "first", "second" name of the percentage doesn't really matter
+      #For the amount of coins a player has it will receive a percentage from the category he is in
+      #Procents also stack
+      #For the example below if player has 13 million coins he will receive 2% from 10 million + 1% from 3 million (13 million - 10 million)
+      first:
+        percent: 2
+        minimum-coins: 1
+        maximum-coins: 10000000
+      second:
+        percent: 1
+        minimum-coins: 10000001
+        maximum-coins: 20000000
+      third:
+        percent: 0.5
+        minimum-coins: 20000001
+        maximum-coins: 30000000
+      forth:
+        percent: 0.2
+        minimum-coins: 30000001
+        maximum-coins: 50000000
+      fifth:
+        percent: 0.1
+        minimum-coins: 50000001
+        maximum-coins: 160000000

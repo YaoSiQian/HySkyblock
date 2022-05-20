@@ -1,0 +1,189 @@
+Plugin:
+  Prefix: '&7'
+  Disable-Aliases:
+    /msg: true
+    /f: false
+    /r: true
+    /reply: true
+    /fl: false
+  Disable-Language: english
+  Default-Language: chinese
+Player:
+  b0bb65a2-832f-4a5d-854e-873b7c4522ed:
+    Name: SimplyRin
+    Language: english
+    Prefix: '&c[CREATOR] '
+    Toggle: true
+    Friends:
+    - 64636120-8633-4541-aa5f-412b42ddb04d
+  64636120-8633-4541-aa5f-412b42ddb04d:
+    Name: SimplyFoxy
+    Language: english
+    Prefix: '&c[CREATOR] '
+    Toggle: true
+    Friends:
+    - b0bb65a2-832f-4a5d-854e-873b7c4522ed
+  556945d5-7ffe-4d60-a826-2163fe443f38:
+    Name: zGiveMeFlowersz
+    Language: english
+    Prefix: '&7'
+    Toggle: true
+    Friends: '[]'
+  6563b729-f844-4403-8fba-93695f489f34:
+    Name: SuperSteveB
+    Language: english
+    Prefix: '&7'
+    Toggle: true
+    Friends: '[]'
+  70632cb2-c56f-4906-b8cd-3d5809d7675a:
+    Name: BjornLV
+    Language: english
+    Prefix: '&7'
+    Toggle: true
+    Friends: '[]'
+  d6ae0bf9-f117-45a8-be4e-180987f206bb:
+    Name: Huys
+    Language: english
+    Prefix: '&7'
+    Toggle: true
+    Friends: '[]'
+  0e97f849-9e16-4194-ac11-cc10e6dfe540:
+    Name: joseda007
+    Language: english
+    Prefix: '&7'
+    Toggle: true
+    Friends: '[]'
+  74d983b1-c70a-4686-a551-d55167cccb12:
+    Name: bowdyyy
+    Language: english
+    Prefix: '&7'
+    Toggle: true
+    Friends: '[]'
+  4161be1b-36c9-382e-a5ac-013df065797a:
+    Name: Khrystyian
+    Language: english
+    Prefix: '&7'
+    Toggle: true
+    Friends: '[]'
+  d4d8db99-ddb9-307a-839c-5f714519c7bb:
+    Name: 2asd
+    Language: english
+    Prefix: '&7'
+    Toggle: true
+    Friends: '[]'
+  bf7dcdaa-7a3c-309a-b37a-e4de7016cb49:
+    Name: sad2sax
+    Language: english
+    Prefix: '&7'
+    Toggle: true
+    Friends: '[]'
+  a6a69701-9de9-3669-985d-8df95fe30b80:
+    Name: sad34yx
+    Language: english
+    Prefix: '&7'
+    Toggle: true
+    Friends: '[]'
+  11d63023-f4bd-47f0-bd9b-b74cc0164ce8:
+    Name: bebiks_
+    Language: english
+    Prefix: '&7'
+    Toggle: true
+    Friends: '[]'
+  cb450d59-15e0-48a8-abaa-b1b62310fdee:
+    Name: Ajronek_
+    Language: english
+    Prefix: '&7'
+    Toggle: true
+    Friends: '[]'
+  abd0b1aa-7a5f-4f40-b18d-57634ed6c380:
+    Name: _Papito_
+    Language: english
+    Prefix: '&7'
+    Toggle: true
+    Friends: '[]'
+  dc9cf54b-0f5e-43ca-ae79-0f32fb3ca202:
+    Name: PixxelGaming
+    Language: english
+    Prefix: '&7'
+    Toggle: true
+    Friends: '[]'
+  bb6061d5-3e2f-4046-b81a-8765dc79168f:
+    Name: xSnipe_TR
+    Language: english
+    Prefix: '&7'
+    Toggle: true
+    Friends: '[]'
+  beace71a-6270-453e-9aff-293aeab07fe6:
+    Name: RaFeMC
+    Language: english
+    Prefix: '&7'
+    Toggle: true
+    Friends: '[]'
+  5daf8b73-4e40-44d0-ac14-d66f0fb9288a:
+    Name: alexisGamerCLST
+    Language: english
+    Prefix: '&7'
+    Toggle: true
+    Friends: '[]'
+  257f4ced-2b6f-47b2-8b6b-d594ce011293:
+    Name: samuka321
+    Language: english
+    Prefix: '&7'
+    Toggle: true
+    Friends: '[]'
+  405b1012-4836-4068-a03a-284400d5230f:
+    Name: NeosiaMc
+    Language: english
+    Prefix: '&7'
+    Toggle: true
+    Friends: '[]'
+  48046eed-f044-4183-91fb-a2800f405c8e:
+    Name: Sxnsy
+    Language: english
+    Prefix: '&7'
+    Toggle: true
+    Friends: '[]'
+Name:
+  khrystyian: 556945d5-7ffe-4d60-a826-2163fe443f38
+  mediacube: 556945d5-7ffe-4d60-a826-2163fe443f38
+  supersteveb: 6563b729-f844-4403-8fba-93695f489f34
+  bjornlv: 70632cb2-c56f-4906-b8cd-3d5809d7675a
+  huys: d6ae0bf9-f117-45a8-be4e-180987f206bb
+  joseda007: 0e97f849-9e16-4194-ac11-cc10e6dfe540
+  bowdyyy: 74d983b1-c70a-4686-a551-d55167cccb12
+  2asd: d4d8db99-ddb9-307a-839c-5f714519c7bb
+  sad2sax: bf7dcdaa-7a3c-309a-b37a-e4de7016cb49
+  sad34yx: a6a69701-9de9-3669-985d-8df95fe30b80
+  givemeflowers: 556945d5-7ffe-4d60-a826-2163fe443f38
+  zgivemeflowersz: 556945d5-7ffe-4d60-a826-2163fe443f38
+  bebiks_: 11d63023-f4bd-47f0-bd9b-b74cc0164ce8
+  ajronek_: cb450d59-15e0-48a8-abaa-b1b62310fdee
+  _papito_: abd0b1aa-7a5f-4f40-b18d-57634ed6c380
+  pixxelgaming: dc9cf54b-0f5e-43ca-ae79-0f32fb3ca202
+  xsnipe_tr: bb6061d5-3e2f-4046-b81a-8765dc79168f
+  rafemc: beace71a-6270-453e-9aff-293aeab07fe6
+  alexisgamerclst: 5daf8b73-4e40-44d0-ac14-d66f0fb9288a
+  samuka321: 257f4ced-2b6f-47b2-8b6b-d594ce011293
+  neosiamc: 405b1012-4836-4068-a03a-284400d5230f
+  sxnsy: 48046eed-f044-4183-91fb-a2800f405c8e
+UUID:
+  556945d5-7ffe-4d60-a826-2163fe443f38: zgivemeflowersz
+  6563b729-f844-4403-8fba-93695f489f34: supersteveb
+  70632cb2-c56f-4906-b8cd-3d5809d7675a: bjornlv
+  d6ae0bf9-f117-45a8-be4e-180987f206bb: huys
+  0e97f849-9e16-4194-ac11-cc10e6dfe540: joseda007
+  74d983b1-c70a-4686-a551-d55167cccb12: bowdyyy
+  4161be1b-36c9-382e-a5ac-013df065797a: khrystyian
+  d4d8db99-ddb9-307a-839c-5f714519c7bb: 2asd
+  bf7dcdaa-7a3c-309a-b37a-e4de7016cb49: sad2sax
+  a6a69701-9de9-3669-985d-8df95fe30b80: sad34yx
+  11d63023-f4bd-47f0-bd9b-b74cc0164ce8: bebiks_
+  cb450d59-15e0-48a8-abaa-b1b62310fdee: ajronek_
+  abd0b1aa-7a5f-4f40-b18d-57634ed6c380: _papito_
+  dc9cf54b-0f5e-43ca-ae79-0f32fb3ca202: pixxelgaming
+  bb6061d5-3e2f-4046-b81a-8765dc79168f: xsnipe_tr
+  beace71a-6270-453e-9aff-293aeab07fe6: rafemc
+  5daf8b73-4e40-44d0-ac14-d66f0fb9288a: alexisgamerclst
+  257f4ced-2b6f-47b2-8b6b-d594ce011293: samuka321
+  405b1012-4836-4068-a03a-284400d5230f: neosiamc
+  48046eed-f044-4183-91fb-a2800f405c8e: sxnsy

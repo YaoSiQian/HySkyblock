@@ -1,0 +1,424 @@
+title: Green Thumb
+permission-to-open: none
+background-color: 15
+items:
+  '1':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: OAK_LEAVES
+    sellingValue: 0.0
+    buyValue: 3.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '2':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: SPRUCE_LEAVES
+    sellingValue: 0.0
+    buyValue: 3.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '3':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: BIRCH_LEAVES
+    sellingValue: 0.0
+    buyValue: 3.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '4':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: JUNGLE_LEAVES
+    sellingValue: 0.0
+    buyValue: 3.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '5':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: ACACIA_LEAVES
+    sellingValue: 0.0
+    buyValue: 3.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '6':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: DARK_OAK_LEAVES
+    sellingValue: 0.0
+    buyValue: 3.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '7':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: FLOWER_POT
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '8':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: OAK_SAPLING
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '9':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: SPRUCE_SAPLING
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '10':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: BIRCH_SAPLING
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '11':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: ACACIA_SAPLING
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '12':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: JUNGLE_SAPLING
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '13':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: DARK_OAK_SAPLING
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '14':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: DEAD_BUSH
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '15':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: DANDELION
+    sellingValue: 0.0
+    buyValue: 35.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '16':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: POPPY
+    sellingValue: 0.0
+    buyValue: 35.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '18':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: BLUE_ORCHID
+    sellingValue: 0.0
+    buyValue: 14.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '19':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: ALLIUM
+    sellingValue: 0.0
+    buyValue: 14.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '20':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: AZURE_BLUET
+    sellingValue: 0.0
+    buyValue: 14.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '22':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: RED_TULIP
+    sellingValue: 0.0
+    buyValue: 14.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '23':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: ORANGE_TULIP
+    sellingValue: 0.0
+    buyValue: 14.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '24':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: WHITE_TULIP
+    sellingValue: 0.0
+    buyValue: 14.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '25':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: PINK_TULIP
+    sellingValue: 0.0
+    buyValue: 14.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '26':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: OXEYE_DAISY
+    sellingValue: 0.0
+    buyValue: 14.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '27':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: CORNFLOWER
+    sellingValue: 0.0
+    buyValue: 14.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '28':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: ROSE_BUSH
+    sellingValue: 0.0
+    buyValue: 14.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '30':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: GRASS
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '31':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: TALL_GRASS
+    sellingValue: 0.0
+    buyValue: 3.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false

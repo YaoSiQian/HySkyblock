@@ -1,0 +1,199 @@
+#-------------------------------------------------
+#                 Wardrobe Config                -
+#-------------------------------------------------
+
+Admin-Permission: Wardrobe.Admin
+
+Title: "衣柜"
+#------------Slot-Permission--------------
+Slot-Permission:
+  Slot-1:
+    Permission: rank.default
+    Require-Prefix: "&7Default"
+  Slot-2:
+    Permission: rank.default
+    Require-Prefix: "&7DEFAULT"
+  Slot-3:
+    Permission: rank.vip
+    Require-Prefix: "&aVIP"
+  Slot-4:
+    Permission: rank.vip
+    Require-Prefix: "&aVIP"
+  Slot-5:
+    Permission: rank.vip
+    Require-Prefix: "&aVIP"
+  Slot-6:
+    Permission: rank.vip+
+    Require-Prefix: "&aVIP&6+"
+  Slot-7:
+    Permission: rank.vip+
+    Require-Prefix: "&aVIP&6+"
+  Slot-8:
+    Permission: rank.vip+
+    Require-Prefix: "&aVIP&6+"
+  Slot-9:
+    Permission: rank.vip+
+    Require-Prefix: "&aVIP&6+"
+  Slot-10:
+    Permission: rank.mvp
+    Require-Prefix: "&bMVP"
+  Slot-11:
+    Permission: rank.mvp
+    Require-Prefix: "&bMVP"
+  Slot-12:
+    Permission: rank.mvp
+    Require-Prefix: "&bMVP"
+  Slot-13:
+    Permission: rank.mvp
+    Require-Prefix: "&bMVP"
+  Slot-14:
+    Permission: rank.mvp+
+    Require-Prefix: "&bMVP&c+"
+  Slot-15:
+    Permission: rank.mvp+
+    Require-Prefix: "&bMVP&c+"
+  Slot-16:
+    Permission: rank.mvp+
+    Require-Prefix: "&bMVP&c+"
+  Slot-17:
+    Permission: rank.mvp+
+    Require-Prefix: "&bMVP&c+"
+  Slot-18:
+    Permission: rank.mvp+
+    Require-Prefix: "&bMVP&c+"
+#-----------Items-in-GUI-------------------------
+Locked-Slot:
+  Helmet-Slot:
+    Name: "&7槽位 %Slot%: &c锁定"
+    Lore:
+      - "&7这个衣柜槽位已被锁定并无法使用"
+      - ""
+      - "&c需要 %Permission_Require_Prefix%"
+  Chestplate-Slot:
+    Name: "&7槽位 %Slot%: &c锁定"
+    Lore:
+      - "&7这个衣柜槽位已被锁定并无法使用"
+      - ""
+      - "&c需要 %Permission_Require_Prefix%"
+  Leggings-Slot:
+    Name: "&7槽位 %Slot%: &c锁定"
+    Lore:
+      - "&7这个衣柜槽位已被锁定并无法使用"
+      - ""
+      - "&c需要 %Permission_Require_Prefix%"
+  Boots-Slot:
+    Name: "&7槽位 %Slot%: &c锁定"
+    Lore:
+      - "&7这个衣柜槽位已被锁定并无法使用"
+      - ""
+      - "&c需要 %Permission_Require_Prefix%"
+  Locked-Button:
+    Name: "&7槽位 %Slot%: &c锁定"
+    Lore:
+      - "&7这个衣柜槽位已被锁定并无法使用"
+      - ""
+      - "&c需要 %Permission_Require_Prefix%"
+Availabel-Slot:
+  Helmet-Slot:
+    Name: "&a槽位 %Slot% 头盔"
+    Lore:
+      - "&7在这里放置一对头盔"
+      - "&7使其添加在这套盔甲上"
+  Chestplate-Slot:
+    Name: "&a槽位 %Slot% 胸甲"
+    Lore:
+      - "&7在这里放置一对胸甲"
+      - "&7使其添加在这套盔甲上"
+  Leggings-Slot:
+    Name: "&a槽位 %Slot% 护腿"
+    Lore:
+      - "&7在这里放置一对护腿"
+      - "&7使其添加在这套盔甲上"
+  Boots-Slot:
+    Name: "&a槽位 %Slot% 靴子"
+    Lore:
+      - "&7在这里放置一对靴子"
+      - "&7使其添加在这套盔甲上"
+  Empty-Slot-Button:
+    Name: "&7槽位 %Slot%: &c空"
+    Lore:
+      - "&7盔甲列表中没有盔甲"
+  Ready-Button:
+    Name: "&7槽位 %Slot%: &a就绪"
+    Lore:
+      - "&7此衣柜栏位已就绪"
+      - ""
+      - "&e点击佩戴这套盔甲!"
+  Equipped-Button:
+    Name: "&7槽位 %Slot%: &aEquipped"
+    Lore:
+      - "&7盔甲列表中包括你当前的盔甲套"
+      - ""
+      - "&e点击卸下这套盔甲!"
+#------------Button--------------
+Go-Back-Button:
+  Enable: true
+  Command: sbmenu
+  Slot: 48
+  Name: "&a返回"
+  Lore: ""
+Close-Button:
+  Enable: true
+  Slot: 49
+  Name: "&c关闭"
+  Lore: ""
+Next-Page-Button:
+  Enable: true
+  Slot: 53
+  Name: "&a下一页"
+  Lore:
+    - "&e第 2 页"
+Previous-Page-Button:
+  Enable: true
+  Slot: 45
+  Name: "&a上一页"
+  Lore:
+    - "&e第 1 页"
+#--------------Item-Check---------------------------
+Allow-Item:
+  # set none to skip this check
+  # it will allow that item if it has all of this check
+  Helmet-Slot:
+    # default allow items: all kind of helmet
+    Name: none
+    # if one of the lore line of an item contains this String it will allow to put that in the gui
+    Lore: none
+    Type: 
+      - "GLASS"
+    # if an item has that check it will allow it to put in to the gui no matter if it not contains the top check
+    Specific-Check-Lore: "头盔"
+  Chestplate-Slot:
+    # default allow items: all kind of chestplate, elytra
+    Name: none
+    # if one of the lore line of an item contains this String it will allow to put that in the gui
+    Lore: none
+    Type: none
+    # if an item has that check it will allow it to put in to the gui no matter if it not contains the top check
+    Specific-Check-Lore: "胸甲"
+  Leggings-Slot:
+    # default allow items: all kind of leggings
+    Name: none
+    # if one of the lore line of an item contains this String it will allow to put that in the gui
+    Lore: none
+    Type: none
+    # if an item has that check it will allow it to put in to the gui no matter if it not contains the top check
+    Specific-Check-Lore: "护腿"
+  Boots-Slot:
+    # default allow items: all kind of boots
+    Name: none
+    # if one of the lore line of an item contains this String it will allow to put that in the gui
+    Lore: none
+    Type: none
+    # if an item has that check it will allow it to put in to the gui no matter if it not contains the top check
+    Specific-Check-Lore: "靴子"
+#------------------------Message------------------------
+Wardrobe_Message:
+  # Please just use normal message 
+  Permission_Denied: '&f未知指令 输入"/help"请求帮助'
+  No_Space: "&c你没有足够的空间!"
+  Modify_Armor_Denied: "&c你不能修改已装备的盔甲套!"

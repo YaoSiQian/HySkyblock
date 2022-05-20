@@ -1,0 +1,387 @@
+#                    _                   _ _          _ __  __       _
+#                   | |    _____   _____| | | ___  __| |  \/  | ___ | |__  ___
+#                   | |   / _ \ \ / / _ \ | |/ _ \/ _` | |\/| |/ _ \| '_ \/ __|
+#                   | |__|  __/\ V /  __/ | |  __/ (_| | |  | | (_) | |_) \__ \
+#                   |_____\___| \_/ \___|_|_|\___|\__,_|_|  |_|\___/|_.__/|___/
+#                             The Ultimate RPG Levelled Mobs Solution
+#
+# --------------------------------------------------------------------------------------------LM3
+# +                                      ++                                                  +LM3
+# +  Main Developers                     ++  Need support documentation?                     +LM3
+# +    lokka30                           ++    https://github.com/lokka30/LevelledMobs/wiki  +LM3
+# +      Author and developer            ++                                                  +LM3
+# +      https://ko-fi.com/lokka30       ++  ArcanePlugins Support Discord                   +LM3
+# +                                      ++    https://discord.gg/RQ8M4A5                    +LM3
+# +                                      ++                                                  +LM3
+# +    stumper66                         ++  Special thanks:                                 +LM3
+# +      Developer since v2              ++    ArcanePlugins developers and testers!         +LM3
+# +      https://ko-fi.com/penalbuffalo  ++    Donators, patrons, and other supporters!      +LM3
+# +                                      ++    SpigotMC, PaperMC, ProtocolLib, NBT-API,      +LM3
+# +                                      ++    PlaceholderAPI, and bStats!                   +LM3
+# +    UltimaOath                        ++                                                  +LM3
+# +      Docs and configs since v2       ++  Other Contributors:                             +LM3
+# +                                      ++    Eyrian, iCodinqs, deiphiz, CoolBoy, Esophose, +LM3
+# +                                      ++    7smile7, Hugo5551, konsolas, Shevchik,        +LM3
+# +                                      ++    limzikiki, and Zombie_Striker                 +LM3
+# +                                      ++                                                  +LM3
+# --------------------------------------------------------------------------------------------LM3
+#                                     _____     _
+#                                    | __  |_ _| |___ ___
+#                                    |    -| | | | -_|_ -|
+#                                    |__|__|___|_|___|___|
+#
+# +-------------------------------------------------------------------------------------------LM3
+# +                                                                                          +LM3
+# +   Section 01 - Custom Entity and Biome Groups                                            +LM3
+# +                                                                                          +LM3
+# +-------------------------------------------------------------------------------------------LM3
+mob-groups:
+ 
+biome-groups:
+ 
+ 
+# +-------------------------------------------------------------------------------------------LM3
+# +                                                                                          +LM3
+# +   Section 02 - Presets                                                                   +LM3
+# +                                                                                          +LM3
+# +-------------------------------------------------------------------------------------------LM3
+presets:
+ 
+ 
+# +-------------------------------------------------------------------------------------------LM3
+# +                                                                                          +LM3
+# +   L O W E S T   P R I O R I T Y                                                          +LM3
+# +   Section 03 - Default Rules                                                             +LM3
+# +                                                                                          +LM3
+# +-------------------------------------------------------------------------------------------LM3
+default-rule:
+ 
+  conditions:
+    worlds:
+      allowed-list: ['*']
+ 
+    allowed-worldguard-regions:
+    #  allowed-list: ['#global']
+ 
+    allowed-spawn-reasons:
+#      excluded-list: ['SPAWNER']
+ 
+    level-plugins:
+      DANGEROUS_CAVES: false
+      MYTHIC_MOBS: false
+      ELITE_MOBS: false
+      ELITE_MOBS_NPCS: false
+      ELITE_MOBS_SUPER_MOBS: false
+      INFERNAL_MOBS: false
+      CITIZENS: false
+      SHOPKEEPERS: false
+ 
+#    apply-above-y: 64
+#    apply-below-y: 59
+#    min-distance-from-spawn: 1000
+#    max-distance-from-spawn: 5000
+ 
+    mob-customname-status: EITHER
+    mob-tamed-status: EITHER
+ 
+  apply-settings:
+    minLevel: 1
+    maxLevel: 10
+    multipliers:
+      max-health: 1.5
+      movement-speed: 0.05
+      attack-damage: 1.0
+      ranged-attack-damage: 1.0
+      creeper-blast-damage: 0.5
+      item-drop: 0
+      xp-drop: 0
+    creeper-max-damage-radius: 1
+    tiered-coloring:
+      1-2: '&#22E76B' #Green
+      3-4: '&#528CFF' #Blue
+      5-6: '&#FFCD56' #Yellow
+      7-8: '&#F2003D' #Red
+      9-10: '&#B447FF' #Purple
+      default: '&#FFFFFF' #White
+ 
+    sunlight-intensity: 5
+ 
+    nametag: '&8&l༺ %tiered%Lvl %mob-lvl%&8 | &f%displayname%&8 | &f%entity-health-rounded%&8/&f%entity-max-health-rounded% %tiered%%heart_symbol% &8&l༻'
+    creature-death-nametag: '%tiered%Lvl %mob-lvl%&8 | &f%entity-name%'
+    nametag-visible-time: 1000
+    nametag-visibility-method: ['TARGETED', 'ATTACKED', 'TRACKING']
+ 
+    baby-mobs-inherit-adult-setting: true
+    level-inheritance: true
+ 
+    use-custom-item-drops-for-mobs: true
+ 
+ 
+# +-------------------------------------------------------------------------------------------LM3
+# +                                                                                          +LM3
+# +   H I G H E S T   P R I O R I T Y                                                        +LM3
+# +   Section 04 - Custom Rules                                                              +LM3
+# +                                                                                          +LM3
+# +-------------------------------------------------------------------------------------------LM3
+custom-rules:
+  - enabled: true
+    name: '钻石保护区 符文僵尸'
+    conditions:
+      chance: 0.05
+      stop-processing: true
+      allowed-worldguard-regions:
+        allowed-list: ['diamond-reserve']
+      entities:
+        allowed-list: ['ZOMBIE']
+    strategies:
+      random: true
+    apply-settings:
+      minLevel: 15
+      maxLevel: 15
+      multipliers:
+        max-health: 49.0
+      nametag: '&5[&dLv%mob-lvl%&5] &5僵尸 &d%entity-health-rounded%&f/&5%entity-max-health-rounded%&c%heart_symbol%'
+      nametag-visible-time: 1000
+      nametag-visibility-method: ['ALWAYS_ON']
+      use-droptable-id: diamondReserveRunicZombie
+      use-custom-item-drops-for-mobs: true
+  - enabled: true
+    name: '钻石保护区 僵尸'
+    conditions:
+      allowed-worldguard-regions:
+        allowed-list: ['diamond-reserve']
+      entities:
+        allowed-list: ['ZOMBIE']
+    strategies:
+      random: true
+    apply-settings:
+      minLevel: 15
+      maxLevel: 15
+      multipliers:
+        max-health: 11.5
+        attack-damage: 2.9
+      nametag: '&8[&7Lv%mob-lvl%&8] &c僵尸 &a%entity-health-rounded%&f/&a%entity-max-health-rounded%&c%heart_symbol%'
+      nametag-visible-time: 1000
+      nametag-visibility-method: ['ALWAYS_ON']
+      use-droptable-id: diamondReserveZombie
+      use-custom-item-drops-for-mobs: true
+  - enabled: true
+    name: '钻石保护区 骷髅'
+    conditions:
+      chance: 1.0
+      allowed-worldguard-regions:
+        allowed-list: ['diamond-reserve']
+      entities:
+        allowed-list: ['skeleton']
+    strategies:
+      random: true
+    apply-settings:
+      minLevel: 15
+      maxLevel: 15
+      multipliers:
+        max-health: 11.5
+        ranged-attack-damage: 2.5
+      nametag: '&8[&7Lv%mob-lvl%&8] &c骷髅 &a%entity-health-rounded%&f/&a%entity-max-health-rounded%&c%heart_symbol%'
+      nametag-visible-time: 1000
+      nametag-visibility-method: ['ALWAYS_ON']
+      use-droptable-id: diamondReserveSkeleton
+      use-custom-item-drops-for-mobs: true
+  - enabled: true
+    name: '黑曜圣所 骷髅'
+    conditions:
+      chance: 1.0
+      allowed-worldguard-regions:
+        allowed-list: ['obsidian-sanctuary']
+      entities:
+        allowed-list: ['skeleton']
+    strategies:
+      random: true
+    apply-settings:
+      minLevel: 20
+      maxLevel: 20
+      multipliers:
+        max-health: 14.0
+        attack-damage: 2.0
+      nametag: '&8[&7Lv%mob-lvl%&8] &c骷髅 &a%entity-health-rounded%&f/&a%entity-max-health-rounded%&c%heart_symbol%'
+      nametag-visible-time: 1000
+      nametag-visibility-method: ['ALWAYS_ON']
+      use-droptable-id: obsidianSanctuarySkeleton
+      use-custom-item-drops-for-mobs: true
+  - enabled: true
+    name: '黑曜圣所 僵尸'
+    conditions:
+      allowed-worldguard-regions:
+        allowed-list: ['obsidian-sanctuary']
+      entities:
+        allowed-list: ['zombie']
+    strategies:
+      random: true
+    apply-settings:
+      minLevel: 20
+      maxLevel: 20
+      multipliers:
+        max-health: 14.0
+        ranged-attack-damage: 4.0
+      nametag: '&8[&7Lv%mob-lvl%&8] &c僵尸 &a%entity-health-rounded%&f/&a%entity-max-health-rounded%&c%heart_symbol%'
+      nametag-visible-time: 1000
+      nametag-visibility-method: ['ALWAYS_ON']
+      use-droptable-id: obsidianSanctuaryZombie
+      use-custom-item-drops-for-mobs: true
+  - enabled: true
+    name: '黑曜圣所 符文僵尸'
+    conditions:
+      chance: 0.05
+      stop-processing: true
+      allowed-worldguard-regions:
+        allowed-list: ['obsidian-sanctuary']
+      entities:
+        allowed-list: ['zombie']
+    strategies:
+      random: true
+    apply-settings:
+      minLevel: 20
+      maxLevel: 20
+      multipliers:
+        max-health: 59.0
+        attack-damage: 4.0
+      nametag: '&5[&dLv%mob-lvl%&5] &5僵尸 &d%entity-health-rounded%&f/&5%entity-max-health-rounded%&c%heart_symbol%'
+      nametag-visible-time: 1000
+      nametag-visibility-method: ['ALWAYS_ON']
+      use-droptable-id: obsidianSanctuaryRunicZombie
+      use-custom-item-drops-for-mobs: true
+  - enabled: true
+    name: '猪人密穴 僵尸猪人'
+    conditions:
+      allowed-worldguard-regions:
+        allowed-list: ['pigmans-den', 'lapis-quarry', 'slimehill']
+      entities:
+        allowed-list: ['zombified_piglin']
+    strategies:
+      random: true
+    apply-settings:
+      minLevel: 10
+      maxLevel: 10
+      multipliers:
+        max-health: 11.5
+        attack-damage: 2.0
+      nametag: '&8[&7Lv%mob-lvl%&8] &c僵尸猪人 &a%entity-health-rounded%&f/&a%entity-max-health-rounded%&c%heart_symbol%'
+      nametag-visible-time: 1000
+      nametag-visibility-method: ['ALWAYS_ON']
+      use-droptable-id: pigmansDenZombifiedPiglin
+      use-custom-item-drops-for-mobs: true
+  - enabled: true
+    name: '青金石采集场 青金石僵尸'
+    conditions:
+      allowed-worldguard-regions:
+        allowed-list: ['lapis-quarry', 'pigmans-den', 'gold-mine']
+      entities:
+        allowed-list: ['zombie']
+    strategies:
+      random: true
+    apply-settings:
+      minLevel: 7
+      maxLevel: 7
+      multipliers:
+        max-health: 9.0
+        movement-speed: 0.2
+        attack-damage: 2.0
+      nametag: '&8[&7Lv%mob-lvl%&8] &c青金石僵尸 &a%entity-health-rounded%&f/&a%entity-max-health-rounded%&c%heart_symbol%'
+      nametag-visible-time: 1000
+      nametag-visibility-method: ['ALWAYS_ON']
+      use-droptable-id: lapisQuarryLapisZombie
+      use-custom-item-drops-for-mobs: true
+  - enabled: true
+    name: '岛屿生物'
+    conditions:
+      chance: 1.0
+      worlds:
+        allowed-list: ['islands']
+      entities:
+        allowed-list: ['*']
+    strategies:
+      random: true
+    apply-settings:
+      minLevel: 1
+      maxLevel: 1
+      multipliers:
+        max-health: 0
+      nametag: '&8[&7Lv%mob-lvl%&8] &c%entity-name% &a%entity-health-rounded%&f/&a%entity-max-health-rounded%&c%heart_symbol%'
+      nametag-visible-time: 1000
+      nametag-visibility-method: ['ALWAYS_ON']
+      use-droptable-id: none
+      use-custom-item-drops-for-mobs: false
+  - enabled: true
+    name: '墓地 僵尸村民'
+    conditions:
+      allowed-worldguard-regions:
+        allowed-list: ['graveyard']
+      entities:
+        allowed-list: ['zombie_villager']
+    strategies:
+      random: true
+    apply-settings:
+      minLevel: 1
+      maxLevel: 1
+      multipliers:
+        max-health: 5.0
+      nametag: '&8[&7Lv%mob-lvl%&8] &c僵尸村民 &a%entity-health-rounded%&f/&a%entity-max-health-rounded%&c%heart_symbol%'
+      nametag-visible-time: 1000
+      nametag-visibility-method: ['ALWAYS_ON']
+      use-droptable-id: graveyardZombieVillager
+      use-custom-item-drops-for-mobs: true
+  - enabled: true
+    name: '蜘蛛巢穴 吐丝蜘蛛'
+    conditions:
+      allowed-worldguard-regions:
+        allowed-list: ['spiders-den']
+      entities:
+        allowed-list: ['spider']
+    strategies:
+      random: true
+    apply-settings:
+      minLevel: 2
+      maxLevel: 2
+      multipliers:
+        max-health: 9.0
+        attack-damage: 1.5
+      nametag: '&8[&7Lv%mob-lvl%&8] &c蜘蛛 &a%entity-health-rounded%&f/&a%entity-max-health-rounded%&c%heart_symbol%'
+      nametag-visible-time: 1000
+      nametag-visibility-method: ['ALWAYS_ON']
+      use-droptable-id: spidersDenSplitterSpider
+      use-custom-item-drops-for-mobs: true
+  - enabled: true
+    name: '移除 被动生物'
+    conditions:
+      entities:
+        allowed-groups: ['all_passive_mobs']
+        allowed-list: ['ENDER_DRAGON', 'WITHER', 'VILLAGER', 'WANDERING_TRADER', 'PHANTOM', 'BAT', 'RAVAGER']
+    apply-settings:
+      maxLevel: 0
+  - enabled: true
+    name: '史莱姆山脉 史莱姆'
+    conditions:
+      allowed-worldguard-regions:
+        allowed-list: ['slimehill', 'pigmans-den', 'diamond-reserve']
+      entities:
+        allowed-list: ['slime']
+    strategies:
+      random: true
+    apply-settings:
+      minLevel: 10
+      maxLevel: 10
+      multipliers:
+        max-health: 1.0
+        attack-damage: 1.0
+      nametag: '&8[&7Lv%mob-lvl%&8] &c史莱姆 &a%entity-health-rounded%&f/&a%entity-max-health-rounded%&c%heart_symbol%'
+      nametag-visible-time: 1000
+      nametag-visibility-method: ['ALWAYS_ON']
+      use-droptable-id: slimehillSlime
+      use-custom-item-drops-for-mobs: true
+ 
+# +-------------------------------------------------------------------------------------------LM3
+# +                                                                                          +LM3
+# +   Section 05 - Advanced Message Settings                                                 +LM3
+# +   DO NOT EDIT BEYOND HERE WITHOUT DEVELOPER APPROVAL                                     +LM3
+# +                                                                                          +LM3
+# +-------------------------------------------------------------------------------------------LM3
+file-version: 2

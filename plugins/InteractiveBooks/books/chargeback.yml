@@ -1,0 +1,16 @@
+name: 退款
+title: 退款
+author: 文明游戏
+generation: ORIGINAL
+lore:
+- 退款
+open_command: ''
+
+pages:
+  '1':
+  - '&cATTENTION!&0'
+  - '您最近的一次购买有一些争议。我们已撤消了您的付款'
+  - ''
+  - '请联系'
+  - '<tooltip:&b点击加入我们的官方Q群><link:https://jq.qq.com/?k=ciimjkOG>&b&n服务器管理组<reset>&r &0以解决问题'
+  - '否则你可能会被永久封禁'

@@ -1,0 +1,435 @@
+title: Armorsmith
+permission-to-open: none
+background-color: 15
+items:
+  '1':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: LEATHER_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Leather
+          Helmet"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+5"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON
+          HELMET"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        Unbreakable: true
+    sellingValue: 0.0
+    buyValue: 8.0
+    detailed: true
+    amount1: 0
+    amount2: 0
+    amount3: 0
+    amount4: 0
+    amount5: 0
+  '2':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: LEATHER_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Leather
+          Chestplate"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+15"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON
+          CHESTPLATE"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        Unbreakable: true
+    sellingValue: 0.0
+    buyValue: 14.0
+    detailed: true
+    amount1: 0
+    amount2: 0
+    amount3: 0
+    amount4: 0
+    amount5: 0
+  '3':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: LEATHER_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Leather
+          Leggings"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+10"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON
+          LEGGINGS"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        Unbreakable: true
+    sellingValue: 0.0
+    buyValue: 16.0
+    detailed: true
+    amount1: 0
+    amount2: 0
+    amount3: 0
+    amount4: 0
+    amount5: 0
+    amount3Items: []
+    give-item-on-buy: false
+    exclusive: false
+  '4':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: LEATHER_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Leather
+          Boots"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+5"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON
+          BOOTS"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        Unbreakable: true
+    sellingValue: 0.0
+    buyValue: 10.0
+    detailed: true
+    amount1: 0
+    amount2: 0
+    amount3: 0
+    amount4: 0
+    amount5: 0
+  '5':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: IRON_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Iron
+          Helmet"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+10"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON
+          HELMET"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        Unbreakable: true
+    sellingValue: 0.0
+    buyValue: 15.0
+    detailed: true
+    amount1: 0
+    amount2: 0
+    amount3: 0
+    amount4: 0
+    amount5: 0
+  '6':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: IRON_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Iron
+          Chestplate"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+30"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON
+          CHESTPLATE"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        Unbreakable: true
+    sellingValue: 0.0
+    buyValue: 25.0
+    detailed: true
+    amount1: 0
+    amount2: 0
+    amount3: 0
+    amount4: 0
+    amount5: 0
+  '7':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: IRON_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Iron
+          Leggings"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+25"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON
+          LEGGINGS"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        Unbreakable: true
+    sellingValue: 0.0
+    buyValue: 30.0
+    detailed: true
+    amount1: 0
+    amount2: 0
+    amount3: 0
+    amount4: 0
+    amount5: 0
+  '8':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: IRON_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Iron
+          Boots"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+15"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON
+          BOOTS"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        Unbreakable: true
+    sellingValue: 0.0
+    buyValue: 20.0
+    detailed: true
+    amount1: 0
+    amount2: 0
+    amount3: 0
+    amount4: 0
+    amount5: 0
+  '9':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: DIAMOND_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Diamond
+          Helmet"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+15"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Health:
+          "},{"italic":false,"color":"green","text":"+15 HP"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Growth
+          I"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Grants
+          "},{"italic":false,"color":"green","text":"+15 "},{"italic":false,"color":"red","text":"❤
+          Health"},{"italic":false,"color":"gray","text":"."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"UNCOMMON
+          HELMET"}],"text":""}'
+        enchants:
+          MENDING: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAA/+NiYGBjYHdJTUvNK0510GMAAzYGjuCSotS89JIMBgaYEGtwQWpqCoLP45lXkpqTk5mempecihDmCEgtifcpTc5GCLF5pCbmlGQgTBfwTayIx66d27kosyTeJTE3MR1D1DkjEUktAwB/uEiZuwAAAA==
+    sellingValue: 0.0
+    buyValue: 350.0
+    detailed: true
+    amount1: 0
+    amount2: 0
+    amount3: 0
+    amount4: 0
+    amount5: 0
+  '10':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: DIAMOND_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Diamond
+          Chestplate"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+40"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Health:
+          "},{"italic":false,"color":"green","text":"+15 HP"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Growth
+          I"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Grants
+          "},{"italic":false,"color":"green","text":"+15 "},{"italic":false,"color":"red","text":"❤
+          Health"},{"italic":false,"color":"gray","text":"."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"UNCOMMON
+          CHESTPLATE"}],"text":""}'
+        enchants:
+          MENDING: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAA/+NiYGBjYHdJTUvNK051cGEAAzYGjuCSotS89JIMBgaYEGtwQWpqCoLP45lXkpqTk5mempecihDmCEgtifcpTc5GCLF5pCbmlGQ46MEEBHwTK+Kxa+d2LsosiXdJzE1MxxB1zkhEUssAAHO6oni7AAAA
+    sellingValue: 0.0
+    buyValue: 440.0
+    detailed: true
+    amount1: 0
+    amount2: 0
+    amount3: 0
+    amount4: 0
+    amount5: 0
+  '11':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: DIAMOND_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Diamond
+          Leggings"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+30"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Health:
+          "},{"italic":false,"color":"green","text":"+15 HP"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Growth
+          I"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Grants
+          "},{"italic":false,"color":"green","text":"+15 "},{"italic":false,"color":"red","text":"❤
+          Health"},{"italic":false,"color":"gray","text":"."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"UNCOMMON
+          LEGGINGS"}],"text":""}'
+        enchants:
+          MENDING: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAA/+NiYGBjYHdJTUvNK051sGMAAzYGjuCSotS89JIMBgaYEGtwQWpqCoLP45lXkpqTk5mempecihDmCEgtifcpTc5GCLF5pCbmlGQ46MEEBHwTK+Kxa+d2LsosiXdJzE1MxxB1zkhEUssAAIXfJQ27AAAA
+    sellingValue: 0.0
+    buyValue: 400.0
+    detailed: true
+    amount1: 0
+    amount2: 0
+    amount3: 0
+    amount4: 0
+    amount5: 0
+  '12':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: DIAMOND_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Diamond
+          Boots"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+15"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Health:
+          "},{"italic":false,"color":"green","text":"+15 HP"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Growth
+          I"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Grants
+          "},{"italic":false,"color":"green","text":"+15 "},{"italic":false,"color":"red","text":"❤
+          Health"},{"italic":false,"color":"gray","text":"."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"UNCOMMON
+          BOOTS"}],"text":""}'
+        enchants:
+          MENDING: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAA/+NiYGBjYHdJTUvNK0510GMAAzYGjuCSotS89JIMBgaYEGtwQWpqCoLP45lXkpqTk5mempecihDmCEgtifcpTc5GCLF5pCbmlGQgTBfwTayIx66d27kosyTeJTE3MR1D1DkjEUktAwB/uEiZuwAAAA==
+    sellingValue: 0.0
+    buyValue: 320.0
+    detailed: true
+    amount1: 0
+    amount2: 0
+    amount3: 0
+    amount4: 0
+    amount5: 0

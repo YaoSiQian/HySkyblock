@@ -1,0 +1,208 @@
+fishingXP: 1
+alchemyXP: 5
+enchantingXP: 5
+runeCraftingXP: 5
+tamingXP: 5
+farming_Cut_Wool: 1
+carpentryXP: 1
+xpManager:
+  blocks:
+    '1':
+      skillType: Mining
+      xp: 1
+      material: STONE
+      materialData: 0
+    '2':
+      skillType: Mining
+      xp: 1
+      material: COBBLESTONE
+      materialData: 0
+    '3':
+      skillType: Mining
+      xp: 0.5
+      material: NETHERRACK
+      materialData: 0
+    '4':
+      skillType: Mining
+      xp: 0.2
+      material: ICE
+      materialData: 0
+    '5':
+      skillType: Mining
+      xp: 3
+      material: SAND
+      materialData: 0
+    '6':
+      skillType: Mining
+      xp: 4
+      material: GRAVEL
+      materialData: 0
+    '7':
+      skillType: Mining
+      xp: 5
+      material: NETHER_QUARTZ_ORE
+      materialData: 0
+    '8':
+      skillType: Mining
+      xp: 3
+      material: END_STONE
+      materialData: 0
+    '9':
+      skillType: Mining
+      xp: 5
+      material: COAL_ORE
+      materialData: 0
+    '10':
+      skillType: Mining
+      xp: 5
+      material: IRON_ORE
+      materialData: 0
+    '11':
+      skillType: Mining
+      xp: 6
+      material: GOLD_ORE
+      materialData: 0
+    '12':
+      skillType: Mining
+      xp: 7
+      material: LAPIS_ORE
+      materialData: 0
+    '13':
+      skillType: Mining
+      xp: 7
+      material: REDSTONE_ORE
+      materialData: 0
+    '14':
+      skillType: Mining
+      xp: 9
+      material: EMERALD_ORE
+      materialData: 0
+    '15':
+      skillType: Mining
+      xp: 10
+      material: DIAMOND_ORE
+      materialData: 0
+    '16':
+      skillType: Mining
+      xp: 20
+      material: OBSIDIAN
+      materialData: 0
+    '17':
+      skillType: Farming
+      xp: 4
+      material: WHEAT
+      materialData: 7
+    '18':
+      skillType: Farming
+      xp: 4
+      material: POTATOES
+      materialData: 7
+    '19':
+      skillType: Farming
+      xp: 4
+      material: CARROTS
+      materialData: 7
+    '20':
+      skillType: Farming
+      xp: 4
+      material: MELON
+      materialData: 0
+    '21':
+      skillType: Farming
+      xp: 4.5
+      material: PUMPKIN
+      materialData: 0
+    '22':
+      skillType: Farming
+      xp: 2
+      material: SUGAR_CANE
+      materialData: 0
+    '23':
+      skillType: Farming
+      xp: 2
+      material: CACTUS
+      materialData: 0
+    '24':
+      skillType: Farming
+      xp: 6
+      material: BROWN_MUSHROOM
+      materialData: 0
+    '25':
+      skillType: Farming
+      xp: 6
+      material: RED_MUSHROOM
+      materialData: 0
+    '26':
+      skillType: Alchemy
+      xp: 1
+      material: NETHER_WARTS
+      materialData: 3
+    '27':
+      skillType: Foraging
+      xp: 6
+      material: OAK_LOG
+      materialData: 0
+    '28':
+      skillType: Foraging
+      xp: 6
+      material: BIRCH_LOG
+      materialData: 0
+    '29':
+      skillType: Foraging
+      xp: 6
+      material: SPRUCE_LOG
+      materialData: 0
+    '30':
+      skillType: Foraging
+      xp: 6
+      material: DARK_OAK_LOG
+      materialData: 0
+    '31':
+      skillType: Foraging
+      xp: 6
+      material: ACACIA_LOG
+      materialData: 0
+    '32':
+      skillType: Foraging
+      xp: 6
+      material: JUNGLE_LOG
+      materialData: 0
+  mobs:
+    '1':
+      skillType: Farming
+      xp: 2
+      mobName: PIG
+    '2':
+      skillType: Farming
+      xp: 2
+      mobName: CHICKEN
+    '3':
+      skillType: Farming
+      xp: 2
+      mobName: COW
+    '4':
+      skillType: Farming
+      xp: 2
+      mobName: SHEEP
+    '5':
+      skillType: Farming
+      xp: 2
+      mobName: RABBIT
+  mythicMobs:
+    '1':
+      skillType: Combat
+      xp: 20
+      id: SkeletalKnight
+  caughtEntities:
+    '1':
+      skillType: Fishing
+      xp: 25
+      id: COD
+    '2':
+      skillType: Fishing
+      xp: 35
+      id: SALMON
+    '3':
+      skillType: Fishing
+      xp: 50
+      id: PUFFERFISH

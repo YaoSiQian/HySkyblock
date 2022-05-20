@@ -1,0 +1,4 @@
+Inventories:
+  main:
+    slots: 9
+    title: '&c一个错误已记录! &7(EMPTY_GUI)'

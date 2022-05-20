@@ -1,0 +1,35 @@
+others-menu-item: '32'
+others-menu-name: '&2饰品'
+others-menu-lore:
+  - '&8物品类别'
+  - ''
+  - '&7示例：'
+  - '&8■ &7护符'
+  - '&8■ &7指环'
+  - '&8■ &7宝珠'
+  - '&8■ &7圣物'
+
+#If you have custom items that you want to be in this
+#category, specify their name here
+custom-item-names:
+  - '&f农业护符'
+  - '&f矿洞护符'
+  - '&f村庄护符'
+  - '&f僵尸护符'
+  - '&f骷髅护符'
+  - '&f疫苗护符'
+  - '&f速度护符'
+  - '&a速度指环'
+  - '&9速度圣物'
+  - '&a熔岩护符'
+  - '&f治愈护符'
+  - '&a治愈指环'
+  - '&f硬币护符'
+  - '&a绿宝石指环'
+  - '&f羽毛护符'
+  - '&a羽毛指环'
+  - '&9羽毛圣物'
+  - '&f火焰护符'
+
+custom-item-ids:
+  - '2266'

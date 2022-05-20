@@ -1,0 +1,172 @@
+title: Iron Armor
+permission-to-open: none
+background-color: 15
+items:
+  '1':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: IRON_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Iron
+          Helmet"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Health:
+          "},{"italic":false,"color":"green","text":"+15 HP"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+10"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Growth
+          I"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Grants
+          "},{"italic":false,"color":"green","text":"+15 "},{"italic":false,"color":"red","text":"❤
+          Health"},{"italic":false,"color":"gray","text":"."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON
+          HELMET"}],"text":""}'
+        enchants:
+          MENDING: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        Unbreakable: true
+        internal: H4sIAAAAAAAA/+NiYGBjYHdJTUvNK051UGEAAzYGjuCSotS89JIMBgaYEGtwQWpqCoLP45lXkpqTk5mempecihDmCEgtifcpTc5GCLF5pCbmlGQ46MEEBHwTK+Kxa+d2LsosiXdJzE1MxxB1zkhEUssAAO3mL7e7AAAA
+    sellingValue: 0.0
+    buyValue: 15.0
+    detailed: true
+    amount1: 0
+    amount2: 0
+    amount3: 0
+    amount4: 0
+    amount5: 0
+  '2':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: IRON_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Iron
+          Chestplate"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Health:
+          "},{"italic":false,"color":"green","text":"+15 HP"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+30"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Growth
+          I"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Grants
+          "},{"italic":false,"color":"green","text":"+15 "},{"italic":false,"color":"red","text":"❤
+          Health"},{"italic":false,"color":"gray","text":"."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON
+          CHESTPLATE"}],"text":""}'
+        enchants:
+          MENDING: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        Unbreakable: true
+        internal: H4sIAAAAAAAA/+NiYGBjYHdJTUvNK051sGMAAzYGjuCSotS89JIMBgaYEGtwQWpqCoLP45lXkpqTk5mempecihDmCEgtifcpTc5GCLF5pCbmlGQ46MEEBHwTK+Kxa+d2LsosiXdJzE1MxxB1zkhEUssAAIXfJQ27AAAA
+    sellingValue: 0.0
+    buyValue: 25.0
+    detailed: true
+    amount1: 0
+    amount2: 0
+    amount3: 0
+    amount4: 0
+    amount5: 0
+  '3':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: IRON_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Iron
+          Leggings"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Health:
+          "},{"italic":false,"color":"green","text":"+15 HP"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+25"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Growth
+          I"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Grants
+          "},{"italic":false,"color":"green","text":"+15 "},{"italic":false,"color":"red","text":"❤
+          Health"},{"italic":false,"color":"gray","text":"."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON
+          LEGGINGS"}],"text":""}'
+        enchants:
+          MENDING: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        Unbreakable: true
+        internal: H4sIAAAAAAAA/+NiYGBjYHdJTUvNK051sGQAAzYGjuCSotS89JIMBgaYEGtwQWpqCoLP45lXkpqTk5mempecihDmCEgtifcpTc5GCLF5pCbmlGQ46MEEBHwTK+Kxa+d2LsosiXdJzE1MxxB1zkhEUssAAKOdR367AAAA
+    sellingValue: 0.0
+    buyValue: 30.0
+    detailed: true
+    amount1: 0
+    amount2: 0
+    amount3: 0
+    amount4: 0
+    amount5: 0
+  '4':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: IRON_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Iron
+          Boots"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Health:
+          "},{"italic":false,"color":"green","text":"+15 HP"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+15"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Growth
+          I"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Grants
+          "},{"italic":false,"color":"green","text":"+15 "},{"italic":false,"color":"red","text":"❤
+          Health"},{"italic":false,"color":"gray","text":"."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON
+          BOOTS"}],"text":""}'
+        enchants:
+          MENDING: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        Unbreakable: true
+        internal: H4sIAAAAAAAA/+NiYGBjYHdJTUvNK0510GMAAzYGjuCSotS89JIMBgaYEGtwQWpqCoLP45lXkpqTk5mempecihDmCEgtifcpTc5GCLF5pCbmlGQgTBfwTayIx66d27kosyTeJTE3MR1D1DkjEUktAwB/uEiZuwAAAA==
+    sellingValue: 0.0
+    buyValue: 20.0
+    detailed: true
+    amount1: 0
+    amount2: 0
+    amount3: 0
+    amount4: 0
+    amount5: 0

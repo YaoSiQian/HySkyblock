@@ -1,0 +1,244 @@
+menu_title: '社区商店'
+open_command:
+- bitsshop
+size: 54
+register_command: false
+items:
+      glass:
+        material: LIME_STAINED_GLASS_PANE
+        slot: 13
+        display_name: '&8⬆ &7种类'
+        lore:
+        - '&8⬇ &7物品'
+        left_click_commands: []
+        right_click_commands: []
+
+      city-projects:
+        material: GOLDEN_HORSE_ARMOR
+        slot: 1
+        display_name: '&a城市建设项目'
+        lore:
+        - '&7与全体空岛生存社区'
+        - '&7一起参与升级城镇及更多'
+        - ''
+        - '&7为各项工程做出 &b贡献'
+        - '&7以获得独特的增益!'
+        - ''
+        - '&c即将推出!'
+        left_click_commands: []
+        right_click_commands: []
+
+      profile-upgrades:
+        material: HOPPER
+        slot: 2
+        display_name: '&d账号&存档升级'
+        lore:
+        - '&7升级你的存档和空岛长久升级'
+        - ''
+        - '&c即将推出!'
+        left_click_commands: []
+        right_click_commands: []
+
+      booster-cookie:
+        material: COOKIE
+        enchantments:
+        - 'SILK_TOUCH;1'
+        hide_enchantments: true
+        slot: 3
+        display_name: '&6增益曲奇'
+        lore:
+        - '&7获得一个能够让你获得 &b点券'
+        - '&7以及 &d超多增益 &7的临时增益'
+        - ''
+        - '&e点击查看!'
+        left_click_commands:
+        - '[openguimenu] community-shop'
+        right_click_commands:
+        - '[openguimenu] community-shop'
+
+      bits-shop:
+        material: DIAMOND
+        enchantments:
+        - 'SILK_TOUCH;1'
+        hide_enchantments: true
+        slot: 4
+        display_name: '&b点券商店'
+        lore:
+        - '&7花费 &b点券'
+        - '&7购买一些厉害的物品'
+        - ''
+        - '&7从 &6增益曲奇 &7获取点券'
+        - ''
+        - '&a当前选择!'
+        left_click_commands: []
+        right_click_commands: []
+
+      fire-sales:
+        material: BLAZE_POWDER
+        enchantments:
+        - 'SILK_TOUCH;1'
+        hide_enchantments: true
+        slot: 5
+        display_name: '&c♨ &l花火 &r&c甩卖 ♨'
+        lore:
+        - '&7领取空岛生存里&c限量&7的 &6特殊 &7装饰品'
+        - ''
+        - '&8当前没有销售!'
+        - ''
+        - '&c即将推出!'
+        left_click_commands: []
+        right_click_commands: []
+
+      black-glass:
+        material: BLACK_STAINED_GLASS_PANE
+        slots:
+        - 0
+        - 6
+        - 8
+        - 9
+        - 15
+        - 17
+        - 18
+        - 26
+        - 27
+        - 35
+        - 36
+        - 44
+        - 45
+        - 46
+        - 47
+        - 48
+        - 50
+        - 51
+        - 52
+        - 53
+        display_name: '&7'
+        left_click_commands: []
+        right_click_commands: []
+
+      red-glass:
+        material: RED_STAINED_GLASS_PANE
+        slot: 7
+        display_name: '&7'
+        left_click_commands: []
+        right_click_commands: []
+
+      gray-glass:
+        material: GRAY_STAINED_GLASS_PANE
+        slots:
+        - 10
+        - 11
+        - 12
+        - 14
+        - 16
+        display_name: '&8⬆ &7种类'
+        lore:
+        - '&8⬇ &7物品'
+        left_click_commands: []
+        right_click_commands: []
+
+      community-shop:
+        material: EMERALD
+        slot: 49
+        enchantments:
+        - 'SILK_TOUCH;1'
+        hide_enchantments: true
+        display_name: '&a社区商店'
+        lore:
+        - '&8伊丽莎白'
+        - ''
+        - '&7宝石: &a%formatter_number_format_:#,###_{customplaceholders_gems}%'
+        - '&8在商店购买!'
+        - ''
+        - '&7点券: &b%formatter_number_format_:#,###_{customplaceholders_bits}%'
+        - '&8从 增益曲奇 获取!'
+        - ''
+        - '&7声望等级: &e%customplaceholders_fame_rank%'
+        - '&8花费宝石 & 点券以升级'
+        left_click_commands:
+        - '[console] ibooks open elizabeth %player_name%<delay=2>'
+        right_click_commands:
+        - '[console] ibooks open elizabeth %player_name%<delay=2>'
+
+      god-pot:
+        display_name: '&c上帝药水'
+        lore:
+        - '&7消耗此药水以获得大部分 &d增益效果&7!'
+        - ''
+        - '&7持续时间:'
+        - '&a12 小时'
+        - ''
+        - '&e右键点击以消耗!'
+        - ''
+        - '&c&l特殊'
+        - ''
+        - '&7花费'
+        - '&b1,500 点券'
+        - ''
+        - '&e点击以兑换!'
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWY4YjgyNDI3YjI2MGQwYTYxZTY0ODNmYzNiMmMzNWE1ODU4NTFlMDhhOWE5ZGYzNzI1NDhiNDE2OGNjODE3YyJ9fX0=
+        view_requirement:
+            gems:
+              type: '>='
+              input: '%customplaceholders_bits%'
+              output: 1500
+        priority: 2
+        amount: 1
+        slot: 19
+        right_click_requirement:
+          requirements:
+            inventory:
+              type: string equals
+              input: "%player_has_empty_slot%"
+              output: "yes"
+          deny_commands:
+            - "[message] &c你的物品栏满了!"
+        right_click_commands:
+        - '[console] customplaceholders remove %player_name% bits 1500'
+        - '[console] minecraft:give %player_name% minecraft:player_head{display:{Name:"{\"text\":\"上帝药水\"}"},SkullOwner:{Id:[I;47996796,-524072211,-1507206880,-1579062268],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWY4YjgyNDI3YjI2MGQwYTYxZTY0ODNmYzNiMmMzNWE1ODU4NTFlMDhhOWE5ZGYzNzI1NDhiNDE2OGNjODE3YyJ9fX0="}]}}} 1'
+        - '[player] updategodpotion<delay=5>'
+        - '[refresh]'
+        left_click_requirement:
+          requirements:
+            inventory:
+              type: string equals
+              input: "%player_has_empty_slot%"
+              output: "yes"
+          deny_commands:
+            - "[message] &c你的物品栏满了!"
+        left_click_commands:
+        - '[console] customplaceholders remove %player_name% bits 1500'
+        - '[console] minecraft:give %player_name% minecraft:player_head{display:{Name:"{\"text\":\"上帝药水\"}"},SkullOwner:{Id:[I;47996796,-524072211,-1507206880,-1579062268],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWY4YjgyNDI3YjI2MGQwYTYxZTY0ODNmYzNiMmMzNWE1ODU4NTFlMDhhOWE5ZGYzNzI1NDhiNDE2OGNjODE3YyJ9fX0="}]}}} 1'
+        - '[player] updategodpotion<delay=5>'
+        - '[refresh]'
+        
+      god-potion-2:
+        display_name: '&c上帝药水'
+        lore:
+        - '&7消耗此药水以获得大部分 &d增益效果&7!'
+        - ''
+        - '&7持续时间:'
+        - '&a12 小时'
+        - ''
+        - '&e右键点击以消耗!'
+        - ''
+        - '&c&l特殊'
+        - ''
+        - '&7花费'
+        - '&b1,500 点券'
+        - ''
+        - '&e点击以兑换!'
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWY4YjgyNDI3YjI2MGQwYTYxZTY0ODNmYzNiMmMzNWE1ODU4NTFlMDhhOWE5ZGYzNzI1NDhiNDE2OGNjODE3YyJ9fX0=
+        view_requirement:
+          requirements:
+            gems:
+              type: '<'
+              input: '%customplaceholders_bits%'
+              output: 1500
+        priority: 1
+        amount: 1
+        slot: 19
+        right_click_commands:
+        - '[message] &c你买不起!'
+        left_click_commands:
+        - '[message] &c你买不起!'

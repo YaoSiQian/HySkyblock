@@ -1,0 +1,11 @@
+do:not:touch:this: default
+lore_filter:
+- Non-tradeable
+name_filter:
+- 小型背包
+- 中型背包
+- 大型背包
+- 加大型背包
+type_filter:
+- NETHER_STAR
+- VILLAGER_SPAWN_EGG

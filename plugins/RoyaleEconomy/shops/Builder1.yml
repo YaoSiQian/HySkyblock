@@ -1,0 +1,602 @@
+title: 'Woodworking'
+permission-to-open: none
+background-color: 15
+items:
+  '1':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: OAK_PLANKS
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '2':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: SPRUCE_PLANKS
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '3':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: BIRCH_PLANKS
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '4':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: JUNGLE_PLANKS
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '5':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: ACACIA_PLANKS
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '6':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: DARK_OAK_PLANKS
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '7':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: OAK_TRAPDOOR
+    sellingValue: 0.0
+    buyValue: 3.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '8':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: OAK_SLAB
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '9':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: SPRUCE_SLAB
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '10':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: BIRCH_SLAB
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '11':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: JUNGLE_SLAB
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '12':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: ACACIA_SLAB
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '13':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: DARK_OAK_SLAB
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '14':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: OAK_BUTTON
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '15':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: OAK_STAIRS
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '16':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: SPRUCE_STAIRS
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '18':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: BIRCH_STAIRS
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '19':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: JUNGLE_STAIRS
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '20':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: ACACIA_STAIRS
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '22':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: DARK_OAK_STAIRS
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '23':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: OAK_SIGN
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '24':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: OAK_FENCE
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '25':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: SPRUCE_FENCE
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '26':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: BIRCH_FENCE
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '27':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: JUNGLE_FENCE
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '28':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: ACACIA_FENCE
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '30':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: DARK_OAK_FENCE
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '31':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: LADDER
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '32':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: OAK_FENCE_GATE
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '33':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: SPRUCE_FENCE_GATE
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '34':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: BIRCH_FENCE_GATE
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '35':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: JUNGLE_FENCE_GATE
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '36':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: ACACIA_FENCE_GATE
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '37':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: DARK_OAK_FENCE_GATE
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '38':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: CHEST
+    sellingValue: 1.0
+    buyValue: 3.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '39':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: OAK_DOOR
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '40':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: SPRUCE_DOOR
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '41':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: BIRCH_DOOR
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '43':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: JUNGLE_DOOR
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '44':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: ACACIA_DOOR
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '45':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: DARK_OAK_DOOR
+    sellingValue: 0.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '46':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: CRAFTING_TABLE
+    sellingValue: 0.0
+    buyValue: 3.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64

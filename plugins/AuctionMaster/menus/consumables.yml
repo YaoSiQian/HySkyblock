@@ -1,0 +1,17 @@
+consumables-menu-item: '260'
+consumables-menu-name: '&c消耗品'
+consumables-menu-lore:
+  - '&8物品类别'
+  - ''
+  - '&7示例：'
+  - '&8■ &7药水'
+  - '&8■ &7食物'
+  - '&8■ &7书'
+
+#If you have custom items that you want to be in this
+#category, specify their name here
+custom-item-names:
+  - '&f附魔书'
+
+custom-item-ids:
+  - '2266'

@@ -1,0 +1,14 @@
+name: vip+
+permissions:
+- hyperskills.multiplier.runecrafting.1.2
+- rank.VIP+
+- tab.sort.VIP+
+- weight.3
+parents:
+- vip
+prefixes:
+- '&a[VIP&6+&a] ':
+    priority: 3
+suffixes:
+- '&a':
+    priority: 3

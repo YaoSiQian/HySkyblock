@@ -1,0 +1,13 @@
+fly-location:
+  world: Server
+  x: 134.6555310803304
+  y: 118.15209204218851
+  z: 325.10819086917326
+name: mine-deep-caverns
+pos1X: 130.0
+pos1Z: 239.0
+pos2X: 131.0
+pos2Z: 238.0
+relative-position: 76.0
+permission-1: access.deep-caverns
+permission-message: §cYou must be at least Mining Level I to join this island!

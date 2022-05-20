@@ -1,0 +1,15 @@
+name: 更新
+title: 更新
+author: 文明游戏
+generation: ORIGINAL
+
+lore:
+- 阿巴阿巴
+open_command: ''
+
+pages:
+  '1':
+  - '&0欢迎购买我们的宝石、称号，以及更多！'
+  - ''
+  - ''
+  - '    <tooltip:&f点击加入我们的官方Q群><link:https://jq.qq.com/?k=ciimjkOG>&3&l加入Q群<reset>'

@@ -1,0 +1,370 @@
+menu_title: 'Your SkyBlock Profile'
+open_command: 'sbprofile'
+size: 54
+items:
+
+
+      your-skyblock-profile:
+        material: head-%player_name%
+        slot: 4
+        display_name: '&a你的空岛生存个人信息'
+        lore:
+        - '  &c❤ 生命 &f%formatter_number_format_{skills_health_total}% HP'
+        - '  &a❇ 防御 &f%formatter_number_format_{skills_defense_total}%'
+        - '  &c❁ 力量 &f%formatter_number_format_{skills_strength_total}%'
+        - '  &f✦ 速度 &f%formatter_number_format_{skills_speed_total}%'
+        - '  &9☣ 暴击率 &f%formatter_number_format_{skills_crit_chance_total}%%'
+        - '  &9☠ 暴击伤害 &f%formatter_number_format_{skills_crit_damage_total}%%'
+        - '  &b✎ 智力 &f%formatter_number_format_{skills_intelligence_total}%'
+        - '  &6⛏ 挖掘速度 &f%formatter_number_format_{skills_mining_speed_total}%'
+        - '  &3α 海怪钓取概率 &f%formatter_number_format_{skills_sea_creature_chance_total}%'
+        - '  &d♠ 宠物运气值 &f%formatter_number_format_{skills_pet_luck_total}%'
+        - '  &6☘ 挖矿时运 &f%formatter_number_format_{skills_ore_chance_total}%'
+        - '  &6☘ 农业时运 &f%formatter_number_format_{skills_crop_chance_total}%'
+        - '  &6☘ 林业时运 &f%formatter_number_format_{skills_log_chance_total}%'
+        left_click_commands: []
+        right_click_commands: []
+
+      health:
+        display_name: '&c❤ 生命 &f%formatter_number_format_{skills_health_total}% HP'
+        material: GOLDEN_APPLE
+        lore:
+        - '&7生命为你总的最大生命'
+        - '&7你的自然生命回复每 &a2秒'
+        - '&7为你回复 &a2% HP'
+        - ''
+        - ' &7基础生命: &a%formatter_number_format_{skills_health_simple}%'
+        - '  &8&o通过提升你的农业与钓鱼技能'
+        - '  &8&o或是在 &2野外 &8&o贡献 &d仙女之魂'
+        - '  &8&o来提升你的基础生命'
+
+        - ''
+        - '&7增益生命: &8+&e%formatter_number_format_{skills_health_extra}%'
+        - '  &8&o通过装备物品,盔甲和在物品栏中储存饰品'
+        - '  &8&o来提升你的增益生命'
+        slot: 19
+        left_click_commands: []
+        right_click_commands: []
+
+      defense:
+        display_name: '&a❇ 防御 &f%formatter_number_format_{skills_defense_total}%'
+        material: IRON_CHESTPLATE
+        hide_attributes: true
+        lore:
+        - '&7防御减少来自敌人的伤害'
+        - ''
+        - '&7基础防御: &a%formatter_number_format_{skills_defense_simple}%'
+        - '  &8&o通过提升你的挖矿技能'
+        - '  &8&o或是在 &2野外 &8&o贡献 &d仙女之魂'
+        - '  &8&o来提升你的基础防御'
+        - ''
+        - '&7增益防御: &8+&e%formatter_number_format_{skills_defense_extra}%'
+        - '  &8&o通过装备物品,盔甲和在物品栏中储存饰品'
+        - '  &8&o来提升你的增益防御'
+        slot: 20
+        left_click_commands: []
+        right_click_commands: []
+
+      strength:
+        display_name: '&c❁ 力量 &f%formatter_number_format_{skills_strength_total}%'
+        material: BLAZE_POWDER
+        lore:
+        - '&7力量增加你的基础近战伤害'
+        - '&7包括空手伤害和武器伤害'
+        - ''
+        - '&7基础力量: &a%formatter_number_format_{skills_strength_simple}%'
+        - '  &8&o通过提升你的林业技能'
+        - '  &8&o或是在 &2野外 &8&o贡献 &d仙女之魂'
+        - '  &8&o来提升你的基础力量'
+        - ''
+        - '&7增益力量: &8+&e%formatter_number_format_{skills_strength_extra}%'
+        - '  &8&o通过装备物品,盔甲和在物品栏中储存饰品'
+        - '  &8&o来提升你的增益力量'
+        - ''
+        - '&7基础伤害: &a1'
+        slot: 21
+        left_click_commands: []
+        right_click_commands: []
+
+      speed:
+        display_name: '&f✦ 速度 &f%formatter_number_format_{skills_speed_total}%'
+        material: SUGAR
+        lore:
+        - '&7速度增加你的移动速度'
+        - ''
+        - '&7基础速度: &a%formatter_number_format_{skills_speed_simple}%'
+        - '  &8&o通过在 &2野外 &8&o贡献 &d仙女之魂'
+        - '  &8&o来提升你的基础速度'
+        - ''
+        - '&7增益速度: &8+&e%formatter_number_format_{skills_speed_extra}%'
+        - '  &8&o通过装备物品,盔甲和在物品栏中储存饰品'
+        - '  &8&o来提升你的增益速度'
+        slot: 22
+        left_click_commands: []
+        right_click_commands: []
+
+      crit-chance:
+        display_name: '&9☣ 暴击率 &f%formatter_number_format_{skills_crit_chance_total}%%'
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2U0ZjQ5NTM1YTI3NmFhY2M0ZGM4NDEzM2JmZTgxYmU1ZjJhNDc5OWE0YzA0ZDlhNGRkYjcyZDgxOWVjMmIyYiJ9fX0=
+        lore:
+        - '&7暴击率是你能够对敌人造成暴击的概率'
+        - ''
+        - '&7基础暴击率: &a%skills_crit_chance_simple%%'
+        - '  &8&o通过提升你的战斗技能'
+        - '  &8&o来提升你的基础暴击率'
+        - ''
+        - '&7增益暴击率: &8+&e%skills_crit_chance_extra%%'
+        - '  &8&o通过装备物品,盔甲和在物品栏中储存饰品'
+        - '  &8&o来提升你的增益暴击率'
+        slot: 23
+        left_click_commands: []
+        right_click_commands: []
+
+      crit-damage:
+        display_name: '&9☠ 暴击伤害 &f%formatter_number_format_{skills_crit_damage_total}%%'
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGRhZmIyM2VmYzU3ZjI1MTg3OGU1MzI4ZDExY2IwZWVmODdiNzljODdiMjU0YTdlYzcyMjk2ZjkzNjNlZjdjIn19fQ==
+        lore:
+        - '&7暴击伤害是当你暴击后能造成多少额外伤害'
+        - ''
+        - '&7基础暴击伤害: &a%skills_crit_damage_simple%%'
+        - '  &8&o通过探索这个世界'
+        - '  &8&o来提升你的基础暴击伤害'
+        - ''
+        - '&7增益暴击伤害: &8+&e%skills_crit_damage_extra%%'
+        - '  &8&o通过装备物品,盔甲和在物品栏中储存饰品'
+        - '  &8&o来提升你的增益暴击伤害'
+        slot: 24
+        left_click_commands: []
+        right_click_commands: []
+
+      intelligence:
+        display_name: '&b✎ 智力 &f%formatter_number_format_{skills_intelligence_total}%'
+        material: ENCHANTED_BOOK
+        data: 0
+        lore:
+        - '&7提升智力不仅会提升最大法力'
+        - '&7并且会增加魔法伤害'
+        - ''
+        - '&7基础智力: &a%formatter_number_format_{skills_intelligence_simple}%'
+        - '  &8&o通过增加你的附魔和酿造等级'
+        - '  &8&o来提升你的基础智力'
+        - ''
+        - '&7增益智力: &8+&e%formatter_number_format_{skills_intelligence_extra}%'
+        - '  &8&o通过装备物品,盔甲和在物品栏中储存饰品'
+        - '  &8&o来提升你的增益智力'
+        - ''
+        - '&7魔法伤害: &b0%'
+        - '&7法力上限: &b100'
+        priority: 1
+        slot: 25
+        left_click_commands: []
+        right_click_commands: []
+
+      pet-luck:
+        display_name: '&d♠ 宠物运气值 &f%formatter_number_format_{skills_pet_luck_total}%'
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTNjOGFhM2ZkZTI5NWZhOWY5YzI3ZjczNGJkYmFiMTFkMzNhMmU0M2U4NTVhY2NkNzQ2NTM1MjM3NzQxM2IifX19
+        data: 0
+        lore:
+        - '&7宠物运气值增加你找到的宠物数量'
+        - '&7并在合成宠物时为你带来好运'
+        - ''
+        - '&7基础宠物运气值: &a%formatter_number_format_{skills_pet_luck_simple}%'
+        - '  &8&o通过增加你的驯兽等级'
+        - '  &8&o来提升你的基础宠物运气值'
+        - ''
+        - '&7增益宠物运气值: &8+&e%formatter_number_format_{skills_pet_luck_extra}%'
+        - '  &8&o通过装备物品,盔甲和在物品栏中储存饰品'
+        - '  &8&o来提升你的增益宠物运气值'
+        priority: 1
+        slot: 28
+        left_click_commands: []
+        right_click_commands: []
+
+
+      mining-speed:
+        display_name: '&6⛏ 挖掘速度 &f%formatter_number_format_{skills_mining_speed_total}%'
+        material: DIAMOND_PICKAXE
+        hide_attributes: true
+        data: 0
+        lore:
+        - '&7挖掘速度提升你挖掘方块的速度'
+        - ''
+        - '&7基础挖掘速度: &a0'
+        - '  &8&o通过探索这个世界'
+        - '  &8&o来提升你的基础挖掘速度'
+        - ''
+        - '&7增益挖掘速度: &8+&e%formatter_number_format_{skills_mining_speed_extra}%'
+        - '  &8&o通过装备物品,盔甲和在物品栏中储存饰品'
+        - '  &8&o来提升你的增益挖掘速度'
+        priority: 1
+        slot: 29
+        left_click_commands: []
+        right_click_commands: []
+
+
+      sea-creature-chance:
+        display_name: '&3α 海怪钓取概率 &f%formatter_number_format_{skills_sea_creature_chance_total}%%'
+        material: PRISMARINE_CRYSTALS
+        data: 0
+        lore:
+        - '&7海怪钓取概率是钓鱼时能钓上海怪的概率'
+        - ''
+        - '&7基础海怪钓取概率: &a%skills_sea_creature_chance_simple%%'
+        - '  &8&o所有玩家都有相同的基础概率'
+        - ''
+        - '&7增益海怪钓取概率: &8+&e%skills_sea_creature_chance_extra%%'
+        - '  &8&o通过装备物品,盔甲和在物品栏中储存饰品'
+        - '  &8&o来提升你的增益海怪钓取概率'
+        priority: 1
+        slot: 30
+        left_click_commands: []
+        right_click_commands: []
+        
+      mining-fortune:
+        display_name: '&6☘ 挖矿时运 &f%formatter_number_format_{skills_ore_chance_total}%'
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjZlYTIxMzU4Mzg0NjE1MzQzNzJmMmRhNmM4NjJkMjFjZDVmM2QyYzcxMTlmMmJiNjc0YmJkNDI3OTEifX19
+        data: 0
+        lore:
+        - '&7挖矿时运是获取矿石时获得双倍掉落的概率'
+        - '&7数值大于 100 时可能获得三倍掉落'
+        - ''
+        - '&7基础挖矿时运: &a0'
+        - '  &8&o通过探索这个世界'
+        - '  &8&o来提升你的基础挖矿时运'
+        - ''
+        - '&7增益挖矿时运: &8+&e%formatter_number_format_{skills_ore_chance_total}%'
+        - '  &8&o通过装备物品,盔甲和在物品栏中储存饰品'
+        - '  &8&o来提升你的增益挖矿时运'
+        priority: 1
+        slot: 31
+        left_click_commands: []
+        right_click_commands: []
+        
+
+
+      farming-fortune:
+        display_name: '&6☘ 农业时运 &f%formatter_number_format_{skills_crop_chance_total}%'
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjRhZjhkNTc1ZjBhNTI0ZWY2NmEyMTU3M2U4YTRhOGFjN2Q2NDBiMDBkOThlMmU5Mzc0ZTYwNDcwZTdjODZmMCJ9fX0=
+        data: 0
+        lore:
+        - '&7农业时运是获取农作物时获得双倍掉落的概率'
+        - '&7数值大于 100 时可能获得三倍掉落'
+        - ''
+        - '&7基础农业时运: &a0'
+        - '  &8&o通过探索这个世界'
+        - '  &8&o来提升你的基础农业时运'
+        - ''
+        - '&7增益农业时运: &8+&e%formatter_number_format_{skills_crop_chance_total}%'
+        - '  &8&o通过装备物品,盔甲和在物品栏中储存饰品'
+        - '  &8&o来提升你的增益农业时运'
+        priority: 1
+        slot: 32
+        left_click_commands: []
+        right_click_commands: []
+
+
+      foraging-fortune:
+        display_name: '&6☘ 林业时运 &f%formatter_number_format_{skills_log_chance_total}%'
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjRiYTQ5Mzg0ZGJhN2I3YWNkYjRmNzBlOTM2MWU2ZDU3Y2JiY2JmNzIwY2Y0ZjE2YzJiYjgzZTQ1NTcifX19
+        data: 0
+        lore:
+        - '&7林业时运是获取原木时获得双倍掉落的概率'
+        - '&7数值大于 100 时可能获得三倍掉落'
+        - ''
+        - '&7基础林业时运: &a0'
+        - '  &8&o通过探索这个世界'
+        - '  &8&o来提升你的基础林业时运'
+        - ''
+        - '&7增益林业时运: &8+&e%formatter_number_format_{skills_log_chance_total}%'
+        - '  &8&o通过装备物品,盔甲和在物品栏中储存饰品'
+        - '  &8&o来提升你的增益林业时运'
+        priority: 1
+        slot: 33
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+      BACKGROUND:
+        material: BLACK_STAINED_GLASS_PANE
+        slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
+        - 11
+        - 12
+        - 13
+        - 14
+        - 15
+        - 16
+        - 17
+        - 18
+        - 26
+        - 27
+        - 34
+        - 35
+        - 36
+        - 37
+        - 38
+        - 39
+        - 40
+        - 41
+        - 42
+        - 43
+        - 44
+        - 45
+        - 46
+        - 47
+        - 50
+        - 51
+        - 52
+        - 53
+        display_name: '&7'
+        lore: []
+        left_click_commands: []
+        right_click_commands: []
+
+
+      go-back:
+        material: ARROW
+        slot: 48
+        display_name: '&a返回'
+        lore:
+        - '&7至空岛生存菜单'
+        left_click_commands:
+        - '[openguimenu] skyblock-menu'
+        right_click_commands:
+        - '[openguimenu] skyblock-menu'
+
+
+      close:
+        material: BARRIER
+        slot: 49
+        display_name: '&c关闭'
+        lore:
+        left_click_commands:
+        - '[close]'
+        right_click_commands:
+        - '[close]'
+
+
+      toggle:
+        material: PUFFERFISH
+        slot: 51
+        display_name: '&a切换为显示所有统计数据'
+        lore:
+        - '&7调整显示全部空岛生存数据'
+        - '&7或仅显示你拥有记录的'
+        - ''
+        - '&7显示所有统计数据: &a是'
+        - ''
+        - '&c无法切换!'
+        left_click_commands: []
+        right_click_commands: []

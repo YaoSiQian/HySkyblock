@@ -1,0 +1,532 @@
+menus:
+  main-bank-menu:
+    title: '个人银行账户'
+    use-background-glass: true
+    background-glass-color: 15
+    size: 36
+    deposit-item:
+      item-id: '54'
+      slot: 11
+      name: '&a存款'
+      #Use %interest-cooldown% for the cooldown (format example: 2 Days)
+      #Use %interest-cooldown-detailed% for the detailed cooldown (format example: 2 Days 3 Hours 1 Minute)
+      #Use %interest-cooldown-short% for the short cooldown (format example: 2d3h1m)
+      lore:
+        - '&7当前余额: &6%balance%'
+        - ''
+        - '&7当你出门冒险时'
+        - '&7在银行里存款让你的硬币更加安全!'
+        - ''
+        - '&7下次利息: &b%interest-cooldown%'
+        - ''
+        - '&e点击以发起存款!'
+    withdraw-item:
+      item-id: '158'
+      slot: 13
+      name: '&a取款'
+      lore:
+        - '&7当前余额: &6%balance%'
+        - ''
+        - '&7将你的硬币从银行取出'
+        - '&7以便随时使用'
+        - ''
+        - '&e点击以发起取款!'
+    transaction-history:
+      item-id: '358:0'
+      slot: 15
+      name: '&a交易历史'
+      #Use %symbol% for +/-
+      #Use %transaction-coins% for the amount of coins from that transaction
+      #Use %transaction-countdown% for the time elapsed from the creation of the transaction
+      #Use %player-name% for the name of the one who made the transaction (it could also be bank interest)
+      lore-structure: '%symbol% &6%transaction-coins%&7, &e%transaction-countdown%'
+      bank-interest-name: '&a最近交易记录'
+      no-transaction-lore:
+        - '&7最近没有交易记录!'
+    close-item:
+      item-id: '166'
+      slot: 31
+      name: '&c关闭'
+      lore: []
+    information-item:
+      item-id: '76'
+      slot: 32
+      name: '&a信息'
+      #Use %balance-limit% for the current bank limit (taken from bank upgrade)
+      #Use %interest-value% for the amount of coins the player will receive on interest
+      #Use %interest-cooldown% for the cooldown (format example: 2 Days)
+      #Use %interest-cooldown-detailed% for the detailed cooldown (format example: 2 Days 3 Hours 1 Minute)
+      #Use %interest-cooldown-short% for the short cooldown (format example: 2d3h1m)
+      lore:
+        - '&7在银行安全地保存你的硬币!'
+        - '&7你会因战斗时死亡而从钱包里丢失一半硬币'
+        - ''
+        - '&7存款上限: &6%balance-limit%'
+        - ''
+        - '&7银行家每 31 小时'
+        - '&7都会基于你银行存款中的硬币数发放 &b利息'
+        - ''
+        - '&7距离下次利息: &b%interest-cooldown%'
+    bank-upgrades:
+      item-id: '41'
+      slot: 35
+      name: '&6银行升级'
+      lore:
+        - '&7你是不是已经壕到装不下硬币了?'
+        - ''
+        - '&7当前账户: %account-name%'
+        - '&7账户上限: &6%balance-limit%'
+        - ''
+        - '&e点击查看升级!'
+  deposit-coins-menu:
+    title: '银行存款'
+    use-background-glass: true
+    background-glass-color: 15
+    size: 36
+    #Use %amount% for the amount of coins a player withdraws
+    deposit-message: '&a你已存入了 &6%amount% 硬币&a!'
+    go-back-item:
+      item-id: '262'
+      slot: 31
+      name: '&a返回'
+      lore:
+        - '&7至个人银行账户'
+    custom-amount-item:
+      item-id: '323'
+      slot: 15
+      name: '&a指定金额'
+      #Use %balance% for the amount of coins
+      lore:
+        - '&7当前余额: &6%balance%'
+        - ''
+        - '&e点击存款!'
+    percent-items:
+      item1:
+        percent: 50
+        display-amount: 32
+        item-id: '54'
+        slot: 13
+        name: '&a钱包一半余额'
+        #Use %balance% for the current balance
+        #Use %to-deposit% for the amount that will be deposited
+        lore:
+          - '&8银行存款'
+          - ''
+          - '&7当前余额: &6%balance%'
+          - '&7存款金额: &6%to-deposit%'
+          - ''
+          - '&e点击存款!'
+      item2:
+        percent: 100
+        display-amount: 64
+        item-id: '54'
+        slot: 11
+        name: '&a钱包全部余额'
+        #Use %balance% for the current balance
+        #Use %to-deposit% for the amount that will be deposited
+        lore:
+          - '&8银行存款'
+          - ''
+          - '&7当前余额: &6%balance%'
+          - '&7存款金额: &6%to-deposit%'
+          - ''
+          - '&e点击存款!'
+  withdraw-coins-menu:
+    title: '银行取款'
+    use-background-glass: true
+    background-glass-color: 15
+    size: 36
+    #Use %amount% for the amount of coins a player withdraws
+    withdraw-message: '&a你取出了 &6%amount% 硬币&a!'
+    go-back-item:
+      item-id: '262'
+      slot: 31
+      name: '&a返回'
+      lore:
+        - '&7至个人银行账户'
+    custom-amount-item:
+      item-id: '323'
+      slot: 16
+      name: '&a指定金额'
+      #Use %balance% for the amount of coins
+      lore:
+        - '&7当前余额: &6%balance%'
+        - ''
+        - '&e点击取款!'
+    percent-items:
+      item1:
+        percent: 20
+        display-amount: 1
+        item-id: '158'
+        slot: 14
+        name: '&a账户 20% 余额'
+        #Use %balance% for the current balance
+        #Use %to-withdraw% for the amount that will be deposited
+        lore:
+          - '&8银行取款'
+          - ''
+          - '&7当前余额: &6%balance%'
+          - '&7取款金额: &6%to-withdraw%'
+          - ''
+          - '&e点击取款!'
+      item2:
+        percent: 50
+        display-amount: 32
+        item-id: '158'
+        slot: 12
+        name: '&a账户一半余额'
+        #Use %balance% for the current balance
+        #Use %to-withdraw% for the amount that will be deposited
+        lore:
+          - '&8银行取款'
+          - ''
+          - '&7当前余额: &6%balance%'
+          - '&7取款金额: &6%to-withdraw%'
+          - ''
+          - '&e点击取款!'
+      item3:
+        percent: 100
+        display-amount: 64
+        item-id: '158'
+        slot: 10
+        name: '&a账户全部余额'
+        #Use %balance% for the current balance
+        #Use %to-withdraw% for the amount that will be deposited
+        lore:
+          - '&8银行取款'
+          - ''
+          - '&7当前余额: &6%balance%'
+          - '&7取款金额: &6%to-withdraw%'
+          - ''
+          - '&e点击取款!'
+    withdraw-as-bag:
+      slot: 32
+      #If the amount the player withdraws does not meet
+      #the bag's minimum & maximum requirements the amount will
+      #be sent in their purse instead
+      withdraw-as-purse: '&a该余额将会发送至你的 &e钱包&a!'
+      selected:
+        name: '&a通过钱袋取款 (开)'
+        lore:
+          - ''
+          - '&7状态: &a已开启'
+          - '&7这个选项决定你取出的钱是否'
+          - '&7以钱袋的形式发放给你!'
+          - ''
+          - '&e点击以关闭!'
+      not-selected:
+        name: '&a通过钱袋取款 (关)'
+        lore:
+          - ''
+          - '&7状态: &c已关闭'
+          - '&7这个选项决定你取出的钱是否'
+          - '&7以钱袋的形式发放给你!'
+          - ''
+          - '&e点击以开启!'
+  bank-upgrades-menu:
+    title: '个人银行升级'
+    use-background-glass: true
+    background-glass-color: 15
+    size: 36
+    lore-additions:
+      #These options are added to the lore of the bank upgrades
+      #If you leave them empty they won't be added
+      better-upgrade: '&eThis is a better account!'
+      own-upgrade: '&aThis is your account!'
+      previous-upgrade: '&cYou have a better account!'
+      need-previous-upgrade: '&cNeed previous upgrade!'
+    go-back-item:
+      item-id: '262'
+      slot: 31
+      name: '&a返回'
+      lore:
+        - '&7至个人银行账户'
+    #This menu is more dynamic than the other ones
+    #You can add as many items as you like here, but they must represent
+    #a bank upgrade by index (0, 1, 2, etc)
+    bank-upgrades-items:
+      item1:
+        #The bank upgrade that this item represents
+        item-id: '295'
+        bank-upgrade-index: 0
+        slot: 11
+      item2:
+        item-id: '371'
+        bank-upgrade-index: 1
+        slot: 12
+      item3:
+        item-id: '266'
+        bank-upgrade-index: 2
+        slot: 13
+      item4:
+        item-id: '315'
+        bank-upgrade-index: 3
+        slot: 14
+      item5:
+        item-id: '418'
+        bank-upgrade-index: 4
+        slot: 15
+
+shared-menus:
+  main-bank-menu:
+    title: '&8共享银行'
+    use-background-glass: true
+    background-glass-color: 15
+    size: 36
+    deposit-item:
+      item-id: '54'
+      slot: 11
+      name: '&a存款'
+      #Use %interest-cooldown% for the cooldown (format example: 2 Days)
+      #Use %interest-cooldown-detailed% for the detailed cooldown (format example: 2 Days 3 Hours 1 Minute)
+      #Use %interest-cooldown-short% for the short cooldown (format example: 2d3h1m)
+      lore:
+        - '&7当前银行财产: &6%balance%'
+        - ''
+        - '&7将你的金币储存到银行里可以'
+        - '&7保证其安全!'
+        - ''
+        - '&7利息冷却: &b%interest-cooldown%'
+        - ''
+        - '&e点击以进行存款!'
+    withdraw-item:
+      item-id: '158'
+      slot: 13
+      name: '&a取款'
+      lore:
+        - '&7当前银行财产: &6%balance%'
+        - ''
+        - '&7将你的金币储存到银行里可以'
+        - '&7保证其安全!'
+        - ''
+        - '&e点击以进行取款'
+    transaction-history:
+      item-id: '358:0'
+      slot: 15
+      name: '&a银行转账历史'
+      #Use %symbol% for +/-
+      #Use %transaction-coins% for the amount of coins from that transaction
+      #Use %transaction-countdown% for the time elapsed from the creation of the transaction
+      #Use %player-name% for the name of the one who made the transaction (it could also be bank interest)
+      lore-structure: '%symbol% &6%transaction-coins%&7, &e%transaction-countdown% 之前 &7操作者 &b%player-name%'
+      bank-interest-name: '&7银行利息'
+      no-transaction-lore:
+        - '&7你没有银行转账历史.'
+    close-item:
+      item-id: '166'
+      slot: 31
+      name: '&c关闭'
+      lore: []
+    information-item:
+      item-id: '76'
+      slot: 32
+      name: '&a信息'
+      #Use %balance-limit% for the current bank limit (taken from bank upgrade)
+      #Use %interest-value% for the amount of coins the player will receive on interest
+      #Use %interest-cooldown% for the cooldown (format example: 2 Days)
+      #Use %interest-cooldown-detailed% for the detailed cooldown (format example: 2 Days 3 Hours 1 Minute)
+      #Use %interest-cooldown-short% for the short cooldown (format example: 2d3h1m)
+      lore:
+        - '&7将你的金币储存到银行里可以'
+        - '&7保证其安全!'
+        - ''
+        - '&7银行财产上限: &6%balance-limit%'
+        - ''
+        - '&7银行会每 &31 &7小时根据你的银行'
+        - '&7财产给予你 &b利息 &7.'
+        - ''
+        - '&7利息冷却: &b%interest-cooldown%'
+        - '&7利息金额: &6%interest-value% 金币'
+    bank-upgrades:
+      item-id: '41'
+      slot: 35
+      name: '&6银行升级'
+      lore:
+        - '&7你太有钱了？银行存不了你的所有'
+        - '&7金币? 来升级你的账户类型吧!'
+        - ''
+        - '&7当前账户类型: %account-name%'
+        - '&7银行财产上限: &6%balance-limit%'
+        - ''
+        - '&e点击以查看限制!'
+  deposit-coins-menu:
+    title: '&8存款'
+    use-background-glass: true
+    background-glass-color: 15
+    size: 36
+    #Use %amount% for the amount of coins a player withdraws
+    deposit-message: '&f你存了 &6%amount% 金币 &f到你的银行!'
+    go-back-item:
+      item-id: '262'
+      slot: 31
+      name: '&a返回'
+      lore:
+        - '&7返回到你的银行'
+        - '&7你的银行页面.'
+    custom-amount-item:
+      item-id: '323'
+      slot: 15
+      name: '&a其他数额'
+      #Use %balance% for the amount of coins
+      lore:
+        - '&7当前银行财产: &6%balance%'
+        - ''
+        - '&e点击以存钱!'
+    percent-items:
+      item1:
+        percent: 50
+        display-amount: 32
+        item-id: '54'
+        slot: 13
+        name: '&a你钱包一半的财产'
+        #Use %balance% for the current balance
+        #Use %to-deposit% for the amount that will be deposited
+        lore:
+          - '&7当前银行财产: &6%balance%'
+          - '&7即将存款: &6%to-deposit%'
+          - ''
+          - '&e点击以存款!'
+      item2:
+        percent: 100
+        display-amount: 64
+        item-id: '54'
+        slot: 11
+        name: '&a你钱包所有的财产'
+        #Use %balance% for the current balance
+        #Use %to-deposit% for the amount that will be deposited
+        lore:
+          - '&7当前银行财产: &6%balance%'
+          - '&7即将存款: &6%to-deposit%'
+          - ''
+          - '&e点击以存款!'
+  withdraw-coins-menu:
+    title: '&8Bank Withdrawal'
+    use-background-glass: true
+    background-glass-color: 15
+    size: 36
+    #Use %amount% for the amount of coins a player withdraws
+    withdraw-message: '&fYou have withdrawn &6%amount% coins &ffrom your bank!'
+    go-back-item:
+      item-id: '262'
+      slot: 31
+      name: '&a返回'
+      lore:
+        - '&7返回到你的银行'
+        - '&7你的银行页面.'
+    custom-amount-item:
+      item-id: '323'
+      slot: 16
+      name: '&a其他数额'
+      #Use %balance% for the amount of coins
+      lore:
+        - '&7当前银行财产: &6%balance%'
+        - ''
+        - '&e点击以取款!'
+    percent-items:
+      item1:
+        percent: 20
+        display-amount: 1
+        item-id: '158'
+        slot: 14
+        name: '&a取款银行财产 20%'
+        #Use %balance% for the current balance
+        #Use %to-withdraw% for the amount that will be deposited
+        lore:
+          - '&7当前银行财产: &6%balance%'
+          - '&7即将取款: &6%to-withdraw%'
+          - ''
+          - '&e点击以取款!'
+      item2:
+        percent: 50
+        display-amount: 32
+        item-id: '158'
+        slot: 12
+        name: '&a取款一半银行财产'
+        #Use %balance% for the current balance
+        #Use %to-withdraw% for the amount that will be deposited
+        lore:
+          - '&7当前银行财产: &6%balance%'
+          - '&7即将取款: &6%to-withdraw%'
+          - ''
+          - '&e点击以取款!'
+      item3:
+        percent: 100
+        display-amount: 64
+        item-id: '158'
+        slot: 10
+        name: '&a取款银行所有财产'
+        #Use %balance% for the current balance
+        #Use %to-withdraw% for the amount that will be deposited
+        lore:
+          - '&7当前银行财产: &6%balance%'
+          - '&7即将取款: &6%to-withdraw%'
+          - ''
+          - '&e点击以取款!'
+    withdraw-as-bag:
+      slot: 32
+      #If the amount the player withdraws does not meet
+      #the bag's minimum & maximum requirements the amount will
+      #be sent in their purse instead
+      withdraw-as-purse: '&fThe amount was sent to &eyour purse &finstead!'
+      selected:
+        name: '&a通过钱袋取款 (开)'
+        lore:
+          - ''
+          - '&7状态: &a已开启'
+          - '&7这个选项决定你取出的钱是否'
+          - '&7以钱袋的形式发放给你!'
+          - ''
+          - '&e点击以关闭!'
+      not-selected:
+        name: '&a通过钱袋取款 (关)'
+        lore:
+          - ''
+          - '&7状态: &c已关闭'
+          - '&7这个选项决定你取出的钱是否'
+          - '&7以钱袋的形式发放给你!'
+          - ''
+          - '&e点击以开启!'
+  bank-upgrades-menu:
+    title: '&8银行账号升级'
+    use-background-glass: true
+    background-glass-color: 15
+    size: 36
+    lore-additions:
+      #These options are added to the lore of the bank upgrades
+      #If you leave them empty they won't be added
+      better-upgrade: '&e这是一个更高级的账号类型!'
+      own-upgrade: '&a这是你的账号类型!'
+      previous-upgrade: '&c你的账号类型比这个高级!'
+      need-previous-upgrade: '&c需要解锁上一个账号类型!'
+    go-back-item:
+      item-id: '262'
+      slot: 31
+      name: '&a返回'
+      lore:
+        - '&7返回到你的银行'
+        - '&7你的银行页面.'
+    #This menu is more dynamic than the other ones
+    #You can add as many items as you like here, but they must represent
+    #a bank upgrade by index (0, 1, 2, etc)
+    bank-upgrades-items:
+      item1:
+        #The bank upgrade that this item represents
+        item-id: '295'
+        bank-upgrade-index: 0
+        slot: 11
+      item2:
+        item-id: '371'
+        bank-upgrade-index: 1
+        slot: 12
+      item3:
+        item-id: '266'
+        bank-upgrade-index: 2
+        slot: 13
+      item4:
+        item-id: '315'
+        bank-upgrade-index: 3
+        slot: 14
+      item5:
+        item-id: '418'
+        bank-upgrade-index: 4
+        slot: 15

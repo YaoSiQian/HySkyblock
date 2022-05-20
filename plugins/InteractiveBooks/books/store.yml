@@ -1,0 +1,18 @@
+name: Update
+title: Update
+author: Server
+generation: ORIGINAL
+
+lore:
+- Empty
+
+open_command: ''
+
+pages:
+  '1':
+  - ''
+  - ''
+  - '&0请打开游戏详情页进行购买'
+  - ''
+  - ''
+#  - '      <tooltip:&fClick to open the store!><link:http://store.server.net/>&6&lVIEW STORE<reset>'

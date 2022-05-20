@@ -1,0 +1,9 @@
+prefix: '&e&l铁砧 &7'
+setAsDefaultAnvil: true
+anvilFuseSound: BLOCK_ANVIL_USE
+nameTagCreateCost: 5
+nameTagFuseCost: 1
+allowColorsInNameTag: false
+aurelliumSkills:
+  xp: 2
+  skill: REFORGING

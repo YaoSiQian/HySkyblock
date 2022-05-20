@@ -1,0 +1,43 @@
+tasks:
+ quest:
+  type: "position"
+  x: 196
+  y: 100
+  z: 444
+  world: Server
+  distance-padding: 5
+
+display:
+  name: "&e找到懒惰的矿工的矿镐"
+  lore-normal: []
+  lore-started: []
+  type: "PAPER"
+
+rewards:
+  - "q a moddata start {player} GoingDeeper1"
+  - "give {player} iron_pickaxe 1 name:&f铁镐 lore:&7伤害:_&c+25||&8此物品可被洗炼!|&f&l普通_镐 itemflags:HIDE_ENCHANTS,HIDE_ATTRIBUTES,HIDE_UNBREAKABLE unbreakable:true"
+  - "emsg {player} &6你找到了一个 &f铁镐&6!"
+  - "emsg {player} &7"
+  - "emsg {player} &6&l  任务完成"
+  - "emsg {player} &a&l  &f找到懒惰的矿工的矿镐"
+  - "emsg {player} &7"
+  - "emsg {player} &a&l  奖励"
+  - "emsg {player} &a&l  &8+&310 &7挖矿经验"
+  - "emsg {player} &7"
+  - "skills addxp {player} Mining 10"
+  - "emsg {player} &7"
+  - "emsg {player} &6&l  新任务目标"
+  - "emsg {player} &6&l  &f用你找到的镐子收集铁锭和金锭！"
+  - "emsg {player} &7"
+
+placeholders:
+  bossbar: "100"
+  progress: "&7"
+
+options:
+  category: ""
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 19

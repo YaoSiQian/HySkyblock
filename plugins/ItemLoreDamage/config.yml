@@ -1,0 +1,10 @@
+# Any messages the plugin might send to players.
+messages:
+  # The prefix shown in front of messages.
+  prefix: "&f&l物品攻击值 &8&l» &7"
+  # Shown AFTER the configuration has been reloaded.
+  reload: "配置已重载"
+
+# The line in the lore has to start with this.
+# Everything coming after that should be some form of number. (17, 420.69, etc.)
+lore-filter: "&7伤害: &c+"

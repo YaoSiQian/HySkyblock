@@ -1,0 +1,31 @@
+tasks:
+ quest:
+  type: "placeholderapi_evaluate"
+  placeholder: "%skills_combat_level%"
+  evaluates: "5"
+  operator: "GREATER_THAN_OR_EQUAL_TO"
+
+display:
+  name: "&e达到战斗技能 V"
+  lore-normal: []
+  lore-started: []
+  type: "PAPER"
+
+rewards:
+  - "q a moddata start {player} SpidersDenQuest2"
+  - "emsg {player} &7"
+  - "emsg {player} &6&l  新任务目标"
+  - "emsg {player} &6&l  &f到达烈焰堡垒"
+  - "emsg {player} &7"
+
+placeholders:
+  bossbar: "100"
+  progress: "&7"
+
+options:
+  category: ""
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 1

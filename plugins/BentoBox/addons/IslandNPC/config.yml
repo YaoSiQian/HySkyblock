@@ -1,0 +1,28 @@
+NPC:
+  type: VILLAGER
+  command-to-move: move npc
+  spawnegg-name: §fMove Jerry
+  spawnegg-lore:
+  - '&7Place this where you would like'
+  - '&7me to move to!'
+  - '&7'
+  - '&f&lCOMMON'
+  message:
+    full-inventory: '&cYour inventory is full!'
+    placed: '&aYou placed your npc successfully.'
+    you-cant-place-it: '&cYou can''t place it here!'
+    you-need-place-it: '&cYou need to place it first!'
+    you-cant-sell-it: '&cYou can''t sell it!'
+    you-need-to-be-on-your-island: '&cYou need to be on one of your islands !'
+    you-received-egg-place-it: '&aI have given you an egg, place this where you would
+      like me to move to!'
+  name-hologram:
+  - '&fJerry'
+  - '&e&lCLICK'
+  # For the command you don't have to put the '/'
+  command-to-execute: jerry
+  # true if you want that the npc look to player
+  lookclose: true
+  z_offset: 29.5
+  y_offset: 14.0
+  x_offset: 4.5

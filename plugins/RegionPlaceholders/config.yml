@@ -1,0 +1,45 @@
+# Any messages the plugin might send to players.
+messages:
+  # The prefix shown in front of messages.
+  prefix: "&f&l区域变量 &8&l» &7"
+  # Shown AFTER the configuration has been reloaded.
+  reload: "配置已重载"
+
+# The default placeholder that will show if no region has been defined.
+default-region-placeholder: "&7无"
+
+# Define your regions here.
+regions:
+  # Format follows:
+  # region-name: "Placeholder that will show"
+  auction-house: "&6拍卖行"
+  bank: "&6银行"
+  blacksmith: "&b铁匠铺"
+  coal-mine: "&b煤炭矿区"
+  farm: "&b农场"
+  farm2: "&b农场"
+  farm3: "&b农场"
+  farm4: "&b农场"
+  farm5: "&b农场"
+  graveyard: "&c墓地"
+  spiders-den: "&c蜘蛛巢穴"
+  village: "&b村庄"
+  wheat-farm: "&b农场"
+  wheat-farm-2: "&b农场"
+  wheat-farm-3: "&b农场"
+  library: "&b图书馆"
+  lapis-quarry: "&b青金石采集场"
+  pigmans-den: "&b猪人密穴"
+  slimehill: "&b粘液山脉"
+  diamond-reserve: "&b钻石保护区"
+  obsidian-sanctuary: "&b黑耀圣所"
+  gold-mine: "&6黄金矿区"
+  deep-caverns: "&b深层矿洞"
+  forest: "&b森林"
+  forest-island: "&a森林"
+  birch-forest: "&a桦木森林"
+  spruce-forest: "&a云杉树林"
+  dark-oak-forest: "&a深色橡木树林"
+  acacia-forest: "&a热带树林"
+  jungle-forest: "&a丛林树林"
+  blazing-fortress: "&c烈焰堡垒"

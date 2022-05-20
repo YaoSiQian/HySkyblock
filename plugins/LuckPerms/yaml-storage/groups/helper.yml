@@ -1,0 +1,14 @@
+name: helper
+permissions:
+- bookreport.moderator
+- rank.HELPER
+- tab.sort.HELPER
+- weight.7
+parents:
+- vip
+prefixes:
+- '&9[志愿者] ':
+    priority: 7
+suffixes:
+- '&9':
+    priority: 7

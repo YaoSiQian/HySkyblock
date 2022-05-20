@@ -1,0 +1,606 @@
+#                    _                   _ _          _ __  __       _
+#                   | |    _____   _____| | | ___  __| |  \/  | ___ | |__  ___
+#                   | |   / _ \ \ / / _ \ | |/ _ \/ _` | |\/| |/ _ \| '_ \/ __|
+#                   | |__|  __/\ V /  __/ | |  __/ (_| | |  | | (_) | |_) \__ \
+#                   |_____\___| \_/ \___|_|_|\___|\__,_|_|  |_|\___/|_.__/|___/
+#                             The Ultimate RPG Levelled Mobs Solution
+#
+# --------------------------------------------------------------------------------------------LM3
+# +                                      ++                                                  +LM3
+# +  Main Developers                     ++  Need support documentation?                     +LM3
+# +    lokka30                           ++    https://github.com/lokka30/LevelledMobs/wiki  +LM3
+# +      Author and developer            ++                                                  +LM3
+# +      https://ko-fi.com/lokka30       ++  ArcanePlugins Support Discord                   +LM3
+# +                                      ++    https://discord.gg/RQ8M4A5                    +LM3
+# +                                      ++                                                  +LM3
+# +    stumper66                         ++  Special thanks:                                 +LM3
+# +      Developer since v2              ++    ArcanePlugins developers and testers!         +LM3
+# +      https://ko-fi.com/penalbuffalo  ++    Donators, patrons, and other supporters!      +LM3
+# +                                      ++    SpigotMC, PaperMC, ProtocolLib, NBT-API,      +LM3
+# +                                      ++    PlaceholderAPI, and bStats!                   +LM3
+# +    UltimaOath                        ++                                                  +LM3
+# +      Docs and configs since v2       ++  Other Contributors:                             +LM3
+# +                                      ++    Eyrian, iCodinqs, deiphiz, CoolBoy, Esophose, +LM3
+# +                                      ++    7smile7, Hugo5551, konsolas, Shevchik,        +LM3
+# +                                      ++    limzikiki, and Zombie_Striker                 +LM3
+# +                                      ++                                                  +LM3
+# --------------------------------------------------------------------------------------------LM3
+#                        _____         _             ____
+#                       |     |_ _ ___| |_ ___ _____|    \ ___ ___ ___ ___
+#                       |   --| | |_ -|  _| . |     |  |  |  _| . | . |_ -|
+#                       |_____|___|___|_| |___|_|_|_|____/|_| |___|  _|___|
+#                                                                 |_|
+#
+# +-------------------------------------------------------------------------------------------LM3
+# +                                                                                          +LM3
+# +   Section 01 - Defaults                                                                  +LM3
+# +                                                                                          +LM3
+# +-------------------------------------------------------------------------------------------LM3
+defaults:
+  chance: 0.2
+  amount: 1
+  minLevel: -1
+  maxLevel: -1
+  custommodeldata: -1
+  nomultiplier: false
+  nospawner: false
+  equipped: 1.0
+  override: true
+  maxdropgroup: 1
+  priority: 0
+  player-caused: true
+  item-flags: ''
+  groupid: ''
+  overall_chance: 0.0
+  nbt-data: ''
+
+
+# +-------------------------------------------------------------------------------------------LM3
+# +                                                                                          +LM3
+# +   Section 02 - Universal Group Drops                                                     +LM3
+# +                                                                                          +LM3
+# +-------------------------------------------------------------------------------------------LM3
+all_mobs:
+  -
+
+all_levellable_mobs:
+  -
+
+all_hostile_mobs:
+  -
+
+all_passive_mobs:
+  -
+
+all_overworld_mobs:
+  -
+
+all_nether_mobs:
+  -
+
+all_flying_mobs:
+  -
+
+all_ground_mobs:
+  -
+
+all_aquatic_mobs:
+  -
+
+
+# +-------------------------------------------------------------------------------------------LM3
+# +                                                                                          +LM3
+# +   Section 03 - EntityType Drops                                                          +LM3
+# +                                                                                          +LM3
+# +-------------------------------------------------------------------------------------------LM3
+#AXOLOTL:
+#  -
+
+BAT:
+  -
+
+BEE:
+  -
+
+BLAZE:
+  -
+
+CAT:
+  -
+
+CAVE_SPIDER:
+  -
+
+CHICKEN:
+  -
+
+COD:
+  -
+
+COW:
+  -
+
+CREEPER:
+  -
+
+DOLPHIN:
+  -
+
+DONKEY:
+  -
+
+DROWNED:
+  -
+
+ELDER_GUARDIAN:
+  -
+
+ENDER_DRAGON:
+  -
+
+ENDERMAN:
+  -
+
+ENDERMITE:
+  -
+
+EVOKER:
+  -
+
+FOX:
+  -
+
+GHAST:
+  -
+
+#GLOW_SQUID:
+#  -
+
+#GOAT:
+#  -
+
+GUARDIAN:
+  -
+
+HOGLIN:
+  -
+
+HORSE:
+  -
+
+HUSK:
+  -
+
+ILLUSIONER:
+  -
+
+IRON_GOLEM:
+  -
+
+LLAMA:
+  -
+
+MAGMA_CUBE:
+  -
+
+MULE:
+  -
+
+MUSHROOM_COW:
+  -
+
+OCELOT:
+  -
+
+PANDA:
+  -
+
+PARROT:
+  -
+
+PHANTOM:
+  -
+
+PIG:
+  -
+
+PIGLIN:
+  -
+
+PIGLIN_BRUTE:
+  -
+
+PILLAGER:
+  -
+
+POLAR_BEAR:
+  -
+
+PUFFERFISH:
+  -
+
+RABBIT:
+  -
+
+RAVAGER:
+  -
+
+SALMON:
+  -
+
+SHEEP:
+  -
+
+SHULKER:
+  -
+
+SILVERFISH:
+  -
+
+SKELETON:
+  -
+
+SKELETON_HORSE:
+  -
+
+SLIME:
+  -
+
+SNOWMAN:
+  -
+
+SPIDER:
+  -
+
+SQUID:
+  -
+
+STRAY:
+  -
+
+STRIDER:
+  -
+
+TRADER_LLAMA:
+  -
+
+TROPICAL_FISH:
+  -
+
+TURTLE:
+  -
+
+VEX:
+  -
+
+VILLAGER:
+  -
+
+VINDICATOR:
+  -
+
+WANDERING_TRADER:
+  -
+
+WITCH:
+  -
+
+WITHER:
+  -
+
+WITHER_SKELETON:
+  -
+
+WOLF:
+  -
+
+ZOGLIN:
+  -
+
+ZOMBIE:
+  -
+
+ZOMBIE_HORSE:
+  -
+
+ZOMBIE_VILLAGER:
+  -
+
+ZOMBIFIED_PIGLIN:
+  -
+
+
+# +-------------------------------------------------------------------------------------------LM3
+# +                                                                                          +LM3
+# +   Section 04 - Drop Tables                                                               +LM3
+# +                                                                                          +LM3
+# +-------------------------------------------------------------------------------------------LM3
+drop-table:
+  graveyardZombieVillager:
+    - LEATHER_HELMET:
+        override: true
+        equipped: 1.0
+        chance: 0.0
+    - LEATHER_CHESTPLATE:
+        override: true
+        equipped: 1.0
+        chance: 0.0
+    - LEATHER_LEGGINGS:
+        override: true
+        equipped: 1.0
+        chance: 0.0
+    - LEATHER_BOOTS:
+        override: true
+        equipped: 1.0
+        chance: 0.0
+    - customCommand:
+        override: true
+        command: 'skills addxp %player% Combat 6'
+        chance: 1.0
+  diamondReserveRunicZombie:
+    - DIAMOND_HELMET:
+        override: true
+        equipped: 1.0
+        chance: 0.0
+    - DIAMOND_CHESTPLATE:
+        override: true
+        equipped: 1.0
+        chance: 0.0
+    - DIAMOND_LEGGINGS:
+        override: true
+        equipped: 1.0
+        chance: 0.0
+    - DIAMOND_BOOTS:
+        override: true
+        equipped: 1.0
+        chance: 0.0
+    - DIAMOND_SWORD:
+        override: true
+        equipped: 1.0
+        chance: 0.0
+    - customCommand:
+        override: true
+        command: 'skills addxp %player% Combat 20'
+        chance: 1.0
+    - customCommand:
+        override: true
+        command: 'skills addxp %player% Runecrafting 15'
+        chance: 1.0
+  diamondReserveZombie:
+    - DIAMOND_HELMET:
+        override: true
+        equipped: 1.0
+        chance: 0.0
+    - DIAMOND_CHESTPLATE:
+        override: true
+        equipped: 1.0
+        chance: 0.0
+    - DIAMOND_LEGGINGS:
+        override: true
+        equipped: 1.0
+        chance: 0.0
+    - DIAMOND_BOOTS:
+        override: true
+        equipped: 1.0
+        chance: 0.0
+    - DIAMOND_SWORD:
+        override: true
+        equipped: 1.0
+        chance: 0.0
+    - customCommand:
+        override: true
+        command: 'skills addxp %player% Combat 20'
+        chance: 1.0
+  diamondReserveSkeleton:
+    - DIAMOND_HELMET:
+        override: true
+        equipped: 1.0
+        chance: 0.0
+    - DIAMOND_CHESTPLATE:
+        override: true
+        equipped: 1.0
+        chance: 0.0
+    - DIAMOND_LEGGINGS:
+        override: true
+        equipped: 1.0
+        chance: 0.0
+    - DIAMOND_BOOTS:
+        override: true
+        equipped: 1.0
+        chance: 0.0
+    - BOW:
+        override: true
+        equipped: 1.0
+        chance: 0.0
+    - customCommand:
+        override: true
+        command: 'skills addxp %player% Combat 12'
+        chance: 1.0
+  obsidianSanctuarySkeleton:
+    - PLAYER_HEAD:
+        mobhead-id: '3d351ecc-23dd-409e-80c9-3fbf0bfd6ebc'
+        mobhead-texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTYzMTU5N2RjZTRlNDA1MWU4ZDVhNTQzNjQxOTY2YWI1NGZiZjI1YTBlZDYwNDdmMTFlNjE0MGQ4OGJmNDhmIn19fQ=='
+        name: '&7'
+        override: true
+        equipped: 1.0
+        chance: 0.0
+    - DIAMOND_CHESTPLATE:
+        override: true
+        equipped: 1.0
+        chance: 0.0
+        enchantments:
+          UNBREAKING: 3
+    - DIAMOND_LEGGINGS:
+        override: true
+        equipped: 1.0
+        chance: 0.0
+        enchantments:
+          UNBREAKING: 3
+    - DIAMOND_BOOTS:
+        override: true
+        equipped: 1.0
+        chance: 0.0
+        enchantments:
+          UNBREAKING: 3
+    - BOW:
+        override: true
+        equipped: 1.0
+        chance: 0.0
+        enchantments:
+          UNBREAKING: 3
+    - customCommand:
+        override: true
+        command: 'skills addxp %player% Combat 24'
+        chance: 1.0
+  obsidianSanctuaryZombie:
+    - PLAYER_HEAD:
+        mobhead-id: '3d351ecc-23dd-409e-80c9-3fbf0bfd6ebc'
+        mobhead-texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTYzMTU5N2RjZTRlNDA1MWU4ZDVhNTQzNjQxOTY2YWI1NGZiZjI1YTBlZDYwNDdmMTFlNjE0MGQ4OGJmNDhmIn19fQ=='
+        name: '&7'
+        override: true
+        equipped: 1.0
+        chance: 0.0
+    - DIAMOND_CHESTPLATE:
+        override: true
+        equipped: 1.0
+        chance: 0.0
+        enchantments:
+          UNBREAKING: 3
+    - DIAMOND_LEGGINGS:
+        override: true
+        equipped: 1.0
+        chance: 0.0
+        enchantments:
+          UNBREAKING: 3
+    - DIAMOND_BOOTS:
+        override: true
+        equipped: 1.0
+        chance: 0.0
+        enchantments:
+          UNBREAKING: 3
+    - DIAMOND_SWORD:
+        override: true
+        equipped: 1.0
+        chance: 0.0
+        enchantments:
+          UNBREAKING: 3
+    - customCommand:
+        override: true
+        command: 'skills addxp %player% Combat 24'
+        chance: 1.0
+  obsidianSanctuaryRunicZombie:
+    - PLAYER_HEAD:
+        mobhead-id: '3d351ecc-23dd-409e-80c9-3fbf0bfd6ebc'
+        mobhead-texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTYzMTU5N2RjZTRlNDA1MWU4ZDVhNTQzNjQxOTY2YWI1NGZiZjI1YTBlZDYwNDdmMTFlNjE0MGQ4OGJmNDhmIn19fQ=='
+        name: '&7'
+        override: true
+        equipped: 1.0
+        chance: 0.0
+    - DIAMOND_CHESTPLATE:
+        override: true
+        equipped: 1.0
+        chance: 0.0
+        enchantments:
+          UNBREAKING: 3
+    - DIAMOND_LEGGINGS:
+        override: true
+        equipped: 1.0
+        chance: 0.0
+        enchantments:
+          UNBREAKING: 3
+    - DIAMOND_BOOTS:
+        override: true
+        equipped: 1.0
+        chance: 0.0
+        enchantments:
+          UNBREAKING: 3
+    - DIAMOND_SWORD:
+        override: true
+        equipped: 1.0
+        chance: 0.0
+        enchantments:
+          UNBREAKING: 3
+    - customCommand:
+        override: true
+        command: 'skills addxp %player% Combat 24'
+        chance: 1.0
+    - customCommand:
+        override: true
+        command: 'skills addxp %player% Runecrafting 25'
+        chance: 1.0
+  pigmansDenZombifiedPiglin:
+    - GOLDEN_SWORD:
+        override: true
+        equipped: 1.0
+        chance: 0.0
+    - customCommand:
+        override: true
+        command: 'skills addxp %player% Combat 20'
+        chance: 1.0
+  lapisQuarryLapisZombie:
+    - PLAYER_HEAD:
+        mobhead-id: '4e492663-4445-474d-b0c9-e7590cb42186'
+        mobhead-texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODZmNDc2ODcxZWQyM2Y3OWU3YjlkNDk1NDg5ODg3ZTI0NGM2MTljNWUxOWU0MWNmOTViMjcxYTJlYmU3NSJ9fX0='
+        name: '&7'
+        override: true
+        equipped: 1.0
+        chance: 0.0
+    - LEATHER_CHESTPLATE:
+        nbt-data: '{display:{color:5190632}}'
+        override: true
+        equipped: 1.0
+        chance: 0.0
+    - LEATHER_LEGGINGS:
+        nbt-data: '{display:{color:5190632}}'
+        override: true
+        equipped: 1.0
+        chance: 0.0
+    - LEATHER_BOOTS:
+        nbt-data: '{display:{color:5190632}}'
+        override: true
+        equipped: 1.0
+        chance: 0.0
+    - customCommand:
+        override: true
+        command: 'skills addxp %player% Combat 12'
+        chance: 1.0
+  graveyardZombieVillager:
+    - LEATHER_HELMET:
+        name: '&7'
+        override: true
+        equipped: 1.0
+        chance: 0.0
+    - LEATHER_CHESTPLATE:
+        override: true
+        equipped: 1.0
+        chance: 0.0
+    - LEATHER_LEGGINGS:
+        override: true
+        equipped: 1.0
+        chance: 0.0
+    - LEATHER_BOOTS:
+        override: true
+        equipped: 1.0
+        chance: 0.0
+    - customCommand:
+        override: true
+        command: 'skills addxp %player% Combat 6'
+        chance: 1.0
+  spidersDenSplitterSpider:
+    - customCommand:
+        override: true
+        command: 'skills addxp %player% Combat 12'
+        chance: 1.0
+  slimehillSlime:
+    - customCommand:
+        override: true
+        command: 'skills addxp %player% Combat 6'
+        chance: 1.0
+     
+# +-------------------------------------------------------------------------------------------LM3
+# +                                                                                          +LM3
+# +   Section 05 - Advanced Message Settings                                                 +LM3
+# +   DO NOT EDIT BEYOND HERE WITHOUT DEVELOPER APPROVAL                                     +LM3
+# +                                                                                          +LM3
+# +-------------------------------------------------------------------------------------------LM3
+file-version: 10

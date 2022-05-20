@@ -1,0 +1,39 @@
+tasks:
+ quest:
+  type: "citizens_interact"
+  npc-name: "lumberjack" 
+
+display:
+  name: "&e与伐木工人交谈"
+  lore-normal: []
+  lore-started: []
+  type: "PAPER"
+
+rewards:
+  - "give {player} iron_axe 1 name:&a苹果斧 lore:&7伤害:_&c+25||&7砍伐木头时|&7有20%的几率掉落一个苹果|&7|&8此物品可被洗炼!|&a&l精良_斧  itemflags:HIDE_ENCHANTS,HIDE_ATTRIBUTES,HIDE_UNBREAKABLE unbreakable:true"
+  - "q a moddata start {player} Timber4"
+  - "emsg {player} &e[NPC] 伐木工人&f: 谢谢！拿着这把 &e苹果斧&f，它非常甜，甜到有时会让木头掉落苹果！"
+  - "emsg {player} &e[NPC] 伐木工人&f: 你已经掌握了伐木诀窍。你能帮我从白桦树林上收集些白桦木木板吗"
+  - "emsg {player} &7"
+  - "emsg {player} &6&l  任务完成"
+  - "emsg {player} &6&l  &f与伐木工人交谈"
+  - "emsg {player} &7"
+  - "emsg {player} &a&l    奖励"
+  - "emsg {player} &a&l    &a苹果斧"
+  - "emsg {player} &7"
+  - "emsg {player} &7"
+  - "emsg {player} &6&l  新任务目标"
+  - "emsg {player} &6&l  &f前往白桦树林"
+  - "emsg {player} &7"
+
+placeholders:
+  bossbar: "100"
+  progress: "&7"
+
+options:
+  category: ""
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 25

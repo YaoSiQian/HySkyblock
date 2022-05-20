@@ -1,0 +1,76 @@
+name: "怪物"
+discover_title:
+  title: ""
+  subtitle: ""
+  fade_in: 20
+  stay: 60
+  fade_out: 20
+discover_message: []
+discover_sound:
+  name: ENTITY_PLAYER_LEVELUP
+  volume: 10
+  pitch: 0.1
+discoveries:
+  1:
+    name: "僵尸"
+    lore: []
+    discovered_on_mob_kill:
+      type: ZOMBIE
+    commands:
+    - 'tellraw %player% ["",{"text":"  ","clickEvent":{"action":"run_command","value":"/bestiary"},"hoverEvent":{"action":"show_text","contents":["",{"text":"击杀更多","color":"gray"},{"text":" 僵尸家族 ","color":"green"},{"text":"\n"},{"text":"的怪物以解锁奖励!","color":"gray"},{"text":"\n\n"},{"text":"点击查看你的 僵尸家族 百兽全书!","color":"yellow"}]}},{"text":"百兽全书 家族解锁","bold":true,"color":"dark_aqua","clickEvent":{"action":"run_command","value":"/bestiary"},"hoverEvent":{"action":"show_text","contents":["",{"text":"击杀更多","color":"gray"},{"text":" 僵尸家族 ","color":"green"},{"text":"\n"},{"text":"的怪物以解锁奖励!","color":"gray"},{"text":"\n\n"},{"text":"点击查看你的 僵尸家族 百兽全书!","color":"yellow"}]}},{"text":" ","clickEvent":{"action":"run_command","value":"/bestiary"},"hoverEvent":{"action":"show_text","contents":["",{"text":"击杀更多","color":"gray"},{"text":" 僵尸家族 ","color":"green"},{"text":"\n"},{"text":"的怪物以解锁奖励!","color":"gray"},{"text":"\n\n"},{"text":"点击查看你的 僵尸家族 百兽全书!","color":"yellow"}]}},{"text":"僵尸","color":"aqua","clickEvent":{"action":"run_command","value":"/bestiary"},"hoverEvent":{"action":"show_text","contents":["",{"text":"击杀更多","color":"gray"},{"text":" 僵尸家族 ","color":"green"},{"text":"\n"},{"text":"的怪物以解锁奖励!","color":"gray"},{"text":"\n\n"},{"text":"点击查看你的 僵尸家族 百兽全书!","color":"yellow"}]}}]'
+  2:
+    name: "猪人"
+    lore: []
+    discovered_on_mob_kill:
+      type: ZOMBIFIED_PIGLIN
+    commands:
+    - 'tellraw %player% ["",{"text":"    ","clickEvent":{"action":"run_command","value":"/bestiary"},"hoverEvent":{"action":"show_text","contents":["",{"text":"击杀更多","color":"gray"},{"text":" 猪人家族","color":"green"},{"text":"\n"},{"text":"的怪物以解锁奖励!","color":"gray"},{"text":"\n\n"},{"text":"点击查看你的 猪人家族 百兽全书!","color":"yellow"}]}},{"text":"百兽全书 家族解锁","bold":true,"color":"dark_aqua","clickEvent":{"action":"run_command","value":"/bestiary"},"hoverEvent":{"action":"show_text","contents":["",{"text":"击杀更多","color":"gray"},{"text":" 猪人家族","color":"green"},{"text":"\n"},{"text":"的怪物以解锁奖励!","color":"gray"},{"text":"\n\n"},{"text":"点击查看你的 猪人家族 百兽全书!","color":"yellow"}]}},{"text":" ","clickEvent":{"action":"run_command","value":"/bestiary"},"hoverEvent":{"action":"show_text","contents":["",{"text":"击杀更多","color":"gray"},{"text":" 猪人家族","color":"green"},{"text":"\n"},{"text":"的怪物以解锁奖励!","color":"gray"},{"text":"\n\n"},{"text":"点击查看你的 猪人家族 百兽全书!","color":"yellow"}]}},{"text":"猪人","color":"aqua","clickEvent":{"action":"run_command","value":"/bestiary"},"hoverEvent":{"action":"show_text","contents":["",{"text":"击杀更多","color":"gray"},{"text":" 猪人家族","color":"green"},{"text":"\n"},{"text":"的怪物以解锁奖励!","color":"gray"},{"text":"\n\n"},{"text":"点击查看你的 猪人家族 百兽全书!","color":"yellow"}]}}]'
+  3:
+    name: "骷髅"
+    lore: []
+    discovered_on_mob_kill:
+      type: SKELETON
+    commands:
+    - 'tellraw %player% ["",{"text":"    ","clickEvent":{"action":"run_command","value":"/bestiary"},"hoverEvent":{"action":"show_text","contents":["",{"text":"击杀更多","color":"gray"},{"text":" 骷髅家族","color":"green"},{"text":"\n"},{"text":"的怪物以解锁奖励!","color":"gray"},{"text":"\n\n"},{"text":"点击查看你的 骷髅家族 百兽全书!","color":"yellow"}]}},{"text":"百兽全书 家族解锁","bold":true,"color":"dark_aqua","clickEvent":{"action":"run_command","value":"/bestiary"},"hoverEvent":{"action":"show_text","contents":["",{"text":"击杀更多","color":"gray"},{"text":" 骷髅家族","color":"green"},{"text":"\n"},{"text":"的怪物以解锁奖励!","color":"gray"},{"text":"\n\n"},{"text":"点击查看你的 骷髅家族 百兽全书!","color":"yellow"}]}},{"text":" ","clickEvent":{"action":"run_command","value":"/bestiary"},"hoverEvent":{"action":"show_text","contents":["",{"text":"击杀更多","color":"gray"},{"text":" 骷髅家族","color":"green"},{"text":"\n"},{"text":"的怪物以解锁奖励!","color":"gray"},{"text":"\n\n"},{"text":"点击查看你的 骷髅家族 百兽全书!","color":"yellow"}]}},{"text":"骷髅","color":"aqua","clickEvent":{"action":"run_command","value":"/bestiary"},"hoverEvent":{"action":"show_text","contents":["",{"text":"击杀更多","color":"gray"},{"text":" 骷髅家族","color":"green"},{"text":"\n"},{"text":"的怪物以解锁奖励!","color":"gray"},{"text":"\n\n"},{"text":"点击查看你的 骷髅家族 百兽全书!","color":"yellow"}]}}]'
+  4:
+    name: "苦力怕"
+    lore: []
+    discovered_on_mob_kill:
+      type: CREEPER
+    commands:
+    - 'tellraw %player% ["",{"text":"    ","clickEvent":{"action":"run_command","value":"/bestiary"},"hoverEvent":{"action":"show_text","contents":["",{"text":"击杀更多","color":"gray"},{"text":" 苦力怕家族","color":"green"},{"text":"\n"},{"text":"的怪物以解锁奖励!","color":"gray"},{"text":"\n\n"},{"text":"点击查看你的 苦力怕家族 百兽全书!","color":"yellow"}]}},{"text":"百兽全书 家族解锁","bold":true,"color":"dark_aqua","clickEvent":{"action":"run_command","value":"/bestiary"},"hoverEvent":{"action":"show_text","contents":["",{"text":"击杀更多","color":"gray"},{"text":" 苦力怕家族","color":"green"},{"text":"\n"},{"text":"的怪物以解锁奖励!","color":"gray"},{"text":"\n\n"},{"text":"点击查看你的 苦力怕家族 百兽全书!","color":"yellow"}]}},{"text":" ","clickEvent":{"action":"run_command","value":"/bestiary"},"hoverEvent":{"action":"show_text","contents":["",{"text":"击杀更多","color":"gray"},{"text":" 苦力怕家族","color":"green"},{"text":"\n"},{"text":"的怪物以解锁奖励!","color":"gray"},{"text":"\n\n"},{"text":"点击查看你的 苦力怕家族 百兽全书!","color":"yellow"}]}},{"text":"苦力怕","color":"aqua","clickEvent":{"action":"run_command","value":"/bestiary"},"hoverEvent":{"action":"show_text","contents":["",{"text":"击杀更多","color":"gray"},{"text":" 苦力怕家族","color":"green"},{"text":"\n"},{"text":"的怪物以解锁奖励!","color":"gray"},{"text":"\n\n"},{"text":"点击查看你的 苦力怕家族 百兽全书!","color":"yellow"}]}}]'
+  5:
+    name: "女巫"
+    lore: []
+    discovered_on_mob_kill:
+      type: WITCH
+    commands:
+    - 'tellraw %player% ["",{"text":"    ","clickEvent":{"action":"run_command","value":"/bestiary"},"hoverEvent":{"action":"show_text","contents":["",{"text":"击杀更多","color":"gray"},{"text":" 女巫家族","color":"green"},{"text":"\n"},{"text":"的怪物以解锁奖励!","color":"gray"},{"text":"\n\n"},{"text":"点击查看你的 女巫家族 百兽全书!","color":"yellow"}]}},{"text":"百兽全书 家族解锁","bold":true,"color":"dark_aqua","clickEvent":{"action":"run_command","value":"/bestiary"},"hoverEvent":{"action":"show_text","contents":["",{"text":"击杀更多","color":"gray"},{"text":" 女巫家族","color":"green"},{"text":"\n"},{"text":"的怪物以解锁奖励!","color":"gray"},{"text":"\n\n"},{"text":"点击查看你的 女巫家族 百兽全书!","color":"yellow"}]}},{"text":" ","clickEvent":{"action":"run_command","value":"/bestiary"},"hoverEvent":{"action":"show_text","contents":["",{"text":"击杀更多","color":"gray"},{"text":" 女巫家族","color":"green"},{"text":"\n"},{"text":"的怪物以解锁奖励!","color":"gray"},{"text":"\n\n"},{"text":"点击查看你的 女巫家族 百兽全书!","color":"yellow"}]}},{"text":"女巫","color":"aqua","clickEvent":{"action":"run_command","value":"/bestiary"},"hoverEvent":{"action":"show_text","contents":["",{"text":"击杀更多","color":"gray"},{"text":" 女巫家族","color":"green"},{"text":"\n"},{"text":"的怪物以解锁奖励!","color":"gray"},{"text":"\n\n"},{"text":"点击查看你的 女巫家族 百兽全书!","color":"yellow"}]}}]'
+  6:
+    name: "末影人"
+    lore: []
+    discovered_on_mob_kill:
+      type: ENDERMAN
+    commands:
+    - 'tellraw %player% ["",{"text":"    ","clickEvent":{"action":"run_command","value":"/bestiary"},"hoverEvent":{"action":"show_text","contents":["",{"text":"击杀更多","color":"gray"},{"text":" 末影人家族","color":"green"},{"text":"\n"},{"text":"的怪物以解锁奖励!","color":"gray"},{"text":"\n\n"},{"text":"点击查看你的 末影人家族 百兽全书!","color":"yellow"}]}},{"text":"百兽全书 家族解锁","bold":true,"color":"dark_aqua","clickEvent":{"action":"run_command","value":"/bestiary"},"hoverEvent":{"action":"show_text","contents":["",{"text":"击杀更多","color":"gray"},{"text":" 末影人家族","color":"green"},{"text":"\n"},{"text":"的怪物以解锁奖励!","color":"gray"},{"text":"\n\n"},{"text":"点击查看你的 末影人家族 百兽全书!","color":"yellow"}]}},{"text":" ","clickEvent":{"action":"run_command","value":"/bestiary"},"hoverEvent":{"action":"show_text","contents":["",{"text":"击杀更多","color":"gray"},{"text":" 末影人家族","color":"green"},{"text":"\n"},{"text":"的怪物以解锁奖励!","color":"gray"},{"text":"\n\n"},{"text":"点击查看你的 末影人家族 百兽全书!","color":"yellow"}]}},{"text":"末影人","color":"aqua","clickEvent":{"action":"run_command","value":"/bestiary"},"hoverEvent":{"action":"show_text","contents":["",{"text":"击杀更多","color":"gray"},{"text":" 末影人家族","color":"green"},{"text":"\n"},{"text":"的怪物以解锁奖励!","color":"gray"},{"text":"\n\n"},{"text":"点击查看你的 末影人家族 百兽全书!","color":"yellow"}]}}]'
+  7:
+    name: "僵尸村民"
+    lore: []
+    discovered_on_mob_kill:
+      type: ZOMBIE_VILLAGER
+    commands:
+    - 'tellraw %player% ["",{"text":"    ","clickEvent":{"action":"run_command","value":"/bestiary"},"hoverEvent":{"action":"show_text","contents":["",{"text":"击杀更多","color":"gray"},{"text":" 僵尸村民家族","color":"green"},{"text":"\n"},{"text":"的怪物以解锁奖励!","color":"gray"},{"text":"\n\n"},{"text":"点击查看你的 僵尸村民家族 百兽全书!","color":"yellow"}]}},{"text":"百兽全书 家族解锁","bold":true,"color":"dark_aqua","clickEvent":{"action":"run_command","value":"/bestiary"},"hoverEvent":{"action":"show_text","contents":["",{"text":"击杀更多","color":"gray"},{"text":" 僵尸村民家族","color":"green"},{"text":"\n"},{"text":"的怪物以解锁奖励!","color":"gray"},{"text":"\n\n"},{"text":"点击查看你的 僵尸村民家族 百兽全书!","color":"yellow"}]}},{"text":" ","clickEvent":{"action":"run_command","value":"/bestiary"},"hoverEvent":{"action":"show_text","contents":["",{"text":"击杀更多","color":"gray"},{"text":" 僵尸村民家族","color":"green"},{"text":"\n"},{"text":"的怪物以解锁奖励!","color":"gray"},{"text":"\n\n"},{"text":"点击查看你的 僵尸村民家族 百兽全书!","color":"yellow"}]}},{"text":"僵尸村民","color":"aqua","clickEvent":{"action":"run_command","value":"/bestiary"},"hoverEvent":{"action":"show_text","contents":["",{"text":"击杀更多","color":"gray"},{"text":" 僵尸村民家族","color":"green"},{"text":"\n"},{"text":"的怪物以解锁奖励!","color":"gray"},{"text":"\n\n"},{"text":"点击查看你的 僵尸村民家族 百兽全书!","color":"yellow"}]}}]'
+  8:
+    name: "蜘蛛"
+    lore: []
+    discovered_on_mob_kill:
+      type: SPIDER
+    commands:
+    - 'tellraw %player% ["",{"text":"    ","clickEvent":{"action":"run_command","value":"/bestiary"},"hoverEvent":{"action":"show_text","contents":["",{"text":"击杀更多","color":"gray"},{"text":" 蜘蛛家族","color":"green"},{"text":"\n"},{"text":"的怪物以解锁奖励!","color":"gray"},{"text":"\n\n"},{"text":"点击查看你的 蜘蛛家族 百兽全书!","color":"yellow"}]}},{"text":"百兽全书 家族解锁","bold":true,"color":"dark_aqua","clickEvent":{"action":"run_command","value":"/bestiary"},"hoverEvent":{"action":"show_text","contents":["",{"text":"击杀更多","color":"gray"},{"text":" 蜘蛛家族","color":"green"},{"text":"\n"},{"text":"的怪物以解锁奖励!","color":"gray"},{"text":"\n\n"},{"text":"点击查看你的 蜘蛛家族 百兽全书!","color":"yellow"}]}},{"text":" ","clickEvent":{"action":"run_command","value":"/bestiary"},"hoverEvent":{"action":"show_text","contents":["",{"text":"击杀更多","color":"gray"},{"text":" 蜘蛛家族","color":"green"},{"text":"\n"},{"text":"的怪物以解锁奖励!","color":"gray"},{"text":"\n\n"},{"text":"点击查看你的 蜘蛛家族 百兽全书!","color":"yellow"}]}},{"text":"蜘蛛","color":"aqua","clickEvent":{"action":"run_command","value":"/bestiary"},"hoverEvent":{"action":"show_text","contents":["",{"text":"击杀更多","color":"gray"},{"text":" 蜘蛛家族","color":"green"},{"text":"\n"},{"text":"的怪物以解锁奖励!","color":"gray"},{"text":"\n\n"},{"text":"点击查看你的 蜘蛛家族 百兽全书!","color":"yellow"}]}}]'
+  9:
+    name: "史莱姆"
+    lore: []
+    discovered_on_mob_kill:
+      type: SLIME
+    commands:
+    - 'tellraw %player% ["",{"text":"    ","clickEvent":{"action":"run_command","value":"/bestiary"},"hoverEvent":{"action":"show_text","contents":["",{"text":"击杀更多","color":"gray"},{"text":" 史莱姆家族","color":"green"},{"text":"\n"},{"text":"的怪物以解锁奖励!","color":"gray"},{"text":"\n\n"},{"text":"点击查看你的 史莱姆家族 百兽全书!","color":"yellow"}]}},{"text":"百兽全书 家族解锁","bold":true,"color":"dark_aqua","clickEvent":{"action":"run_command","value":"/bestiary"},"hoverEvent":{"action":"show_text","contents":["",{"text":"击杀更多","color":"gray"},{"text":" 史莱姆家族","color":"green"},{"text":"\n"},{"text":"的怪物以解锁奖励!","color":"gray"},{"text":"\n\n"},{"text":"点击查看你的 史莱姆家族 百兽全书!","color":"yellow"}]}},{"text":" ","clickEvent":{"action":"run_command","value":"/bestiary"},"hoverEvent":{"action":"show_text","contents":["",{"text":"击杀更多","color":"gray"},{"text":" 史莱姆家族","color":"green"},{"text":"\n"},{"text":"的怪物以解锁奖励!","color":"gray"},{"text":"\n\n"},{"text":"点击查看你的 史莱姆家族 百兽全书!","color":"yellow"}]}},{"text":"史莱姆","color":"aqua","clickEvent":{"action":"run_command","value":"/bestiary"},"hoverEvent":{"action":"show_text","contents":["",{"text":"击杀更多","color":"gray"},{"text":" 史莱姆家族","color":"green"},{"text":"\n"},{"text":"的怪物以解锁奖励!","color":"gray"},{"text":"\n\n"},{"text":"点击查看你的 史莱姆家族 百兽全书!","color":"yellow"}]}}]'

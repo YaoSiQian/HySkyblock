@@ -1,0 +1,37 @@
+tasks:
+ quest:
+  type: "citizens_deliver"
+  npc-name: "lapis-miner"
+  item:
+    quest-item: "ironpickaxe2"
+  amount: 1
+  remove-items-when-complete: true
+
+display:
+  name: "&e给青金石矿工带一把铁镐"
+  lore-normal: []
+  lore-started: []
+  type: "PAPER"
+
+rewards:
+  - "emsg {player} &e[NPC] 青金石矿工&f: 你能够帮助我这么多次，我真是太感激你了！"
+  - "emsg {player} &e[NPC] 青金石矿工&f: 现在我还没有奖励给你，以后再来吧！"
+  - "emsg {player} &7"
+  - "emsg {player} &6&l  任务完成"
+  - "emsg {player} &6&l  &f好心的矿工"
+  - "emsg {player} &7"
+  - "emsg {player} &f    &a✔ &f与青金石矿工交谈"
+  - "emsg {player} &f    &a✔ &f给青金石矿工带一把铁镐"
+  - "emsg {player} &7"
+
+placeholders:
+  bossbar: "100"
+  progress: "&7"
+
+options:
+  category: ""
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 43

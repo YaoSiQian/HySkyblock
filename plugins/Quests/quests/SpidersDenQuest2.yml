@@ -1,0 +1,26 @@
+tasks:
+ quest:
+  type: "placeholderapi_evaluate"
+  placeholder: "%worldguard_region_name%"
+  evaluates: "blazing-fortress"
+
+display:
+  name: "&e到达烈焰堡垒"
+  lore-normal: []
+  lore-started: []
+  type: "PAPER"
+
+rewards:
+  - "emsg {player} &7"
+
+placeholders:
+  bossbar: "100"
+  progress: "&7"
+
+options:
+  category: ""
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 1

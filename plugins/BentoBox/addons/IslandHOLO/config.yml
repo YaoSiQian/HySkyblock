@@ -1,0 +1,7 @@
+hologram:
+  lines:
+  - '&bTravel to:'
+  - '&aHub Island'
+  z_offset: 35.5
+  y_offset: 18.0
+  x_offset: 0.5

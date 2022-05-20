@@ -1,0 +1,140 @@
+showTo: all
+priority: 2
+
+showHeaderFooter: true
+header: |-
+  &2&l文明游戏 &7 &e&l空岛生存
+  &7
+footer: |-
+  &7
+  &a&l活跃效果
+  &a${viewer effects_all}
+  &7
+  &d&lCookie Buff
+  &7${cookie_buff}
+  &7
+  &aQQ频道 &c&l我的世界文明游戏
+
+customPlaceholders:
+  cookie_buff:
+    !conditional
+    parameters: 1
+    condition: ${viewer player_has_permission_hyperenchants.mainmenu} == "yes"
+    true: "&f${viewer luckperms_expiry_time_cookie.booster}"
+    false: "&7未激活！ 请在主城的社区商店中获取 Booster Cookie。"
+  afk:
+    !conditional
+    condition: ${player essentials_afk}
+    true: "&7 (离线)"
+    false: ""
+  auctions:
+    !conditional
+    condition: ${viewer auctionmaster_own_auctions} >= 1
+    true: "&e&l拍卖："
+    false: "&7"
+  auctions_own:
+    !conditional
+    condition: ${viewer auctionmaster_own_auctions} >= 1
+    true: "&f 拍卖的物品：&6${viewer auctionmaster_own_auctions}"
+    false: "&7"
+  auctions_bids:
+    !conditional
+    condition: ${viewer auctionmaster_own_auctions} >= 1
+    true: "&f 出价： &6${viewer auctionmaster_own_bids}"
+    false: "&7"
+  souls:
+    !conditional
+    condition: ${viewer souls_collected} >= 1
+    true: "&e&l仙女之魂："
+    false: "&7"
+  souls_collected:
+    !conditional
+    condition: ${viewer souls_collected} >= 1
+    true: "&f 找到 &e${viewer souls_collected}&f/&d${viewer souls_total}"
+    false: "&7"
+  island:
+    !conditional
+    condition: ${viewer world} == "islands"
+    true: "&b&l玩家岛屿:"
+    false: "&7"
+  island2:
+    !conditional
+    condition: ${viewer world} == "islands"
+    true: "&f 岛主： &a${viewer bskyblock_visited_island_owner}"
+    false: "&7"
+  island3:
+    !conditional
+    condition: ${viewer world} == "islands"
+    true: "&f 成员： &9${viewer bskyblock_visited_island_members_count}&f/&9${viewer bskyblock_visited_island_members_max}"
+    false: "&7"
+  island4:
+    !conditional
+    condition: ${viewer world} == "islands"
+    true: "&f 访客： &a${viewer bskyblock_visited_island_visitors_count}"
+    false: "&7"
+  area:
+    !conditional
+    condition: ${viewer world} == "islands"
+    true: "&b&l区域： &7Private Island"
+    false: "&b&lArea: ${viewer regionplaceholders_current}"
+
+hiddenPlayers: VISIBLE_TO_ADMINS
+
+playerSets:
+  all_players: all
+
+type: FIXED_SIZE
+size: 80
+
+defaultIcon: colors/dark_gray.png
+defaultPing: 1
+
+components:
+- !table
+  columns:
+    0-1:
+    - {text: "&a&l       玩家 &f(${viewer server_online})       ", icon: "colors/green.png", ping: 0}
+    - {text: "&a&l       玩家 &f(${viewer server_online})       ", icon: "colors/green.png", ping: 0}
+    - !players
+      playerSet: all_players
+      playerOrder: vault_primary_group_weight desc, name asc
+      playerComponent: "${player vault_suffix}${player name}${afk}"
+      fillSlotsVertical: true
+      morePlayersComponent: {text: "&f... and ${other_count} others", icon: "colors/gray.png", ping: 0}
+    2:
+    - {text: "&3&l     服务器信息", icon: "colors/aqua.png", ping: 0}
+    - {text: "${area}", icon: "colors/dark_gray.png", ping: 0}
+    - {text: " &fGems： &a${viewer customplaceholders_gems}", icon: "colors/dark_gray.png", ping: 0}
+    -
+    - {text: "${island}", icon: "colors/dark_gray.png", ping: 0}
+    - {text: "${island2}", icon: "colors/dark_gray.png", ping: 0}
+    - {text: "${island3}", icon: "colors/dark_gray.png", ping: 0}
+    - {text: "${island4}", icon: "colors/dark_gray.png", ping: 0}
+    -
+    -
+    - {text: "${auctions}", icon: "colors/dark_gray.png", ping: 0}
+    - {text: "${auctions_own}", icon: "colors/dark_gray.png", ping: 0}
+    - {text: "${auctions_bids}", icon: "colors/dark_gray.png", ping: 0}
+    -
+    - {text: "${souls}", icon: "colors/dark_gray.png", ping: 0}
+    - {text: "${souls_collected}", icon: "colors/dark_gray.png", ping: 0}
+    -
+    - {text: "&e&l活动： &f新年", icon: "colors/dark_gray.png", ping: 0}
+    - {text: " &b${viewer mph_mytheriayear}&f年", icon: "colors/dark_gray.png", ping: 0}
+    3:
+    - {text: "&6&l     账户信息", icon: "colors/gold.png", ping: 0}
+    - {text: "&e&l存档： &a默认", icon: "colors/dark_gray.png", ping: 0}
+    - {text: "&f 钱包： &6${viewer vault_eco_balance_commas}", icon: "colors/dark_gray.png", ping: 0}
+    - {text: "&f 银行： &6${viewer royaleeconomy_balance_bank}", icon: "colors/dark_gray.png", ping: 0}
+    - {text: "&f 利息： &e${viewer royaleeconomy_interest_cooldown_not_detailed}", icon: "colors/dark_gray.png", ping: 0}
+    -
+    - {text: "&e&l玩家属性", icon: "colors/dark_gray.png", ping: 0}
+    - {text: " &f生命 &c❤${viewer skills_health_total}", icon: "colors/dark_gray.png", ping: 0}
+    - {text: " &f防御 &a❇${viewer skills_defense_total}", icon: "colors/dark_gray.png", ping: 0}
+    - {text: " &f力量 &c❁${viewer skills_strength_total}", icon: "colors/dark_gray.png", ping: 0}
+    - {text: " &f速度 &f✦${viewer skills_speed_total}", icon: "colors/dark_gray.png", ping: 0}
+    - {text: " &f暴击率 &9☣${viewer skills_crit_chance_total}%", icon: "colors/dark_gray.png", ping: 0}
+    - {text: " &f暴击伤害 &9☠${viewer skills_crit_damage_total}%", icon: "colors/dark_gray.png", ping: 0}
+    - {text: " &f智力 &b✎${viewer skills_intelligence_total}", icon: "colors/dark_gray.png", ping: 0}
+    - {text: " &f海怪钓取概率 &3α${viewer skills_sea_creature_chance_total}", icon: "colors/dark_gray.png", ping: 0}
+    - {text: " &f宠物运气 &d♠${viewer skills_pet_luck_total}", icon: "colors/dark_gray.png", ping: 0}

@@ -1,0 +1,18 @@
+name: Update 1.0
+title: Update 1.0
+author: Server
+generation: ORIGINAL
+
+lore:
+- Empty
+
+open_command: ''
+
+pages:
+  '1':
+  - ''
+  - ''
+  - '&0请进入Q群查看更新日志'
+  - ''
+  - ''
+  - '<tooltip:&f点击加入我们的官方Q群><link:https://jq.qq.com/?k=ciimjkOG>&3&l加入Q群<reset>'

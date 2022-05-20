@@ -1,0 +1,51 @@
+name: default
+permissions:
+- rec.pay
+- friends.command.main
+- tradesystem.trade
+- hyperrunes.runetable.open
+- hypertrades.mainmenu
+- essentials.enderchest.others
+- auctionmaster.display
+- auctionmaster.limit.auctions.10
+- bskyblock.island.settings:
+    value: false
+- bskyblock.team.maxsize.4
+- chatty.chat.default
+- chatty.chat.default.see
+- chatty.chat.default.write
+- chatty.chat.vip.see
+- chatty.command.ignore
+- chatty.command.msg
+- chatty.command.reply
+- essentials.enderchest
+- essentials.spawn
+- hyperalchemy.mainmenu
+- hyperanvil.mainmenu
+- hypercollections.levelsmenu
+- hypercollections.mainmenu
+- hypercollections.ranking
+- hypercollections.submenu
+- hypercrafting.mainmenu
+- hypercrafting.recipebook
+- hyperenchanting.menu
+- hyperskills.mainmenu
+- hyperskills.ranking
+- hypersouls.tiamenu
+- pets.menu
+- quests.command:
+    value: false
+- rank.default
+- rec.bank.command
+- rec.shop.open
+- tab.sort.default
+- weight.1
+prefixes:
+- '&7':
+    priority: 1
+suffixes:
+- '&7':
+    priority: 1
+meta:
+- default:
+    value: 'true'

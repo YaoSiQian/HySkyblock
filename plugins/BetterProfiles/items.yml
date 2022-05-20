@@ -1,0 +1,84 @@
+Items:
+  #Create as many items you want. REMEMBER EACH ITEM MUST HAVE A UNIQUE SLOT.
+  #IN CASE YOU ADD MORE THAN 1 ITEM FOR THE SAME SLOT.
+  #It will be read in order. SO MAKE SURE YOU ADD THE ITEM with higher priority first here.
+  #IMPORTANTTTTTTTTTTTTTTTTTTTTTTTTTTT!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+  #FOR SECURITY REASONS DO NOT USE more than one item in the same slot if at least one of the items
+  #has "PLACEHOLDER" material.
+  #IMPORTANTTTTTTTTTTTTTTTTTTTTTTTTTTT!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+  PLAYER-HEAD:
+    Slot: 22
+    Dynamic-slot: 0
+    Permission: "none"
+    Material: "PROFILE_OWNER"
+    Custom-model-data: 0
+    Displayname: "&7%vault_prefix%{OWNER}&7 的个人信息"
+    Lore:
+    - "  &c❤ 生命 &f%formatter_number_format_{skills_health_total}% HP"
+    - "  &a❇ 防护 &f%formatter_number_format_{skills_defense_total}%"
+    - "  &c❁ 力量 &f%formatter_number_format_{skills_strength_total}%"
+    - "  &f✦ 速度 &f%formatter_number_format_{skills_speed_total}%"
+    - "  &9☣ 暴击率 &f%formatter_number_format_{skills_crit_chance_total}%%"
+    - "  &9☠ 暴击伤害 &f%formatter_number_format_{skills_crit_damage_total}%%"
+    - "  &b✎ 智力 &f%formatter_number_format_{skills_intelligence_total}%"
+    - ""
+    - "&6%math_1_({skills_farming_level}+{skills_mining_level}+{skills_combat_level}+{skills_foraging_level}+{skills_fishing_level}+{skills_enchanting_level}+{skills_alchemy_level})/150% Skill Avg. &8(non-cosmetic)"
+    - ""
+    - "&7加入日期: &2%player_first_join_date%"
+    Close-on-click: false
+    Commands: []
+  VISIT:
+    Slot: 15
+    Permission: "none"
+    Material: "FEATHER"
+    Custom-model-data: 0
+    Displayname: "&a参观岛屿"
+    Lore:
+    - "&e点击访问!"
+    Close-on-click: true
+    Commands:
+    - "visit {TARGET}"
+  TRADE-REQUEST:
+    Slot: 16
+    Permission: "none"
+    Material: "EMERALD"
+    Custom-model-data: 0
+    Displayname: "&a交易"
+    Lore:
+    - "&e点击交易!"
+    Close-on-click: true
+    Commands:
+    - "trade {TARGET}"
+  INVITE-TO-ISLAND:
+    Slot: 24
+    Permission: "none"
+    Material: "POPPY"
+    Custom-model-data: 0
+    Displayname: "&a邀请至岛屿"
+    Lore:
+    - "&e点击邀请!"
+    Close-on-click: true
+    Commands:
+    - "is team invite {TARGET}"
+  CO-OP-REQUEST:
+    Slot: 25
+    Permission: "none"
+    Material: "DIAMOND"
+    Custom-model-data: 0
+    Displayname: "&a合作请求"
+    Lore:
+    - "&e发送一个合作请求!"
+    Close-on-click: true
+    Commands:
+    - "is team coop {TARGET}"
+  VAULT:
+    Slot: 33
+    Permission: "none"
+    Material: "ENDER_CHEST"
+    Custom-model-data: 0
+    Displayname: "&a私人金库"
+    Lore:
+    - "&e点击查看!"
+    Close-on-click: true
+    Commands:
+    - "ec {TARGET}"

@@ -1,0 +1,18 @@
+bossbar-enabled: true
+bossbar-toggle-command: /togglemybossbar
+permission-required-to-toggle: false
+remember-toggle-choice: false
+default-bars: []
+per-world:
+  Server:
+  - Objective
+  islands:
+  - Objective
+bars:
+  Objective:
+    permission-required: false
+    style: PROGRESS
+    color: YELLOW
+    progress: '%quests_tracked_p:bossbar%'
+    text: '&fObjective: &e%quests_tracked%%quests_tracked_p:progress%'
+hidden-by-default: false

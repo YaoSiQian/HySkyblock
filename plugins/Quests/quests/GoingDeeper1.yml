@@ -1,0 +1,33 @@
+tasks:
+ quest:
+  type: "citizens_interact"
+  npc-name: "lift-operator" 
+
+display:
+  name: "&e与电梯管理员交谈"
+  lore-normal: []
+  lore-started: []
+  type: "PAPER"
+
+rewards:
+  - "q a moddata start {player} GoingDeeper2"
+  - "emsg {player} &e[NPC] &b电梯管理员&f: 你好啊，伙计！"
+  - "emsg {player} &e[NPC] &b电梯管理员&f: 我负责控制我身后的这部电梯"
+  - "emsg {player} &e[NPC] &b电梯管理员&f: 每当你探索了一个区域，我可以带你从那边安全的回来"
+  - "emsg {player} &e[NPC] &b电梯管理员&f: 小心别从电梯井里掉下去了，那真的很疼！"
+  - "emsg {player} &7"
+  - "emsg {player} &6&l  新任务目标"
+  - "emsg {player} &6&l  &f抵达青金石采伐场"
+  - "emsg {player} &7"
+
+placeholders:
+  bossbar: "100"
+  progress: "&7"
+
+options:
+  category: ""
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 25

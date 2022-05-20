@@ -1,0 +1,50 @@
+stats:
+  armors:
+    LEATHER_HELMET:
+      abilities:
+      - Defense:5
+    LEATHER_CHESTPLATE:
+      abilities:
+      - Defense:15
+    LEATHER_LEGGINGS:
+      abilities:
+      - Defense:10
+    LEATHER_BOOTS:
+      abilities:
+      - Defense:5
+    IRON_HELMET:
+      abilities:
+      - Defense:10
+    IRON_CHESTPLATE:
+      abilities:
+      - Defense:30
+    IRON_LEGGINGS:
+      abilities:
+      - Defense:25
+    IRON_BOOTS:
+      abilities:
+      - Defense:10
+    GOLDEN_HELMET:
+      abilities:
+      - Defense:10
+    GOLDEN_CHESTPLATE:
+      abilities:
+      - Defense:25
+    GOLDEN_LEGGINGS:
+      abilities:
+      - Defense:15
+    GOLDEN_BOOTS:
+      abilities:
+      - Defense:5
+    DIAMOND_HELMET:
+      abilities:
+      - Defense:15
+    DIAMOND_CHESTPLATE:
+      abilities:
+      - Defense:40
+    DIAMOND_LEGGINGS:
+      abilities:
+      - Defense:30
+    DIAMOND_BOOTS:
+      abilities:
+      - Defense:15

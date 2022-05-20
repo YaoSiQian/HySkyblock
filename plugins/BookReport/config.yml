@@ -1,0 +1,49 @@
+# Shown on top of the reasons. Placeholders:
+#   %target% - The player to report.
+report-reasons-header: "&0你正在举报 %target%, 请选择你的原因?"
+
+# Shown in front of each reason.
+report-reason-prefix: "&0 ⦿ "
+
+# The reasons players can be reported for.
+report-reasons:
+  - "聊天滥用/诈骗"
+  - "作弊"
+  - "不适宜的用户名"
+  - "不适宜的皮肤"
+  - "刷分"
+  - "其他"
+
+# Shown on top of the confirmation page. Placeholders:
+#   %target% - The player to report.
+#   %reason% - The reason to report for.
+confirmation-header: "&0你是否确定 %target% 存在 %reason% ?"
+# The button to confirm the report with.
+confirmation-yes: "    &2&l提交举报 "
+# The space between the yes and no button.
+confirmation-spacer: "&7      "
+# The button to cancel the report with.
+confirmation-no: "  &c&l取消举报"
+
+# Shown when the report was submitted successfully.
+report-successful: "服务器已经收到了您的举报 非常感谢!"
+
+# Any messages shown directly to players / the console.
+messages:
+  # Prefix in front of messages.
+  prefix: "&7"
+  # Shown AFTER the configuration has been reloaded.
+  reload: "配置已重载"
+  # Shown when someone tries to use just "/report".
+  no_args: "&c用法 /report <用户名>"
+  # Shown when someone tries to report an offline player. Placeholders:
+  #   %target% - The target to report.
+  target_offline: "&c玩家 %target% 不在线或不存在"
+  # Shown when a player tries to report themselves.
+  report_self: "&c你不能举报你自己"
+  # Shown to all people with the permission "bookreport.moderator" after a report has been submitted.
+  # Placeholders:
+  #   %player% - The player that submitted the report.
+  #   %target% - The target the report was submitted against.
+  #   %reason% - The reason for which the target was reported.
+  report_broadcast: "&f[举报系统] &c&l玩家 %player% 因为 &b[%reason%] &c&l举报了 %target%"

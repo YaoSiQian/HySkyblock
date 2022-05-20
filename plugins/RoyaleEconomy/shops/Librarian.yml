@@ -1,0 +1,318 @@
+title: Librarian
+permission-to-open: none
+background-color: 15
+items:
+  '1':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: EXPERIENCE_BOTTLE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Experience
+          Bottle"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Smash
+          it open to receive"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"experience!"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+    sellingValue: 0.0
+    buyValue: 30.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '2':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: ENCHANTED_BOOK
+      meta:
+        ==: ItemMeta
+        meta-type: ENCHANTED
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Enchanted
+          Book"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Sharpness
+          I"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Increases
+          melee damage dealt by"}],"text":""}'
+        - '{"extra":[{"italic":false,"color":"green","text":"5% "},{"italic":false,"color":"gray","text":"per
+          level."}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Apply
+          Cost: "},{"italic":false,"color":"dark_aqua","text":"10 Exp Levels"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Use
+          this on an item in an Anvil"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"to
+          apply it!"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        internal: H4sIAAAAAAAA/+NiYGBmEC1NjU/NS85IzCvRdXH0dXR3jXf08WFgYGBkZuDNKIhHF+NMLCjIqXTOLy4B8rkYAADwaxVEAAAA
+        stored-enchants:
+          DAMAGE_ALL: 1
+    sellingValue: 0.0
+    buyValue: 20.0
+    detailed: true
+    amount1: 0
+    amount2: 0
+    amount3: 0
+    amount4: 0
+    amount5: 0
+  '3':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: ENCHANTED_BOOK
+      meta:
+        ==: ItemMeta
+        meta-type: ENCHANTED
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Enchanted
+          Book"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Protection
+          I"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Grants
+          "},{"italic":false,"color":"green","text":"+3 ❈ Defense"}],"text":""}'
+        - '{"extra":[{"italic":false,"color":"gray","text":"per level."}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Apply
+          Cost: "},{"italic":false,"color":"dark_aqua","text":"10 Exp Levels"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Use
+          this on an item in an Anvil"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"to
+          apply it!"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        internal: H4sIAAAAAAAA/+NiYGBmkM4oiA8I8g9xdQ7x9PeLd/UL8wzy9/N19Qtx9GFgYGBkZlAuTY1PzUvOSMwr0cWvkjOxoCCn0jm/uATI52IAALhTjl5gAAAA
+        stored-enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+    sellingValue: 0.0
+    buyValue: 20.0
+    detailed: true
+    amount1: 0
+    amount2: 0
+    amount3: 0
+    amount4: 0
+    amount5: 0
+  '4':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: ENCHANTED_BOOK
+      meta:
+        ==: ItemMeta
+        meta-type: ENCHANTED
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Enchanted
+          Book"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Fire
+          Protection I"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Grants
+          "},{"italic":false,"color":"green","text":"+"},{"italic":false,"color":"white","text":"5❂
+          True Defense"}],"text":""}'
+        - '{"extra":[{"italic":false,"color":"gray","text":"against fire and lava"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"per
+          level."}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Apply
+          Cost: "},{"italic":false,"color":"dark_aqua","text":"10 Exp Levels"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Use
+          this on an item in an Anvil"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"to
+          apply it!"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        internal: H4sIAAAAAAAA/+NiYGBmEMooiA8I8g9xdQ7x9PeLd/MMcmVgYGBkZuBMLCjIqXTOLy4B8rmYGaRKU+NT85IzEvNKdLFoYAAAsGWWeU4AAAA=
+        stored-enchants:
+          PROTECTION_FIRE: 1
+    sellingValue: 0.0
+    buyValue: 30.0
+    detailed: true
+    amount1: 0
+    amount2: 0
+    amount3: 0
+    amount4: 0
+    amount5: 0
+  '5':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: ENCHANTED_BOOK
+      meta:
+        ==: ItemMeta
+        meta-type: ENCHANTED
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Enchanted
+          Book"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Projectile
+          Protection I"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Grants
+          "},{"italic":false,"color":"green","text":"+"},{"italic":false,"color":"white","text":"5❂
+          True Defense"}],"text":""}'
+        - '{"extra":[{"italic":false,"color":"gray","text":"against projectiles per"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"level."}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Apply
+          Cost: "},{"italic":false,"color":"dark_aqua","text":"10 Exp Levels"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Use
+          this on an item in an Anvil"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"to
+          apply it!"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        internal: H4sIAAAAAAAA/+NiYGBmkMgoiA8I8g9xdQ7x9PcDMb1ATB9XBgYGRmYGhdLU+NS85IzEvBJdPMo4EwsKciqd84tLgHwuBgC9eFpzWgAAAA==
+        stored-enchants:
+          PROTECTION_PROJECTILE: 1
+    sellingValue: 0.0
+    buyValue: 25.0
+    detailed: true
+    amount1: 0
+    amount2: 0
+    amount3: 0
+    amount4: 0
+    amount5: 0
+  '6':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: ENCHANTED_BOOK
+      meta:
+        ==: ItemMeta
+        meta-type: ENCHANTED
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Enchanted
+          Book"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Bane
+          of Arthropods I"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Increases
+          damage dealt to Cave"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Spiders,
+          Spiders, and"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Silverfish
+          by "},{"italic":false,"color":"green","text":"8% "},{"italic":false,"color":"gray","text":"per
+          level."}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Apply
+          Cost: "},{"italic":false,"color":"dark_aqua","text":"10 Exp Levels"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Use
+          this on an item in an Anvil"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"to
+          apply it!"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        internal: H4sIAAAAAAAA/+NiYGBm4EwsKMipdM4vLmFgYOBiZhDJKIh3cfR1dHeNdwwK8QjyD/B3CQZKMTIzyJSmxqfmJWck5pXoYlXCAAANPghGUgAAAA==
+        stored-enchants:
+          DAMAGE_ARTHROPODS: 1
+    sellingValue: 0.0
+    buyValue: 20.0
+    detailed: true
+    amount1: 0
+    amount2: 0
+    amount3: 0
+    amount4: 0
+    amount5: 0
+  '7':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: ENCHANTED_BOOK
+      meta:
+        ==: ItemMeta
+        meta-type: ENCHANTED
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Enchanted
+          Book"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Smite
+          I"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Increases
+          damage dealt to"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Zombie
+          Pigman, Withers,"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Skeletons,
+          and Zombies"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"by
+          "},{"italic":false,"color":"green","text":"8% "},{"italic":false,"color":"gray","text":"per
+          level."}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Apply
+          Cost: "},{"italic":false,"color":"dark_aqua","text":"10 Exp Levels"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Use
+          this on an item in an Anvil"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"to
+          apply it!"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        internal: H4sIAAAAAAAA/+NiYGBmEMgoiHdx9HV0d40P9XNxdXRhYGBgZGbgTCwoyKl0zi8uAfK5mBkkSlPjU/OSMxLzSnQxlDMAAKe+dXhKAAAA
+        stored-enchants:
+          DAMAGE_UNDEAD: 1
+    sellingValue: 0.0
+    buyValue: 20.0
+    detailed: true
+    amount1: 0
+    amount2: 0
+    amount3: 0
+    amount4: 0
+    amount5: 0
+  '8':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: ENCHANTED_BOOK
+      meta:
+        ==: ItemMeta
+        meta-type: ENCHANTED
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Enchanted
+          Book"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Efficiency
+          I"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Increases
+          how quickly your tool"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"breaks
+          blocks."}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Apply
+          Cost: "},{"italic":false,"color":"dark_aqua","text":"10 Exp Levels"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Use
+          this on an item in an Anvil"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"to
+          apply it!"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        internal: H4sIAAAAAAAA/+NiYGBm4MkoiHfxdI8PDnB1dWFgYGBkZuBMLCjIqXTOLy4B8rmYGURKU+NT85IzEvNKdFGUMgAAaCQPH0IAAAA=
+        stored-enchants:
+          DIG_SPEED: 1
+    sellingValue: 0.0
+    buyValue: 20.0
+    detailed: true
+    amount1: 0
+    amount2: 0
+    amount3: 0
+    amount4: 0
+    amount5: 0

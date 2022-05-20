@@ -1,0 +1,103 @@
+#                    _                   _ _          _ __  __       _
+#                   | |    _____   _____| | | ___  __| |  \/  | ___ | |__  ___
+#                   | |   / _ \ \ / / _ \ | |/ _ \/ _` | |\/| |/ _ \| '_ \/ __|
+#                   | |__|  __/\ V /  __/ | |  __/ (_| | |  | | (_) | |_) \__ \
+#                   |_____\___| \_/ \___|_|_|\___|\__,_|_|  |_|\___/|_.__/|___/
+#                             The Ultimate RPG Levelled Mobs Solution
+#
+# --------------------------------------------------------------------------------------------LM3
+# +                                      ++                                                  +LM3
+# +  Main Developers                     ++  Need support documentation?                     +LM3
+# +    lokka30                           ++    https://github.com/lokka30/LevelledMobs/wiki  +LM3
+# +      Author and developer            ++                                                  +LM3
+# +      https://ko-fi.com/lokka30       ++  ArcanePlugins Support Discord                   +LM3
+# +                                      ++    https://discord.gg/RQ8M4A5                    +LM3
+# +                                      ++                                                  +LM3
+# +    stumper66                         ++  Special thanks:                                 +LM3
+# +      Developer since v2              ++    ArcanePlugins developers and testers!         +LM3
+# +      https://ko-fi.com/penalbuffalo  ++    Donators, patrons, and other supporters!      +LM3
+# +                                      ++    SpigotMC, PaperMC, ProtocolLib, NBT-API,      +LM3
+# +                                      ++    PlaceholderAPI, and bStats!                   +LM3
+# +    UltimaOath                        ++                                                  +LM3
+# +      Docs and configs since v2       ++  Other Contributors:                             +LM3
+# +                                      ++    Eyrian, iCodinqs, deiphiz, CoolBoy, Esophose, +LM3
+# +                                      ++    7smile7, Hugo5551, konsolas, Shevchik,        +LM3
+# +                                      ++    limzikiki, and Zombie_Striker                 +LM3
+# +                                      ++                                                  +LM3
+# --------------------------------------------------------------------------------------------LM3
+#                               _____     _   _   _ 
+#                              |   __|___| |_| |_|_|___ ___ ___
+#                              |__   | -_|  _|  _| |   | . |_ -|
+#                              |_____|___|_| |_| |_|_|_|_  |___|
+#                                                      |___|
+#
+# --------------------------------------------------------------------------------------------LM3
+# ||  ADVANCED USERS ONLY | DEBUG
+debug-entity-damage: false
+debug-misc: [ '' ]
+
+# ||  ADVANCED USERS ONLY | SYSTEM CRITICAL
+# ||  Automatic Asynchronous Nametag and Levelling Update
+nametag-auto-update-task-period: 6
+
+# ||  ADVANCED USERS ONLY | SYSTEM CRITICAL
+# ||  Customize Summon Command Limit
+customize-summon-command-limit: 10
+
+# ||  ADVANCED USERS ONLY | SYSTEM CRITICAL
+# ||  CustomCommands Limiter
+customcommand-amount-limit: 100
+
+# ||  ADVANCED USERS ONLY | SYSTEM CRITICAL | IRREVERSIBLE
+# ||  Use CustomName field instead of packets for nametags
+use-customname-for-mob-nametags: false
+
+# ||  ADVANCED USERS ONLY
+# ||  Should nametag packets be ignored if the mob has died?
+assert-entity-validity-with-nametag-packets: true
+
+# ||  ADVANCED USERS ONLY
+# ||  Mob Processing Delay
+mob-process-delay: 0
+
+# ||  ADVANCED USERS ONLY
+# ||  Ensure Mobs are Levelled on chunk load
+ensure-mobs-are-levelled-on-chunk-load: true
+
+# ||  ADVANCED USERS ONLY
+# ||  Use Static Attributes File
+attributes-use-preset-base-values: false
+
+# ||  ADVANCED USERS ONLY
+# ||  Level Entities on Spawn
+level-mobs-upon-spawn: true
+
+# ||  ADVANCED USERS ONLY
+# ||  LM Summon Command Spawn Distance from Players
+summon-command-spawn-distance-from-player: 5
+
+# ||  Check for Updates?
+use-update-checker: true
+
+# ||  Kill Skip Conditions
+kill-skip-conditions:
+  nametagged: true
+  tamed: true
+  leashed: true
+  convertingZombieVillager: true
+
+# ||  Mob Head Drop Multiplier
+mobs-multiply-head-drops: false
+
+# ||  Player Levelling Strategy Settings
+player-levelling-mob-distance-squared: 250
+player-levelling-relevel-min-time: 5000
+
+
+# +-------------------------------------------------------------------------------------------LM3
+# +                                                                                          +LM3
+# +   Advanced Settings                                                                      +LM3
+# +   DO NOT EDIT BEYOND HERE WITHOUT DEVELOPER APPROVAL                                     +LM3
+# +                                                                                          +LM3
+# +-------------------------------------------------------------------------------------------LM3
+file-version: 31

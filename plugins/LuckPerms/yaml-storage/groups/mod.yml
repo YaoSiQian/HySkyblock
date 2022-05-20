@@ -1,0 +1,13 @@
+name: mod
+permissions:
+- rank.MOD
+- tab.sort.MOD
+- weight.8
+parents:
+- helper
+prefixes:
+- '&2[志愿管理] ':
+    priority: 8
+suffixes:
+- '&2':
+    priority: 8

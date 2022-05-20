@@ -1,0 +1,31 @@
+messages:
+  invalidCommand: '%prefix% &7未知指令!'
+  invalidArguments: '%prefix% &7未知子指令!'
+  invalidPlayer: '%prefix% &7未知玩家'
+  offlinePlayer: '%prefix% 该玩家不在线!'
+  reloaded: '%prefix% &7配置已重载'
+  noPermission: '%prefix% &7你没有权限'
+  helpMessage: '&7%command% - &e%description%'
+  helpHeader: '      &6&lUltimateCore-Trades   '
+  helpfooter: '&e<< &6第 %page% 页至第 %maxpage% 页 &e>>'
+  previousPage: '<<'
+  nextPage: '>>'
+  helpPageHoverMessage: 点击前往第 %page% 页
+  mustBeAPlayer: '%prefix% &7You must be a player to execute this command.'
+  unknownCommand: '%prefix% &7Unknown Command, Try /shop help'
+  typePermissionMessage: '&a► Type a permission in chat to set the trade permission!
+    Type &fstop &ato cancel the permission change.'
+  typeCostMessage: '&a► Type a money amount in chat to set the trade cost! Type &fstop
+    &ato cancel the cost change.'
+  typePageMessage: '&a► Type a page amount in chat to set the page cost! Type &fstop
+    &ato cancel the page change.'
+  typeSlotMessage: '&a► Type a slot in chat to set the trade slot! Type &fstop &ato
+    cancel the slot change.'
+  typeCategoryMessage: '&a► Type a category in chat to set the trade category! Type
+    &fstop &ato cancel the category change.'
+  invalidNumber: '&c► Invalid Number'
+  invalidTrade: '&c► Invalid Trade'
+  invalidCategory: '&c► Invalid Category'
+  successfullyRemoved: '&a► Trade was successfully removed!'
+  dontRequiredItems: '&cYou don''t have the required items!'
+  dontRequiredMoney: '&cYou don''t have enough Coins!'

@@ -1,0 +1,58 @@
+tasks:
+ quest:
+  type: "citizens_interact"
+  npc-name: "villager-duke" 
+ quest:
+  type: "citizens_interact"
+  npc-name: "villager-leo" 
+ quest:
+  type: "citizens_interact"
+  npc-name: "villager-lynn" 
+ quest:
+  type: "citizens_interact"
+  npc-name: "villager-andrew" 
+ quest:
+  type: "citizens_interact"
+  npc-name: "villager-jack"
+ quest:
+  type: "citizens_interact"
+  npc-name: "villager-jamie" 
+ quest:
+  type: "citizens_interact"
+  npc-name: "villager-tom"
+ quest:
+  type: "citizens_interact"
+  npc-name: "villager-felix"
+ quest:
+  type: "citizens_interact"
+  npc-name: "villager-liam" 
+ quest:
+  type: "citizens_interact"
+  npc-name: "villager-ryu" 
+
+display:
+  name: "&e与村民交谈"
+  lore-normal: []
+  lore-started: []
+  type: "PAPER"
+
+rewards:
+  - "emsg {player} &7"
+  - "emsg {player} &6&l  任务完成"
+  - "emsg {player} &6&l  &f与村民交谈"
+  - "emsg {player} &7"
+  - "emsg {player} &6&l  新任务目标"
+  - "emsg {player} &6&l  &f探索大厅"
+  - "emsg {player} &7"
+
+placeholders:
+  progress: "&7"
+  bossbar: "100" 
+
+options:
+  category: ""
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 8

@@ -1,0 +1,432 @@
+menu_title: '(1/1) 附魔手册'
+open_command:
+- eg
+- enchantguide
+- eguide
+- enchantmentguide
+- enchantsguide
+- enchg
+- enchantmentguide
+size: 54
+items:
+      background:
+        material: BLACK_STAINED_GLASS_PANE
+        slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 5
+        - 6
+        - 7
+        - 53
+        - 8
+        - 9
+        - 17
+        - 18
+        - 26
+        - 27
+        - 35
+        - 36
+        - 44
+        - 45
+        - 46
+        - 47
+        - 50
+        - 51
+        - 52
+        - 48
+        display_name: '&7'
+        lore: []
+        left_click_commands: []
+        right_click_commands: []
+
+      BOOK:
+        material: BOOK
+        slot: 4
+        display_name: '&a附魔手册'
+        lore:
+        - '&7查看所有附魔'
+        - '&7与其要求的完整列表'
+        left_click_commands: []
+        right_click_commands: []
+
+      sharpness:
+        material: ENCHANTED_BOOK
+        slot: 10
+        display_name: '&a锋利 V'
+        lore:
+        - '&7提升 &a5% 近战伤害'
+        - ''
+        - '&6来源:'
+        - '&aI-V: &7附魔台'
+        - ''
+        - '&6适用于:'
+        - '&7 - &f剑'
+        - '&7 - &f斧'
+        - ''
+        - '&6冲突:'
+        - '&7 - &c亡灵杀手'
+        - '&7 - &c节肢杀手'
+        left_click_commands: []
+        right_click_commands: []
+
+      smite:
+        material: ENCHANTED_BOOK
+        slot: 11
+        display_name: '&a亡灵杀手 V'
+        lore:
+        - '&7增加僵尸猪人, 凋灵,'
+        - '&7骷髅, 僵尸的&a8%&7伤害'
+        - ''
+        - '&6来源:'
+        - '&aI-V: &7附魔台'
+        - ''
+        - '&6适用于:'
+        - '&7 - &f剑'
+        - '&7 - &f斧'
+        - ''
+        - '&6冲突:'
+        - '&7 - &c锋利'
+        - '&7 - &c节肢杀手'
+        left_click_commands: []
+        right_click_commands: []
+
+      arthropods:
+        material: ENCHANTED_BOOK
+        slot: 12
+        display_name: '&a节肢杀手 V'
+        lore:
+        - '&7增加洞穴蜘蛛, 蜘蛛, 蠹虫'
+        - '&7的&a8%&7伤害'
+        - ''
+        - '&6来源:'
+        - '&aI-V: &7附魔台'
+        - ''
+        - '&6冲突:'
+        - '&7 - &c锋利'
+        - '&7 - &c亡灵杀手'
+        left_click_commands: []
+        right_click_commands: []
+
+      knockback:
+        material: ENCHANTED_BOOK
+        slot: 13
+        display_name: '&a击退 II'
+        lore:
+        - '&7增加 &a3 &7方块击退距离'
+        - ''
+        - '&6来源:'
+        - '&aI-II: &7附魔台'
+        - ''
+        - '&6适用于:'
+        - '&7 - &f剑'
+        - ''
+        - '&6要求:'
+        - '&7 - &d1 书架能量'
+        left_click_commands: []
+        right_click_commands: []
+
+      looting:
+        material: ENCHANTED_BOOK
+        slot: 14
+        display_name: '&a抢夺 III'
+        lore:
+        - '&7增加 &a15% &7怪物的物品掉落概率'
+        - ''
+        - '&6来源:'
+        - '&aI-III: &7附魔台'
+        - ''
+        - '&6适用于:'
+        - '&7 - &f剑'
+        left_click_commands: []
+        right_click_commands: []
+
+      fireaspect:
+        material: ENCHANTED_BOOK
+        slot: 15
+        display_name: '&a火焰附加 II'
+        lore:
+        - '&7灼烧你的敌人 &a3秒'
+        - '&7每秒造成的伤害等同你武器伤害'
+        - ''
+        - '&6来源:'
+        - '&aI-II: &7附魔台'
+        - ''
+        - '&6适用于:'
+        - '&7 - &f剑'
+        - ''
+        - '&6要求:'
+        - '&7 - &d2 书架能量'
+        left_click_commands: []
+        right_click_commands: []
+
+      power:
+        material: ENCHANTED_BOOK
+        slot: 16
+        display_name: '&a力量 V'
+        lore:
+        - '&7提升 &a8% &7弓造成的伤害'
+        - ''
+        - '&6来源:'
+        - '&aI-V: &7附魔台'
+        - ''
+        - '&6适用于:'
+        - '&7 - &f弓'
+        left_click_commands: []
+        right_click_commands: []
+
+      punch:
+        material: ENCHANTED_BOOK
+        slot: 19
+        display_name: '&a击退 II'
+        lore:
+        - '&7增加 &a3 &7方块箭矢击退距离'
+        - ''
+        - '&6来源:'
+        - '&aI-II: &7附魔台'
+        - ''
+        - '&6适用于:'
+        - '&7 - &f弓'
+        left_click_commands: []
+        right_click_commands: []
+
+      flame:
+        material: ENCHANTED_BOOK
+        slot: 20
+        display_name: '&a火矢 I'
+        lore:
+        - '&7引燃敌人 &a3秒'
+        - ''
+        - '&6来源:'
+        - '&aI: &7附魔台'
+        - ''
+        - '&6适用于:'
+        - '&7 - &f剑'
+        - ''
+        - '&6要求:'
+        - '&7 - &d3 书架能量'
+        left_click_commands: []
+        right_click_commands: []
+
+      efficiency:
+        material: ENCHANTED_BOOK
+        slot: 21
+        display_name: '&a效率 V'
+        lore:
+        - '&7增加工具破坏方块的速度'
+        - ''
+        - '&6来源:'
+        - '&aI-V: &7附魔台'
+        - ''
+        - '&6适用于:'
+        - '&7 - &f工具'
+        left_click_commands: []
+        right_click_commands: []
+
+      fortune:
+        material: ENCHANTED_BOOK
+        slot: 22
+        display_name: '&a时运 III'
+        lore:
+        - '&7获得 &a+10 &6☘ 挖矿&6时运'
+        - '&7增加获得多个矿物的几率'
+        - ''
+        - '&6来源:'
+        - '&aI-III: &7附魔台'
+        - ''
+        - '&6适用于:'
+        - '&7 - &f工具'
+        - ''
+        - '&6要求:'
+        - '&7 - &d2 书架能量'
+        - ''
+        - '&6冲突:'
+        - '&7 - &c精准采集'
+        left_click_commands: []
+        right_click_commands: []
+
+      silktouch:
+        material: ENCHANTED_BOOK
+        slot: 23
+        display_name: '&a精准采集 I'
+        lore:
+        - '&7允许你获得通常无法获得的方块掉落物'
+        - ''
+        - '&6来源:'
+        - '&aI: &7附魔台'
+        - ''
+        - '&6适用于:'
+        - '&7 - &f工具'
+        - ''
+        - '&6要求:'
+        - '&7 - &d3 书架能量'
+        - ''
+        - '&6冲突:'
+        - '&7 - &c时运'
+        left_click_commands: []
+        right_click_commands: []
+
+      thorns:
+        material: ENCHANTED_BOOK
+        slot: 24
+        display_name: '&a荆棘 III'
+        lore:
+        - '&7给予 &a50% &7的几率在被攻击时'
+        - '&7反弹给攻击者 &a3 &7伤害'
+        - ''
+        - '&6来源:'
+        - '&aI-III: &7附魔台'
+        - ''
+        - '&6适用于:'
+        - '&7 - &f盔甲'
+        - ''
+        - '&6要求:'
+        - '&7 - &d3 书架能量'
+        left_click_commands: []
+        right_click_commands: []
+
+      fireprot:
+        material: ENCHANTED_BOOK
+        slot: 25
+        display_name: '&a火焰保护 IV'
+        lore:
+        - '&7对火焰和熔岩伤害'
+        - '&7增加 &a+&f5 ❂ 真实防御'
+        - ''
+        - '&6来源:'
+        - '&aI-IV: &7附魔台'
+        - ''
+        - '&6适用于:'
+        - '&7 - &f盔甲'
+        - ''
+        - '&6冲突:'
+        - '&7 - &c保护'
+        - '&7 - &c爆炸保护'
+        - '&7 - &c弹射物保护'
+        left_click_commands: []
+        right_click_commands: []
+
+      blastprotect:
+        material: ENCHANTED_BOOK
+        slot: 28
+        display_name: '&a爆炸保护 IV'
+        lore:
+        - '&7对爆炸伤害'
+        - '&7增加 &a+&f5 ❂ 真实防御'
+        - ''
+        - '&6来源:'
+        - '&aI-IV: &7附魔台'
+        - ''
+        - '&6适用于:'
+        - '&7 - &f盔甲'
+        - ''
+        - '&6冲突:'
+        - '&7 - &c保护'
+        - '&7 - &c火焰保护'
+        - '&7 - &c弹射物保护'
+        left_click_commands: []
+        right_click_commands: []
+
+      projprot:
+        material: ENCHANTED_BOOK
+        slot: 29
+        display_name: '&a弹射物保护 IV'
+        lore:
+        - '&7对弹射物伤害'
+        - '&7增加 &a+&f5 ❂ 真实防御'
+        - ''
+        - '&6来源:'
+        - '&aI-IV: &7附魔台'
+        - ''
+        - '&6适用于:'
+        - '&7 - &f盔甲'
+        - ''
+        - '&6冲突:'
+        - '&7 - &c保护'
+        - '&7 - &c火焰保护'
+        - '&7 - &c爆炸保护'
+        left_click_commands: []
+        right_click_commands: []
+
+      protection:
+        material: ENCHANTED_BOOK
+        slot: 30
+        display_name: '&a保护 IV'
+        lore:
+        - '&7增加 &a+&f3 ❈ 防御'
+        - ''
+        - '&6来源:'
+        - '&aI-IV: &7附魔台'
+        - ''
+        - '&6适用于:'
+        - '&7 - &f盔甲'
+        - ''
+        - '&6冲突:'
+        - '&7 - &c弹射物保护'
+        - '&7 - &c火焰保护'
+        - '&7 - &c爆炸保护'
+        left_click_commands: []
+        right_click_commands: []
+
+      respiration:
+        material: ENCHANTED_BOOK
+        slot: 31
+        display_name: '&a水下呼吸 III'
+        lore:
+        - '&7延长你的水下呼吸时间 &a10秒'
+        - ''
+        - '&6来源:'
+        - '&aI-III: &7附魔台'
+        - ''
+        - '&6适用于:'
+        - '&7 - &f头盔'
+        left_click_commands: []
+        right_click_commands: []
+
+      fall-protection:
+        material: ENCHANTED_BOOK
+        slot: 31
+        display_name: '&a摔落保护 IV'
+        lore:
+        - '&7降低 &a5% &7受到的摔落伤害'
+        - ''
+        - '&6来源:'
+        - '&aI-IV: &7附魔台'
+        - ''
+        - '&6适用于:'
+        - '&7 - &f靴子'
+        - ''
+        - '&6要求:'
+        - '&7 - &d2 书架能量'
+        left_click_commands: []
+        right_click_commands: []
+
+      depth-strider:
+        material: ENCHANTED_BOOK
+        slot: 32
+        display_name: '&a深海探索者 III'
+        lore:
+        - '&7减少 &a33% &7你在水中的减速效果'
+        - ''
+        - '&6来源:'
+        - '&aI-III: &7附魔台'
+        - ''
+        - '&6适用于:'
+        - '&7 - &f靴子'
+        - ''
+        - '&6要求:'
+        - '&7 - &d4 书架能量'
+        left_click_commands: []
+        right_click_commands: []
+
+
+      close:
+        material: BARRIER
+        slot: 49
+        display_name: '&c关闭'
+        lore: []
+        left_click_commands:
+        - '[close]'
+        right_click_commands:
+        - '[close]'

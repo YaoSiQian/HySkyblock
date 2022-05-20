@@ -1,0 +1,387 @@
+command /hub:
+	trigger:
+		make the player execute command "/spawn"
+
+command /vip:
+	trigger:
+		send formatted "&eYou can purchase &aVIP &eon the store at <tooltip:&7Click to visit &b&nhttp://mc.server.net/><link:http://mc.server.net/>&bhttp://mc.server.net/<reset>"
+
+command /help:
+	trigger:
+		send ""
+		send ""
+		send "&e&lSERVER NETWORK"
+		send "&eClick to select a help option..."
+		send ""
+		send formatted "  &c* <tooltip:&dClick to select!><link:http://mc.server.net/>&bServer Minigames<reset>"
+		send formatted "  &c* <tooltip:&dClick to select!><link:http://mc.server.net/>&bFound a Server Bug/Issue<reset>"
+		send formatted "  &c* <tooltip:&dClick to select!><link:http://mc.server.net/>&bReport a Rule Breaker<reset>"
+		send formatted "  &c* <tooltip:&dClick to select!><link:http://mc.server.net/>&bStore<reset>"
+		send formatted "  &c* <tooltip:&dClick to select!><link:http://mc.server.net/>&bSupport<reset>"
+		send formatted "  &c* <tooltip:&dClick to select!><link:http://mc.server.net/>&bAllowed Modifications<reset>"
+		send formatted "  &c* <tooltip:&dClick to select!><link:http://mc.server.net/>&bServer Rules & Policies<reset>"
+		send formatted "  &c* <tooltip:&dClick to select!><link:http://mc.server.net/>&bGeneral Gameplay/Server<reset>"
+		send ""
+		send formatted "&eNeed more help? Visit <tooltip:&dClick to select!><link:http://mc.server.net/forums/>&bour forums<reset>&e."
+		send ""
+
+
+command /removehubportal <player>:
+	permission: admin.admin
+	trigger:
+		loop all blocks in radius 30 around 1st argument:
+			loop-block is nether portal:
+				set loop-block to air
+
+on rightclick on a villager:
+	player is holding a villager spawn egg:
+		cancel event
+
+on rightclick on a cauldron:
+	if player is holding a leather helmet, leather chestplate, leather leggings or leather boots:
+		cancel event
+
+command /updategodpotion:
+	trigger:
+		loop all items in player's inventory:
+			if loop-item's name is "God Potion":
+				set name of loop-item to "&cGod Potion"
+				set lore of loop-item to "&7Consume this potion to receive an", "&7assortment of positive &dpotion", "&deffects&7!", "&7", "&7Duration:", "&a12 Hours", "&7", "&eRight-click to consume!", "&7" and "&c&lSPECIAL"
+
+on rightclick holding a player head:
+	if held item's name is "&cGod Potion" or "God Potion":
+		remove 1 of player's tool from player's inventory
+		message "&a&lGULP! &eThe &cGod Potion &egrants you powers for &912 Hours&e!"
+		make the server execute command "/effect clear %player%"
+		apply regeneration 3 to the player for 12 hours
+		apply strength 3 to the player for 12 hours
+		apply night vision to the player for 12 hours
+		apply speed 3 to the player for 12 hours
+		apply water breathing 6 to the player for 12 hours
+		apply resistance 2 to the player for 12 hours
+		apply jump boost 4 to the player for 12 hours
+		apply fire resistance to the player for 12 hours
+		apply haste 4 to the player for 12 hours
+		stop
+	else:
+		stop
+
+on rightclick holding a cookie:
+	if held item's name is "&6Booster Cookie":
+		make the server execute command "/dm open consume-booster-cookie %player%"
+		stop
+	else:
+		stop
+
+on world change:
+	set player's flight mode to false
+    
+command /fly:
+	trigger:
+		if player has permission "cookie.booster":
+			if player is in "islands":
+				if player's flight mode is false:
+					set player's flight mode to true
+					message "&aFlight toggled on!"
+					stop
+				else:
+					set player's flight mode to false
+					message "&cFlight toggled off!"
+					stop
+			else:
+				if player has permission "rank.admin":
+					if player's flight mode is false:
+						set player's flight mode to true
+						message "&aFlight toggled on!"
+						stop
+					else:
+						set player's flight mode to false
+						message "&cFlight toggled off!"
+						stop
+				else:
+					message "&cYou can only fly in Player Islands!"
+					stop
+		else:
+			message "&eYou need the &dCookie Buff &eto use this command!"
+			message "&eObtain a &6Booster Cookie &efrom the community shop in the hub!"
+			stop
+
+command /anvil:
+	trigger:
+		if player has permission "cookie.booster":
+			make the player execute command "/hyperanvil mainmenu"
+			stop
+		else:
+			message "&eYou need the &dCookie Buff &eto use this command!"
+			message "&eObtain a &6Booster Cookie &efrom the community shop in the hub!"
+			stop
+
+command /etable:
+	trigger:
+		if player has permission "cookie.booster":
+			make the player execute command "/hyperenchants mainmenu"
+			stop
+		else:
+			message "&eYou need the &dCookie Buff &eto use this command!"
+			message "&eObtain a &6Booster Cookie &efrom the community shop in the hub!"
+			stop
+            
+command /ah:
+	trigger:
+		if player is in "auction-house":
+			make the server execute command "/ahadmin forceopen %player%"
+			stop
+		else:
+			if player has permission "cookie.booster":
+				make the server execute command "/ahadmin forceopen %player%"
+				stop
+			else:
+				message "&eYou need the &dCookie Buff &eto use this command!"
+				message "&eObtain a &6Booster Cookie &efrom the community shop in the hub!"
+				stop
+
+every 2 minutes:
+	make the server execute command "/killall drops islands"
+	make the server execute command "/killall drops Server"
+
+on portal creation:
+	cancel event
+
+command /buildershop:
+	trigger:
+		make the console execute command "/dm open builder %player%"
+
+command /togglemusic:
+	trigger:
+		make the console execute command "/adminmusic toggle %player%"
+		message "&aYou have toggled your Background Music!"
+
+on damage:
+	attacker is a player
+	if attacker's tool is enchanted with sharpness 1:
+		add 5 to damage
+		stop
+	if attacker's tool is enchanted with sharpness 2:
+		add 10 to damage
+		stop
+	if attacker's tool is enchanted with sharpness 3:
+		add 15 to damage
+		stop
+	if attacker's tool is enchanted with sharpness 4:
+		add 20 to damage
+		stop
+	if attacker's tool is enchanted with sharpness 5:
+		add 25 to damage
+		stop
+	else:
+		stop
+
+on enter of "slimehill":
+	make the server execute command "/killall slime Server"
+	wait 5 ticks
+	make the server execute command "/summon minecraft:slime 174 56 380 {Size:10,Attributes:[{Name:""generic.follow_range"",Base:8},{Name:""generic.knockback_resistance"",Base:0.5f}]}"
+	make the server execute command "/summon minecraft:slime 210 58 353 {Size:4,Attributes:[{Name:""generic.follow_range"",Base:8},{Name:""generic.knockback_resistance"",Base:0.5f}]}"
+	make the server execute command "/summon minecraft:slime 127 57 419 {Size:4,Attributes:[{Name:""generic.follow_range"",Base:8},{Name:""generic.knockback_resistance"",Base:0.5f}]}"
+	make the server execute command "/summon minecraft:slime 190 58 409 {Size:4,Attributes:[{Name:""generic.follow_range"",Base:8},{Name:""generic.knockback_resistance"",Base:0.5f}]}"
+	make the server execute command "/summon minecraft:slime 151 55 432 {Size:4,Attributes:[{Name:""generic.follow_range"",Base:8},{Name:""generic.knockback_resistance"",Base:0.5f}]}"
+	make the server execute command "/summon minecraft:slime 104 52 386 {Size:6,Attributes:[{Name:""generic.follow_range"",Base:8},{Name:""generic.knockback_resistance"",Base:0.5f}]}"
+	make the server execute command "/summon minecraft:slime 136 58 392 {Size:10,Attributes:[{Name:""generic.follow_range"",Base:8},{Name:""generic.knockback_resistance"",Base:0.5f}]}"
+	make the server execute command "/summon minecraft:slime 167 57 344 {Size:4,Attributes:[{Name:""generic.follow_range"",Base:8},{Name:""generic.knockback_resistance"",Base:0.5f}]}"
+	stop
+    
+on enter of "graveyard":
+	make the server execute command "/killall zombievillager Server"
+	wait 5 ticks
+	make the server execute command "/summon minecraft:zombie_villager 132 60 -70"
+	make the server execute command "/summon minecraft:zombie_villager 146 60 -65"
+	make the server execute command "/summon minecraft:zombie_villager 158 60 -69"
+	make the server execute command "/summon minecraft:zombie_villager 164 59 -37"
+	make the server execute command "/summon minecraft:zombie_villager 164 59 -33"
+	make the server execute command "/summon minecraft:zombie_villager 164 61 -13"
+	make the server execute command "/summon minecraft:zombie_villager 143 61 12"
+	make the server execute command "/summon minecraft:zombie_villager 115 61 -11"
+	make the server execute command "/summon minecraft:zombie_villager 142 60 -29"
+
+command /emojis:
+    aliases: /chatemojis, /emoji
+    trigger:
+        message "&aAvailable to &6MVP&c++&a:"
+        message "&6<3 &f- &c❤"
+        message "&6:star: &f- &6✭&f"
+        message "&6:yes: &f- &a✔&f"
+        message "&6:no: &f- &c✖&f"
+        message "&6:java: &f- &b♨&f"
+        message "&6:arrow: &f- &e➡&f"
+        message "&6:mehh: &f- &e¯\_(ツ)_/¯&f"
+        message "&6:owo: &f- &dO&5w&dO&f"
+        message "&6o/ &f- &d(/◕ヮ◕)/&f"
+        message "&6:123: &f- &a1&e2&c3&f"
+        message "&6:oof: &f- &c&lOOF"
+        message "&6:typing: &f- &e✎&6...&f"
+        message "&6:puffer: &f- &e&l<<'O'>>"
+        message "&6:dab: &f- &d<&eo&d/"
+        message "&6:pvp: &f- &e⚔"
+        message "&6:peace: &f- &a✌"
+
+on chat:
+    if the player has permission "rank.mvp++":
+        replace all "<3" in the message with "&c❤&f"
+        replace all ":star:" in the message with "&6✭&f"
+        replace all ":owo:" in the message with "&dO&5w&dO&f"
+        replace all "o/" in the message with "&d(/◕ヮ◕)/&f"
+        replace all ":OOF:" in the message with "&c&lOOF&f"
+        replace all ":123:" in the message with "&a1&e2&c3&f"
+        replace all ":mehh:" in the message with "&e¯\_(ツ)_/¯&f"
+        replace all ":yes:" in the message with "&a✔&f"
+        replace all ":no:" in the message with "&c✖&f"
+        replace all ":java:" in the message with "&b♨&f"
+        replace all ":arrow:" in the message with "&e➡&f"
+        replace all ":typing:" in the message with "&e✎&6...&f"
+        replace all ":puffer:" in the message with "&e&l<<'O'>>&f"
+        replace all ":dab:" in the message with "&d<&eo&d/&f"
+        replace all ":pvp:" in the message with "&e⚔&f"
+        replace all ":peace:" in the message with "&a✌&f"
+        stop
+    else:
+        replace all "<3" in the message with "&c❤&7"
+        replace all ":star:" in the message with "&6✭&7"
+        replace all ":owo:" in the message with "&dO&5w&dO&7"
+        replace all "o/" in the message with "&d(/◕ヮ◕)/&7"
+        replace all ":OOF:" in the message with "&c&lOOF&7"
+        replace all ":123:" in the message with "&a1&e2&c3&7"
+        replace all ":mehh:" in the message with "&e¯\_(ツ)_/¯&7"
+        replace all ":yes:" in the message with "&a✔&7"
+        replace all ":no:" in the message with "&c✖&7"
+        replace all ":java:" in the message with "&b♨&7"
+        replace all ":arrow:" in the message with "&e➡&7"
+        replace all ":typing:" in the message with "&e✎&6...&7"
+        replace all ":puffer:" in the message with "&e&l<<'O'>>&7"
+        replace all ":dab:" in the message with "&d<&eo&d/&7"
+        replace all ":pvp:" in the message with "&e⚔&7"
+        replace all ":peace:" in the message with "&a✌&7"
+        stop
+
+on block break:
+	if event-block is in "forest" or "forest-island":
+		if event-block is OAK LOG or BIRCH LOG or SPRUCE LOG or DARK OAK LOG or JUNGLE LOG or ACACIA LOG:
+			stop
+		else:
+			cancel event
+			stop
+	else:
+		stop
+
+on block break:
+	if event-block is in "spiders-den":
+		if event-block is GRAVEL:
+			stop
+		else:
+			cancel event
+			stop
+	else:
+		stop
+           
+on rightclick holding a player skull or player head item or creeper skull or skeleton skull or zombie skull or player wall-mounted head:
+		cancel event
+
+on place of player skull or player head item or creeper skull or skeleton skull or zombie skull or player wall-mounted head:
+		cancel event
+
+command /bestiary:
+	trigger:
+		message "&cThere is no Bestiary available for this mob!"
+
+command /rosetta:
+	trigger:
+		make the server execute command "/dm open rosetta %player%"
+
+command /nocommand:
+	trigger:
+		stop
+
+on portal enter:
+	if event-world is "islands":
+		make the player execute command "/spawn"
+		stop
+	else:
+		stop
+
+on enter of "portal":
+	make the player execute command "/is"
+
+on join:
+    if player has enough space for 1 barrier:
+        stop
+    else:  
+        make the console execute command "/title %player's name% title {""text"":"" "",""bold"":false,""color"":""red""}"
+        make the console execute command "/title %player's name% subtitle {""text"":""Inventory Full!"",""bold"":false,""color"":""red""}"
+        send "&c&lYour inventory is full!" to player
+        stop
+
+every 5 minutes in "Server":
+	loop all players in all worlds:
+		if loop-player has enough space for 1 barrier:
+			stop
+		else:  
+			send "&c&lYour inventory is full!" to loop-player
+			stop
+
+on pickup:
+    if player has enough space for 1 barrier:
+        stop
+    else:  
+        make the console execute command "/title %player's name% title {""text"":"" "",""bold"":false,""color"":""red""}"
+        make the console execute command "/title %player's name% subtitle {""text"":""Inventory Full!"",""bold"":false,""color"":""red""}"
+        send "&c&lYour inventory is full!" to player
+        stop
+
+command /socialoptions [<player>]:
+   trigger:
+      message ""
+      make the server execute command "/tellraw %player's name% ["""",{""text"":""  %1st argument%\n "",""color"":""gray""},{""text"":""[Report Player] "",""color"":""red"",""clickEvent"":{""action"":""run_command"",""value"":""/report %1st argument%""},""hoverEvent"":{""action"":""show_text"",""contents"":["""",{""text"":""Click to "",""color"":""yellow""},{""text"":""/report"",""color"":""red""},{""text"":"" %1st argument%"",""color"":""gray""}]}},{""text"":"" "",""color"":""gray""},{""text"":""[Ignore Player]"",""color"":""yellow"",""clickEvent"":{""action"":""run_command"",""value"":""/ignoreplayer %1st argument%""},""hoverEvent"":{""action"":""show_text"",""contents"":["""",{""text"":""Click to /ignore "",""color"":""yellow""},{""text"":""%1st argument%"",""color"":""gray""}]}}]" 
+      message ""
+
+
+on place of redstone wire or redstone repeater or tnt or redstone torch:
+	cancel event
+	message "&cRedstone clocks are disabled!"
+
+on command:
+    if command contains "?" or "bukkit" or "spigot":
+        if executor is not console:
+            message "&fUnknown command."
+            cancel event
+        else:
+            stop
+
+
+on first join:
+    wait 3 ticks
+    make the server execute command "/q a moddata start %player% IslandsQuest1"
+    message "&e▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+    message "&f&l          Welcome to Skyblock, &7%player's name%&f&l!"
+    message ""
+    message "&e               This is your Island, the Skyblock"
+    message "&e            universe has many lands to discover,"
+    message "&e         secrets to uncover, and people to meet."
+    message "&e            Collect resources, craft items, and"
+    message "&e         complete objectives to advance your way"
+    message "&e                       through Skyblock."
+    message "&e                             Have fun!"
+    message ""
+    message "&e▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+    wait 40 seconds
+    make the player execute command "/freeitems"
+    
+
+command /talkedcommand:	
+	trigger:
+		message "&cYou already talked to this NPC!"
+
+on block break:
+	if event-block is BIRCH LOG, SPRUCE LOG, DARK OAK LOG or JUNGLE LOG:
+		if event-block is in "forest-island":
+			make the server execute command "/skills addxp %player% Foraging 6"
+			stop
+		else:
+			stop

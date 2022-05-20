@@ -1,0 +1,92 @@
+menu_title: '使用增益曲奇?'
+open_command:
+- consume
+size: 27
+register_command: false
+items:
+
+
+      consume-cookie:
+        material: COOKIE
+        enchantments:
+        - 'SILK_TOUCH;1'
+        hide_enchantments: true
+        slot: 11
+        display_name: '&e使用增益曲奇'
+        view_requirement:
+          requirements:
+            gems:
+              type: '>='
+              input: '%checkitem_amount_namecontains:&6Booster Cookie%'
+              output: 1
+        lore:
+        - '&7获得 &d曲奇增益&7!'
+        - ''
+        - '&7持续时间: &b4 days'
+        - ''
+        - '&7通过这个曲奇能够获得'
+        - '&b4,800 点券'
+        left_click_commands:
+        - '[message] &e你吃下了一个 &6增益曲奇&e!'
+        - '[console] customplaceholders add %player_name% bits 4800'
+        - '[console] papi parse %player_name% %checkitem_remove_namecontains:&6Booster Cookie,amt:1%'
+        - '[console] lp user %player_name% permission settemp cookie.booster true 4d'
+        - '[console] lp user %player_name% permission settemp essentials.afk.kickexempt true 4d'
+        - '[console] lp user %player_name% permission settemp hyperskills.multiplier.all.1.2 true 4d'
+        - '[console] lp user %player_name% permission settemp hyperenchants.mainmenu true 4d'
+        - '[console] customplaceholders set %player_name% active_cookie_boosters 1'
+        - '[close]'
+        right_click_commands:
+        - '[message] &e你吃下了一个 &6增益曲奇&e!'
+        - '[console] customplaceholders add %player_name% bits 4800'
+        - '[console] papi parse %player_name% %checkitem_remove_namecontains:&6Booster Cookie,amt:1%'
+        - '[console] lp user %player_name% permission settemp cookie.booster true 4d'
+        - '[console] lp user %player_name% permission settemp essentials.afk.kickexempt true 4d'
+        - '[console] lp user %player_name% permission settemp hyperskills.multiplier.all.1.2 true 4d'
+        - '[console] lp user %player_name% permission settemp hyperenchants.mainmenu true 4d'
+        - '[console] customplaceholders set %player_name% active_cookie_boosters 1'
+        - '[close]'
+
+      cancel:
+        material: RED_TERRACOTTA
+        slot: 15
+        display_name: '&c取消'
+        lore:
+        - '&7我不咋饿…'
+        left_click_commands:
+        - '[close]'
+        right_click_commands:
+        - '[close]'
+
+      glass:
+        material: BLACK_STAINED_GLASS_PANE
+        slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8 
+        - 9
+        - 10
+        - 12
+        - 13
+        - 14
+        - 16
+        - 17
+        - 18
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24
+        - 25
+        - 26
+        display_name: '&7'
+        lore: []
+        left_click_commands: []
+        right_click_commands:  []

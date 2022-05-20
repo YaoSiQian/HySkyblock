@@ -1,0 +1,569 @@
+levels:
+  Bee:
+    Common:
+      level-1:
+        xpRequired: 100
+        rewards: []
+        petAbilities:
+          Strength: 0.2
+          Intelligence: 0.5
+          Speed: 0.1
+        petPotions: []
+      level-2:
+        xpRequired: 200
+        rewards: []
+        petAbilities:
+          Strength: 0.4
+          Intelligence: 1.0
+          Speed: 0.2
+        petPotions: []
+      level-3:
+        xpRequired: 300
+        rewards: []
+        petAbilities:
+          Strength: 0.6
+          Intelligence: 1.5
+          Speed: 0.3
+        petPotions: []
+      level-4:
+        xpRequired: 400
+        rewards: []
+        petAbilities:
+          Strength: 0.8
+          Intelligence: 2.0
+          Speed: 0.4
+        petPotions: []
+      level-5:
+        xpRequired: 500
+        rewards: []
+        petAbilities:
+          Strength: 1.0
+          Intelligence: 2.5
+          Speed: 0.5
+        petPotions: []
+      level-6:
+        xpRequired: 600
+        rewards: []
+        petAbilities:
+          Strength: 1.2
+          Intelligence: 3.0
+          Speed: 0.6
+        petPotions: []
+      level-7:
+        xpRequired: 700
+        rewards: []
+        petAbilities:
+          Strength: 1.4
+          Intelligence: 3.5
+          Speed: 0.7
+        petPotions: []
+      level-8:
+        xpRequired: 800
+        rewards: []
+        petAbilities:
+          Strength: 1.6
+          Intelligence: 4.0
+          Speed: 0.8
+        petPotions: []
+      level-9:
+        xpRequired: 900
+        rewards: []
+        petAbilities:
+          Strength: 1.8
+          Intelligence: 4.5
+          Speed: 0.9
+        petPotions: []
+      level-10:
+        xpRequired: 1000
+        rewards: []
+        petAbilities:
+          Strength: 2.0
+          Intelligence: 5.0
+          Speed: 1.0
+        petPotions: []
+    Uncommon:
+      level-1:
+        xpRequired: 1200
+        rewards: []
+        petAbilities:
+          Strength: 2.2
+          Intelligence: 5.5
+          Speed: 1.1
+        petPotions: []
+      level-2:
+        xpRequired: 1400
+        rewards: []
+        petAbilities:
+          Strength: 2.4
+          Intelligence: 6.0
+          Speed: 1.2
+        petPotions: []
+      level-3:
+        xpRequired: 1600
+        rewards: []
+        petAbilities:
+          Strength: 2.6
+          Intelligence: 6.5
+          Speed: 1.3
+        petPotions: []
+      level-4:
+        xpRequired: 1800
+        rewards: []
+        petAbilities:
+          Strength: 2.8
+          Intelligence: 7.0
+          Speed: 1.4
+        petPotions: []
+      level-5:
+        xpRequired: 2000
+        rewards: []
+        petAbilities:
+          Strength: 3.0
+          Intelligence: 7.5
+          Speed: 1.5
+        petPotions: []
+      level-6:
+        xpRequired: 2200
+        rewards: []
+        petAbilities:
+          Strength: 3.2
+          Intelligence: 8.0
+          Speed: 1.6
+        petPotions: []
+      level-7:
+        xpRequired: 2400
+        rewards: []
+        petAbilities:
+          Strength: 3.4
+          Intelligence: 8.5
+          Speed: 1.7
+        petPotions: []
+      level-8:
+        xpRequired: 2600
+        rewards: []
+        petAbilities:
+          Strength: 3.6
+          Intelligence: 9.0
+          Speed: 1.8
+        petPotions: []
+      level-9:
+        xpRequired: 2800
+        rewards: []
+        petAbilities:
+          Strength: 3.8
+          Intelligence: 9.5
+          Speed: 1.9
+        petPotions: []
+      level-10:
+        xpRequired: 3000
+        rewards: []
+        petAbilities:
+          Strength: 4.0
+          Intelligence: 10.0
+          Speed: 2.0
+        petPotions: []
+    Rare:
+      level-1:
+        xpRequired: 3400
+        rewards: []
+        petAbilities:
+          Strength: 4.2
+          Intelligence: 10.5
+          Speed: 2.1
+        petPotions: []
+      level-2:
+        xpRequired: 3800
+        rewards: []
+        petAbilities:
+          Strength: 4.4
+          Intelligence: 11.0
+          Speed: 2.2
+        petPotions: []
+      level-3:
+        xpRequired: 4200
+        rewards: []
+        petAbilities:
+          Strength: 4.6
+          Intelligence: 11.5
+          Speed: 2.3
+        petPotions: []
+      level-4:
+        xpRequired: 4600
+        rewards: []
+        petAbilities:
+          Strength: 4.8
+          Intelligence: 12.0
+          Speed: 2.4
+        petPotions: []
+      level-5:
+        xpRequired: 5000
+        rewards: []
+        petAbilities:
+          Strength: 5.0
+          Intelligence: 12.5
+          Speed: 2.5
+        petPotions: []
+      level-6:
+        xpRequired: 5400
+        rewards: []
+        petAbilities:
+          Strength: 5.2
+          Intelligence: 13.0
+          Speed: 2.6
+        petPotions: []
+      level-7:
+        xpRequired: 5800
+        rewards: []
+        petAbilities:
+          Strength: 5.4
+          Intelligence: 13.5
+          Speed: 2.7
+        petPotions: []
+      level-8:
+        xpRequired: 6200
+        rewards: []
+        petAbilities:
+          Strength: 5.6
+          Intelligence: 14.0
+          Speed: 2.8
+        petPotions: []
+      level-9:
+        xpRequired: 6600
+        rewards: []
+        petAbilities:
+          Strength: 5.8
+          Intelligence: 14.5
+          Speed: 2.9
+        petPotions: []
+      level-10:
+        xpRequired: 7000
+        rewards: []
+        petAbilities:
+          Strength: 6.0
+          Intelligence: 15.0
+          Speed: 3.0
+        petPotions: []
+    Epic:
+      level-1:
+        xpRequired: 7800
+        rewards: []
+        petAbilities:
+          Strength: 6.2
+          Intelligence: 15.5
+          Speed: 3.1
+        petPotions: []
+      level-2:
+        xpRequired: 8600
+        rewards: []
+        petAbilities:
+          Strength: 6.4
+          Intelligence: 16.0
+          Speed: 3.2
+        petPotions: []
+      level-3:
+        xpRequired: 9400
+        rewards: []
+        petAbilities:
+          Strength: 6.6
+          Intelligence: 16.5
+          Speed: 3.3
+        petPotions: []
+      level-4:
+        xpRequired: 10200
+        rewards: []
+        petAbilities:
+          Strength: 6.8
+          Intelligence: 17.0
+          Speed: 3.4
+        petPotions: []
+      level-5:
+        xpRequired: 11000
+        rewards: []
+        petAbilities:
+          Strength: 7.0
+          Intelligence: 17.5
+          Speed: 3.5
+        petPotions: []
+      level-6:
+        xpRequired: 11800
+        rewards: []
+        petAbilities:
+          Strength: 7.2
+          Intelligence: 18.0
+          Speed: 3.6
+        petPotions: []
+      level-7:
+        xpRequired: 12600
+        rewards: []
+        petAbilities:
+          Strength: 7.4
+          Intelligence: 18.5
+          Speed: 3.7
+        petPotions: []
+      level-8:
+        xpRequired: 13400
+        rewards: []
+        petAbilities:
+          Strength: 7.6
+          Intelligence: 19.0
+          Speed: 3.8
+        petPotions: []
+      level-9:
+        xpRequired: 14200
+        rewards: []
+        petAbilities:
+          Strength: 7.8
+          Intelligence: 19.5
+          Speed: 3.9
+        petPotions: []
+      level-10:
+        xpRequired: 15000
+        rewards: []
+        petAbilities:
+          Strength: 8.0
+          Intelligence: 20.0
+          Speed: 4.0
+        petPotions: []
+    Legendary:
+      level-1:
+        xpRequired: 16600
+        rewards: []
+        petAbilities:
+          Strength: 8.2
+          Intelligence: 20.5
+          Speed: 4.1
+        petPotions: []
+      level-2:
+        xpRequired: 18200
+        rewards: []
+        petAbilities:
+          Strength: 8.4
+          Intelligence: 21.0
+          Speed: 4.2
+        petPotions: []
+      level-3:
+        xpRequired: 19800
+        rewards: []
+        petAbilities:
+          Strength: 8.6
+          Intelligence: 21.5
+          Speed: 4.3
+        petPotions: []
+      level-4:
+        xpRequired: 21400
+        rewards: []
+        petAbilities:
+          Strength: 8.8
+          Intelligence: 22.0
+          Speed: 4.4
+        petPotions: []
+      level-5:
+        xpRequired: 23000
+        rewards: []
+        petAbilities:
+          Strength: 9.0
+          Intelligence: 22.5
+          Speed: 4.5
+        petPotions: []
+      level-6:
+        xpRequired: 24600
+        rewards: []
+        petAbilities:
+          Strength: 9.2
+          Intelligence: 23.0
+          Speed: 4.6
+        petPotions: []
+      level-7:
+        xpRequired: 26200
+        rewards: []
+        petAbilities:
+          Strength: 9.4
+          Intelligence: 23.5
+          Speed: 4.7
+        petPotions: []
+      level-8:
+        xpRequired: 27800
+        rewards: []
+        petAbilities:
+          Strength: 9.6
+          Intelligence: 24.0
+          Speed: 4.8
+        petPotions: []
+      level-9:
+        xpRequired: 29400
+        rewards: []
+        petAbilities:
+          Strength: 9.8
+          Intelligence: 24.5
+          Speed: 4.9
+        petPotions: []
+      level-10:
+        xpRequired: 31000
+        rewards: []
+        petAbilities:
+          Strength: 10.0
+          Intelligence: 25.0
+          Speed: 5.0
+        petPotions: []
+  Silverfish:
+    Common:
+      level-1:
+        xpRequired: 100
+        rewards: []
+        petAbilities:
+          Health: 0.2
+          Defense: 1.0
+        petPotions:
+        - HASTE:1
+      level-2:
+        xpRequired: 200
+        rewards: []
+        petAbilities:
+          Health: 0.4
+          Defense: 2.0
+        petPotions:
+        - HASTE:1
+      level-3:
+        xpRequired: 300
+        rewards: []
+        petAbilities:
+          Health: 0.6
+          Defense: 3.0
+        petPotions:
+        - HASTE:1
+      level-4:
+        xpRequired: 400
+        rewards: []
+        petAbilities:
+          Health: 0.8
+          Defense: 4.0
+        petPotions:
+        - HASTE:1
+      level-5:
+        xpRequired: 500
+        rewards: []
+        petAbilities:
+          Health: 1.0
+          Defense: 5.0
+        petPotions:
+        - HASTE:1
+      level-6:
+        xpRequired: 600
+        rewards: []
+        petAbilities:
+          Health: 1.2
+          Defense: 6.0
+        petPotions:
+        - HASTE:1
+      level-7:
+        xpRequired: 700
+        rewards: []
+        petAbilities:
+          Health: 1.4
+          Defense: 7.0
+        petPotions:
+        - HASTE:1
+      level-8:
+        xpRequired: 800
+        rewards: []
+        petAbilities:
+          Health: 1.6
+          Defense: 8.0
+        petPotions:
+        - HASTE:1
+      level-9:
+        xpRequired: 900
+        rewards: []
+        petAbilities:
+          Health: 1.8
+          Defense: 9.0
+        petPotions:
+        - HASTE:1
+      level-10:
+        xpRequired: 1000
+        rewards: []
+        petAbilities:
+          Health: 2.0
+          Defense: 10.0
+        petPotions:
+        - HASTE:1
+      level-11:
+        xpRequired: 1200
+        rewards: []
+        petAbilities:
+          Health: 2.2
+          Defense: 11.0
+        petPotions:
+        - HASTE:1
+      level-12:
+        xpRequired: 1400
+        rewards: []
+        petAbilities:
+          Health: 2.4
+          Defense: 12.0
+        petPotions:
+        - HASTE:1
+      level-13:
+        xpRequired: 1600
+        rewards: []
+        petAbilities:
+          Health: 2.6
+          Defense: 13.0
+        petPotions:
+        - HASTE:1
+      level-14:
+        xpRequired: 1800
+        rewards: []
+        petAbilities:
+          Health: 2.8
+          Defense: 14.0
+        petPotions:
+        - HASTE:1
+      level-15:
+        xpRequired: 2000
+        rewards: []
+        petAbilities:
+          Health: 3.0
+          Defense: 15.0
+        petPotions:
+        - HASTE:1
+      level-16:
+        xpRequired: 2200
+        rewards: []
+        petAbilities:
+          Health: 3.2
+          Defense: 16.0
+        petPotions:
+        - HASTE:1
+      level-17:
+        xpRequired: 2400
+        rewards: []
+        petAbilities:
+          Health: 3.4
+          Defense: 17.0
+        petPotions:
+        - HASTE:1
+      level-18:
+        xpRequired: 2600
+        rewards: []
+        petAbilities:
+          Health: 3.6
+          Defense: 18.0
+        petPotions:
+        - HASTE:1
+      level-19:
+        xpRequired: 2800
+        rewards: []
+        petAbilities:
+          Health: 3.8
+          Defense: 19.0
+        petPotions:
+        - HASTE:1
+      level-20:
+        xpRequired: 3000
+        rewards: []
+        petAbilities:
+          Health: 4.0
+          Defense: 20.0
+        petPotions:
+        - HASTE:1

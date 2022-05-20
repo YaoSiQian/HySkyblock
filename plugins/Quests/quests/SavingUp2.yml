@@ -1,0 +1,36 @@
+tasks:
+ quest:
+  type: "placeholderapi_evaluate"
+  placeholder: "%formatter_text_replace_,_0_{royaleeconomy_balance_bank}%"
+  evaluates: "1"
+  operator: "GREATER_THAN_OR_EQUAL_TO"
+
+display:
+  name: "&e在银行存钱"
+  lore-normal: []
+  lore-started: []
+  type: "PAPER"
+
+rewards:
+  - "emsg {player} &6&l  任务完成"
+  - "emsg {player} &6&l  &f日积月累"
+  - "emsg {player} &7"
+  - "emsg {player} &f    &a✔ &f与银行家对话"
+  - "emsg {player} &f    &a✔ &f在银行存钱"
+  - "emsg {player} &7"
+  - "emsg {player} &a&l   奖励"
+  - "emsg {player} &7   &8+&610 &7硬币"
+  - "eeco give {player} 10"
+  - "emsg {player} &3"
+
+placeholders:
+  bossbar: "100"
+  progress: "&7"
+
+options:
+  category: ""
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 10

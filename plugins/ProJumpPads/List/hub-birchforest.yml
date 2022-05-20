@@ -1,0 +1,13 @@
+fly-location:
+  world: Server
+  x: -12.378836587455808
+  y: 69.0
+  z: -152.26569515936137
+name: hub-birchforest
+pos1X: -12.0
+pos1Z: -95.0
+pos2X: -11.0
+pos2Z: -96.0
+relative-position: 56.0
+permission-1: access.birch-forest
+permission-message: §cYou must be at least Foraging Level I to join this island!

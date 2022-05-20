@@ -1,0 +1,14 @@
+{
+  "biome": "NETHER_WASTES",
+  "deployed": false,
+  "friendlyName": "",
+  "description": [],
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: PAPER\n",
+  "order": -1,
+  "requiredLevel": 0,
+  "requiredCost": 0.0,
+  "requiredPermissions": [],
+  "world": "islands",
+  "environment": "NORMAL",
+  "uniqueId": "BSkyBlock_nether"
+}

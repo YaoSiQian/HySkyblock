@@ -1,0 +1,369 @@
+mainMenu:
+  title: 合成物品
+  size: 54
+  recipeNotFound:
+    material: BARRIER
+    amount: 1
+    title: '&c需要配方'
+    lore:
+    - '&7在左侧合成格里放置一个'
+    - '&7拥有有效配方的物品!'
+    slot: 23
+  recipeNoPermission:
+    material: BARRIER
+    amount: 1
+    title: '&c你还没有解锁它!'
+    lore: []
+    slot: 23
+  previewCraftItem:
+    amount: 1
+    title: '%item_title%'
+    lore:
+    - '%item_lore%'
+    - '&8&m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+    - '&7这是你合成出的物品'
+    slot: 23
+  successItem:
+    material: LIME_STAINED_GLASS_PANE
+    amount: 1
+    title: ' '
+    lore: []
+  emptyItem:
+    material: RED_STAINED_GLASS_PANE
+    amount: 1
+    title: ' '
+    lore: []
+  decorationSlots:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 13
+  - 14
+  - 15
+  - 16
+  - 17
+  - 18
+  - 22
+  - 24
+  - 25
+  - 26
+  - 27
+  - 31
+  - 32
+  - 33
+  - 34
+  - 35
+  - 36
+  - 37
+  - 38
+  - 39
+  - 40
+  - 41
+  - 42
+  - 43
+  - 44
+  craftingSlots:
+  - 10
+  - 11
+  - 12
+  - 19
+  - 20
+  - 21
+  - 28
+  - 29
+  - 30
+  successSlots:
+  - 48
+  - 50
+  - 51
+  - 52
+  - 53
+  - 45
+  - 46
+  - 47
+  availableRecipesSlots:
+  - 16
+  - 25
+  - 34
+recipePreviewGUI:
+  title: Recipe Preview
+  size: 54
+  decorationItem:
+    material: CRAFTING_TABLE
+    amount: 1
+    title: '&a工作台'
+    lore:
+    - '&7使用工作台'
+    - '&7来合成这个物品'
+    slot: 23
+  backPageButton:
+    material: ARROW
+    enabled: true
+    amount: 1
+    title: '&a返回'
+    lore:
+    - '&7至 %category% 配方'
+    slot: 48
+  resultItemSlot: 25
+  recipeSlots:
+  - 10
+  - 11
+  - 12
+  - 19
+  - 20
+  - 21
+  - 28
+  - 29
+  - 30
+  decorationSlots:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 13
+  - 14
+  - 15
+  - 16
+  - 17
+  - 18
+  - 22
+  - 24
+  - 26
+  - 27
+  - 31
+  - 32
+  - 33
+  - 34
+  - 35
+  - 36
+  - 37
+  - 38
+  - 39
+  - 40
+  - 41
+  - 42
+  - 43
+  - 44
+  - 45
+  - 46
+  - 47
+  - 48
+  - 49
+  - 50
+  - 51
+  - 52
+  - 53
+recipeBookGUI:
+  title: 合成手册
+  size: 54
+  recipeBook:
+    material: BOOK
+    amount: 1
+    title: '&a合成手册'
+    lore:
+    - '&7通过你的探索'
+    - '&7你会解锁各类特殊物品的合成方式!'
+    - '&7你可以在此查看如何合成这些物品'
+    - ''
+    - '&7已解锁的合成手册: &e%percentage%&6%'
+    - '%progress_bar% &e%current%&6/&e%total%'
+    slot: 4
+  categoryItem:
+    amount: 1
+    title: '&a%category% 配方'
+    lore:
+    - '&7查看你已经解锁的所有'
+    - '&7%category% 配方!'
+    - ''
+    - '&7已解锁的配方: &e%percentage%&6%'
+    - '%progress_bar% &e%current%&6/&e%total%'
+    - ''
+    - '&e点击查看!'
+  backMainMenu:
+    enabled: true
+    material: ARROW
+    amount: 1
+    title: '&a返回'
+    lore:
+    - '&7至空岛生存菜单'
+    slot: 48
+    command: sbmenu
+  closeButton:
+    material: BARRIER
+    amount: 1
+    title: '&c关闭'
+    lore: []
+    slot: 49
+  decoration:
+    material: BLACK_STAINED_GLASS_PANE
+    amount: 1
+    title: ' '
+    lore: []
+  decoration_slots:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+  - 17
+  - 18
+  - 19
+  - 25
+  - 26
+  - 27
+  - 28
+  - 29
+  - 30
+  - 31
+  - 32
+  - 33
+  - 34
+  - 35
+  - 36
+  - 37
+  - 38
+  - 39
+  - 40
+  - 41
+  - 42
+  - 43
+  - 44
+  - 45
+  - 46
+  - 47
+  - 50
+  - 51
+  - 52
+  - 53
+categoryGUI:
+  title: (%page%/%max_page%) %category% 配方
+  size: 54
+  categoryItem:
+    amount: 1
+    title: '&a%category% 配方'
+    lore:
+    - '&7查看你已经解锁的所有'
+    - '&7%category% 配方!'
+    - ''
+    - '&7已解锁的配方: &e%percentage%&6%'
+    - '%progress_bar% &e%current%&6/&e%total%'
+    - ''
+    - '&e点击查看!'
+    slot: 4
+  recipeLocked:
+    material: GRAY_DYE
+    amount: 1
+    title: '&c???'
+    lore:
+    - '&7你还没有解锁这个配方'
+  recipeUnlocked:
+    amount: 1
+    title: '%item_title%'
+    lore:
+    - '%item_lore%'
+    - ''
+    - '&e点击查看配方'
+  backPageButton:
+    material: ARROW
+    amount: 1
+    title: '&a上一页'
+    lore:
+    - '&e至第 %previous_page% 页'
+    slot: 45
+  nextPageButton:
+    material: ARROW
+    amount: 1
+    title: '&a下一页'
+    lore:
+    - '&e至第 %next_page% 页'
+    slot: 53
+  backMainMenuButton:
+    material: ARROW
+    amount: 1
+    enabled: true
+    title: '&a返回'
+    lore:
+    - '&7至合成手册'
+    slot: 48
+    command: hypercrafting recipebook
+  closeButton:
+    material: BARRIER
+    amount: 1
+    title: '&c关闭'
+    lore: []
+    slot: 49
+  decoration:
+    material: BLACK_STAINED_GLASS_PANE
+    amount: 1
+    title: ' '
+    lore: []
+  decorationSlots:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 17
+  - 18
+  - 26
+  - 27
+  - 35
+  - 36
+  - 44
+  - 45
+  - 46
+  - 47
+  - 50
+  - 51
+  - 52
+  - 53
+buttons:
+  background:
+    material: BLACK_STAINED_GLASS_PANE
+    amount: 1
+    title: ' '
+    lore: []
+  closeButton:
+    material: BARRIER
+    amount: 1
+    title: '&c关闭'
+    lore: []
+    slot: 49
+  backMainMenu:
+    amount: 1
+    title: '%item_title%'
+    lore:
+    - '%item_lore%'
+    - '&8&m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+    - '&7这是你合成出的物品'
+    slot: 23
+    command: sbmenu

@@ -1,0 +1,189 @@
+menu_title: 'Jerry小管家'
+open_command:
+- jerry
+size: 36
+open_requirement:
+  requirements:
+    quest:
+      type: string equals
+      input: "%quests_quest:IslandsQuest4_completed%"
+      output: "true"
+items:
+      background:
+        material: BLACK_STAINED_GLASS_PANE
+        priority: 3
+        slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
+        - 12
+        - 14
+        - 16
+        - 17
+        - 18
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24
+        - 25
+        - 26
+        - 27
+        - 28
+        - 29
+        - 30
+        - 32
+        - 33
+        - 34
+        display_name: '&7'
+        lore: []
+        left_click_commands: []
+        right_click_commands: []
+
+      patch-notes:
+        material: BOOK
+        slot: 11
+        display_name: '&a更新摘要'
+        lore:
+        - '&7查看最新的功能和游戏改动'
+        - ''
+        - '&e点击打开!'
+        left_click_commands:
+        - '[openguimenu] patch-notes'
+        right_click_commands:
+        - '[openguimenu] patch-notes'
+
+      remove-nether-portal:
+        material: NETHER_BRICK
+        slot: 28
+        priority: 3
+        display_name: '&a移除主大厅传送门'
+        lore:
+        - '&7移除你岛屿上主大厅传送门的'
+        - '&7所有传送门方块!'
+        - ''
+        - '&c需要任一技能达到 V 级!'
+        left_click_commands:
+        - '[message] &c你至少需要任一技能达到 V 级才能移除你的主大厅传送门!'
+        right_click_commands:
+        - '[message] &c你至少需要任一技能达到 V 级才能移除你的主大厅传送门!'
+
+      remove-nether-portal-no:
+        material: NETHER_BRICK
+        slot: 28
+        priority: 1
+        display_name: '&a移除主大厅传送门'
+        minimum_requirements: 2
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%math_0_({skills_farming_level}+{skills_mining_level}+{skills_combat_level}+{skills_foraging_level}+{skills_fishing_level}+{skills_enchanting_level}+{skills_alchemy_level})%'
+              output: 5
+            island:
+              type: '!string equals ignorecase'
+              input: '%bskyblock_visited_island_owner%'
+              output: '%player_name%'
+        lore:
+        - '&7移除你岛屿上主大厅传送门的'
+        - '&7所有传送门方块!'
+        - ''
+        - '&e点击移除!'
+        left_click_commands:
+        - '[message] &c你只能移除自己岛屿的主大厅传送门!'
+        - '[close]'
+        right_click_commands:
+        - '[message] &c你只能移除自己岛屿的主大厅传送门!'
+        - '[close]'
+
+      remove-nether-portal-yes:
+        material: NETHER_BRICK
+        slot: 28
+        priority: 2
+        display_name: '&a移除主大厅传送门'
+        minimum_requirements: 2
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%math_0_({skills_farming_level}+{skills_mining_level}+{skills_combat_level}+{skills_foraging_level}+{skills_fishing_level}+{skills_enchanting_level}+{skills_alchemy_level})%'
+              output: 5
+            island:
+              type: string equals ignorecase
+              input: '%bskyblock_visited_island_owner%'
+              output: '%player_name%'
+        lore:
+        - '&7移除你岛屿上主大厅传送门的'
+        - '&7所有传送门方块!'
+        - ''
+        - '&e点击移除!'
+        left_click_commands:
+        - '[console] removehubportal %player_name%'
+        - '[message] &a你已经成功移除主大厅传送门!'
+        - '[close]'
+        right_click_commands:
+        - '[console] removehubportal %player_name%'
+        - '[message] &a你已经成功移除主大厅传送门!'
+        - '[close]'
+        
+
+      deliveries:
+        material: ENDER_CHEST
+        slot: 13
+        display_name: '&a物品盒'
+        lore:
+        - '&7任何送达给你或你的岛屿的物品'
+        - '&7将在这里收集!'
+        - ''
+        - '&e点击打开!'
+        left_click_commands:
+        - '[openguimenu] deliveries'
+        right_click_commands:
+        - '[openguimenu] deliveries'
+
+
+      visits-and-guesting:
+        material: EMERALD
+        slot: 15
+        display_name: '&a拜访 & 参观'
+        lore:
+        - '&7学会如何使用 &a/visit'
+        - '&7来参观整个空岛生存世界中的各个玩家!'
+        - ''
+        - '&e点击打开!'
+        left_click_commands:
+        - '[openguimenu] visits-and-guesting'
+        right_click_commands:
+        - '[openguimenu] visits-and-guesting'
+
+
+      move-jerry:
+        material: BEDROCK
+        slot: 35
+        display_name: '&a移走Jerry'
+        lore: []
+        left_click_commands:
+        - '[player] move npc'
+        - '[close]'
+        right_click_commands:
+        - '[player] move npc'
+        - '[close]'
+
+      close:
+        material: BARRIER
+        slot: 31
+        display_name: '&c关闭'
+        lore: []
+        left_click_commands:
+        - '[close]'
+        right_click_commands:
+        - '[close]'

@@ -1,0 +1,31 @@
+tasks:
+ quest:
+  type: "citizens_interact"
+  npc-name: "lapis-miner" 
+
+display:
+  name: "&e与青金石矿工交谈"
+  lore-normal: []
+  lore-started: []
+  type: "PAPER"
+
+rewards:
+  - "q a moddata start {player} HelpfulMiner2"
+  - "emsg {player} &e[NPC] 青金石矿工&f: 你好啊！我弄坏了我的镐子！"
+  - "emsg {player} &e[NPC] 青金石矿工&f: 如果你借给我一把新镐子，我会给你点有用的东西作为回报！"
+  - "emsg {player} &7"
+  - "emsg {player} &6&l  新任务目标"
+  - "emsg {player} &6&l  &f给青金石矿工带一把铁镐"
+  - "emsg {player} &7"
+
+placeholders:
+  bossbar: "100"
+  progress: "&7"
+
+options:
+  category: ""
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 43

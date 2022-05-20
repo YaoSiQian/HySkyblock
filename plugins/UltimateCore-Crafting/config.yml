@@ -1,0 +1,4 @@
+prefix: '&e&l合成 &7'
+mainCommandPerm: ''
+setAsDefaultCraftingTable: true
+showAvailableRecipes: true

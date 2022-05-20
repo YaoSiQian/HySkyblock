@@ -1,0 +1,2930 @@
+epicItems:
+  miners_outfit_helmet:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: LEATHER_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Miner''s
+          Outfit Helmet"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+15"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Full
+          Set Bonus: Haste"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Grants
+          the wearer with"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Haste
+          II "},{"italic":false,"color":"gray","text":"when breaking blocks."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"UNCOMMON
+          HELMET"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        Unbreakable: true
+        color:
+          ==: Color
+          RED: 75
+          BLUE: 2
+          GREEN: 75
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:15.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:0.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:0.0
+    - Pet_Luck:0.0
+  hardened_diamond_leggings:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: DIAMOND_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Hardened
+          Diamond Leggings"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+95"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"RARE
+          LEGGINGS"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        Unbreakable: true
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:95.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:0.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:0.0
+    - Pet_Luck:0.0
+  blobfish_hatt:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: PLAYER_HEAD
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Blobfish
+          Hat"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Strength:
+          "},{"italic":false,"color":"red","text":"+25"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Intelligence:
+          "},{"italic":false,"color":"green","text":"-10"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"UNCOMMON
+          HELMET"}],"text":""}'
+        internal: H4sIAAAAAAAA/02QT07CUBDGn0YQCwvjGTxApRTDwkRC0bahBdpSaDektgOlfa+S8iq03sPElTtPwAG8iC5duDKewCZo6Kxmft/8yXwMQmV0LMAMohWgvyijik5jiObUv27tEINqephgPIjvZwsMDGLybAkxXcDqBFUobGgSw4rJWw8qqGQ6OAG0hVRm7YnPehMZu6nUzGtDZ3FfCpaXUmSmdx2pKZFcF9vNXtoq9PLUGfPY4mTfjobJHTHZHqdhELULl4we1Hp3rQYKp2ZuwyJaYBndhhJoxA4kTjXadUVQfXts1RUy4q0szBSj3ejfWqyVeb5q3ASKEK4VYoa2MOJV0uVUwQ5tXW7NJuwVQlV0KHn5I0ffT2ePL7H4vP15fR9+fnzlxpT0JYC3N6omRRQwXswhcov+DYBOe4kb7lFZBAdTfw9OFWczLY6/nf9L1U68oFPBIc68sHRHO75TOIV+AZfiESPBAQAA
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:0.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:-10.0
+    - Speed:0.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:0.0
+    - Pet_Luck:0.0
+  pumpkin_chestplate:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: LEATHER_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Pumpkin
+          Chestplate"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Health:
+          "},{"italic":false,"color":"green","text":"+14 HP"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+14"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Full
+          Set Bonus: Pumpkin Buff"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Reduce
+          all taken damage by"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"10%
+          "},{"italic":false,"color":"gray","text":"and deal "},{"italic":false,"color":"green","text":"+10%"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"damage."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON
+          CHESTPLATE"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        Unbreakable: true
+        color:
+          ==: Color
+          RED: 237
+          BLUE: 54
+          GREEN: 170
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:14.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:0.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:14.0
+    - Pet_Luck:0.0
+  miners_oufit_leggings:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: LEATHER_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Miner''s
+          Outfit Leggings"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+30"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Full
+          Set Bonus: Haste"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Grants
+          the wearer with"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Haste
+          II "},{"italic":false,"color":"gray","text":"when breaking blocks."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"UNCOMMON
+          LEGGINGS"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        Unbreakable: true
+        color:
+          ==: Color
+          RED: 75
+          BLUE: 2
+          GREEN: 75
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:30.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:0.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:0.0
+    - Pet_Luck:0.0
+  '10':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: PLAYER_HEAD
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Blobfish
+          Hat"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Strength:
+          "},{"italic":false,"color":"red","text":"+25"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Intelligence:
+          "},{"italic":false,"color":"green","text":"-10"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"UNCOMMON
+          HELMET"}],"text":""}'
+        internal: H4sIAAAAAAAA/02Pu1KDQBhGfx2diWjlk2C4OCksGEFZJrsx3MJul8BmCOzGDIFE8D2csbLzCfI6WlpYOT6BlHbfmXOaTwFQ4CIoGyEeqsflSnAFlH5teFWv+PYMBjV/qpuKbxUAOBrAaTwXDYcDbz2VJbmaJZ5IW2T2HAaqmKBic43Wcbu4RSaSvXctc9yO/rVGPZ8ZgmpeztbTZiFjdaz5grv+VSqjHRk6e1JgjXSpTqVf0NDRceFLViCNhNYQ2yRnMzrEMjJoV3Y4tPTJPVVpl+UkvCuwXe6xjEtmRwaRjkZsVrLAGy0T9QbgHI5R1h85+Xm5fH6r3NfD7/vH9OvzG+APuDW0uwoBAAA=
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:0.0
+    - Strength:25.0
+    - Intelligence:0.0
+    - Max_Intelligence:-10.0
+    - Speed:0.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:0.0
+    - Pet_Luck:0.0
+  '11':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: ZOMBIE_HEAD
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Zombie
+          Hat"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+10"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON
+          HELMET"}],"text":""}'
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:10.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:0.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:0.0
+    - Pet_Luck:0.0
+  golem_boots:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: IRON_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Golem
+          Armor Boots"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+40"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Health:
+          "},{"italic":false,"color":"green","text":"+40 HP"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Full
+          Set Bonus: Absorption"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Grants
+          the wearer "},{"italic":false,"color":"green","text":"Absorption"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"3
+          "},{"italic":false,"color":"gray","text":"for "},{"italic":false,"color":"green","text":"20
+          seconds "},{"italic":false,"color":"gray","text":"when they"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"kill
+          an enemy."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"RARE
+          BOOTS"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        Unbreakable: true
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:40.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:0.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:40.0
+    - Pet_Luck:0.0
+  '12':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: PLAYER_HEAD
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Spider
+          Hat"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Crit
+          Chance: "},{"italic":false,"color":"red","text":"+25%"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"When
+          worn, Cave Spiders and"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Spiders
+          deal "},{"italic":false,"color":"green","text":"-30%"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"damage."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON
+          HELMET"}],"text":""}'
+        internal: H4sIAAAAAAAA/02PO07DQBRFHwhQMOyFwaMYpaBAKErGyozx354un4ls8xwixwbbEg2rYAWpKGAfiB1QwUKYku4endNcA8CAc/++QbyrHtY5KgMMvbaqqnO1O4VBrdq6qdTOAICDARxHc2wUvKvOJjLJyCqxcdkxS3PgE3RYsb1im6hb3DKLldpPb6xZN/rXDut5PMSU2pncuM2ijMiMeqim3uWyDB+d2KUyEDkPMEt7r+SmhzLAQgQpFSZveR/2vBe57noRj6ksQtOZMJObbivjlKSxl4kJexJFlmvfCd8erRNyDXAGh2ylTxy9fXz+7p/HPy+vX83F9/4E4A+dn2JmBgEAAA==
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:0.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:0.0
+    - Crit_Damage:0.0
+    - Crit_Chance:25.0
+    - Health:0.0
+    - Pet_Luck:0.0
+  '13':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: PLAYER_HEAD
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Clownfish
+          Hat"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Intelligence:
+          "},{"italic":false,"color":"green","text":"+50"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"UNCOMMON
+          HELMET"}],"text":""}'
+        internal: H4sIAAAAAAAA/02PP0+DQByGfxpNWvTDQPEwHRyMJPZI7yj0yp/bWrha4KgNBcPh53FycWpSB0dHN7+Ng7i5vW+eN0/yagAaXM6LRspZ9bjOpNBA69NOVHUm9kMY1KKtm0rsNQA4GcB5sJSNgDehHJ1HGz2NHJkobPWdzXXp4nx3jbeBWt1hC5c9n9xaUzX+t0X1MkQyNp0N33rNqgz0qelLMfGNpFw8kY4XhHmIM7+gdoFchhHNE8UZNmn+gKgtJc09k3aF4YZEkXAxogwb1I5bMsIdydOMMnLF7+P2z8EzZ7yO9BuACzjFaX/i7Nlw34evzuEYfH2+/Hx8A/wCYIFlOwYBAAA=
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:0.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:50.0
+    - Speed:0.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:0.0
+    - Pet_Luck:0.0
+  '14':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: PLAYER_HEAD
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Fish
+          Hat"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Health:
+          "},{"italic":false,"color":"green","text":"+5 HP"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON
+          HELMET"}],"text":""}'
+        internal: H4sIAAAAAAAA/02PTU6DQBiGP40mdfQGXoKfgOlSraVDOoO0lIFJXPRnKoMDNhRa4B56BDe6MjExnsSdZ/AGsnT3PnmezYsAEJxNHyqlbovHtVQCAerWRhSlFNsT6JWiLqtCbBEAHPTgOJyrSsCbaFyNR4m2ily1bLDdcTDVlIfTzQXOw2ZxjW2cdX50aY+b/r/WKufMUrHpJjz3q0UWamNzosRooi+z2Y46N6Y34Io6s5YyrHvMtwgLJU19nTphRlIuqYH3NL1vaRvXfMAlCYYZYb5BDGLS1t/HLK6pMUyIEct1pPcBTuEQr7oDRy/nn/nd09Xz+/fv18/rRwDwBwFQNyACAQAA
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:0.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:0.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:5.0
+    - Pet_Luck:0.0
+  '15':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: SKELETON_SKULL
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Skeleton
+          Hat"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Speed:
+          "},{"italic":false,"color":"green","text":"+2"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Intelligence:
+          "},{"italic":false,"color":"green","text":"+10"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Your
+          arrows have a "},{"italic":false,"color":"green","text":"20%"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"chance
+          to explode on impact"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"dealing
+          "},{"italic":false,"color":"green","text":"double "},{"italic":false,"color":"gray","text":"Magic
+          Damage"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"to
+          enemies within "},{"italic":false,"color":"green","text":"2 "},{"italic":false,"color":"gray","text":"blocks."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON
+          HELMET"}],"text":""}'
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:0.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:10.0
+    - Speed:2.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:0.0
+    - Pet_Luck:0.0
+  cactus_chestplate:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: LEATHER_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Cactus
+          Chestplate"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Health:
+          "},{"italic":false,"color":"green","text":"+15 HP"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+25"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Full
+          Set Bonus: Deflect"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Rebounds
+          "},{"italic":false,"color":"green","text":"33.0% "},{"italic":false,"color":"gray","text":"of
+          the damage"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"you
+          take back at your enemy."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON
+          CHESTPLATE"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        Unbreakable: true
+        color:
+          ==: Color
+          RED: 0
+          BLUE: 0
+          GREEN: 255
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:25.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:0.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:15.0
+    - Pet_Luck:0.0
+  '16':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: PLAYER_HEAD
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Pufferfish
+          Hat"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Strength:
+          "},{"italic":false,"color":"red","text":"+10"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Health:
+          "},{"italic":false,"color":"green","text":"+20 HP"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Ability:
+          Spiky"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"While
+          wearing, your attacks have"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"a
+          chance to deal "},{"italic":false,"color":"green","text":"10 damage"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"to
+          nearby enemies!"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON
+          HELMET"}],"text":""}'
+        internal: H4sIAAAAAAAA/02PP07DMByFfyCQSkAMnIEDuA4J6tCBf2ptNU6bmpB4a12XpLFLlSYV7sh1WBiQGLkF58FiYnvvfd/yPAAPzqZVq/W4flmWWnngubRRdVOq7Ql0GvXatLXaegBw0IHjdKZbBR/KUiSyAi0yqqUloet8inRMVptrsk7t/I6ExDg+vAlHtvfPDZrZU6BznxZiPWnnJkUjP9FqmHSledzlvOoyXu3j++cg5swILq8ik2OGacV4UcW8WLFBYhgXZY4nKNrfajFg5Z9jUrdLn+EHP8KRZTjRkaW9ZYb6AKdwSBbuxNGnhItzRfvfP+PLr7f3EuAXdw/whAYBAAA=
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:0.0
+    - Strength:10.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:0.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:20.0
+    - Pet_Luck:0.0
+  '17':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: PLAYER_HEAD
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Squid
+          Hat"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Speed:
+          "},{"italic":false,"color":"green","text":"+1"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Extra
+          chance to fish up Squids!"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON
+          HELMET"}],"text":""}'
+        internal: H4sIAAAAAAAA/02PvU7DMBzE/yCQSmBi4xlYnKQJyohIRB3VaZs6H87WD7eJ45QqTVANI+JhujHwHLwF74FHprvT7244A8CAm3ndSzltXzaV5AYY2u1521X8cAWDjh+7vuUHAwDOBnCZLmTP4YurEBV5idZ5KFcKuzrTOZITLPYPeJeq5RN2caP56NEdK+9f1+kWmSOZHZbFbtYvmxSN7VjyUWyumuS18Lc28ROLiLhmWaAmNLG0oojWZtSQIcnCkom0iZ6LmolQRG9xqZmlN8eCYkRorYhPHJalJbGCIRPbapObHsA1nOO1PnFxS6vv011w+nwPfn7vvQ+AP7tuxaAGAQAA
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:0.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:1.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:0.0
+    - Pet_Luck:0.0
+  '18':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: PLAYER_HEAD
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Blaze
+          Hat"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Strength:
+          "},{"italic":false,"color":"red","text":"+20"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON
+          HELMET"}],"text":""}'
+        internal: H4sIAAAAAAAA/02PT07CQBxGfxpNsHoD1+7Ln9awYGGwhZnQwZbSobMxUAbbcaY2pQVKTNhyBRdeQHfGjWfyEnbp7nt5b/NpABpcTZ5LKR/yl1UiuQZavTKeFwlfX0Cj4LuizPlaA4CTBpwHc1ly+OYV1tks1pczLKMKmTX7E12OkchuURpUiz4ykar98M4cVd1/rVHMqSHDNo5Z6pYLFeijtif50GtGaroJRdRhNKyY7wkmsCD3duwod0cGWLHB1AhbtmLC2jrCMpgIEodiRSjaE2rpYxokxLcFEW6L7J86jiIJoeEWpc3uyu31AC7hFC3rI2evv8evw2P/7fMni2+uP94B/gDG2aVaCgEAAA==
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:0.0
+    - Strength:20.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:0.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:0.0
+    - Pet_Luck:0.0
+  '19':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: PLAYER_HEAD
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Ghast
+          Head"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Health:
+          "},{"italic":false,"color":"green","text":"+100 HP"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Restores
+          "},{"italic":false,"color":"green","text":"1% "},{"italic":false,"color":"gray","text":"of
+          your maximum"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"❤
+          Health "},{"italic":false,"color":"gray","text":"every second while"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"worn."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON
+          HELMET"}],"text":""}'
+        internal: H4sIAAAAAAAA/02PMU7DMBhGfxBIJfQWXMB12qAODIUAsVWnNHVC7K1NXCWNXao2KU1HZo7CyIQYkLgHF0DiBAxkZPue3ls+C8CC9qSotL5bP8xzrSywmrVS6zJXmxNolWpXVmu1sQDgoAXH0VRXCl5VTZGMM5TGVCc1cRrmE6RHZLE6J8uonl0Rh5jGewNnWPf/tb1yet/TwqaZXI6rmYnQ0A608oJOYsKtvA27grOu5DqThhYMBxnjlwXjOvd5Yot92BH7NJdmjMUiMMyEiLmp9t2g8N3BzsekZpjqEb/GPr5pOvHIctqfx+gC4BQOSdocOTp7//78+iDR80/79+3JewH4A9qgtncKAQAA
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:0.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:0.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:100.0
+    - Pet_Luck:0.0
+  miner_outfit_helmet2:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: LEATHER_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Miner''s
+          Outfit Helmet"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+15"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Full
+          Set Bonus: Haste"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Grants
+          the wearer with"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Haste
+          II "},{"italic":false,"color":"gray","text":"when breaking blocks."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"UNCOMMON
+          HELMET"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        Unbreakable: true
+        color:
+          ==: Color
+          RED: 75
+          BLUE: 2
+          GREEN: 75
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:15.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:0.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:0.0
+    - Pet_Luck:0.0
+  pumpkin_leggings:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: LEATHER_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Pumpkin
+          Leggings"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Health:
+          "},{"italic":false,"color":"green","text":"+10 HP"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+10"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Full
+          Set Bonus: Pumpkin Buff"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Reduce
+          all taken damage by"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"10%
+          "},{"italic":false,"color":"gray","text":"and deal "},{"italic":false,"color":"green","text":"+10%"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"damage."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON
+          LEGGINGS"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        Unbreakable: true
+        color:
+          ==: Color
+          RED: 237
+          BLUE: 54
+          GREEN: 170
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:10.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:0.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:10.0
+    - Pet_Luck:0.0
+  perfect_chestplate:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: DIAMOND_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Perfect
+          Chestplate"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+160"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"RARE
+          CHESTPLATE"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        Unbreakable: true
+        internal: H4sIAAAAAAAA/+NiYGBjYHdJTUvNK051iGOAAADcYxJhFgAAAA==
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:160.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:0.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:0.0
+    - Pet_Luck:0.0
+  perfect_boots:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: DIAMOND_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Perfect
+          Boots"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+90"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"RARE
+          BOOTS"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        Unbreakable: true
+        internal: H4sIAAAAAAAA/+NiYGBjYHdJTUvNK0518G5gAAMAYbZf3RYAAAA=
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:90.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:0.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:0.0
+    - Pet_Luck:0.0
+  '1':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: DIAMOND_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Diamond
+          Helmet"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+15"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Health:
+          "},{"italic":false,"color":"green","text":"+15 HP"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Growth
+          I"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Grants
+          "},{"italic":false,"color":"green","text":"+15 "},{"italic":false,"color":"red","text":"❤
+          Health"},{"italic":false,"color":"gray","text":"."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"UNCOMMON
+          HELMET"}],"text":""}'
+        enchants:
+          MENDING: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:15.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:0.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:15.0
+    - Pet_Luck:0.0
+  '2':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: DIAMOND_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Diamond
+          Chestplate"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+40"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Health:
+          "},{"italic":false,"color":"green","text":"+15 HP"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Growth
+          I"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Grants
+          "},{"italic":false,"color":"green","text":"+15 "},{"italic":false,"color":"red","text":"❤
+          Health"},{"italic":false,"color":"gray","text":"."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"UNCOMMON
+          CHESTPLATE"}],"text":""}'
+        enchants:
+          MENDING: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:40.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:0.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:15.0
+    - Pet_Luck:0.0
+  '3':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: DIAMOND_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Diamond
+          Leggings"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+30"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Health:
+          "},{"italic":false,"color":"green","text":"+15 HP"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Growth
+          I"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Grants
+          "},{"italic":false,"color":"green","text":"+15 "},{"italic":false,"color":"red","text":"❤
+          Health"},{"italic":false,"color":"gray","text":"."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"UNCOMMON
+          LEGGINGS"}],"text":""}'
+        enchants:
+          MENDING: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:30.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:0.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:15.0
+    - Pet_Luck:0.0
+  '4':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: DIAMOND_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Diamond
+          Boots"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+15"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Health:
+          "},{"italic":false,"color":"green","text":"+15 HP"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Growth
+          I"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Grants
+          "},{"italic":false,"color":"green","text":"+15 "},{"italic":false,"color":"red","text":"❤
+          Health"},{"italic":false,"color":"gray","text":"."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"UNCOMMON
+          BOOTS"}],"text":""}'
+        enchants:
+          MENDING: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:15.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:0.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:15.0
+    - Pet_Luck:0.0
+  '5':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: IRON_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Iron
+          Helmet"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Health:
+          "},{"italic":false,"color":"green","text":"+15 HP"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+10"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Growth
+          I"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Grants
+          "},{"italic":false,"color":"green","text":"+15 "},{"italic":false,"color":"red","text":"❤
+          Health"},{"italic":false,"color":"gray","text":"."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON
+          HELMET"}],"text":""}'
+        enchants:
+          MENDING: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        Unbreakable: true
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:10.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:0.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:15.0
+    - Pet_Luck:0.0
+  '6':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: IRON_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Iron
+          Chestplate"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Health:
+          "},{"italic":false,"color":"green","text":"+15 HP"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+30"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Growth
+          I"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Grants
+          "},{"italic":false,"color":"green","text":"+15 "},{"italic":false,"color":"red","text":"❤
+          Health"},{"italic":false,"color":"gray","text":"."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON
+          CHESTPLATE"}],"text":""}'
+        enchants:
+          MENDING: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        Unbreakable: true
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:30.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:0.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:15.0
+    - Pet_Luck:0.0
+  '7':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: IRON_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Iron
+          Leggings"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Health:
+          "},{"italic":false,"color":"green","text":"+15 HP"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+25"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Growth
+          I"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Grants
+          "},{"italic":false,"color":"green","text":"+15 "},{"italic":false,"color":"red","text":"❤
+          Health"},{"italic":false,"color":"gray","text":"."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON
+          LEGGINGS"}],"text":""}'
+        enchants:
+          MENDING: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        Unbreakable: true
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:25.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:0.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:15.0
+    - Pet_Luck:0.0
+  pumpkin_boots:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: LEATHER_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Pumpkin
+          Boots"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Health:
+          "},{"italic":false,"color":"green","text":"+8 HP"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+8"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Full
+          Set Bonus: Pumpkin Buff"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Reduce
+          all taken damage by"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"10%
+          "},{"italic":false,"color":"gray","text":"and deal "},{"italic":false,"color":"green","text":"+10%"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"damage."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON
+          BOOTS"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        Unbreakable: true
+        color:
+          ==: Color
+          RED: 237
+          BLUE: 54
+          GREEN: 170
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:8.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:0.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:8.0
+    - Pet_Luck:0.0
+  '8':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: IRON_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Iron
+          Boots"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Health:
+          "},{"italic":false,"color":"green","text":"+15 HP"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+15"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Growth
+          I"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Grants
+          "},{"italic":false,"color":"green","text":"+15 "},{"italic":false,"color":"red","text":"❤
+          Health"},{"italic":false,"color":"gray","text":"."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON
+          BOOTS"}],"text":""}'
+        enchants:
+          MENDING: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        Unbreakable: true
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:15.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:0.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:15.0
+    - Pet_Luck:0.0
+  '9':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: CREEPER_HEAD
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Creeper
+          Hat"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Strength:
+          "},{"italic":false,"color":"red","text":"+5"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Crit
+          Chance: "},{"italic":false,"color":"red","text":"+5%"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Crit
+          Damage: "},{"italic":false,"color":"red","text":"+5%"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Health:
+          "},{"italic":false,"color":"green","text":"+5 HP"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+5"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Intelligence:
+          "},{"italic":false,"color":"green","text":"+5"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Grants
+          immunity to explosion"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"damage."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON
+          HELMET"}],"text":""}'
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:5.0
+    - Strength:5.0
+    - Intelligence:5.0
+    - Max_Intelligence:0.0
+    - Speed:0.0
+    - Crit_Damage:5.0
+    - Crit_Chance:5.0
+    - Health:5.0
+    - Pet_Luck:0.0
+  '20':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: PLAYER_HEAD
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Magma
+          Cube Head"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Health:
+          "},{"italic":false,"color":"green","text":"+25 HP"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+25"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON
+          HELMET"}],"text":""}'
+        internal: H4sIAAAAAAAA/02PMU7DMBiFfxBIJXANmE2iBHVgqBC0DnVCmpDEYWoTl9SxS5UmqPbOFUBMXICBkUtwFO6AR6b3nr5veRaABSdx0wtx1z4tV4JZYJm2YW23YtsjGHRs1/Ut21oAsDeAw3QuegZfTPmoyGtU5b4oFfbMTmIkQsw3F3idqsUV9rA0fDLypmr4z3W7eeYK6vh1sY76hUzR1JkJNpmdl/L+mehHN0iqJkhGitjEJbriwZggkt3UhEc7IiNEtMmx39AEa2pTJ8yu3YIXNeXEpry0C5lK4zlURyqM/eEyR5cAx7CPK3Pi4PXzt3p4uX3/Po1/9MfbGcAfkrCrCQYBAAA=
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:25.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:0.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:25.0
+    - Pet_Luck:0.0
+  '21':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: PLAYER_HEAD
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Chicken
+          Head"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Health:
+          "},{"italic":false,"color":"green","text":"+25 HP"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON
+          HELMET"}],"text":""}'
+        internal: H4sIAAAAAAAA/02PT06DQBxGfxpNKnoN94METE26MBbtkDIjLWXK7PpnmgIz2FJoYRIv4FXcuvIQHkA3XsGFe1m6e1/et3kGgAEX46yS8rF4WiVSGGC0tBFFmYjdGXRKUZdVIXYGABx14DSayUrAm2g8xKdrtJx6ctFgp93hGEmK0801zqNmfocdrFo/uHWGTfff1y5nzJax5a15HlRzFaGhNZJiMDIXarL3w1jTfnBFmWvSUKacRYpofCB6oomOD77GiD64dsxw7TOuSJjVXAWtWyecuYho34xTHxHlWlzdS9rPNM7N7iro9QDO4Rgv25CT55uXj2+XvL9ut1+/l58/AH/MdU/1CgEAAA==
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:0.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:0.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:25.0
+    - Pet_Luck:0.0
+  '22':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: PLAYER_HEAD
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Cow
+          Head"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Health:
+          "},{"italic":false,"color":"green","text":"+10 HP"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+5"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Grants
+          immunity to de-buffs"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"while
+          equipped."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON
+          HELMET"}],"text":""}'
+        internal: H4sIAAAAAAAA/02PQU6DQBhGf40mFY1rj4EQIF24qMXSIZ1B6EAZdm2ZBtqZ2rRggGO41KWJceXKM3gML+ANXDlLd9/Le5tPA9DgYrqphbjfP6xKwTXQ1NrxfVXywxn0Kt5U9Z4fNAA46sFpMhc1h0/e+nqWFnqe+mLZIlsxneoiQOudg7ZJuxgiG0nlxwN70vb/tVY1n1mCmX6RbcN6IRN9YkaCj6PrpYwfiRFJRm8L1mGTyVHJqF8wiizsxXomRyKjYRPM7gxMyTpzWYNprvrYCLzYxK7YBHTQkS40ifLYxW3mkRIP/f4q1W8AzuEY5erIyffrx9vXC/l5vrp0nn6dd4A/qYRcIwoBAAA=
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:5.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:0.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:10.0
+    - Pet_Luck:0.0
+  '23':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: PRISMARINE_SHARD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Prismarine
+          Blade"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Damage:
+          "},{"italic":false,"color":"red","text":"+50"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Strength:
+          "},{"italic":false,"color":"red","text":"+25"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Deals
+          "},{"italic":false,"color":"green","text":"+200% "},{"italic":false,"color":"gray","text":"damage
+          while in"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"water."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"UNCOMMON
+          SWORD"}],"text":""}'
+    manaCost: 0.0
+    inHand: true
+    attributes:
+    - Defense:0.0
+    - Strength:25.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:0.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:0.0
+    - Pet_Luck:0.0
+  '24':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: PLAYER_HEAD
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Sponge
+          Helmet"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Sea
+          Creature Chance: "},{"italic":false,"color":"red","text":"+1.8%"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+80"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Full
+          Set Bonus: Absorb"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Absorbs
+          "},{"italic":false,"color":"gray","text":"half of your "},{"italic":false,"color":"green","text":"❇
+          Defense"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"from
+          damage while in water."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"❣
+          "},{"italic":false,"color":"red","text":"Requires "},{"italic":false,"color":"green","text":"Fishing
+          Skill XVII"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"EPIC
+          HELMET"}],"text":""}'
+        internal: H4sIAAAAAAAA/02PT06DQByFfxpNKvYwUATTRRekGBjSGWw7IDMLk/6ZOsBMbSiYwik8g/EIXsAbuPQMnkLiyt173/s2zwAwYLgsG6Xuq+ddroQBRp8OoqpzcbyCQS1OdVOJowEAZwO4TFeqEfAh2sjkmTS3WaQ2LXL7TpemilFxuEX7tF1PkYt0v4eeO2vH/1ynXj04itmR5Pt5s9apObMXSoQLa6OTF154NqNScT/KuY86HPCSdCr/46NUYo27mKKO+N6JFFyRwhsx+nRDujsHB3MrprIkOrGYxg6jrGUdl2QajXeZOQG4hnO07Y9c/ITfX8EQJ6+PbxP3vf0E+AWZ5DiFCgEAAA==
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:80.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:0.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:0.0
+    - Pet_Luck:0.0
+  '25':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: LEATHER_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Sponge
+          Chestplate"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Sea
+          Creature Chance: "},{"italic":false,"color":"red","text":"+1.8%"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+145"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Full
+          Set Bonus: Absorb"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Absorbs
+          "},{"italic":false,"color":"gray","text":"half of your "},{"italic":false,"color":"green","text":"❇
+          Defense"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"from
+          damage while in water."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"❣
+          "},{"italic":false,"color":"red","text":"Requires "},{"italic":false,"color":"green","text":"Fishing
+          Skill XVII"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"EPIC
+          CHESTPLATE"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        Unbreakable: true
+        color:
+          ==: Color
+          RED: 255
+          BLUE: 81
+          GREEN: 220
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:145.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:0.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:0.0
+    - Pet_Luck:0.0
+  '26':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: LEATHER_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Sponge
+          Leggings"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Sea
+          Creature Chance: "},{"italic":false,"color":"red","text":"+1.8%"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+100"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Full
+          Set Bonus: Absorb"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Absorbs
+          "},{"italic":false,"color":"gray","text":"half of your "},{"italic":false,"color":"green","text":"❇
+          Defense"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"from
+          damage while in water."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"❣
+          "},{"italic":false,"color":"red","text":"Requires "},{"italic":false,"color":"green","text":"Fishing
+          Skill XVII"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"EPIC
+          LEGGINGS"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        Unbreakable: true
+        color:
+          ==: Color
+          RED: 255
+          BLUE: 81
+          GREEN: 220
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:100.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:0.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:0.0
+    - Pet_Luck:0.0
+  hardened_diamond_boots:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: DIAMOND_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Hardened
+          Diamond Boots"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+55"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"RARE
+          BOOTS"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        Unbreakable: true
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:55.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:0.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:0.0
+    - Pet_Luck:0.0
+  '27':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: LEATHER_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Sponge
+          Boots"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Sea
+          Creature Chance: "},{"italic":false,"color":"red","text":"+1.8%"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+60"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Full
+          Set Bonus: Absorb"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Absorbs
+          "},{"italic":false,"color":"gray","text":"half of your "},{"italic":false,"color":"green","text":"❇
+          Defense"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"from
+          damage while in water."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"❣
+          "},{"italic":false,"color":"red","text":"Requires "},{"italic":false,"color":"green","text":"Fishing
+          Skill XVII"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"EPIC
+          BOOTS"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        Unbreakable: true
+        color:
+          ==: Color
+          RED: 255
+          BLUE: 81
+          GREEN: 220
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:60.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:0.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:0.0
+    - Pet_Luck:0.0
+  '28':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: PLAYER_HEAD
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Leaflet
+          Hat"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Health:
+          "},{"italic":false,"color":"green","text":"+20 HP"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Full
+          Set Bonus: Energy of the Forest"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"While
+          in forest zone you"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"regain
+          "},{"italic":false,"color":"green","text":"+2% "},{"italic":false,"color":"red","text":"❤
+          Health "},{"italic":false,"color":"gray","text":"every"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"second."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON
+          HELMET"}],"text":""}'
+        internal: H4sIAAAAAAAA/02PQVLCMBhGfx0doXIB9x4gtbYOS0cU0qHBQmna7KCEadIEmdKi6dJD6DW8jDNsXHgDj2DdufvevLf5LAALerOiVuqxfFoLxS2w2rXlZSX4rgudir9Udcl3FgAcdeA0Xqiawwc3PmJJjlaJrzKDvZajGVITLLc3eBOb5R32sG796NYbm/6/1q0W1FWp4+dsE9ZLHaOxM1V8NLUzPd8HTeYSGheMxoJo7DAaooAGhshcMspUSplgUXEVDLGTNqFLovkzGz6oVKZNQLFN5L1NtK/JXyuLazLIxDqx+wDncIxX7YmTy+br8HMY9F4vzt7f5PcnwC/C0MxOBgEAAA==
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:0.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:0.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:20.0
+    - Pet_Luck:0.0
+  '29':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: LEATHER_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Leaflet
+          Tunic"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Health:
+          "},{"italic":false,"color":"green","text":"+35 HP"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Full
+          Set Bonus: Energy of the Forest"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"While
+          in forest zone you"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"regain
+          "},{"italic":false,"color":"green","text":"+2% "},{"italic":false,"color":"red","text":"❤
+          Health "},{"italic":false,"color":"gray","text":"every"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"second."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON
+          CHESTPLATE"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        Unbreakable: true
+        color:
+          ==: Color
+          RED: 77
+          BLUE: 77
+          GREEN: 204
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:0.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:0.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:35.0
+    - Pet_Luck:0.0
+  golem_helmet:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: IRON_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Golem
+          Armor Helmet"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+45"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Health:
+          "},{"italic":false,"color":"green","text":"+45 HP"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Full
+          Set Bonus: Absorption"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Grants
+          the wearer "},{"italic":false,"color":"green","text":"Absorption"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"3
+          "},{"italic":false,"color":"gray","text":"for "},{"italic":false,"color":"green","text":"20
+          seconds "},{"italic":false,"color":"gray","text":"when they"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"kill
+          an enemy."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"RARE
+          HELMET"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        Unbreakable: true
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:45.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:0.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:45.0
+    - Pet_Luck:0.0
+  perfect_helmet:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: DIAMOND_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Perfect
+          Helmet"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+110"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"RARE
+          HELMET"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        Unbreakable: true
+        internal: H4sIAAAAAAAA/+NiYGBjYHdJTUvNK0518GOAAAD3UqkdFgAAAA==
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:110.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:0.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:0.0
+    - Pet_Luck:0.0
+  golem_leggings:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: IRON_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Golem
+          Armor Leggings"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+75"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Health:
+          "},{"italic":false,"color":"green","text":"+55 HP"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Full
+          Set Bonus: Absorption"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Grants
+          the wearer "},{"italic":false,"color":"green","text":"Absorption"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"3
+          "},{"italic":false,"color":"gray","text":"for "},{"italic":false,"color":"green","text":"20
+          seconds "},{"italic":false,"color":"gray","text":"when they"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"kill
+          an enemy."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"RARE
+          LEGGINGS"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        Unbreakable: true
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:75.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:0.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:55.0
+    - Pet_Luck:0.0
+  miners_outfit_boots:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: LEATHER_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Miner''s
+          Outfit Boots"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+15"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Full
+          Set Bonus: Haste"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Grants
+          the wearer with"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Haste
+          II "},{"italic":false,"color":"gray","text":"when breaking blocks."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"UNCOMMON
+          BOOTS"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        Unbreakable: true
+        color:
+          ==: Color
+          RED: 75
+          BLUE: 2
+          GREEN: 75
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:15.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:0.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:0.0
+    - Pet_Luck:0.0
+  miners_outfit_chestplate2:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: LEATHER_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Miner''s
+          Outfit Chestplate"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+40"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Full
+          Set Bonus: Haste"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Grants
+          the wearer with"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Haste
+          II "},{"italic":false,"color":"gray","text":"when breaking blocks."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"UNCOMMON
+          CHESTPLATE"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        Unbreakable: true
+        color:
+          ==: Color
+          RED: 75
+          BLUE: 2
+          GREEN: 75
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:40.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:0.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:0.0
+    - Pet_Luck:0.0
+  speedster_chestplate:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: LEATHER_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Speedster
+          Chestplate"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+120"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Speed:
+          "},{"italic":false,"color":"green","text":"+15%"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Full
+          Set Bonus: Bonus Speed"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Grants
+          "},{"italic":false,"color":"white","text":"Speed II"},{"italic":false,"color":"gray","text":"
+          for"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"5s
+          "},{"italic":false,"color":"gray","text":"seconds when hit."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"EPIC
+          CHESTPLATE"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        Unbreakable: true
+        color:
+          ==: Color
+          RED: 224
+          BLUE: 247
+          GREEN: 252
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:120.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:15.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:0.0
+    - Pet_Luck:0.0
+  miners_oufit_chestplate:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: LEATHER_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Miner''s
+          Outfit Chestplate"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+40"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Full
+          Set Bonus: Haste"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Grants
+          the wearer with"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Haste
+          II "},{"italic":false,"color":"gray","text":"when breaking blocks."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"UNCOMMON
+          CHESTPLATE"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        Unbreakable: true
+        color:
+          ==: Color
+          RED: 75
+          BLUE: 2
+          GREEN: 75
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:40.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:0.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:0.0
+    - Pet_Luck:0.0
+  cactus_leggings:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: LEATHER_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Cactus
+          Leggings"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Health:
+          "},{"italic":false,"color":"green","text":"+10 HP"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+20"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Full
+          Set Bonus: Deflect"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Rebounds
+          "},{"italic":false,"color":"green","text":"33.0% "},{"italic":false,"color":"gray","text":"of
+          the damage"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"you
+          take back at your enemy."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON
+          LEGGINGS"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        Unbreakable: true
+        color:
+          ==: Color
+          RED: 0
+          BLUE: 0
+          GREEN: 255
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:20.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:0.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:10.0
+    - Pet_Luck:0.0
+  speedster_helmet:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: LEATHER_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Speedster
+          Helmet"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+70"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Speed:
+          "},{"italic":false,"color":"green","text":"+15%"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Full
+          Set Bonus: Bonus Speed"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Grants
+          "},{"italic":false,"color":"white","text":"Speed II"},{"italic":false,"color":"gray","text":"
+          for"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"5s
+          "},{"italic":false,"color":"gray","text":"seconds when hit."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"EPIC
+          HELMET"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        Unbreakable: true
+        color:
+          ==: Color
+          RED: 224
+          BLUE: 247
+          GREEN: 252
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:70.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:15.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:0.0
+    - Pet_Luck:0.0
+  miners_outfit_leggings2:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: LEATHER_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Miner''s
+          Outfit Leggings"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+30"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Full
+          Set Bonus: Haste"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Grants
+          the wearer with"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Haste
+          II "},{"italic":false,"color":"gray","text":"when breaking blocks."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"UNCOMMON
+          LEGGINGS"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        Unbreakable: true
+        color:
+          ==: Color
+          RED: 75
+          BLUE: 2
+          GREEN: 75
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:30.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:0.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:0.0
+    - Pet_Luck:0.0
+  '30':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: LEATHER_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Leaflet
+          Pants"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Health:
+          "},{"italic":false,"color":"green","text":"+30 HP"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Full
+          Set Bonus: Energy of the Forest"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"While
+          in forest zone you"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"regain
+          "},{"italic":false,"color":"green","text":"+2% "},{"italic":false,"color":"red","text":"❤
+          Health "},{"italic":false,"color":"gray","text":"every"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"second."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON
+          LEGGINGS"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        Unbreakable: true
+        color:
+          ==: Color
+          RED: 77
+          BLUE: 77
+          GREEN: 204
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:0.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:0.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:30.0
+    - Pet_Luck:0.0
+  hardened_diamond_chestplate:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: DIAMOND_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Hardened
+          Diamond Chestplate"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+120"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"RARE
+          CHESTPLATE"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        Unbreakable: true
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:120.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:0.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:0.0
+    - Pet_Luck:0.0
+  '31':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: LEATHER_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Leaflet
+          Sandals"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Health:
+          "},{"italic":false,"color":"green","text":"+15 HP"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Full
+          Set Bonus: Energy of the Forest"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"While
+          in forest zone you"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"regain
+          "},{"italic":false,"color":"green","text":"+2% "},{"italic":false,"color":"red","text":"❤
+          Health "},{"italic":false,"color":"gray","text":"every"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"second."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON
+          BOOTS"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        Unbreakable: true
+        color:
+          ==: Color
+          RED: 77
+          BLUE: 77
+          GREEN: 204
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:0.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:0.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:15.0
+    - Pet_Luck:0.0
+  perfect_leggings:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: DIAMOND_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Perfect
+          Leggings"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+140"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"RARE
+          LEGGINGS"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        Unbreakable: true
+        internal: H4sIAAAAAAAA/+NiYGBjYHdJTUvNK051CD/AAAYAfOdAshYAAAA=
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:140.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:0.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:0.0
+    - Pet_Luck:0.0
+  speedster_boots:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: LEATHER_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Speedster
+          Boots"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+65"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Speed:
+          "},{"italic":false,"color":"green","text":"+15%"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Full
+          Set Bonus: Bonus Speed"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Grants
+          "},{"italic":false,"color":"white","text":"Speed II"},{"italic":false,"color":"gray","text":"
+          for"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"5s
+          "},{"italic":false,"color":"gray","text":"seconds when hit."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"EPIC
+          BOOTS"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        Unbreakable: true
+        color:
+          ==: Color
+          RED: 224
+          BLUE: 247
+          GREEN: 252
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:65.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:15.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:0.0
+    - Pet_Luck:0.0
+  '32':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: PLAYER_HEAD
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Magma
+          Cube Head"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Health:
+          "},{"italic":false,"color":"green","text":"+25 HP"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+25"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON
+          HELMET"}],"text":""}'
+        internal: H4sIAAAAAAAA/02PMU7DMBiFfxBIJXANmE2iBHVgqBC0DnVCmpDEYWoTl9SxS5UmqPbOFUBMXICBkUtwFO6AR6b3nr5veRaABSdx0wtx1z4tV4JZYJm2YW23YtsjGHRs1/Ut21oAsDeAw3QuegZfTPmoyGtU5b4oFfbMTmIkQsw3F3idqsUV9rA0fDLypmr4z3W7eeYK6vh1sY76hUzR1JkJNpmdl/L+mehHN0iqJkhGitjEJbriwZggkt3UhEc7IiNEtMmx39AEa2pTJ8yu3YIXNeXEpry0C5lK4zlURyqM/eEyR5cAx7CPK3Pi4PXzt3p4uX3/Po1/9MfbGcAfkrCrCQYBAAA=
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:25.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:0.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:25.0
+    - Pet_Luck:0.0
+  '33':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: PLAYER_HEAD
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Zombie''s
+          Heart"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Health:
+          "},{"italic":false,"color":"green","text":"+50 HP"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Ability:
+          Healing Boost"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Doubles
+          all healing effects,"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"including
+          your natural"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"regeneration
+          and healing you"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"deal
+          to others, while wearing."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"RARE
+          HELMET"}],"text":""}'
+        internal: H4sIAAAAAAAA/02PTU6DQBzF/xpNKnoRd3wETBddNB1NZ8KHUArM7CidZhiG2lCwwgU8ja70EJ7Ai7hyJUt37+X38kueBqDBzarqlHpsnnal4hpoYzrwpi358QomLX9pu4YfNQA4m8BlkquOwwfvic4yoW8zoooeO2OPV7oKsDzc4X3SbxbYwfXIl3PH7af/tnabp7aiFhFsH3abOtFdK1J8GRlFvX5mKDSYjCov9mw6KBWgqvclUXSYm1Rii6YPgqFiYPW9HiAhqAxtT1YnhoikZmgGKBGeXBs+Kno/9izPHD0lme4yfQZwDed4Ox65+Pla3OZvwe/7p5vOrO9XgD/b+ImVCgEAAA==
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:0.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:0.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:50.0
+    - Pet_Luck:0.0
+  cactus_boots:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: LEATHER_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Cactus
+          Boots"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Health:
+          "},{"italic":false,"color":"green","text":"+5 HP"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+10"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Full
+          Set Bonus: Deflect"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Rebounds
+          "},{"italic":false,"color":"green","text":"33.0% "},{"italic":false,"color":"gray","text":"of
+          the damage"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"you
+          take back at your enemy."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON
+          BOOTS"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        Unbreakable: true
+        color:
+          ==: Color
+          RED: 0
+          BLUE: 0
+          GREEN: 255
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:10.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:0.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:5.0
+    - Pet_Luck:0.0
+  '34':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: CREEPER_HEAD
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Creeper
+          Hat"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Strength:
+          "},{"italic":false,"color":"red","text":"+5"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Crit
+          Chance: "},{"italic":false,"color":"red","text":"+5%"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Crit
+          Damage: "},{"italic":false,"color":"red","text":"+5%"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Health:
+          "},{"italic":false,"color":"green","text":"+5 HP"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+5"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Intelligence:
+          "},{"italic":false,"color":"green","text":"+5"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON
+          HELMET"}],"text":""}'
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:5.0
+    - Strength:5.0
+    - Intelligence:0.0
+    - Max_Intelligence:5.0
+    - Speed:0.0
+    - Crit_Damage:5.0
+    - Crit_Chance:5.0
+    - Health:5.0
+    - Pet_Luck:0.0
+  speedster_leggings:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: LEATHER_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Speedster
+          Leggings"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+95"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Speed:
+          "},{"italic":false,"color":"green","text":"+15%"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Full
+          Set Bonus: Bonus Speed"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Grants
+          "},{"italic":false,"color":"white","text":"Speed II"},{"italic":false,"color":"gray","text":"
+          for"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"5s
+          "},{"italic":false,"color":"gray","text":"seconds when hit."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"EPIC
+          LEGGINGS"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        Unbreakable: true
+        color:
+          ==: Color
+          RED: 224
+          BLUE: 247
+          GREEN: 252
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:95.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:15.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:0.0
+    - Pet_Luck:0.0
+  miners_outfit_boots2:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: LEATHER_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Miner''s
+          Outfit Boots"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+15"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Full
+          Set Bonus: Haste"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Grants
+          the wearer with"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Haste
+          II "},{"italic":false,"color":"gray","text":"when breaking blocks."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"UNCOMMON
+          BOOTS"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        Unbreakable: true
+        color:
+          ==: Color
+          RED: 75
+          BLUE: 2
+          GREEN: 75
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:15.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:0.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:0.0
+    - Pet_Luck:0.0
+  hardened_diamond_helmet:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: DIAMOND_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Hardened
+          Diamond Helmet"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+60"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"RARE
+          HELMET"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:60.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:0.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:0.0
+    - Pet_Luck:0.0
+  pumpkin_helmet:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: LEATHER_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Pumpkin
+          Helmet"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Health:
+          "},{"italic":false,"color":"green","text":"+8 HP"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+8"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Full
+          Set Bonus: Pumpkin Buff"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Reduce
+          all taken damage by"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"10%
+          "},{"italic":false,"color":"gray","text":"and deal "},{"italic":false,"color":"green","text":"+10%"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"damage."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON
+          HELMET"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        Unbreakable: true
+        color:
+          ==: Color
+          RED: 237
+          BLUE: 54
+          GREEN: 170
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:8.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:0.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:8.0
+    - Pet_Luck:0.0
+  cactus_helmet:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: LEATHER_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Cactus
+          Helmet"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Health:
+          "},{"italic":false,"color":"green","text":"+5 HP"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+10"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Full
+          Set Bonus: Deflect"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Rebounds
+          "},{"italic":false,"color":"green","text":"33.0% "},{"italic":false,"color":"gray","text":"of
+          the damage"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"you
+          take back at your enemy."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON
+          HELMET"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        Unbreakable: true
+        color:
+          ==: Color
+          RED: 0
+          BLUE: 0
+          GREEN: 255
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:10.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:0.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:5.0
+    - Pet_Luck:0.0
+  golem_chestplate:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: IRON_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Golem
+          Armor Chestplate"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+90"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Health:
+          "},{"italic":false,"color":"green","text":"+65 HP"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Full
+          Set Bonus: Absorption"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Grants
+          the wearer "},{"italic":false,"color":"green","text":"Absorption"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"3
+          "},{"italic":false,"color":"gray","text":"for "},{"italic":false,"color":"green","text":"20
+          seconds "},{"italic":false,"color":"gray","text":"when they"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"kill
+          an enemy."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+          item can be reforged!"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"RARE
+          CHESTPLATE"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        Unbreakable: true
+    manaCost: 0.0
+    inHand: false
+    attributes:
+    - Defense:90.0
+    - Strength:0.0
+    - Intelligence:0.0
+    - Max_Intelligence:0.0
+    - Speed:0.0
+    - Crit_Damage:0.0
+    - Crit_Chance:0.0
+    - Health:65.0
+    - Pet_Luck:0.0

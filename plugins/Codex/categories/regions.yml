@@ -1,0 +1,308 @@
+name: "&c&l世界 &7&l区域"
+discover_title:
+  title: "%name%"
+  subtitle: "&a发现新区域!"
+  fade_in: 20
+  stay: 60
+  fade_out: 20
+discover_message: []
+discover_sound:
+  name: ENTITY_PLAYER_LEVELUP
+  volume: 10
+  pitch: 0.1
+discoveries:
+  1:
+    name: "&b&l煤炭矿区"
+    lore: []
+    commands:
+    - "whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+    - "whisper %player% &a&l  新区域 &8- &b&l煤炭矿区"
+    - "whisper %player% &7"
+    - "whisper %player% &8  ➤ &e采集煤炭"
+    - "whisper %player% &8  ➤ &e前往黄金矿区"
+    - "whisper %player% &7"
+    - "whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+    discovered_on_region: coal-mine
+  3:
+    name: "&6&l拍卖行"
+    lore: []
+    commands:
+    - "q a moddata start %player% Auctioneer1"
+    - "whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+    - "whisper %player% &a&l  新区域 &8- &6&l拍卖行"
+    - "whisper %player% &7"
+    - "whisper %player% &8  ➤ &e拍卖你的特殊物品"
+    - "whisper %player% &8  ➤ &e竞拍其他玩家的物品"
+    - "whisper %player% &7"
+    - "whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+    discovered_on_region: auction-house
+  4:
+    name: "&6&l银行"
+    lore: []
+    commands:
+    - "q a moddata start %player% SavingUp1"
+    - "whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+    - "whisper %player% &a&l  新区域 &8- &6&l银行"
+    - "whisper %player% &7"
+    - "whisper %player% &8  ➤ &e与银行家对话"
+    - "whisper %player% &8  ➤ &e存储你的硬币以保证它们安全"
+    - "whisper %player% &8  ➤ &e用你的硬币赚取利息"
+    - "whisper %player% &7"
+    - "whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+    discovered_on_region: auction-house
+    discovered_on_region: bank
+  5:
+    name: "&b&l农场"
+    lore: []
+    commands:
+    - "q a moddata start %player% FirstHarvest1"
+    - "whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+    - "whisper %player% &a&l  新区域 &8- &b&l农场"
+    - "whisper %player% &7"
+    - "whisper %player% &8  ➤ &e拜访农夫"
+    - "whisper %player% &8  ➤ &e收集小麦"
+    - "whisper %player% &8  ➤ &e前往谷仓"
+    - "whisper %player% &7"
+    - "whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+    discovered_on_region: wheat-farm
+  6:
+    name: "&b&l谷仓"
+    lore: []
+    commands:
+    - "whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+    - "whisper %player% &a&l  新区域 &8- &b&l谷仓"
+    - "whisper %player% &7"
+    - "whisper %player% &8  ➤ &e采集小麦, 胡萝卜, 土豆, 南瓜和西瓜"
+    - "whisper %player% &8  ➤ &e击杀牛, 鸡和猪"
+    - "whisper %player% &8  ➤ &e给牛挤奶"
+    - "whisper %player% &7"
+    - "whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+    discovered_on_region: farm
+  7:
+    name: "&b&l铁匠铺"
+    lore: []
+    commands:
+    - "whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+    - "whisper %player% &a&l  新区域 &8- &b&l铁匠铺"
+    - "whisper %player% &7"
+    - "whisper %player% &8  ➤ &e使用洗炼升级装备"
+    - "whisper %player% &8  ➤ &e使用铁砧合并物品"
+    - "whisper %player% &7"
+    - "whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+    discovered_on_region: blacksmith
+  8:
+    name: "&6&l黄金矿区"
+    lore: []
+    commands:
+    - "whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+    - "whisper %player% &a&l  新区域 &8- &6&l黄金矿区"
+    - "whisper %player% &7"
+    - "whisper %player% &8  ➤ &e挖金矿, 铁矿和煤矿"
+    - "whisper %player% &8  ➤ &e拜访铁锭商人和金锭商人"
+    - "whisper %player% &8  ➤ &e拜访铁匠"
+    - "whisper %player% &7"
+    - "whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+    - "lp user %player% permission set access.gold-mine true"
+    discovered_on_region: gold-mine
+  9:
+    name: "&b&l深层矿洞"
+    lore: []
+    commands:
+    - "q a moddata start %player% GoingDeeper1"
+    - "whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+    - "whisper %player% &a&l  新区域 &8- &b&l深层矿洞"
+    - "whisper %player% &7"
+    - "whisper %player% &8  ➤ &e与电梯管理员交谈"
+    - "whisper %player% &8  ➤ &e挖掘有价值的矿石"
+    - "whisper %player% &8  ➤ &e小心怪物!"
+    - "whisper %player% &7"
+    - "whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+    discovered_on_region: deep-caverns
+  10:
+    name: "&b&l青金石采集场"
+    lore: []
+    commands:
+    - "q a moddata start %player% HelpfulMiner1"
+    - "whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+    - "whisper %player% &a&l  新区域 &8- &b&l青金石采集场"
+    - "whisper %player% &7"
+    - "whisper %player% &8  ➤ &e电梯管理员现在可以让你到达青金石采集场了"
+    - "whisper %player% &8  ➤ &e采集青金石矿石"
+    - "whisper %player% &8  ➤ &e当心僵尸!"
+    - "whisper %player% &7"
+    - "whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+    - "lp user %player% permission set access.lapis-quarry true"
+    discovered_on_region: lapis-quarry
+  11:
+    name: "&b&l猪人密穴"
+    lore: []
+    commands:
+    - "whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+    - "whisper %player% &a&l  新区域 &8- &b&l猪人密穴"
+    - "whisper %player% &7"
+    - "whisper %player% &8  ➤ &e电梯管理员现在可以让你到达猪人密穴了"
+    - "whisper %player% &8  ➤ &e采集红石矿"
+    - "whisper %player% &8  ➤ &e在猪人周围挖红石要小心!"
+    - "whisper %player% &7"
+    - "whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+    - "lp user %player% permission set access.pigmens-den true"
+    discovered_on_region: pigmans-den
+  12:
+    name: "&b&l黏液山脉"
+    lore: []
+    commands:
+    - "whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+    - "whisper %player% &a&l  新区域 &8- &b&l黏液山脉"
+    - "whisper %player% &7"
+    - "whisper %player% &8  ➤ &eT电梯管理员现在可以让你到达黏液山脉了"
+    - "whisper %player% &8  ➤ &e采集绿宝石矿"
+    - "whisper %player% &8  ➤ &e这一层充满了史莱姆!"
+    - "whisper %player% &7"
+    - "whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+    - "lp user %player% permission set access.slimehill true"
+    discovered_on_region: slimehill
+  13:
+    name: "&b&l钻石保护区"
+    lore: []
+    commands:
+    - "whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+    - "whisper %player% &a&l  新区域 &8- &b&l钻石保护区"
+    - "whisper %player% &7"
+    - "whisper %player% &8  ➤ &e电梯管理员现在可以让你到达钻石保护区了"
+    - "whisper %player% &8  ➤ &e采集钻石矿"
+    - "whisper %player% &8  ➤ &e小心, 这里的怪物是非常致命的!"
+    - "whisper %player% &7"
+    - "whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+    - "lp user %player% permission set access.diamond-reserve true"
+    discovered_on_region: diamond-reserve
+  14:
+    name: "&b&l黑曜圣所"
+    lore: []
+    commands:
+    - "whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+    - "whisper %player% &a&l  新区域 &8- &b&l黑曜圣所"
+    - "whisper %player% &7"
+    - "whisper %player% &8  ➤ &e电梯管理员现在可以让你到达黑耀圣所了"
+    - "whisper %player% &8  ➤ &e采集黑曜石和钻石"
+    - "whisper %player% &8  ➤ &e小心, 这里的怪物是极度致命的!"
+    - "whisper %player% &7"
+    - "whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+    - "lp user %player% permission set access.obsidian-sanctuary true"
+    discovered_on_region: obsidian-sanctuary
+  15:
+    name: "&c&l墓地"
+    lore: []
+    commands:
+    - "whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+    - "whisper %player% &a&l  新区域 &8- &c&l墓地"
+    - "whisper %player% &7"
+    - "whisper %player% &8  ➤ &e与僵尸战斗"
+    - "whisper %player% &8  ➤ &e前往蜘蛛巢穴"
+    - "whisper %player% &8  ➤ &e调查古墓"
+    - "whisper %player% &7"
+    - "whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+    discovered_on_region: graveyard
+  16:
+    name: "&c&l蜘蛛巢穴"
+    lore: []
+    commands:
+    - "q a moddata start %player% SpidersDenQuest1"
+    - "whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+    - "whisper %player% &a&l  新区域 &8- &c&l蜘蛛巢穴"
+    - "whisper %player% &7"
+    - "whisper %player% &8  ➤ &e注意那些蜘蛛!"
+    - "whisper %player% &8  ➤ &e试着爬上山顶"
+    - "whisper %player% &7"
+    - "whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+    discovered_on_region: spiders-den
+  17:
+    name: "&b&l森林"
+    lore: []
+    commands:
+    - "q a moddata start %player% Timber1"
+    - "whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+    - "whisper %player% &a&l  新区域 &8- &b&l森林"
+    - "whisper %player% &7"
+    - "whisper %player% &8  ➤ &e砍树"
+    - "whisper %player% &8  ➤ &e前往桦木森林"
+    - "whisper %player% &7"
+    - "whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+    discovered_on_region: forest
+  19:
+    name: "&b&l图书馆"
+    lore: []
+    commands:
+    - "whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+    - "whisper %player% &a&l  新区域 &8- &b&l图书馆"
+    - "whisper %player% &7"
+    - "whisper %player% &8  ➤ &e与图书管理员对话"
+    - "whisper %player% &8  ➤ &e附魔你的物品"
+    - "whisper %player% &7"
+    - "whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+    discovered_on_region: library
+  20:
+    name: "&a&l桦木森林"
+    lore: []
+    commands:
+    - "whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+    - "whisper %player% &a&l  新区域 &8- &a&l桦木森林"
+    - "whisper %player% &7"
+    - "whisper %player% &8  ➤ &e砍一些白桦木"
+    - "whisper %player% &7"
+    - "whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+    discovered_on_region: birch-forest
+  21:
+    name: "&a&l云杉树林"
+    lore: []
+    commands:
+    - "whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+    - "whisper %player% &a&l  新区域 &8- &a&l云杉树林"
+    - "whisper %player% &7"
+    - "whisper %player% &8  ➤ &e砍一些云杉木"
+    - "whisper %player% &7"
+    - "whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+    discovered_on_region: spruce-forest
+  22:
+    name: "&a&l深色橡木树林"
+    lore: []
+    commands:
+    - "whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+    - "whisper %player% &a&l  新区域 &8- &a&l深色橡木树林"
+    - "whisper %player% &7"
+    - "whisper %player% &8  ➤ &e砍一些深色橡木"
+    - "whisper %player% &7"
+    - "whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+    discovered_on_region: dark-oak-forest
+  23:
+    name: "&a&l热带树林"
+    lore: []
+    commands:
+    - "whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+    - "whisper %player% &a&l  新区域 &8- &a&l热带树林"
+    - "whisper %player% &7"
+    - "whisper %player% &8  ➤ &e砍一些金合欢木"
+    - "whisper %player% &7"
+    - "whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+    discovered_on_region: acacia-forest
+  24:
+    name: "&a&l丛林树林"
+    lore: []
+    commands:
+    - "whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+    - "whisper %player% &a&l  新区域 &8- &a&l丛林树林"
+    - "whisper %player% &7"
+    - "whisper %player% &8  ➤ &e砍一些丛林木"
+    - "whisper %player% &7"
+    - "whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+    discovered_on_region: jungle-forest
+  25:
+    name: "&c&l烈焰堡垒"
+    lore: []
+    commands:
+    - "whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+    - "whisper %player% &a&l  新区域 &8- &c&l烈焰堡垒"
+    - "whisper %player% &7"
+    - "whisper %player% &8  ➤ &e挑战岩浆巨怪"
+    - "whisper %player% &7"
+    - "whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+    discovered_on_region: blazing-fortress

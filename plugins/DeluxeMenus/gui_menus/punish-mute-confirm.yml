@@ -1,0 +1,90 @@
+menu_title: '禁言 > {target}: Confirm'
+open_command:
+- punish-mute-confirm
+args:
+- target
+- time
+args_usage_message: "&c未知指令! (/punish <用户名>)"
+register_command: true
+size: 45
+items:
+
+      glass:
+        material: BLACK_STAINED_GLASS_PANE
+        slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
+        - 11
+        - 12
+        - 13
+        - 14
+        - 15
+        - 16
+        - 17
+        - 18
+        - 23
+        - 22
+        - 21
+        - 19
+        - 25
+        - 26
+        - 27
+        - 28
+        - 29
+        - 30
+        - 31
+        - 32
+        - 33
+        - 34
+        - 44
+        - 35
+        - 36
+        - 37
+        - 38
+        - 39
+        - 41
+        - 42
+        - 43
+        - 44
+        display_name: '&7'
+        left_click_commands: []
+        right_click_commands: []
+
+      player:
+        material: head-{target}
+        slot: 20
+        display_name: '&6{target}'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+      confirm:
+        material: GREEN_TERRACOTTA
+        slot: 24
+        amount: 1
+        display_name: '&a&l确认'
+        lore:
+        - '&7禁言 {target} {time}'
+        left_click_commands:
+        - '[player] tempmute {target} {time}'
+        right_click_commands:
+        - '[player] tempmute {target} {time}'
+
+      back:
+        material: ARROW
+        slot: 40
+        display_name: '&a返回'
+        left_click_commands:
+        - '[player] punish-mute {target}'
+        right_click_commands:
+        - '[player] punish-mute {target}'

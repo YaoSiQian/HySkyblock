@@ -1,0 +1,30 @@
+messages:
+  invalidCommand: '%prefix% &7未知指令!'
+  invalidArguments: '%prefix% &7未知子指令!'
+  unknownCommand: '%prefix% &7指令不存在!'
+  mustBeAPlayer: '%prefix% &7该指令只能玩家输入'
+  invalidPlayer: '%prefix% &7未知玩家'
+  offlinePlayer: '%prefix% 该玩家不在线!'
+  reloaded: '%prefix% &7配置已重载'
+  noPermission: '%prefix% &7你没有权限'
+  helpMessage: '&7%command% - &e%description%'
+  helpHeader: '      &6&lUltimateCore-Runes   '
+  helpfooter: '&e<< &6第 %page% 页至第 %maxpage% 页 &e>>'
+  previousPage: '<<'
+  nextPage: '>>'
+  helpPageHoverMessage: 点击前往第 %page% 页
+  invalidRune: '%prefix% &7Invalid Rune'
+  itemToPickup: '&cThere is a item to pickup in the rune pedestal'
+errorInformation:
+  noRequiredLevel:
+  - '&7Applying this rune requires a'
+  - '&7higher Runecrafting level!'
+  incompatibleItemAndRune:
+  - '&7You cannot add that rune to that'
+  - '&7item!'
+  incompatibleRunesType:
+  - '&7Both runes must be of the same'
+  - '&7type to combine!'
+  incompatibleRunesTier:
+  - '&7Both runes must be of the same'
+  - '&7tier to combine'

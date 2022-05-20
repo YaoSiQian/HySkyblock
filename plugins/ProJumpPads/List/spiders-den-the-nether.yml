@@ -1,0 +1,13 @@
+fly-location:
+  world: Server
+  x: 597.2845274814348
+  y: 88.30524683474624
+  z: -53.50762150902147
+name: spiders-den-the-nether
+pos1X: 437.0
+pos1Z: -34.0
+pos2X: 438.0
+pos2Z: -31.0
+relative-position: 159.0
+permission-1: access.blazing-fortress
+permission-message: §cYou must be at least Combat Level V to join this island!

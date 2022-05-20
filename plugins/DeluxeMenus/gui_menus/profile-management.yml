@@ -1,0 +1,152 @@
+menu_title: 'Profile Management'
+open_command:
+- profilemanager
+size: 36
+register_command: false
+items:
+
+      SELECTED:
+        material: EMERALD_BLOCK
+        slot: 11
+        priority: 2
+        display_name: '&e存档: &a默认'
+        lore:
+        - '&8已选槽位'
+        - ''
+        - '&7农业: &e等级 %skills_farming_level%'
+        - '&7挖矿: &e等级 %skills_mining_level%'
+        - '&7战斗: &e等级 %skills_combat_level%'
+        - '&7林业: &e等级 %skills_foraging_level%'
+        - '&7渔业: &e等级 %skills_fishing_level%'
+        - '&7附魔: &e等级 %skills_enchanting_level%'
+        - '&7酿造: &e等级 %skills_alchemy_level%'
+        - ''
+        - '&7已解锁的合成手册: &e%progress_percentage_{customplaceholders_recipes}_m:{customplaceholders_total_recipes}_d:0%&6%'
+        - '&2-%progress_bar_{customplaceholders_recipes}_c:&2-_p:&2-_r:&f-_l:19_m:{customplaceholders_total_recipes}% &e%customplaceholders_recipes%&6/&e%customplaceholders_total_recipes%'
+        - '&7已解锁的收集: &e%progress_percentage_{collections_unlocked}_m:{collections_total}_d:0%&6%'
+        - '&2-%progress_bar_{collections_unlocked}_c:&2-_p:&2-_r:&f-_l:19_m:{collections_total}% &e%collections_unlocked%&6/&e%collections_total%'
+        - '&7已解锁的系统交易: &e%progress_percentage_{customplaceholders_trades}_m:{customplaceholders_total_trades}_d:0%&e%'
+        - '&2-%progress_bar_{customplaceholders_trades}_c:&2-_p:&2-_r:&f-_l:19_m:{customplaceholders_total_trades}% &e%customplaceholders_trades%&6/&e%customplaceholders_total_trades%'
+        - ''
+        - '&7银行硬币: &6%royaleeconomy_balance_bank%'
+        - '&7钱包硬币: &6%vault_eco_balance_commas%'
+        - '&7创建日期: &9%player_first_join_date%'
+        - ''
+        - '&a你目前正在这个存档中!'
+        left_click_commands:
+        - '[message] &e你正在游玩 &默认存档'
+        right_click_commands:
+        - '[message] &e你正在游玩 &默认存档'
+
+      SELECTED-ARMOR:
+        material: EMERALD_BLOCK
+        slot: 11
+        priority: 1
+        display_name: '&e存档: &a默认'
+        view_requirement:
+          requirements:
+            location_discover:
+              type: string contains
+              input: '%player_armor_helmet_name%%player_armor_chestplate_name%%player_armor_leggings_name%%player_armor_boots_name%'
+              output: 'e'
+        lore:
+        - '&8已选槽位'
+        - ''
+        - '&7农业: &e等级 %skills_farming_level%'
+        - '&7挖矿: &e等级 %skills_mining_level%'
+        - '&7战斗: &e等级 %skills_combat_level%'
+        - '&7林业: &e等级 %skills_foraging_level%'
+        - '&7渔业: &e等级 %skills_fishing_level%'
+        - '&7附魔: &e等级 %skills_enchanting_level%'
+        - '&7酿造: &e等级 %skills_alchemy_level%'
+        - ''
+        - '&7已解锁的合成手册: &e%progress_percentage_{customplaceholders_recipes}_m:{customplaceholders_total_recipes}_d:0%&6%'
+        - '&2-%progress_bar_{customplaceholders_recipes}_c:&2-_p:&2-_r:&f-_l:19_m:{customplaceholders_total_recipes}% &e%customplaceholders_recipes%&6/&e%customplaceholders_total_recipes%'
+        - '&7已解锁的收集: &e%progress_percentage_{collections_unlocked}_m:{collections_total}_d:0%&6%'
+        - '&2-%progress_bar_{collections_unlocked}_c:&2-_p:&2-_r:&f-_l:19_m:{collections_total}% &e%collections_unlocked%&6/&e%collections_total%'
+        - '&7已解锁的系统交易: &e%progress_percentage_{customplaceholders_trades}_m:{customplaceholders_total_trades}_d:0%&e%'
+        - '&2-%progress_bar_{customplaceholders_trades}_c:&2-_p:&2-_r:&f-_l:19_m:{customplaceholders_total_trades}% &e%customplaceholders_trades%&6/&e%customplaceholders_total_trades%'
+        - ''
+        - '&7银行硬币: &6%royaleeconomy_balance_bank%'
+        - '&7钱包硬币: &6%vault_eco_balance_commas%'
+        - '&7创建日期: &9%player_first_join_date%'
+        - ''
+        - '&a你目前正在这个存档中!'
+        left_click_commands:
+        - '[message] &e你正在游玩 &默认存档'
+        right_click_commands:
+        - '[message] &e你正在游玩 &默认存档'
+
+      SOON:
+        material: BEDROCK
+        slots:
+        - 12
+        - 13
+        - 14
+        - 15
+        display_name: '&c锁定的存档位'
+        lore:
+        - '&8不可用'
+        - ''
+        - '&7这个存档位目前不可用'
+        - '&7但在将来可能会被启用'
+        left_click_commands: []
+        right_click_commands: []
+
+      GLASS:
+        material: BLACK_STAINED_GLASS_PANE
+        slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
+        - 17
+        - 16
+        - 18
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24
+        - 25
+        - 26
+        - 27
+        - 28
+        - 29
+        - 32
+        - 33
+        - 34
+        - 35
+        display_name: '&7'
+        lore: []
+        left_click_commands: []
+        right_click_commands: []
+
+      go-back:
+        material: ARROW
+        slot: 30
+        display_name: '&a返回'
+        lore:
+        - '&7至空岛生存菜单'
+        left_click_commands:
+        - '[openguimenu] skyblock-menu'
+        right_click_commands:
+        - '[openguimenu] skyblock-menu'
+
+      close:
+        material: BARRIER
+        slot: 31
+        display_name: '&c关闭'
+        lore: []
+        left_click_commands:
+        - '[close]'
+        right_click_commands:
+        - '[close]'

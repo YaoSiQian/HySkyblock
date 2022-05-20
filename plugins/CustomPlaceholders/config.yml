@@ -1,0 +1,35 @@
+placeholders:
+  trades:
+    name: 'trades'
+    zero-display: '0'
+    normal-display: '%value%'
+  total_trades:
+    name: 'total_trades'
+    zero-display: '20'
+    normal-display: '%value%'
+  recipes:
+    name: 'recipes'
+    zero-display: '0'
+    normal-display: '%value%'
+  total_recipes:
+    name: 'total_recipes'
+    zero-display: '171'
+    normal-display: '%value%'
+  gems:
+    name: 'gems'
+    zero-display: '0'
+    normal-display: '%value%'
+  bits:
+    name: 'bits'
+    zero-display: '0'
+    normal-display: '%value%'
+  active_cookie_boosters:
+    name: 'active_cookie_boosters'
+    zero-display: '0'
+    normal-display: '1'
+
+placeholders-text:
+  fame_rank:
+    name: 'fame_rank'
+    zero-display: '新玩家'
+    normal-display: '%value%'

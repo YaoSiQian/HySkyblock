@@ -1,0 +1,310 @@
+title: Bea
+permission-to-open: none
+background-color: 15
+items:
+  '1':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: PLAYER_HEAD
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"["},{"italic":false,"color":"gray","text":"Lv1"},{"italic":false,"color":"dark_gray","text":"]
+          "},{"italic":false,"color":"white","text":"Bee"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Farming
+          Pet"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Strength:
+          "},{"italic":false,"color":"green","text":"+0.2"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Intelligence:
+          "},{"italic":false,"color":"green","text":"+0.5"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Speed:
+          "},{"italic":false,"color":"green","text":"+0.1"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Hive"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Gain
+          "},{"italic":false,"color":"aqua","text":"+?✎ Intelligence "},{"italic":false,"color":"gray","text":"and"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"+?❁
+          Strength "},{"italic":false,"color":"gray","text":"for each"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"nearby
+          bee."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Max
+          15 bees"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Right-click
+          to add this pet to"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"your
+          pet menu!"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        internal: H4sIAAAAAAAA/02Qu1LCQBiFf0U0RgsfZQkDDoWFXMTNsAsJm2vHZZkEdgMTEjA+ip2dlZXa6YwvYOOL6AM446qN3XfmfM05OoAGByuesZinsN9aSrlMdDgeLnIhBulyFguug65oxdMs5utD0DJ+leUpX+sAsKNB2R2JnMMDL0wU+hGa+qaYFLiuMhsi0cfz1SlO3GLcwnUsVX95Xu8VjX9uLRt5NRFUzShMrHwsXdSr2oJf2pWJdDaE4SqZ21Hf66DAsBd0HsUBs2q03alQFmxD5sYhs7aBcohHEDVoTD1TEM8yqLwQYRdXiOxck65jEOlKIi1EC7Mx89EZwBHs4qkaspc8vX5+vTRv7x8/7t5vnt+g9PuL4+C2qk9KUFbJHyhWjaa4xzdc/F3wI9KR5FBqcg7fkgPXOlQBAAA=
+    sellingValue: 0.0
+    buyValue: 4999.0
+    detailed: true
+    amount1: 0
+    amount2: 0
+    amount3: 0
+    amount4: 0
+    amount5: 0
+    defaultItemRequirements:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: COAL_BLOCK
+      amount: 2
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: GOLD_BLOCK
+      amount: 2
+    give-item-on-buy: false
+    exclusive: false
+    commands:
+    - pets give %player% Bee Common
+  '2':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: PLAYER_HEAD
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"["},{"italic":false,"color":"gray","text":"Lv1"},{"italic":false,"color":"dark_gray","text":"]
+          "},{"italic":false,"color":"blue","text":"Bee"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Farming
+          Pet"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Strength:
+          "},{"italic":false,"color":"green","text":"+4.2"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Intelligence:
+          "},{"italic":false,"color":"green","text":"+10.5"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Speed:
+          "},{"italic":false,"color":"green","text":"+2.1"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Hive"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Gain
+          "},{"italic":false,"color":"aqua","text":"+?✎ Intelligence "},{"italic":false,"color":"gray","text":"and"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"+?❁
+          Strength "},{"italic":false,"color":"gray","text":"for each"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"nearby
+          bee."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Max
+          15 bees"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Right-click
+          to add this pet to"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"your
+          pet menu!"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"RARE"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        internal: H4sIAAAAAAAA/02QzU7CQBSFLwKxVjcm7n2FUgKGRBcqCFOZgZbp767AJS3OICktWF35Bj6ISxOfysQXMHHUjbvz5Tubc3QADfbXmPMUM6g5cYY6HE3uCiHG2f0iFQp1ldaY5SluDkDL8SEvMtzoAFDRoO7FokB4w9IyoiAx5oElZiVpK+YTQ4zIcn1GVl45vSZtIpUfXLaHZedft5XHfkuETSuJVnYxlZ4xbDoCB05jJt0t5aRJl04y8ntGaDp3bJmkIbdbrNtrMB7uIu6lEbd3oepQnxrMZCnzLUF922TyRkR90qCy90j7rkmlJ6m0DVZanUVgXAAcwh6ZqyG1523l4/Xp9v3llH+ej79OoPr7iuuSrtLHVagrCsYqK6OpPMQtir8LfooslgjVK0T4BsY2RQ9SAQAA
+    sellingValue: 0.0
+    buyValue: 50000.0
+    detailed: true
+    amount1: 0
+    amount2: 0
+    amount3: 0
+    amount4: 0
+    amount5: 0
+    defaultItemRequirements:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: COAL_BLOCK
+      amount: 64
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: GOLD_BLOCK
+      amount: 64
+    give-item-on-buy: false
+    exclusive: false
+    commands:
+    - pets give %player% Bee Rare
+  '3':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: PLAYER_HEAD
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"["},{"italic":false,"color":"gray","text":"Lv1"},{"italic":false,"color":"dark_gray","text":"]
+          "},{"italic":false,"color":"dark_purple","text":"Bee"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Farming
+          Pet"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Strength:
+          "},{"italic":false,"color":"green","text":"+6.2"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Intelligence:
+          "},{"italic":false,"color":"green","text":"+15.5"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Speed:
+          "},{"italic":false,"color":"green","text":"+3.1"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Hive"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Gain
+          "},{"italic":false,"color":"aqua","text":"+?✎ Intelligence "},{"italic":false,"color":"gray","text":"and"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"+?❁
+          Strength "},{"italic":false,"color":"gray","text":"for each"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"nearby
+          bee."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Max
+          15 bees"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Right-click
+          to add this pet to"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"your
+          pet menu!"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"EPIC"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        internal: H4sIAAAAAAAA/02Qu1LCQBiFfwXGGK0sfYolTHAoLBQibIZdSMi94/IzCexiJiRgfB1bSyt7X8TSp3DVxu47c77mHB1Ag7McSy/DAppWni11uJxtKyGmxeM6E6iDrijHosxwfw5aiU9lVeBeB4ATDVrBXFQIb1jbJIlSsopssaxpV2VvRsSEbvIbugvqRZ92qVT96K47rnv/XLOch6aIO3aa7JxqIQMy7rgCR257Kf0D82iHbdx0ElokNtwt36RZ7DkmH1ht7sXHxAuyxHOOsXJYyAg3eMZDW7DQMbh8EMmQtpm0ntnQN5gMJJMO4bXdW0fkFuACTulKDWnOXj/fd1/9j5dV1TOvcwsav6/4Ph2o+qoBLZWiqWLVaIrHeEDxd8GPyOcSoXGPCN9NS57NUgEAAA==
+    sellingValue: 0.0
+    buyValue: 200000.0
+    detailed: true
+    amount1: 0
+    amount2: 0
+    amount3: 0
+    amount4: 0
+    amount5: 0
+    defaultItemRequirements:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: COAL_BLOCK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Enchanted
+          Block of Coal"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"UNCOMMON"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: GOLD_BLOCK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Enchanted
+          Block of Gold"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"RARE"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+    give-item-on-buy: false
+    exclusive: false
+    commands:
+    - pets give %player% Bee Epic
+  '4':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: PLAYER_HEAD
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"["},{"italic":false,"color":"gray","text":"Lv1"},{"italic":false,"color":"dark_gray","text":"]
+          "},{"italic":false,"color":"gold","text":"Bee"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Farming
+          Pet"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Strength:
+          "},{"italic":false,"color":"green","text":"+8.2"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Intelligence:
+          "},{"italic":false,"color":"green","text":"+20.5"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Speed:
+          "},{"italic":false,"color":"green","text":"+4.1"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Hive"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Gain
+          "},{"italic":false,"color":"aqua","text":"+?✎ Intelligence "},{"italic":false,"color":"gray","text":"and"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"+?❁
+          Strength "},{"italic":false,"color":"gray","text":"for each"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"nearby
+          bee."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Max
+          15 bees"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Right-click
+          to add this pet to"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"your
+          pet menu!"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"LEGENDARY"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        internal: H4sIAAAAAAAA/02QzU7CQBSFryKxVHfGrYlvUIpgWGiigjBNZ6Cl/7sCF1uYQVJasD6Xa30IX0EXrngFR924+07OtzlHBVDgcIW5k2IGNRMfcDmNs1KF49Gi4HyYPc5SjiqoklaY5Smua6Dk+JQXGa5VANhToOrFvEB4wdLQoiDRpoHBJyVpyeyMND4g89UlWXrl+I60iJB9/6Zllu1/bjOP/SYPG0YSLa1iLDzNbNgc+3Z9ItwNdUiDzu1k4He1ULcXbJ6koWM1WadbZ064jRwvjRxrG0qH+lRjOkuZb3DqWzoT9zzqkToV3Wfac3UqPEGFpbHSaM8C7QrgCPbJVA45ON99fpy+s93b2evF13Ung8rvNa5LOrI+qUBVpmAoWTaKZBM3yP8u+BFZLBAqt4jwDd1lPERXAQAA
+    sellingValue: 5.0
+    buyValue: 650000.0
+    detailed: true
+    amount1: 0
+    amount2: 0
+    amount3: 0
+    amount4: 0
+    amount5: 0
+    defaultItemRequirements:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: COAL_BLOCK
+      amount: 8
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Enchanted
+          Block of Coal"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"UNCOMMON"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: GOLD_BLOCK
+      amount: 8
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Enchanted
+          Block of Gold"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"RARE"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+    give-item-on-buy: false
+    exclusive: false
+    commands:
+    - pets give %player% Bee Legendary

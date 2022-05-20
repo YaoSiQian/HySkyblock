@@ -1,0 +1,58 @@
+name: vip
+permissions:
+- rec.pay
+- friends.command.main
+- tradesystem.trade
+- hyperrunes.runetable.open
+- hypertrades.mainmenu
+- essentials.enderchest.others
+- auctionmaster.display
+- auctionmaster.limit.auctions.15
+- bskyblock.island.settings:
+    value: false
+- bskyblock.team.maxsize.5
+- chatty.chat.default.see
+- chatty.chat.vip
+- chatty.chat.vip.see
+- chatty.chat.vip.write
+- chatty.command.ignore
+- chatty.command.msg
+- chatty.command.reply
+- chatty.cooldown
+- chatty.style.bold
+- chatty.style.colors
+- chatty.style.italic
+- chatty.style.magic
+- chatty.style.reset
+- chatty.style.strikethrough
+- chatty.style.underline
+- essentials.enderchest
+- essentials.spawn
+- hyperalchemy.mainmenu
+- hyperanvil.mainmenu
+- hypercollections.levelsmenu
+- hypercollections.mainmenu
+- hypercollections.ranking
+- hypercollections.submenu
+- hypercrafting.autorecipes
+- hypercrafting.mainmenu
+- hypercrafting.recipebook
+- hyperenchanting.menu
+- hyperskills.mainmenu
+- hyperskills.multiplier.runecrafting.1.1
+- hyperskills.ranking
+- hypersouls.tiamenu
+- pets.menu
+- quests.command:
+    value: false
+- rank.VIP
+- rec.bank.command
+- rec.shop.open
+- tab.sort.VIP
+- weight.2
+prefixes:
+- '&a[VIP] &a':
+    priority: 2
+suffixes:
+- '&a':
+    priority: 2

@@ -1,0 +1,34 @@
+tasks:
+ quest:
+  type: "citizens_interact"
+  npc-name: "&e&l点击" 
+
+display:
+  name: "&e与Jerry交谈"
+  lore-normal: []
+  lore-started: []
+  type: "PAPER"
+
+rewards:
+  - "q a moddata start {player} IslandsQuest5"
+  - "emsg {player} &e[NPC] Jerry: &f你的空岛是这广阔的世界中的不可或缺的一部分"
+  - "emsg {player} &e[NPC] Jerry: &f空岛生存的世界中充满了各种有待探索的岛屿，和有待发现的资源！"
+  - "emsg {player} &e[NPC] Jerry: &f使用 &5大厅传送门&f 来传送至你接下来第一个岛屿——空岛生存大厅!"
+  - "emsg {player} &7"
+  - "emsg {player} &6&l  新任务目标"
+  - "emsg {player} &6&l  &f使用传送门"
+  - "emsg {player} &7"
+  - "lp user {player} permission set skyblock.menu true"
+  - "lp user {player} permission set essentials.spawn true"
+
+placeholders:
+  bossbar: "100"
+  progress: "&7"
+
+options:
+  category: ""
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 4

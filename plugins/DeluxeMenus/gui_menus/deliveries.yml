@@ -1,0 +1,82 @@
+menu_title: '物品盒'
+open_command:
+- deliveries
+size: 36
+register_command: false
+items:
+      background:
+        material: BLACK_STAINED_GLASS_PANE
+        slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
+        - 11
+        - 13
+        - 15
+        - 16
+        - 17
+        - 18
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24
+        - 25
+        - 26
+        - 27
+        - 28
+        - 29
+        - 30
+        - 32
+        - 33
+        - 34
+        - 35
+        display_name: '&7'
+        lore: []
+        left_click_commands: []
+        right_click_commands: []
+
+      island-deliveries:
+        material: DIRT
+        slot: 12
+        display_name: '&a岛屿礼包'
+        lore:
+        - '&7任何被送到你的岛屿的物品'
+        - '&7都会出现在这里供你收集'
+        - ''
+        - '&c即将推出'
+        left_click_commands: []
+        right_click_commands: []
+
+
+      personal-deliveries:
+        material: player_head
+        slot: 14
+        display_name: '&a个人礼包'
+        lore:
+        - '&7任何可能交给你自己的物品'
+        - '&7都会出现在这里供你收集'
+        - ''
+        - '&7你目前没有物品可供收集'
+        left_click_commands: []
+        right_click_commands: []
+
+      go-back:
+        material: ARROW
+        slot: 31
+        display_name: '&a返回'
+        lore:
+        - '&7至 Jerry'
+        left_click_commands:
+        - '[openguimenu] jerry-the-assistant'
+        right_click_commands:
+        - '[openguimenu] jerry-the-assistant'

@@ -1,0 +1,30 @@
+tasks:
+ quest:
+  type: "inventory"
+  item: DIAMOND
+  amount: 1
+
+display:
+  name: "&e收集钻石"
+  lore-normal: []
+  lore-started: []
+  type: "PAPER"
+
+rewards:
+  - "q a moddata start {player} GoingDeeper10"
+  - "emsg {player} &7"
+  - "emsg {player} &6&l  新任务目标"
+  - "emsg {player} &6&l  &f到达黑耀圣所"
+  - "emsg {player} &7"
+
+placeholders:
+  bossbar: "100"
+  progress: "&7"
+
+options:
+  category: ""
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 35

@@ -1,0 +1,27 @@
+# Any messages the plugin might send to players.
+messages:
+  # The prefix shown in front of messages.
+  prefix: "&7"
+  # Shown AFTER the configuration has been reloaded.
+  reload: "配置已重载"
+
+# Here you can specify item filters that are needed to apply glow.
+filters:
+  2:
+    lore: "&f&l普通"
+    color: WHITE
+  3:
+    lore: "&a&l精良"
+    color: GREEN
+  4:
+    lore: "&9&l稀有"
+    color: BLUE
+  5:
+    lore: "&5&l史诗"
+    color: DARK_PURPLE
+  6:
+    lore: "&6&l传奇"
+    color: GOLD
+  7:
+    lore: "&c&l特殊"
+    color: RED

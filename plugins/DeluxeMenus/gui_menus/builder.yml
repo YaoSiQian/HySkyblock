@@ -1,0 +1,117 @@
+menu_title: 'Builder'
+open_command:
+- buildershop2
+size: 36
+register_command: false
+items:
+
+      woodworking:
+        material: OAK_PLANKS
+        slot: 10
+        display_name: '&a木工'
+        lore:
+        - '&7木材方块!'
+        - ''
+        - '&e点击浏览!'
+        left_click_commands:
+        - '[player] reshop open builder1'
+        right_click_commands:
+        - '[player] reshop open builder1'
+
+      rocks-and-bricks:
+        material: STONE
+        slot: 12
+        display_name: '&a石头与砖块'
+        lore:
+        - '&7岩石、石头、沙子、砖块'
+        - ''
+        - '&e点击浏览!'
+        left_click_commands:
+        - '[player] reshop open builder2'
+        right_click_commands:
+        - '[player] reshop open builder2'
+
+      green-thumn:
+        material: ROSE_BUSH
+        slot: 14
+        display_name: '&a园艺'
+        lore:
+        - '&7园艺所需的一切'
+        - '&7这里都有'
+        - ''
+        - '&e点击浏览!'
+        left_click_commands:
+        - '[player] reshop open builder3'
+        right_click_commands:
+        - '[player] reshop open builder3'
+
+      variety:
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWZkMGUzMzBhNjg4ZDhiYjk1MTliZWZlMWJmYzM0MzM3YjM3MWFjNzUxNTAyMTZmZGQwMzk1OWViN2I0NCJ9fX0=
+        slot: 16
+        display_name: '&a杂项'
+        lore:
+        - '&c即将推出'
+        left_click_commands: []
+        right_click_commands: []
+
+
+      glass:
+        material: BLACK_STAINED_GLASS_PANE
+        slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 11
+        - 13
+        - 15
+        - 17
+        - 18
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24
+        - 25
+        - 26
+        - 27
+        - 28
+        - 29
+        - 30
+        - 33
+        - 34
+        - 35
+        display_name: '&7'
+        lore: []
+        left_click_commands: []
+        right_click_commands: []
+
+      close:
+        material: BARRIER
+        slot: 31
+        display_name: '&c关闭'
+        lore: []
+        left_click_commands:
+        - '[close]'
+        right_click_commands:
+        - '[close]'
+
+      classic:
+        material: ARMOR_STAND
+        slot: 32
+        display_name: '&a经典的建造者'
+        lore:
+        - '&7使用老版的建筑师界面'
+        - ''
+        - '&e点击浏览!'
+        left_click_commands:
+        - '[player] reshop open builder'
+        right_click_commands:
+        - '[player] reshop open builder'

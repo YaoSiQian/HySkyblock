@@ -1,0 +1,15 @@
+name: mvp
+permissions:
+- hyperskills.multiplier.runecrafting.1.5
+- bskyblock.team.maxsize.6
+- rank.MVP
+- tab.sort.MVP
+- weight.4
+parents:
+- vip+
+prefixes:
+- '&b[MVP] ':
+    priority: 4
+suffixes:
+- '&b':
+    priority: 4

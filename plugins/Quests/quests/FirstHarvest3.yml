@@ -1,0 +1,44 @@
+奖励tasks:
+ quest:
+  type: "citizens_deliver"
+  npc-name: "farmer"
+  item: WHEAT
+  amount: 10
+  data: 0 
+  remove-items-when-complete: true 
+
+display:
+  name: "&e与农民对话"
+  lore-normal: []
+  lore-started: []
+  type: "PAPER"
+
+rewards:
+  - "q a moddata start {player} FirstHarvest4"
+  - "emsg {player} &e[NPC] 农民&f: 非常感谢！"
+  - "emsg {player} &e[NPC] 农民&f: 你可以随便在我的农场采收！小麦是宝贵的资源，收集它可以解锁很多酷炫的物品"
+  - "emsg {player} &7"
+  - "emsg {player} &6&l  任务完成"
+  - "emsg {player} &6&l  &f与农民对话"
+  - "emsg {player} &7"
+  - "emsg {player} &a&l   奖励"
+  - "emsg {player} &a&l   &8+&310 &7农业经验"
+  - "skills addxp {player} Farming 10"
+  - "emsg {player} &7"
+  - "emsg {player} &7"
+  - "emsg {player} &6&l  新任务目标"
+  - "emsg {player} &6&l  &f前往谷仓"
+  - "emsg {player} &7"
+  
+
+placeholders:
+  bossbar: "100"
+  progress: "&7"
+
+options:
+  category: ""
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 14

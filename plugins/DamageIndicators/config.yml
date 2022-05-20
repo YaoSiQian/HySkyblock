@@ -1,0 +1,17 @@
+# Any messages the plugin might send to players.
+messages:
+  # The prefix shown in front of messages.
+  prefix: "&f&l攻击指示器 &8&l» &7"
+  # Shown AFTER the configuration has been reloaded.
+  reload: "配置已重载"
+
+# The format in which damage numbers are shown.
+# %digit-<number>% are placeholders for the digits that can occur in a number.
+# The plugin will only check until digit-9.
+display-format: '&7%digit-1%%digit-2%%digit-3%%digit-4%%digit-5%'
+
+# If the damage done is a critical hit, this will be shown in front of and after the damage number.
+crit-character: ''
+
+# The amount of ticks the damage stays visible, 20 = 1 second.
+display-ticks: 20

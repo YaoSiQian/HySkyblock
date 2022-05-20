@@ -1,0 +1,16 @@
+name: 购买
+title: 购买
+author: 文明游戏
+generation: ORIGINAL
+lore:
+- 购买通知
+open_command: ''
+
+pages:
+  '1':
+  - '您的购买已通过!'
+  - ''
+  - '您将收到以下商品:'
+  - ' ▪ &6MVP&c+ &0等级'
+  - ''
+  - '如果有任何问题, <tooltip:&e点击加入我们的官方Q群><link:https://jq.qq.com/?k=ciimjkOG>&5&l&n请联系管理<reset>'

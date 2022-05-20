@@ -1,0 +1,121 @@
+menu_title: '拜访 & 参观'
+open_command:
+- visitsandguesting
+size: 36
+register_command: false
+items:
+      background:
+        material: BLACK_STAINED_GLASS_PANE
+        slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 11
+        - 13
+        - 15
+        - 17
+        - 18
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24
+        - 25
+        - 26
+        - 27
+        - 28
+        - 29
+        - 30
+        - 32
+        - 33
+        - 34
+        display_name: '&7'
+        lore: []
+        left_click_commands: []
+        right_click_commands: []
+
+      visit-player-islands:
+        material: FEATHER
+        slot: 10
+        display_name: '&a拜访玩家岛屿'
+        lore:
+        - '&7你可以使用 &a/visit'
+        - '&7来拜访其他人的岛屿'
+        - ''
+        - '&7访客&c无法&7与此世界&c互动'
+        - '&7但看到别人在做什么总是很有趣的!'
+        left_click_commands: []
+        right_click_commands: []
+
+      guest-limits:
+        material: GRASS
+        slot: 12
+        display_name: '&a访客限额'
+        lore:
+        - '&7你的岛屿上只能同时容纳有限数量的 &a访客'
+        - ''
+        - '&7此限制取决于你的等级:'
+        - '&7- &c[&f主播&c] &f= &a15'
+        - '&7- &6[MVP&c++&6] &f= &a7'
+        - '&7- &b[MVP] &f= &a5'
+        - '&7- &a[VIP] &f= &a3'
+        - '&7- &7初始等级 &f= &a1'
+        - ''
+        - '&b合作模式存档将'
+        - '&b以你的搭档们的最高等级运作'
+        - ''
+        - '&e&l特权! &6[MVP&e++&6]'
+        - '&7可以无视访客人数限制进入岛屿'
+        - '&7(至多超过限制10人)'
+        - '&7'
+        - ''
+        - '&e在 &5商店 &e购买等级'
+        left_click_commands: []
+        right_click_commands: []
+
+      access-permissions:
+        material: OAK_FENCE
+        slot: 14
+        display_name: '&a访问权限'
+        lore:
+        - '&7你可以在 &e岛屿设置'
+        - '&7中设置谁可以访问你的岛屿'
+        - ''
+        - '&7使用 &c/is ban <用户名>'
+        - '&7来禁止特定的玩家进入'
+        left_click_commands: []
+        right_click_commands: []
+
+      moderation:
+        material: REPEATER
+        slot: 16
+        display_name: '&a管理'
+        lore:
+        - '&7使用 &e访客管理'
+        - '&7管理在线访客'
+        - ''
+        - '&7另外, 使用'
+        - '&c/is expel &7命令或者'
+        - '&a点击它们'
+        left_click_commands: []
+        right_click_commands: []
+        
+        
+      go-back:
+        material: ARROW
+        slot: 31
+        display_name: '&a返回'
+        lore:
+        - '&7至 Jerry小管家'
+        left_click_commands:
+        - '[openguimenu] jerry-the-assistant'
+        right_click_commands:
+        - '[openguimenu] jerry-the-assistant'

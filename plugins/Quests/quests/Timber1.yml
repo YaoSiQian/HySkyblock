@@ -1,0 +1,32 @@
+tasks:
+ quest:
+  type: "citizens_interact"
+  npc-name: "lumberjack" 
+
+display:
+  name: "&e与伐木工人交谈"
+  lore-normal: []
+  lore-started: []
+  type: "PAPER"
+
+rewards:
+  - "q a moddata start {player} Timber2"
+  - "emsg {player} &e[NPC] 伐木工人&f: 木材！"
+  - "emsg {player} &e[NPC] 伐木工人&f: 我的伐木助手病的很糟糕！你觉得你能接手他的工作吗？"
+  - "emsg {player} &e[NPC] 伐木工人&f: 我只需要你砍些树。如果你做到了，我甚至可以把他的旧斧头奖励给你！"
+  - "emsg {player} &7"
+  - "emsg {player} &6&l  新任务目标"
+  - "emsg {player} &6&l  &f收集原木"
+  - "emsg {player} &7"
+
+placeholders:
+  bossbar: "100"
+  progress: "&7"
+
+options:
+  category: ""
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 25

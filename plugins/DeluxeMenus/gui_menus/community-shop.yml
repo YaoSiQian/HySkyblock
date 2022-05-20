@@ -1,0 +1,445 @@
+menu_title: '社区商店'
+open_command:
+- cshop
+size: 54
+register_command: false
+items:
+      glass:
+        material: LIME_STAINED_GLASS_PANE
+        slot: 12
+        display_name: '&8⬆ &7种类'
+        lore:
+        - '&8⬇ &7物品'
+        left_click_commands: []
+        right_click_commands: []
+
+      city-projects:
+        material: GOLDEN_HORSE_ARMOR
+        slot: 1
+        display_name: '&a城市建设项目'
+        lore:
+        - '&7与全体空岛生存社区'
+        - '&7一起参与升级城镇及更多'
+        - ''
+        - '&7为各项工程做出 &b贡献'
+        - '&7以获得独特的增益!'
+        - ''
+        - '&c即将推出!'
+        left_click_commands: []
+        right_click_commands: []
+
+      profile-upgrades:
+        material: HOPPER
+        slot: 2
+        display_name: '&d账号&存档升级'
+        lore:
+        - '&7升级你的存档和空岛长久升级'
+        - ''
+        - '&c即将推出!'
+        left_click_commands: []
+        right_click_commands: []
+
+      booster-cookie:
+        material: COOKIE
+        enchantments:
+        - 'SILK_TOUCH;1'
+        hide_enchantments: true
+        slot: 3
+        display_name: '&6增益曲奇'
+        lore:
+        - '&7获得一个能够让你获得 &b点券'
+        - '&7以及 &d超多增益 &7的临时增益'
+        - ''
+        - '&a当前选择!'
+        left_click_commands: []
+        right_click_commands: []
+
+      bits-shop:
+        material: DIAMOND
+        enchantments:
+        - 'SILK_TOUCH;1'
+        hide_enchantments: true
+        slot: 4
+        display_name: '&b点券商店'
+        lore:
+        - '&7花费 &b点券'
+        - '&7购买一些厉害的物品'
+        - ''
+        - '&7从 &6增益曲奇 &7获取点券'
+        - ''
+        - '&e点击查看!'
+        left_click_commands:
+        - '[openguimenu] bits-shop'
+        right_click_commands:
+        - '[openguimenu] bits-shop'
+
+      fire-sales:
+        material: BLAZE_POWDER
+        enchantments:
+        - 'SILK_TOUCH;1'
+        hide_enchantments: true
+        slot: 5
+        display_name: '&c♨ &l花火 &r&c甩卖 ♨'
+        lore:
+        - '&7领取空岛生存里&c限量&7的 &6特殊 &7装饰品'
+        - ''
+        - '&8当前没有销售!'
+        - ''
+        - '&c即将推出!'
+        left_click_commands: []
+        right_click_commands: []
+
+      black-glass:
+        material: BLACK_STAINED_GLASS_PANE
+        slots:
+        - 0
+        - 6
+        - 8
+        - 9
+        - 15
+        - 17
+        - 18
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24
+        - 25
+        - 26
+        - 27
+        - 28
+        - 30
+        - 32
+        - 34
+        - 35
+        - 36
+        - 37
+        - 38
+        - 39
+        - 40
+        - 41
+        - 42
+        - 43
+        - 44
+        - 45
+        - 46
+        - 47
+        - 48
+        - 50
+        - 51
+        - 52
+        - 53
+        display_name: '&7'
+        left_click_commands: []
+        right_click_commands: []
+
+      red-glass:
+        material: RED_STAINED_GLASS_PANE
+        slot: 7
+        display_name: '&7'
+        left_click_commands: []
+        right_click_commands: []
+
+      gray-glass:
+        material: GRAY_STAINED_GLASS_PANE
+        slots:
+        - 10
+        - 11
+        - 13
+        - 14
+        - 16
+        display_name: '&8⬆ &7种类'
+        lore:
+        - '&8⬇ &7物品'
+        left_click_commands: []
+        right_click_commands: []
+
+      community-shop:
+        material: EMERALD
+        slot: 49
+        enchantments:
+        - 'SILK_TOUCH;1'
+        hide_enchantments: true
+        display_name: '&a社区商店'
+        lore:
+        - '&8伊丽莎白'
+        - ''
+        - '&7宝石: &a%formatter_number_format_:#,###_{customplaceholders_gems}%'
+        - '&8在商店购买!'
+        - ''
+        - '&7点券: &b%formatter_number_format_:#,###_{customplaceholders_bits}%'
+        - '&8从 增益曲奇 获取!'
+        - ''
+        - '&7声望等级: &e%customplaceholders_fame_rank%'
+        - '&8花费宝石 & 点券以升级'
+        left_click_commands:
+        - '[console] ibooks open elizabeth %player_name%<delay=2>'
+        right_click_commands:
+        - '[console] ibooks open elizabeth %player_name%<delay=2>'
+
+      cookie-x1:
+        display_name: '&6单个曲奇'
+        enchantments:
+        - 'SILK_TOUCH;1'
+        hide_enchantments: true
+        lore:
+        - ''
+        - '&6增益曲奇 &8x1'
+        - '&7使用以获得为期 &b4 &7天的 &d曲奇增益:'
+        - ''
+        - '&8► &b+20% &7技能经验'
+        - '&8► &7死亡时保留 &6硬币 &7和 &d效果'
+        - '&8► &e永久 &7在私人岛屿 &e飞行'
+        - '&8► &7在任何地方访问 &6/ah'
+        - '&8► &7在你的岛屿上 &a无限 &7挂机'
+        - '&8► &7允许使用 &6/anvil &7和 &6/etable'
+        - ''
+        - '&6&l传奇'
+        - ''
+        - '&7花费'
+        - '&a325 宝石'
+        - ''
+        - '&7你拥有: &a%formatter_number_format_:#,###_{customplaceholders_gems}% 宝石'
+        - ''
+        - '&e点击购买!'
+        material: COOKIE
+        view_requirement:
+          requirements:
+            gems:
+              type: '>='
+              input: '%customplaceholders_gems%'
+              output: 325
+        priority: 1
+        amount: 1
+        slot: 29
+        right_click_commands:
+        - '[console] customplaceholders remove %player_name% gems 325'
+        - '[console] give %player_name% cookie 1 name:&6增益曲奇 lore:&7使用以获得为期_&b4_&7天的&d曲奇增益:|&7|&8►_&b+20%_&7技能经验|&8►_&7死亡时保留_&6硬币_&7和_&d效果|&8►_&e永久_&7在私人岛屿_&e飞行|&8►_&7在任何地方访问_&6/ah|&8►_&7在你的岛屿上_&a无限_&7挂机|&8►_&7允许使用_&6/anvil_&7和_&6/etable|&7|&6&l传奇 durability:1 itemflags:HIDE_ENCHANTS'
+        - '[refresh]'
+        left_click_commands:
+        - '[console] customplaceholders remove %player_name% gems 325'
+        - '[console] give %player_name% cookie 1 name:&6增益曲奇 lore:&7使用以获得为期_&b4_&7天的&d曲奇增益:|&7|&8►_&b+20%_&7技能经验|&8►_&7死亡时保留_&6硬币_&7和_&d效果|&8►_&e永久_&7在私人岛屿_&e飞行|&8►_&7在任何地方访问_&6/ah|&8►_&7在你的岛屿上_&a无限_&7挂机|&8►_&7允许使用_&6/anvil_&7和_&6/etable|&7|&6&l传奇 durability:1 itemflags:HIDE_ENCHANTS'
+        - '[refresh]'
+        
+      cookie-x1-2:
+        display_name: '&6单个曲奇'
+        enchantments:
+        - 'SILK_TOUCH;1'
+        hide_enchantments: true
+        lore:
+        - ''
+        - '&6增益曲奇 &8x1'
+        - '&7使用以获得为期 &b4 &7天的 &d曲奇增益:'
+        - ''
+        - '&8► &b+20% &7技能经验'
+        - '&8► &7死亡时保留 &6硬币 &7和 &d效果'
+        - '&8► &e永久 &7在私人岛屿 &e飞行'
+        - '&8► &7在任何地方访问 &6/ah'
+        - '&8► &7在你的岛屿上 &a无限 &7挂机'
+        - '&8► &7允许使用 &6/anvil &7和 &6/etable'
+        - ''
+        - '&6&l传奇'
+        - ''
+        - '&7花费'
+        - '&a325 宝石'
+        - ''
+        - '&7你拥有: &a%formatter_number_format_:#,###_{customplaceholders_gems}% 宝石'
+        - ''
+        - '&c承担不起!'
+        - '&e点击获得宝石!'
+        material: COOKIE
+        view_requirement:
+          requirements:
+            gems:
+              type: '<'
+              input: '%customplaceholders_gems%'
+              output: 325
+        priority: 2
+        amount: 1
+        slot: 29
+        right_click_commands:
+        - '[console] ibooks open elizabeth %player_name%'
+        left_click_commands:
+        - '[console] ibooks open elizabeth %player_name%'
+
+
+
+      cookie-x6:
+        display_name: '&6半打曲奇'
+        enchantments:
+        - 'SILK_TOUCH;1'
+        hide_enchantments: true
+        lore:
+        - ''
+        - '&6增益曲奇 &8x6'
+        - '使用以获得为期 &b4 &7天的 &d曲奇增益:'
+        - ''
+        - '&8► &b+20% &7技能经验'
+        - '&8► &7死亡时保留 &6硬币 &7和 &d效果'
+        - '&8► &e永久 &7在私人岛屿 &e飞行'
+        - '&8► &7在任何地方访问 &6/ah'
+        - '&8► &7在你的岛屿上 &a无限 &7挂机'
+        - '&8► &7允许使用 &6/anvil &7和 &6/etable'
+        - ''
+        - '&6&l传奇'
+        - ''
+        - '&7花费'
+        - '&a1,950 宝石'
+        - ''
+        - '&7你拥有: &a%formatter_number_format_:#,###_{customplaceholders_gems}% 宝石'
+        - ''
+        - '&e点击购买!'
+        material: COOKIE
+        view_requirement:
+          requirements:
+            gems:
+              type: '>='
+              input: '%customplaceholders_gems%'
+              output: 1950
+        priority: 1
+        amount: 6
+        slot: 31
+        right_click_commands:
+        - '[console] customplaceholders remove %player_name% gems 1950'
+        - '[console] give %player_name% cookie 6 name:&6增益曲奇 lore:&7使用以获得为期_&b4_&7天的&d曲奇增益:|&7|&8►_&b+20%_&7技能经验|&8►_&7死亡时保留_&6硬币_&7和_&d效果|&8►_&e永久_&7在私人岛屿_&e飞行|&8►_&7在任何地方访问_&6/ah|&8►_&7在你的岛屿上_&a无限_&7挂机|&8►_&7允许使用_&6/anvil_&7和_&6/etable|&7|&6&l传奇 durability:1 itemflags:HIDE_ENCHANTS'
+        - '[refresh]'
+        left_click_commands:
+        - '[console] customplaceholders remove %player_name% gems 1950'
+        - '[console] give %player_name% cookie 6 name:&6增益曲奇 lore:&7使用以获得为期_&b4_&7天的&d曲奇增益:|&7|&8►_&b+20%_&7技能经验|&8►_&7死亡时保留_&6硬币_&7和_&d效果|&8►_&e永久_&7在私人岛屿_&e飞行|&8►_&7在任何地方访问_&6/ah|&8►_&7在你的岛屿上_&a无限_&7挂机|&8►_&7允许使用_&6/anvil_&7和_&6/etable|&7|&6&l传奇 durability:1 itemflags:HIDE_ENCHANTS'
+        - '[refresh]'
+        
+      cookie-x6-2:
+        display_name: '&6半打曲奇'
+        enchantments:
+        - 'SILK_TOUCH;1'
+        hide_enchantments: true
+        lore:
+        - ''
+        - '&6增益曲奇 &8x6'
+        - '使用以获得为期 &b4 &7天的 &d曲奇增益:'
+        - ''
+        - '&8► &b+20% &7技能经验'
+        - '&8► &7死亡时保留 &6硬币 &7和 &d效果'
+        - '&8► &e永久 &7在私人岛屿 &e飞行'
+        - '&8► &7在任何地方访问 &6/ah'
+        - '&8► &7在你的岛屿上 &a无限 &7挂机'
+        - '&8► &7允许使用 &6/anvil &7和 &6/etable'
+        - ''
+        - '&6&l传奇'
+        - ''
+        - '&7花费'
+        - '&a1,950 宝石'
+        - ''
+        - '&7你拥有: &a%formatter_number_format_:#,###_{customplaceholders_gems}% 宝石'
+        - ''
+        - '&c承担不起!'
+        - '&e点击获得宝石!'
+        material: COOKIE
+        view_requirement:
+          requirements:
+            gems:
+              type: '<'
+              input: '%customplaceholders_gems%'
+              output: 1950
+        priority: 2
+        amount: 6
+        slot: 31
+        right_click_commands:
+        - '[console] ibooks open elizabeth %player_name%'
+        left_click_commands:
+        - '[console] ibooks open elizabeth %player_name%'
+
+
+
+
+
+
+
+
+
+      cookie-x12:
+        display_name: '&6一打曲奇'
+        enchantments:
+        - 'SILK_TOUCH;1'
+        hide_enchantments: true
+        lore:
+        - ''
+        - '&6增益曲奇 &8x12'
+        - '使用以获得为期 &b4 &7天的 &d曲奇增益:'
+        - ''
+        - '&8► &b+20% &7技能经验'
+        - '&8► &7死亡时保留 &6硬币 &7和 &d效果'
+        - '&8► &e永久 &7在私人岛屿 &e飞行'
+        - '&8► &7在任何地方访问 &6/ah'
+        - '&8► &7在你的岛屿上 &a无限 &7挂机'
+        - '&8► &7允许使用 &6/anvil &7和 &6/etable'
+        - ''
+        - '&6&l传奇'
+        - ''
+        - '&7花费'
+        - '&a3,900 宝石'
+        - ''
+        - '&7你拥有: &a%formatter_number_format_:#,###_{customplaceholders_gems}% 宝石'
+        - ''
+        - '&e点击购买!'
+        material: COOKIE
+        view_requirement:
+          requirements:
+            gems:
+              type: '>='
+              input: '%customplaceholders_gems%'
+              output: 3900
+        priority: 1
+        amount: 12
+        slot: 33
+        right_click_commands:
+        - '[console] customplaceholders remove %player_name% gems 3900'
+        - '[console] give %player_name% cookie 12 name:&6增益曲奇 lore:&7使用以获得为期_&b4_&7天的&d曲奇增益:|&7|&8►_&b+20%_&7技能经验|&8►_&7死亡时保留_&6硬币_&7和_&d效果|&8►_&e永久_&7在私人岛屿_&e飞行|&8►_&7在任何地方访问_&6/ah|&8►_&7在你的岛屿上_&a无限_&7挂机|&8►_&7允许使用_&6/anvil_&7和_&6/etable|&7|&6&l传奇 durability:1 itemflags:HIDE_ENCHANTS'
+        - '[refresh]'
+        left_click_commands:
+        - '[console] customplaceholders remove %player_name% gems 3900'
+        - '[console] give %player_name% cookie 12 name:&6增益曲奇 lore:&7使用以获得为期_&b4_&7天的&d曲奇增益:|&7|&8►_&b+20%_&7技能经验|&8►_&7死亡时保留_&6硬币_&7和_&d效果|&8►_&e永久_&7在私人岛屿_&e飞行|&8►_&7在任何地方访问_&6/ah|&8►_&7在你的岛屿上_&a无限_&7挂机|&8►_&7允许使用_&6/anvil_&7和_&6/etable|&7|&6&l传奇 durability:1 itemflags:HIDE_ENCHANTS'
+        - '[refresh]'
+        
+      cookie-x12-2:
+        display_name: '&6一打曲奇'
+        enchantments:
+        - 'SILK_TOUCH;1'
+        hide_enchantments: true
+        lore:
+        - ''
+        - '&6增益曲奇 &8x12'
+        - '使用以获得为期 &b4 &7天的 &d曲奇增益:'
+
+        - ''
+        - '&8► &b+20% &7技能经验'
+        - '&8► &7死亡时保留 &6硬币 &7和 &d效果'
+        - '&8► &e永久 &7在私人岛屿 &e飞行'
+        - '&8► &7在任何地方访问 &6/ah'
+        - '&8► &7在你的岛屿上 &a无限 &7挂机'
+        - '&8► &7允许使用 &6/anvil &7和 &6/etable'
+        - ''
+        - '&6&l传奇'
+        - ''
+        - '&7花费'
+        - '&a3,900 宝石'
+        - ''
+        - '&7你拥有: &a%formatter_number_format_:#,###_{customplaceholders_gems}% 宝石'
+        - ''
+        - '&c承担不起!'
+        - '&e点击获得宝石!'
+        material: COOKIE
+        view_requirement:
+          requirements:
+            gems:
+              type: '<'
+              input: '%customplaceholders_gems%'
+              output: 3900
+        priority: 2
+        amount: 12
+        slot: 33
+        right_click_commands:
+        - '[console] ibooks open elizabeth %player_name%'
+        left_click_commands:
+        - '[console] ibooks open elizabeth %player_name%'

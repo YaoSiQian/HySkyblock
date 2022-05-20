@@ -1,0 +1,8 @@
+command /liftoperator:
+	trigger:
+		if player is in "gold-mine", "diamond-reserve", "lapis-quarry", "obsidian-sanctuary", "pigmans-den" or "slimehill":
+			make the server execute command "/dm open lift-operator %player%"
+			stop
+		else:
+			message "&c你没有权限!"
+			stop
