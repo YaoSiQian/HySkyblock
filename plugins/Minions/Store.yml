@@ -1,0 +1,83 @@
+StoreSettings:
+  EnableStore: true
+  InventoryName: '&5&lMinion&dStore'
+  Rows: 2
+  Vault: true
+  Items:
+    0:
+      Item: ARMOR_STAND:0
+      Name: '&6Mining Minion'
+      Lore:
+        - '&dRight click a block to place minion.'
+      Type: MINER
+      Close: true
+    1:
+      Item: ARMOR_STAND:0
+      Name: '&6Seller Minion'
+      Lore:
+        - '&dRight click a block to place minion.'
+      Type: SELLER
+      Close: true
+    2:
+      Item: ARMOR_STAND:0
+      Name: '&6Butcher Minion'
+      Lore:
+        - '&dRight click a block to place minion.'
+      Type: BUTCHER
+      Close: true
+    3:
+      Item: ARMOR_STAND:0
+      Name: '&9Collector Minion'
+      Lore:
+        - '&dRight click a block to place minion.'
+      Type: COLLECTOR
+      Close: true
+    4:
+      Item: ARMOR_STAND:0
+      Name: '&aFarmer Minion'
+      Lore:
+        - '&dRight click a block to place minion.'
+      Type: FARMER
+      Close: true
+    5:
+      Item: ARMOR_STAND:0
+      Name: '&5LumberJack Minion'
+      Lore:
+        - '&dRight click a block to place minion.'
+      Type: LUMBERJACK
+      Close: true
+    6:
+      Item: ARMOR_STAND:0
+      Name: '&5Sorter Minion'
+      Lore:
+        - '&dRight click a block to place minion.'
+      Type: SORTER
+      Close: true
+    7:
+      Item: ARMOR_STAND:0
+      Name: '&5Fisher Minion'
+      Lore:
+        - '&dRight click a block to place minion.'
+      Type: FISHER
+      Close: true
+    8:
+      Item: ARMOR_STAND:0
+      Name: '&5Breeder Minion'
+      Lore:
+        - '&dRight click a block to place minion.'
+      Type: BREEDER
+      Close: true
+    9:
+      Item: ARMOR_STAND:0
+      Name: '&5Builder Minion'
+      Lore:
+        - '&dRight click a block to place minion.'
+      Type: BUILDER
+      Close: true
+    10:
+      Item: ARMOR_STAND:0
+      Name: '&5Crafter Minion'
+      Lore:
+        - '&dRight click a block to place minion.'
+      Type: CRAFTER
+      Close: true

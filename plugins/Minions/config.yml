@@ -1,0 +1,131 @@
+Configuration_Files_Version: 3.8.1
+File_Settings:
+  Delete_Empty_Files: false
+Permissions:
+  Store: 'Minions.permission.store'
+  Reload: 'Minions.permission.admin'
+  GiveCMD: 'Minions.permission.admin'
+  HelpCMD: 'Minions.permission.player'
+  SetRange: 'Minions.permission.setrange'
+  Purge: 'Minions.permission.admin'
+MinionTypes:
+  MINER: true
+  SELLER: true
+  BUTCHER: true
+  COLLECTOR: true
+  FARMER: true
+  LUMBERJACK: true
+  SORTER: true
+  FISHER: true
+  BREEDER: true
+  BUILDER: true
+  CRAFTER: true
+Other_MinionSettings:
+  NBTTag_On_Minion_Items: true
+  Redstone: false
+  Pushed_By_Pistons: false
+PluginSupport:
+  WorldGuard: true
+  ASkyBlock: true
+  AcidIsland: true
+  BentoBox: true
+  IridiumSkyblock: true
+  Towny: true
+  GriefPrevention: true
+  MassiveCore-Factions: true
+  HeadDatabase: true
+  WildStacker: true
+  FabledSkyblock: true
+  SuperiorSkyblock2: true
+  PlotSquared: true
+  Essentials: true
+  ShopGUIPlus: true
+  HyperConomy: true
+  EconomyShopGUI: true
+  Saber-Factions: true
+  Lands: true
+  CubeGenerator: true
+  KGenerators: true
+  DynamicShop: true
+BlackListed_Worlds:
+ - World
+Messages:
+  PrefixChat: true
+  Prefix: '&8[&5Minions&8] '
+  HelpMessage:
+    - '&3&l&n------- &6Minions &3&l&n-------'
+    - ''
+    - '&aCommands:'
+    - '&f/minion [store|shop]'
+    - '&f/minion reload'
+    - '&f/minion [help|?]'
+    - ''
+  Reloaded: '&aAll configuration files have been reloaded.'
+  True-Placeholder: 'true'
+  False-Placeholder: 'false'
+  Minions:
+    Placed: '&6You have placed a %minion_type% minion.'
+    PickedUp: '&aYou have picked up your minion.'
+    DisabledWorld: '&cThis world has minions disabled. Please try again in another world.'
+    PickUp_InvFull: '&aYou need to make some space in your inventory to pick up this minion.'
+    Can_Not_Place: '&cYou can not place your minion here.'
+    LimitReached: '&cYou have reached the max amount of %minion_type% minions placed.'
+    MinionFound: '&cYou can not place a minion on the same block as another.'
+    NotYours: '&cThis is not your minion.'
+    Died: '&dYour minion has died.'
+    HungerFull: '&cMinion hunger is full.'
+    HealthFull: '&cMinion health is full.'
+    Gave_Food: '&aYou have given your %minion_type% minion %foodtype%, its hunger is now %minion_hunger%/20'
+    Gave_Health_Food: '&aYou have given your %minion_type% minion %foodtype%, its health is now %minion_health%/20'
+    NotEnoughMoney_Health: '&cYou do not have enough to purchase health for your minion.'
+    NotEnoughMoney_Food: '&cYou do not have enough to purchase food for your minion.'
+    NotEnoughMoney_Store: '&cYou do not have enough to purchase this minion.'
+    Purchased: '&aYou have purchased a %minion_type% minion for $%minion_cost%!'
+    LinkingChest: '&aYou are linking a chest. Please crouch right click a chest to link it.'
+    NotLinking: '&aYou are no longer linking a chest.'
+    ChestLinked: '&aThis chest has been linked with your minion.'
+    ChestUnLinked: '&aThis minion has unlinked with a chest'
+    Chest_Worlds_Must_Match: '&cThe chest you are linking must be in the same world as your minion.'
+    Chest_Out_Of_Range: '&cThis chest is to far from your minion.'
+    Miner_Purifying: '&aThis minion will now purify blocks.'
+    Miner_NotPurifying: '&aThis minion will no longer purify blocks.'
+    Miner_Walking: '&aThis minion will now walk and mine.'
+    Miner_NotWalking: '&aThis minion will no longer walk and mine.'
+    Seller_SoldItems: '&aYour minion sold $%money_made% with a multiplier of %money_multiplier% worth of items.'
+    Seller_Messages_You: '&aYour seller will now send you messages when it sells items.'
+    Seller_Does_Not_Message_You: '&aYour seller will no longer send you messages when it sells items.'
+    Builder_Changed_Task: '&aYou have changed this builders task to %minion_task%.'
+    Builder_Setting_Positions: '&aYou are now setting the positions for this minion. Left click to set position 1 and Right click to set position 2.'
+    Builder_Set_Pos1: '&aPosition 1 has been set at X:%pos_x% Y:%pos_y% Z:%pos_z%'
+    Builder_Set_Pos2: '&aPosition 2 has been set at X:%pos_x% Y:%pos_y% Z:%pos_z%'
+    Builder_Max_Disatnce: '&aThis region is to big. That max distance between positions for you is %minion_maxdistance%'
+    Builder_NotSetting_Positions: '&aYou are no longer setting positions.'
+    SetMinionRange: '&aYour %minion_type% minion now has a range of %range%.'
+    SetCraftsPerItem: '&aYour minion will now atempt to craft %crafts_per_item% item(s) at a time.'
+    Change_Direction: '&aThis minion will now look %direction%.'
+    CollectedEXP: '&aYou have collected %minion_collected_exp% exp from this minion.'
+    Minion_Died: '&cYour %minion_type% minion has died.'
+    Gave_Minion: '&aYou gave %player% a %minion_type% minion!'
+    Recieved_Minion: '&aYou were given a %minion_type% minion!'
+    Confirm_ForcePickup: '&aPlease crouch right click this minion again to confirm force pickup.'
+    ForcedPickup: '&aYou have forcefully pickedup %minion_owner%''s %minion_type% minion.'
+    MinionType_Not_Enabled: '&cThe minion type %minion_type% is not enabled.'
+    Set_Suit: '&aYou have changed your minions suit to %minion_suit%'
+    No_Permission: '&cYou do not have permission for this.'
+    LoadingMinionGUI: '&cPlease wait while your minions GUI loads.'
+    BrokenHeldItem: '&aYour %minion_type% minion''s item has broken. Please fix it or give them another useable tool.'
+    List_Types:
+      - '&6List of minion types:'
+      - '&aMiners: (%miner_amount%)'
+      - '&aSellers: (%seller_amount%)'
+      - '&aButchers: (%butcher_amount%)'
+      - '&aCollectors: (%collector_amount%)'
+      - '&aFarmers: (%farmer_amount%)'
+      - '&aLumberJacks: (%lumberjack_amount%)'
+      - '&aSorters: (%sorter_amount%)'
+      - '&aFishers: (%fisher_amount%)'
+      - '&aBreeders: (%breeder_amount%)'
+      - '&aBuilders: (%builder_amount%)'
+    List_Ids:
+      - '&6ID: &f(%minion_id%)'
+      - '&6Location: &f(%minion_location%)'
