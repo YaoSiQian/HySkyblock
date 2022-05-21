@@ -1,23 +1,23 @@
 backButtons: true
 mainMenu:
-  title: Your Skills
+  title: 你的技能
   size: 54
   items:
     statsItem:
       material: PLAYER_HEAD
       amount: 1
-      title: '&e%player%''s profile'
+      title: '&e%player% 个人信息'
       headOwner: '%player%'
       lore:
       - ''
-      - '&c❤ Health: %health%'
-      - '&a❈ Defense: &7%defense%'
-      - '&9✯ Crit Chance: &7%crit_chance%'
-      - '&9☣ Crit Damage: &7%crit_damage%'
-      - '&c✿ Strength: &7%strength%'
-      - '&b✎ Inteligence: &7%intelligence%'
-      - '&d⎊ Pet Luck: &7%pet_luck%'
-      - '&f⎐ Speed: &7%speed%'
+      - '&c❤ 生命: %health%'
+      - '&a❈ 防御: &7%defense%'
+      - '&9☣ 暴击率: &7%crit_chance%'
+      - '&9☠ 暴击伤害: &7%crit_damage%'
+      - '&c❁ 力量: &7%strength%'
+      - '&b✎ 智力: &7%intelligence%'
+      - '&d♠ 宠物运气值: &7%pet_luck%'
+      - '&f✦ 速度: &7%speed%'
       slot: 45
       isGlowing: false
     skillItem:
@@ -26,29 +26,28 @@ mainMenu:
       lore:
       - '%description%'
       - ''
-      - '&7Progress to Level %next_level%: &e%current_percentage%%'
+      - '&7等级 %next_level% 升级进度: &e%current_percentage%%'
       - '%progress_bar% &e%current_xp%&6/&e%max_xp%'
       - ''
-      - '&7Level %next_level% Rewards:'
+      - '&7等级 %next_level% 奖励:'
       - '%level_rewards%'
       - ''
-      - '&eClick to view!'
+      - '&e点击查看!'
       slot: 25
       isGlowing: false
     showranking:
       material: DIAMOND_SWORD
       amount: 1
-      title: '&aYour Skills'
+      title: '&a你的技能'
       lore:
-      - '&7View your Skill progression'
-      - '&7and rewards.'
+      - '&7查看你的技能进度和奖励'
       - ''
-      - '&eClick to show rankings!'
+      - '&e点击显示排名!'
       slot: 4
       isGlowing: false
       command: skills ranking
 topMenu:
-  title: Your Skills
+  title: 你的技能
   size: 54
   items:
     skillItem:
@@ -57,27 +56,26 @@ topMenu:
       lore:
       - '%description%'
       - ''
-      - '&7Progress to Level %next_level%: &e%current_percentage%%'
+      - '&7等级 %next_level% 升级进度: &e%current_percentage%%'
       - '%progress_bar% &e%current_xp%&6/&e%max_xp%'
       - ''
-      - '&7Level %next_level% Rewards:'
+      - '&7等级 %next_level% 奖励:'
       - '%level_rewards%'
       - ''
       - '%ranking_information%'
-      - '&8Rankings may take some time to refresh.'
+      - '&8排名需要一定时间来刷新'
       - ''
-      - '&eClick to view!'
+      - '&e点击查看!'
       slot: 19
       isGlowing: true
     hideranking:
       material: DIAMOND_SWORD
       amount: 1
-      title: '&aYour Skills'
+      title: '&a你的技能'
       lore:
-      - '&7View your Skill progression'
-      - '&7and rewards.'
+      - '&7查看你的技能进度和奖励'
       - ''
-      - '&eClick to hide rankings!'
+      - '&e点击隐藏排名!'
       slot: 4
       isGlowing: false
       command: skills mainmenu
@@ -85,46 +83,46 @@ topMenu:
       material: PLAYER_HEAD
       headOwner: '%player%'
       amount: 1
-      title: '&e%player%''s profile'
+      title: '&e%player% 个人资料'
       lore:
       - ''
-      - '&c❤ Health: %health%'
-      - '&a❈ Defense: &7%defense%'
-      - '&9✯ Crit Chance: &7%crit_chance%'
-      - '&9☣ Crit Damage: &7%crit_damage%'
-      - '&c✿ Strength: &7%strength%'
-      - '&b✎ Inteligence: &7%intelligence%'
-      - '&d⎊ Pet Luck: &7%pet_luck%'
-      - '&f⎐ Speed: &7%speed%'
+      - '&c❤ 生命: %health%'
+      - '&a❈ 防御: &7%defense%'
+      - '&9☣ 暴击率: &7%crit_chance%'
+      - '&9☠ 暴击伤害: &7%crit_damage%'
+      - '&c❁ 力量: &7%strength%'
+      - '&b✎ 智力: &7%intelligence%'
+      - '&d♠ 宠物运气值: &7%pet_luck%'
+      - '&f✦ 速度: &7%speed%'
       slot: 45
       isGlowing: false
 submenu:
   titles:
-    Carpentry: Carpentry Skill
-    Social: Social Skill
-    Farming: Farming Skill
-    Mining: Mining Skill
-    Taming: Taming Skill
-    Combat: Combat Skill
-    Runecrafting: Runecrafting Skill
-    Enchanting: Enchanting Skill
-    Dungeoneering: Dungeoneering Skill
-    Foraging: Foraging Skill
-    Alchemy: Alchemy Skill
-    Fishing: Fishing Skill
+    Carpentry: 木工技能
+    Social: 社交技能
+    Farming: 农业技能
+    Mining: 挖矿技能
+    Taming: 驯兽技能
+    Combat: 战斗技能
+    Runecrafting: 符文合成技能
+    Enchanting: 附魔技能
+    Dungeoneering: 地牢技能
+    Foraging: 林业技能
+    Alchemy: 酿造技能
+    Fishing: 渔业技能
   size: 54
   items:
     infoItem:
       amount: 1
-      title: '&a%displayname% Skill'
+      title: '&a%displayname% 技能'
       lore:
       - '%description%'
       - ''
-      - '&7Progress to Level %next_level%: &e%current_percentage%%'
+      - '&7等级 %next_level% 升级进度: &e%current_percentage%%'
       - '%progress_bar% &e%current_xp%&6/&e%max_xp%'
       - ''
-      - '&8Increase your %displayname% Level to'
-      - '&8unlock Perks, statistic bonuses,'
+      - '&8提升你的 %displayname% 等级'
+      - '&8来解锁增益, 属性加成和更多!'
       - '&8and more!'
       slot: 0
       isGlowing: false
@@ -133,10 +131,10 @@ submenu:
       amount: 1
       title: '&e%displayname% %next_level%'
       lore:
-      - '&7Rewards:'
+      - '&7奖励:'
       - '%level_rewards%'
       - ''
-      - '&7Progress: &e%current_percentage%%'
+      - '&7进度: &e%current_percentage%%'
       - '%progress_bar% &e%current_xp%&6/&e%max_xp%'
       - ''
       isGlowing: false
@@ -145,7 +143,7 @@ submenu:
       amount: 1
       title: '&c%displayname% %next_level%'
       lore:
-      - '&7Rewards:'
+      - '&7奖励:'
       - '%level_rewards%'
       isGlowing: false
     unlockedItem:
@@ -153,10 +151,10 @@ submenu:
       amount: 1
       title: '&a%displayname% %next_level%'
       lore:
-      - '&7Rewards:'
+      - '&7奖励:'
       - '%level_rewards%'
       - ''
-      - '&aUNLOCKED'
+      - '&a已解锁'
       isGlowing: false
   slots:
   - 9
@@ -188,9 +186,9 @@ buttons:
   nextPage:
     material: ARROW
     amount: 1
-    title: '&aLevels 26 - 50'
+    title: '&a等级 26 - 50'
     lore:
-    - '&eClick to view!'
+    - '&e点击查看!'
     slot: 50
     isGlowing: false
   previousPage:
@@ -198,7 +196,7 @@ buttons:
     amount: 1
     title: '&a返回'
     lore:
-    - '&7To Skills Menu'
+    - '&7至技能菜单'
     slot: 48
     isGlowing: false
   background:
@@ -217,212 +215,180 @@ buttons:
   multiplierItem:
     material: DIAMOND
     amount: 1
-    title: '&aRunecrafting: &5XP Multiplier'
+    title: '&a符文合成: &5经验倍数'
     lore:
-    - '&8Cosmetic skill'
+    - '&8装饰性技能'
     - ''
-    - '&7Earn more experience by owning a'
-    - '&7Server rank!'
+    - '&7拥有服务器权益可以获得更多经验!'
     - ''
-    - '&a[VIP] &7: &51.1x &7XP'
-    - '&a[VIP&6+&a] &7: &51.25x &7XP'
-    - '&b[MVP] &7: &51.5x &7XP'
-    - '&b[MVP&c+&b] &7: &52.0x &7XP'
-    - '&6[MVP&c++&6] &7: &53.0x &7XP'
-    - '&7Other: 1.0x XP, Max level 3 &5◀'
+    - '&a[VIP] &7: &51.1x &7经验'
+    - '&a[VIP&6+&a] &7: &51.25x &7经验'
+    - '&b[MVP] &7: &51.5x &7经验'
+    - '&b[MVP&c+&b] &7: &52.0x &7经验'
+    - '&6[MVP&c++&6] &7: &53.0x &7经验'
+    - '&7其他: 1.0x XP, 最大等级 3 &5◀'
     - ''
-    - '&7Keep in mind, every rune'
-    - '&7effect is &b100% cosmetic&7!'
-    - ''
-    - '&eClick to visit the store!'
+    - '&7请时刻注意'
+    - '&7所有的符文特效 &b仅供装饰&7!'
     slot: 45
     isGlowing: true
     command: ibooks open store %player%
 profileGui:
-  title: '&8Your Skyblock Profile'
+  title: '&8你的空岛生存个人信息'
   size: 54
   items:
     health:
       material: GOLDEN_APPLE
       amount: 1
-      title: '&c❤ Health &f%total_health%'
+      title: '&c❤ 生命 &f%total_health%'
       lore:
-      - '&7Health is your total maximum'
-      - '&7health.'
+      - '&7生命为你总的最大生命'
       - ''
-      - '&7Base Health: &a%simple_health%'
-      - '  &8Increase your base Health by'
-      - '  &8leveling your Farming and'
-      - '  &8Fishing Skills and contributing'
-      - '  &8to the &dFairy&8!'
+      - '&7基础生命: &a%simple_health%'
+      - '  &8通过提升你的农业与钓鱼技能'
+      - '  &8或是在 &2野外 &8贡献 &d仙女之魂'
+      - '  &8来提升你的基础生命'
       - ''
-      - '&7Bonus Health: &8+&e%bonus_health%'
-      - '  &8Increase your bonus Health'
-      - '  &8by equipping items and armor,'
-      - '  &8and storing accesories in your'
-      - '  &8inventory.'
+      - '&7增益生命: &8+&e%bonus_health%'
+      - '  &8通过装备物品,盔甲和在物品栏中储存饰品'
+      - '  &8来提升你的增益生命'
       slot: 19
       isGlowing: false
     defense:
       material: IRON_CHESTPLATE
       amount: 1
-      title: '&a❈ Defense  &f%total_defense%'
+      title: '&a❈ 防御  &f%total_defense%'
       lore:
-      - '&7Defense reduces the damage that'
-      - '&7you take from enemies.'
+      - '&7防御减少来自敌人的伤害'
       - ''
-      - '&7Base Defense: &a%simple_defense%'
-      - '  &8Increase your base Defense'
-      - '  &8by leveling your Mining Skill'
-      - '  &8and contributing to the &dFairy&8!'
+      - '&7基础防御: &a%simple_defense%'
+      - '  &8通过提升你的挖矿技能'
+      - '  &8或是在 &2野外 &8贡献 &d仙女之魂'
+      - '  &8来提升你的基础防御!'
       - ''
-      - '&7Bonus Defense: &8+&e%bonus_defense%'
-      - '  &8Increase your bonus Defense'
-      - '  &8by equipping items and armor,'
-      - '  &8and storing accesories in your'
-      - '  &8inventory.'
+      - '&7增益防御: &8+&e%bonus_defense%'
+      - '  &8通过装备物品,盔甲和在物品栏中储存饰品'
+      - '  &8来提升你的增益防御'
       slot: 20
       isGlowing: false
     strength:
       material: BLAZE_POWDER
       amount: 1
-      title: '&c❈ Strength  &f%total_strength%'
+      title: '&c❁ 力量  &f%total_strength%'
       lore:
-      - '&7Strength increases your base'
-      - '&7melee damage, including punching'
-      - '&7and weapons.'
+      - '&7力量增加你的基础近战伤害'
+      - '&7包括空手伤害和武器伤害'
       - ''
-      - '&7Base Strength: &a%simple_strength%'
-      - '  &8Increase your base Strength'
-      - '  &8by leveling your Foraging Skill'
-      - '  &8and contributing to the &dFairy&8!'
+      - '&7基础力量: &a%simple_strength%'
+      - '  &8通过提升你的林业技能'
+      - '  &8或是在 &2野外 &8贡献 &d仙女之魂'
+      - '  &8来提升你的基础力量'
       - ''
-      - '&7Bonus Strength: &8+&e%bonus_strength%'
-      - '  &8Increase your bonus Strength'
-      - '  &8by equipping items and armor,'
-      - '  &8and storing accesories in your'
-      - '  &8inventory.'
+      - '&7增益力量: &8+&e%bonus_strength%'
+      - '  &8通过装备物品,盔甲和在物品栏中储存饰品'
+      - '  &8来提升你的增益力量'
       slot: 21
       isGlowing: false
     speed:
       material: SUGAR
       amount: 1
-      title: '&f⎐ Speed  &f%total_speed%'
+      title: '&f✦ 速度  &f%total_speed%'
       lore:
-      - '&7Speed increases your walk speed.'
+      - '&7速度增加你的移动速度'
       - ''
-      - '&7Base Speed: &a%simple_speed%'
-      - '  &8Increase your base Speed'
-      - '  &8by leveling your Foraging Skill'
-      - '  &8and contributing to the &dFairy&8!'
+      - '&7基础速度: &a%simple_speed%'
+      - '  &8通过在 &2野外 &8贡献 &d仙女之魂'
+      - '  &8来提升你的基础速度'
       - ''
-      - '&7Bonus Speed: &8+&e%bonus_speed%'
-      - '  &8Increase your bonus Speed'
-      - '  &8by equipping items and armor,'
-      - '  &8and storing accesories in your'
-      - '  &8inventory.'
+      - '&7增益速度: &8+&e%bonus_speed%'
+      - '  &8通过装备物品,盔甲和在物品栏中储存饰品'
+      - '  &8来提升你的增益速度'
       slot: 22
       isGlowing: false
     critchance:
       material: PLAYER_HEAD
       amount: 1
-      title: '&9✯ Crit Chance  &f%total_crit_chance%'
+      title: '&9☣ 暴击率  &f%total_crit_chance%'
       headData: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2U0ZjQ5NTM1YTI3NmFhY2M0ZGM4NDEzM2JmZTgxYmU1ZjJhNDc5OWE0YzA0ZDlhNGRkYjcyZDgxOWVjMmIyYiJ9fX0=
       lore:
-      - '&7Crit chance is your chance to'
-      - '&7deal extra damage on enemies'
+      - '&7暴击率是你能够对敌人造成暴击的概率'
       - ''
-      - '&7Base Crit Chance: &a%simple_crit_chance%'
-      - '  &8Increase your base Crit'
-      - '  &8Chance by leveling your Combat'
-      - '  &8Skill.'
+      - '&7基础暴击率: &a%simple_crit_chance%'
+      - '  &8通过提升你的战斗技能'
+      - '  &8来提升你的基础暴击率'
       - ''
-      - '&7Bonus Crit Chance: &8+&e%bonus_crit_chance%'
-      - '  &8Increase your bonus Crit'
-      - '  &8Chance by equipping items and '
-      - '  &8armor, and storing accesories'
-      - '  &8in your inventory.'
+      - '&7增益暴击率: &8+&e%bonus_crit_chance%'
+      - '  &8通过装备物品,盔甲和在物品栏中储存饰品'
+      - '  &8来提升你的增益暴击率'
       slot: 23
       isGlowing: false
     critdamage:
       material: PLAYER_HEAD
       amount: 1
-      title: '&9☣ Crit Damage  &f%total_crit_damage%'
+      title: '&9☠ 暴击伤害  &f%total_crit_damage%'
       headData: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGRhZmIyM2VmYzU3ZjI1MTg3OGU1MzI4ZDExY2IwZWVmODdiNzljODdiMjU0YTdlYzcyMjk2ZjkzNjNlZjdjIn19fQ==
       lore:
-      - '&7Crit Damage is the amount of'
-      - '&7extra damage your deal when'
-      - '&7landing a critical hit'
+      - '&7暴击伤害是当你暴击后能造成多少额外伤害'
       - ''
-      - '&7Base Crit Damage: &a%simple_crit_damage%'
-      - '  &8Increase your base Crit'
-      - '  &8Damage by exploring the world!'
+      - '&7基础暴击伤害: &a%simple_crit_damage%'
+      - '  &8通过探索这个世界'
+      - '  &8来提升你的基础暴击伤害'
       - ''
-      - '&7Bonus Crit Damage: &8+&e%bonus_crit_damage%'
-      - '  &8Increase your bonus Crit'
-      - '  &8Chance by equipping items and '
-      - '  &8armor, and storing accesories'
-      - '  &8in your inventory.'
+      - '&7增益暴击伤害: &8+&e%bonus_crit_damage%'
+      - '  &8通过装备物品,盔甲和在物品栏中储存饰品'
+      - '  &8来提升你的增益暴击伤害'
       slot: 24
       isGlowing: false
     intelligence:
       material: ENCHANTED_BOOK
       amount: 1
-      title: '&b✎ Intelligence  &f%total_intelligence%'
+      title: '&b✎ 智力  &f%total_intelligence%'
       lore:
-      - '&7Intelligence allows you to use items'
-      - '&7that requires mana.'
+      - '&7提升智力不仅会提升最大法力'
+      - '&7并且会增加魔法伤害'
       - ''
-      - '&7Base Intelligence: &a%simple_intelligence%'
-      - '  &8Increase your base Damage'
-      - '  &8Damage by leveling your'
-      - '  &8Enchanting and Alchemy Skills.'
+      - '&7基础智力: &a%simple_intelligence%'
+      - '  &8通过增加你的附魔和酿造等级'
+      - '  &8来提升你的基础智力'
       - ''
-      - '&7Bonus Intelligence: &8+&e%bonus_intelligence%'
-      - '  &8Increase your bonus'
-      - '  &8Intelligence by equipping items '
-      - '  &8and armor, and storing'
-      - '  &8accesories in your inventory.'
+      - '&7增益智力: &8+&e%bonus_intelligence%'
+      - '  &8通过装备物品,盔甲和在物品栏中储存饰品'
+      - '  &8来提升你的增益智力'
       slot: 25
       isGlowing: false
     petluck:
       material: PLAYER_HEAD
       amount: 1
-      title: '&d⎊ Pet Luck &f%total_pet_luck%'
+      title: '&d♠ 宠物运气值 &f%total_pet_luck%'
       headData: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTNjOGFhM2ZkZTI5NWZhOWY5YzI3ZjczNGJkYmFiMTFkMzNhMmU0M2U4NTVhY2NkNzQ2NTM1MjM3NzQxM2IifX19
       lore:
-      - '&7Pet Luck increase how many pets'
-      - '&7you find and gives you better'
-      - '&7luck when crafting pets.'
+      - '&7宠物运气值增加你找到的宠物数量'
+      - '&7并在合成宠物时为你带来好运'
       - ''
-      - '&7Base Pet Luck: &a%simple_pet_luck%'
-      - '  &8Increase your base Pet Luck'
-      - '  &8by leveling your Taming Skill'
+      - '&7基础宠物运气值: &a%simple_pet_luck%'
+      - '  &8通过增加你的驯兽等级'
+      - '  &8来提升你的基础宠物运气值'
       - ''
-      - '&7Bonus Pet Luck: &8+&e%bonus_pet_luck%'
-      - '  &8Increase your bonus Pet Luck'
-      - '  &8by equipping items and armor,'
-      - '  &8and storing &8accesories in your'
-      - '  &8inventory.'
+      - '&7增益宠物运气值: &8+&e%bonus_pet_luck%'
+      - '  &8通过装备物品,盔甲和在物品栏中储存饰品'
+      - '  &8来提升你的增益宠物运气值'
       slot: 28
       isGlowing: false
     orechance:
       material: PLAYER_HEAD
       amount: 1
-      title: '&6☘ Mining Fortune &f%total_ore_chance%'
+      title: '&6☘ 挖矿时运 &f%total_ore_chance%'
       headData: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGIzYmNjMWE2NjhmYjMzOTc1MDczNTk2NzQxMjhhNDJjMjZmMzQ0OTc0MTg5ZWMzMjJhMzNkMTMxNjg0MjhlYSJ9fX0=
       lore:
-      - '&7Mining Fortune is the chance to'
-      - '&7gain double drops from ores,'
-      - '&7with a chance for triple drops'
-      - '&7at values greater than 100.'
+      - '&7挖矿时运是获取矿石时获得双倍掉落的概率'
+      - '&7数值大于 100 时可能获得三倍掉落'
       - ''
-      - '&7Base Mining Fortune: &a%simple_ore_chance%'
-      - '  &8Increase your base Mining Fortune'
+      - '&7基础挖矿时运: &a%simple_ore_chance%'
+      - '  &8Increase your base 挖矿时运'
       - '  &8by leveling your Mining Skill'
       - ''
-      - '&7Bonus Mining Fortune: &8+&e%bonus_ore_chance%'
-      - '  &8Increase your bonus Mining Fortune'
+      - '&7增益挖矿时运: &8+&e%bonus_ore_chance%'
+      - '  &8Increase your bonus 挖矿时运'
       - '  &8by equipping items and armor,'
       - '  &8and storing &8accesories in your'
       - '  &8inventory.'
@@ -441,11 +407,11 @@ profileGui:
       - '&7with a chance for triple crops'
       - '&7at values greater than 100.'
       - ''
-      - '&7Base Farming Fortune: &a%simple_crop_chance%'
+      - '&7基础Farming Fortune: &a%simple_crop_chance%'
       - '  &8Increase your base Farming Fortune'
       - '  &8by leveling your Farming Skill'
       - ''
-      - '&7Bonus Farming Fortune: &8+&e%bonus_crop_chance%'
+      - '&7增益Farming Fortune: &8+&e%bonus_crop_chance%'
       - '  &8Increase your bonus Farming Fortune'
       - '  &8by equipping items and armor,'
       - '  &8and storing &8accesories in your'
@@ -465,11 +431,11 @@ profileGui:
       - '&7with a chance for triple logs'
       - '&7at values greater than 100.'
       - ''
-      - '&7Base Foraging Fortune: &a%simple_log_chance%'
+      - '&7基础Foraging Fortune: &a%simple_log_chance%'
       - '  &8Increase your base Foraging Fortune'
       - '  &8by leveling your Farming Skill'
       - ''
-      - '&7Bonus Foraging Fortune: &8+&e%bonus_log_chance%'
+      - '&7增益Foraging Fortune: &8+&e%bonus_log_chance%'
       - '  &8Increase your bonus Foraging Fortune'
       - '  &8by equipping items and armor,'
       - '  &8and storing &8accesories in your'
@@ -484,7 +450,7 @@ profileGui:
       slot: 48
       title: '&a返回'
       lore:
-      - '&7To Skills Menu'
+      - '&7至技能菜单'
       isGlowing: false
     stats:
       material: BLACK_STAINED_GLASS_PANE
