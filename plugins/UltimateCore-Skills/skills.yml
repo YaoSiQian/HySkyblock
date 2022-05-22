@@ -5,7 +5,7 @@ skills:
     enabled: false
     xpInCreative: true
     multiplierEnabled: false
-    displayName: Carpentry
+    displayName: 木工
     description:
     - '&7Craft items and prepare'
     - '&7recipes to earn Carpentry XP!'
@@ -35,10 +35,10 @@ skills:
     enabled: true
     xpInCreative: true
     multiplierEnabled: false
-    displayName: Farming
+    displayName: 农业
     description:
-    - '&7Harvest crops and shear sheep to'
-    - '&7earn Farming XP!'
+    - '&7收获作物或剪羊毛'
+    - '&7以获得农业经验!'
     blockedWorlds:
     - world_end
     - world_nether
@@ -50,11 +50,11 @@ skills:
     enabled: true
     xpInCreative: true
     multiplierEnabled: false
-    displayName: Mining
+    displayName: 挖矿
     description:
-    - '&7Spelunk islands for ores and'
-    - '&7valuable materials to earn'
-    - '&7Mining XP!'
+    - '&7在洞穴中探险'
+    - '&7搜寻矿石和贵重材料'
+    - '&7以获得挖矿经验!'
     blockedWorlds:
     - world_end
     - world_nether
@@ -66,9 +66,9 @@ skills:
     enabled: true
     xpInCreative: true
     multiplierEnabled: false
-    displayName: Taming
+    displayName: 驯兽
     description:
-    - '&7Level up pets to earn Taming XP!'
+    - '&7升级宠物以获得驯兽经验!'
     blockedWorlds:
     - world_end
     - world_nether
@@ -80,10 +80,9 @@ skills:
     enabled: true
     xpInCreative: true
     multiplierEnabled: false
-    displayName: Combat
+    displayName: 战斗
     description:
-    - '&7Fight mobs and players to'
-    - '&7earn Combat XP!'
+    - '&7和玩家或怪物战斗以获得战斗经验!'
     blockedWorlds:
     - world_end
     - world_nether
@@ -95,13 +94,12 @@ skills:
     enabled: true
     xpInCreative: true
     multiplierEnabled: true
-    displayName: Runecrafting
+    displayName: 符文合成
     description:
-    - '&7Slay bosses, runic mobs & fuse'
-    - '&7runes to earn Runecrafting XP!'
+    - '&7击杀Boss与符文怪物'
+    - '&7融合符文来获得符文合成经验!'
     - ''
-    - '&dLevel up Runecrafting to activate'
-    - '&dthe effects of rune-bearing items!'
+    - '&d通过升级符文合成以激活符文的特效!'
     blockedWorlds:
     - world_end
     - world_nether
@@ -113,10 +111,9 @@ skills:
     enabled: true
     xpInCreative: true
     multiplierEnabled: false
-    displayName: Enchanting
+    displayName: 附魔
     description:
-    - '&7Enchant items to earn Enchanting'
-    - '&7XP!'
+    - '&7附魔物品以获得附魔经验!'
     blockedWorlds:
     - world_end
     - world_nether
@@ -142,10 +139,10 @@ skills:
     enabled: true
     xpInCreative: true
     multiplierEnabled: false
-    displayName: Foraging
+    displayName: 林业
     description:
-    - '&7Cut trees and forage for other'
-    - '&7plants to earn Foraging XP!'
+    - '&7砍树或收集其他植物'
+    - '&7以获得林业经验!'
     blockedWorlds:
     - world_end
     - world_nether
@@ -157,9 +154,9 @@ skills:
     enabled: true
     xpInCreative: true
     multiplierEnabled: false
-    displayName: Alchemy
+    displayName: 酿造
     description:
-    - '&7Brew potions to earn Alchemy XP!'
+    - '&7酿造药水以获得酿造经验!'
     blockedWorlds:
     - world_end
     - world_nether
@@ -171,10 +168,9 @@ skills:
     enabled: true
     xpInCreative: true
     multiplierEnabled: false
-    displayName: Fishing
+    displayName: 渔业
     description:
-    - '&7Visit your local pond to fish'
-    - '&7and earn Fishing XP!'
+    - '&7以获得钓鱼经验!'
     blockedWorlds:
     - world_end
     - world_nether
