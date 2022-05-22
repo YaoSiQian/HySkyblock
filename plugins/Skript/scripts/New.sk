@@ -21,21 +21,21 @@ on damage:
 
 on damage:
 	attacker is a player
-	if name of attacker's tool is "&aFlaming Sword":
+	if name of attacker's tool is "&a燃烧之剑":
 		ignite the victim for 3 seconds
 
 on rightclick holding a wooden sword:
-	if held item's name is "&fAspect of the Jerry":
+	if held item's name is "&fJerry 之刃":
 		make the player execute command "/iKjusHbc"
 
 command /iKjusHbc:
 	cooldown: 5 seconds
-	cooldown message: &cThis ability is on cooldown!
+	cooldown message: &c此技能还在冷却中!
 	trigger:
 		make the server execute command "/playsound minecraft:entity.villager.yes player %player% %x-coordinate of player% %y-coordinate of player% %z-coordinate of player%"
 
 on death:
 	attacker is a player
 	victim is a mob
-	if name of attacker's tool is "&6Daedalus Axe":
+	if name of attacker's tool is "&6代达罗斯之斧":
 		add 35 to attacker's balance

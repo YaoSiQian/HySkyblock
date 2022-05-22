@@ -13,13 +13,7 @@ command /help:
 		send "&e&l文明游戏"
 		send "&e点击选择帮助选项..."
 		send ""
-#		send formatted "  &c* <tooltip:&d点击选择!><link:http://mc.server.net/>&bFound a Server Bug/Issue<reset>"
-#		send formatted "  &c* <tooltip:&d点击选择!><link:http://mc.server.net/>&bReport a Rule Breaker<reset>"
-#		send formatted "  &c* <tooltip:&d点击选择!><link:http://mc.server.net/>&bStore<reset>"
-#		send formatted "  &c* <tooltip:&d点击选择!><link:http://mc.server.net/>&bSupport<reset>"
-#		send formatted "  &c* <tooltip:&d点击选择!><link:http://mc.server.net/>&bAllowed Modifications<reset>"
-#		send formatted "  &c* <tooltip:&d点击选择!><link:http://mc.server.net/>&bServer Rules & Policies<reset>"
-#		send formatted "  &c* <tooltip:&d点击选择!><link:http://mc.server.net/>&bGeneral Gameplay/Server<reset>"
+		send formatted "  &c* <tooltip:&d点击选择!><link:https://mcciv.cn/privacy-policy/>&b文明游戏隐私政策<reset>"
 		send formatted "  &c* <tooltip:&d点击选择!><link:https://mcciv.cn/>&b文明游戏官网<reset>"
 		send formatted "  &c* <tooltip:&d点击选择!><link:https://space.bilibili.com/1803912517>&b官方哔哩哔哩账号<reset>"
 		send ""
@@ -47,7 +41,7 @@ command /updategodpotion:
 		loop all items in player's inventory:
 			if loop-item's name is "上帝药水":
 				set name of loop-item to "&c上帝药水"
-				set lore of loop-item to "&7Consume this potion to receive an", "&7assortment of positive &dpotion", "&deffects&7!", "&7", "&7Duration:", "&a12 Hours", "&7", "&eRight-click to consume!", "&7" and "&c&lSPECIAL"
+				set lore of loop-item to "&7消耗此药水以获得大部分", "&d增益效果&7!", "&7", "&7持续时间:", "&a12 小时", "&7", "&e右键点击以消耗!", "&7" and "&c&l特殊"
 
 on rightclick holding a player head:
 	if held item's name is "&c上帝药水" or "上帝药水":
