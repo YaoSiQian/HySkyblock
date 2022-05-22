@@ -339,7 +339,7 @@ on pickup:
 command /socialoptions [<player>]:
    trigger:
       message ""
-      make the server execute command "/tellraw %player's name% ["""",{""text"":""  %1st argument%\n "",""color"":""gray""},{""text"":""[Report Player] "",""color"":""red"",""clickEvent"":{""action"":""run_command"",""value"":""/report %1st argument%""},""hoverEvent"":{""action"":""show_text"",""contents"":["""",{""text"":""Click to "",""color"":""yellow""},{""text"":""/report"",""color"":""red""},{""text"":"" %1st argument%"",""color"":""gray""}]}},{""text"":"" "",""color"":""gray""},{""text"":""[Ignore Player]"",""color"":""yellow"",""clickEvent"":{""action"":""run_command"",""value"":""/ignoreplayer %1st argument%""},""hoverEvent"":{""action"":""show_text"",""contents"":["""",{""text"":""Click to /ignore "",""color"":""yellow""},{""text"":""%1st argument%"",""color"":""gray""}]}}]" 
+      make the server execute command "/tellraw %player's name% ["""",{""text"":""  %1st argument%\n "",""color"":""gray""},{""text"":""[举报玩家] "",""color"":""red"",""clickEvent"":{""action"":""run_command"",""value"":""/report %1st argument%""},""hoverEvent"":{""action"":""show_text"",""contents"":["""",{""text"":""点击 "",""color"":""yellow""},{""text"":""/report"",""color"":""red""},{""text"":"" %1st argument%"",""color"":""gray""}]}},{""text"":"" "",""color"":""gray""},{""text"":""[屏蔽玩家]"",""color"":""yellow"",""clickEvent"":{""action"":""run_command"",""value"":""/ignoreplayer %1st argument%""},""hoverEvent"":{""action"":""show_text"",""contents"":["""",{""text"":""点击 /ignore "",""color"":""yellow""},{""text"":""%1st argument%"",""color"":""gray""}]}}]" 
       message ""
 
 
