@@ -8,23 +8,20 @@ messages:
   reloaded: '%prefix% &7配置已重载'
   noPermission: '%prefix% &7你没有权限'
   helpMessage: '&7%command% - &e%description%'
-  helpHeader: '      &6&lUltimateCore-Runes   '
+  helpHeader: '      &6&l符文   '
   helpfooter: '&e<< &6第 %page% 页至第 %maxpage% 页 &e>>'
   previousPage: '<<'
   nextPage: '>>'
   helpPageHoverMessage: 点击前往第 %page% 页
-  invalidRune: '%prefix% &7Invalid Rune'
-  itemToPickup: '&cThere is a item to pickup in the rune pedestal'
+  invalidRune: '%prefix% &7未知符文'
+  itemToPickup: '&c在符文基架中有未拾取的物品'
 errorInformation:
   noRequiredLevel:
-  - '&7Applying this rune requires a'
-  - '&7higher Runecrafting level!'
+  - '&7你必须要更高的符文合成等级'
+  - '&7才能够赋予这个符文!'
   incompatibleItemAndRune:
-  - '&7You cannot add that rune to that'
-  - '&7item!'
+  - '&7你不能将这个符文赋予到那个物品!'
   incompatibleRunesType:
-  - '&7Both runes must be of the same'
-  - '&7type to combine!'
+  - '&7你只能融合两个相同类型的符文!'
   incompatibleRunesTier:
-  - '&7Both runes must be of the same'
-  - '&7tier to combine'
+  - '&7你只能融合两个相同等级的符文!'

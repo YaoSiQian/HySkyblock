@@ -1,7 +1,7 @@
 backButtons: true
 runeTableGUI:
   size: 54
-  title: Rune Table
+  title: 符文基架
   items:
     errorItem:
       material: BARRIER
@@ -13,42 +13,36 @@ runeTableGUI:
     infoItem:
       material: BARRIER
       amount: 1
-      title: '&cRunic Pedestal'
+      title: '&c符文基架'
       lore:
-      - '&7Place a target item in the left'
-      - '&7slot and sacrifice rune in the'
-      - '&7right slot to add the runes'
-      - '&7effects to the item or add two'
-      - '&7runes to attempt to fuse them!'
+      - '&7将目标物品放在左边的槽'
+      - '&7并且把将要赋予的符文放在右边'
+      - '&7来将符文赋予到物品上'
+      - '&7或者将两个符文放在槽位内来融合它们!'
       isGlowing: false
     runeButton:
       material: END_PORTAL_FRAME
       amount: 1
-      title: '&aApply a Rune or Fuse Two Runes'
+      title: '&a将符文赋予到物品上 或 融合两个符文'
       lore:
-      - '&7Add the rune to your'
-      - '&7provided item or provided'
-      - '&7two runes to attempt to'
-      - '&7fuse them.'
+      - '&7将你的符文赋予到物品上'
+      - '&7或者融合两个符文'
       isGlowing: false
     runeButtonToFuse:
       material: END_PORTAL_FRAME
       amount: 1
-      title: '&aApply a Rune or Fuse Two Runes'
+      title: '&a将符文赋予到物品上 或 融合两个符文'
       lore:
-      - '&7By providing two runes of the'
-      - '&7same type you can attempt to'
-      - '&7fuse them into a single rune and'
-      - '&7upgrade the tier.'
+      - '&7你可以将两个同种类型和等级的符文'
+      - '&7融合来成一个更高等级的符文'
       - ''
-      - '&cWARNING: if you fail to fuse'
-      - '&ctwo runes one of your rune will'
-      - '&cdissolve!'
+      - '&c警告: 假如你融合符文失败'
+      - '&c你会失去其中一个符文!'
       - ''
-      - '&7Success Chance: &a%success_chance%%'
-      - '&7Fail Chance: &c%fail_chance%%'
+      - '&7成功概率: &a%success_chance%%'
+      - '&7失败概率: &c%fail_chance%%'
       - ''
-      - '&eAttempt to Fuse Runes!'
+      - '&e尝试融合符文!'
       isGlowing: false
     runeTableGlass:
       material: WHITE_STAINED_GLASS_PANE
