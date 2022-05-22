@@ -290,7 +290,7 @@ on place of player skull or player head item or creeper skull or skeleton skull 
 
 command /bestiary:
 	trigger:
-		message "&cThere is no Bestiary available for this mob!"
+		message "&c没有适用于该生物的百兽全书!"
 
 command /rosetta:
 	trigger:
@@ -315,8 +315,8 @@ on join:
         stop
     else:  
         make the console execute command "/title %player's name% title {""text"":"" "",""bold"":false,""color"":""red""}"
-        make the console execute command "/title %player's name% subtitle {""text"":""Inventory Full!"",""bold"":false,""color"":""red""}"
-        send "&c&lYour inventory is full!" to player
+        make the console execute command "/title %player's name% subtitle {""text"":""物品栏已满!"",""bold"":false,""color"":""red""}"
+        send "&c&l你的物品栏满了!" to player
         stop
 
 every 5 minutes in "Server":
@@ -324,7 +324,7 @@ every 5 minutes in "Server":
 		if loop-player has enough space for 1 barrier:
 			stop
 		else:  
-			send "&c&lYour inventory is full!" to loop-player
+			send "&c&l你的物品栏满了!" to loop-player
 			stop
 
 on pickup:
@@ -332,8 +332,8 @@ on pickup:
         stop
     else:  
         make the console execute command "/title %player's name% title {""text"":"" "",""bold"":false,""color"":""red""}"
-        make the console execute command "/title %player's name% subtitle {""text"":""Inventory Full!"",""bold"":false,""color"":""red""}"
-        send "&c&lYour inventory is full!" to player
+        make the console execute command "/title %player's name% subtitle {""text"":""物品栏已满!"",""bold"":false,""color"":""red""}"
+        send "&c&l你的物品栏满了!" to player
         stop
 
 command /socialoptions [<player>]:
@@ -345,12 +345,12 @@ command /socialoptions [<player>]:
 
 on place of redstone wire or redstone repeater or tnt or redstone torch:
 	cancel event
-	message "&cRedstone clocks are disabled!"
+	message "&c时钟电路已禁用!"
 
 on command:
     if command contains "?" or "bukkit" or "spigot":
         if executor is not console:
-            message "&fUnknown command."
+            message "&f未知命令"
             cancel event
         else:
             stop
@@ -360,15 +360,16 @@ on first join:
     wait 3 ticks
     make the server execute command "/q a moddata start %player% IslandsQuest1"
     message "&e▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
-    message "&f&l          Welcome to Skyblock, &7%player's name%&f&l!"
+    message "&f&l          欢迎来到空岛生存, &7%player's name%&f&l!"
     message ""
-    message "&e               This is your Island, the Skyblock"
-    message "&e            universe has many lands to discover,"
-    message "&e         secrets to uncover, and people to meet."
-    message "&e            Collect resources, craft items, and"
-    message "&e         complete objectives to advance your way"
-    message "&e                       through Skyblock."
-    message "&e                             Have fun!"
+    message "&e                       这是属于你的岛屿"
+    message "&e            在空岛生存的世界中有很多岛屿等着你去周游"
+    message "&e         很多秘密等着你去探寻, 还有很多人们等着你去会面"
+    message "&e               在这里收集资源，合成物品，完成任务"
+    message "&e                    来丰富你在空岛生存中的旅程"
+    message "&e                           祝您游戏愉快!"
+	message ""
+    message "&2                             文明游戏"
     message ""
     message "&e▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
     wait 40 seconds
@@ -377,7 +378,7 @@ on first join:
 
 command /talkedcommand:	
 	trigger:
-		message "&cYou already talked to this NPC!"
+		message "&c你已经与这位NPC对话过了!"
 
 on block break:
 	if event-block is BIRCH LOG, SPRUCE LOG, DARK OAK LOG or JUNGLE LOG:
