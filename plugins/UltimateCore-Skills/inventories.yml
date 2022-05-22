@@ -384,64 +384,54 @@ profileGui:
       - '&7数值大于 100 时可能获得三倍掉落'
       - ''
       - '&7基础挖矿时运: &a%simple_ore_chance%'
-      - '  &8Increase your base 挖矿时运'
-      - '  &8by leveling your Mining Skill'
+      - '  &8通过探索这个世界'
+      - '  &8来提升你的基础挖矿时运'
       - ''
       - '&7增益挖矿时运: &8+&e%bonus_ore_chance%'
-      - '  &8Increase your bonus 挖矿时运'
-      - '  &8by equipping items and armor,'
-      - '  &8and storing &8accesories in your'
-      - '  &8inventory.'
+      - '  &8通过装备物品,盔甲和在物品栏中储存饰品'
+      - '  &8来提升你的增益挖矿时运'
       - ''
-      - '&7Chance for &adouble &7drops: &a%total_ore_chance%%'
+      - '&a双倍&7掉落概率: &a%total_ore_chance%%'
       slot: 29
       isGlowing: false
     farmingfortune:
       material: PLAYER_HEAD
       amount: 1
-      title: '&6☘ Farming Fortune &f%total_crop_chance%'
+      title: '&6☘ 农业时运 &f%total_crop_chance%'
       headData: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTVkNTNlZjQyOGIzNjlmZDVjY2U5NGNlMjA1ZDBkMmQ3YjA5NWZhZDY3NmE5YjM4Mzk3MWVlMTA0OWUzNjdhZCJ9fX0=
       lore:
-      - '&7Farming Fortune is the chance to'
-      - '&7gain double drops from crops,'
-      - '&7with a chance for triple crops'
-      - '&7at values greater than 100.'
+      - '&7农业时运是获取农作物时获得双倍掉落的概率'
+      - '&7数值大于 100 时可能获得三倍掉落'
       - ''
-      - '&7基础Farming Fortune: &a%simple_crop_chance%'
-      - '  &8Increase your base Farming Fortune'
-      - '  &8by leveling your Farming Skill'
+      - '&7基础农业时运: &a%simple_crop_chance%'
+      - '  &8通过探索这个世界'
+      - '  &8来提升你的基础农业时运'
       - ''
-      - '&7增益Farming Fortune: &8+&e%bonus_crop_chance%'
-      - '  &8Increase your bonus Farming Fortune'
-      - '  &8by equipping items and armor,'
-      - '  &8and storing &8accesories in your'
-      - '  &8inventory.'
+      - '&7增益农业时运: &8+&e%bonus_crop_chance%'
+      - '  &8通过装备物品,盔甲和在物品栏中储存饰品'
+      - '  &8来提升你的增益农业时运'
       - ''
-      - '&7Chance for &adouble &7drops: &a%total_crop_chance%%'
+      - '&a双倍&7掉落概率: &a%total_crop_chance%%'
       slot: 30
       isGlowing: false
     foragingfortune:
       material: PLAYER_HEAD
       amount: 1
-      title: '&6☘ Foraging Fortune &f%total_log_chance%'
+      title: '&6☘ 林业时运 &f%total_log_chance%'
       headData: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWYxZTE4Y2Q5ZjlkMzgyMjE5NmYwY2NmMWE4ZTA3MWQ4N2JiMzJhYjUwZGY0ZDZjZmVkOTNhMWE5NDg4MzVjYSJ9fX0=
       lore:
-      - '&7Foraging Fortune is the chance to'
-      - '&7gain double drops from logs,'
-      - '&7with a chance for triple logs'
-      - '&7at values greater than 100.'
+      - '&7林业时运是获取原木时获得双倍掉落的概率'
+      - '&7数值大于 100 时可能获得三倍掉落'
       - ''
-      - '&7基础Foraging Fortune: &a%simple_log_chance%'
-      - '  &8Increase your base Foraging Fortune'
-      - '  &8by leveling your Farming Skill'
+      - '&7基础林业时运: &a%simple_log_chance%'
+      - '  &8通过探索这个世界'
+      - '  &8来提升你的基础林业时运'
       - ''
-      - '&7增益Foraging Fortune: &8+&e%bonus_log_chance%'
-      - '  &8Increase your bonus Foraging Fortune'
-      - '  &8by equipping items and armor,'
-      - '  &8and storing &8accesories in your'
-      - '  &8inventory.'
+      - '&7增益林业时运: &8+&e%bonus_log_chance%'
+      - '  &8通过装备物品,盔甲和在物品栏中储存饰品'
+      - '  &8来提升你的增益林业时运'
       - ''
-      - '&7Chance for &adouble &7drops: &a%total_log_chance%%'
+      - '&a双倍&7掉落概率: &a%total_log_chance%%'
       slot: 31
       isGlowing: false
     backButton:
