@@ -1,0 +1,205 @@
+SellerSettings:
+  Health: 100
+  Hunger: 20
+  Cost: 100000
+  Armor_Color:
+    ChestPlate: ORANGE
+    Leggings: ORANGE
+    Boots: ORANGE
+  Ticks_Per_Movement:
+    - Minions.permission.movement.player 3
+    - Minions.permission.movemen.donor 1
+  Sell_Radius:
+    - Minions.permission.radius.player 5
+    - Minions.permission.radius.donor 10
+  Default_Radius: 5
+  Allow_ChestLinks_In_Other_Worlds: true
+  Distance_From_Linkable_Chests:
+    - Minions.permission.linkchests.distance.player 25
+    - Minions.permission.linkchests.distance.donor 50
+  Hunger_loss_Per_Sell: 5
+  Default_Minion:
+    Name: '&aSeller Minion'
+    Head: '%playername%'
+    Item: DRAGON_EGG
+    Item_Data: 0
+    Enchant_Minion_Item: true
+    HideAttributes: true
+    Minion_Lore:
+      Custom_Lore:
+        - '&3Right click a block with minion'
+        - '&3To place. Once placed minion'
+        - '&3Will sell continuously until'
+        - '&3Death. Remember to feed it.'
+      Data_Lore:
+        Minion_Info_Sections: '&a'
+        Minion_Data: '&b'
+    Default_Held_Item: DOUBLE_PLANT
+  Limits:
+    - 'Minions.permission.limit.player 2'
+    - 'Minions.permission.limit.donor 5'
+  NameTag_Permission: 'Minions.permission.use_nametag.seller'
+  Despawn_On_Death: true
+  Spawn_Animation: DAB
+  MoneySettings:
+    UseVault: true
+    MoneyCMD: eco give %player% %money_earned%
+    Multipliers:
+      - 'Minions.permission.seller.multiplier.player 2'
+      - 'Minions.permission.seller.multiplier.donor 3'
+    Use_EssentialsX_WorthYML: false
+    Use_ShopGUIPlus: false
+    Use_HyperConomy: false
+    Use_EconomyShopGUI: false
+    Use_DynamicShop: false
+    Use_Permission_Prices: false
+  Feed_And_Heal_Minion:
+    EnableHunger_And_Health: true
+    Feed_With_Food: true
+    FoodTypes:
+      - COOKED_BEEF 5
+      - COOKED_CHICKEN 3
+      - BREAD 1
+    Feed_With_Money: true
+    Food_Cost: 100
+    Food_Amount_Per_Cost: 1
+    Heal_With_Item: true
+    Heal_FoodTypes:
+      - GOLDEN_APPLE;0 10
+    Heal_With_Money: true
+    Heal_Cost: 500
+    Heal_Amount_Per_Cost: 1
+  BlackListed_Sellable_Items:
+    - COOKED_BEEF
+    - COOKED_CHICKEN
+    - BREAD
+  Sellable_Items:
+    EMERALD: 75.00
+    DIAMOND: 50.00
+    IRON_INGOT: 25.00
+    IRON_ORE: 25.00
+    GOLD_INGOT: 30.00
+    GOLD_ORE: 30.00
+    INK_SACK;4: 10.00
+    REDSTONE: 20.00
+    COAL: 15.00
+    COBBLESTONE: 10.00
+  Sellable_Items_Permissions:
+    EMERALD:
+      - 'Minion.permissions.price.player 75.00'
+      - 'Minion.permissions.price.donor 95.00'
+    DIAMOND:
+      - 'Minion.permissions.price.player 50.00'
+      - 'Minion.permissions.price.donor 75.00'
+    IRON_INGOT:
+      - 'Minion.permissions.price.player 25.00'
+      - 'Minion.permissions.price.donor 40.00'
+SellerGUI:
+  rows: 2
+  InventoryName: '&6Seller GUI'
+  Items:
+    '0':
+      slot: 0
+      Material: GOLDEN_APPLE
+      Data_Value: 0
+      Name: '&cHealth &f%minion_health%/100'
+      Lore: 
+        - '&7You minion loses 1 hp'
+        - '&7When its hunger runs out.'
+        - '&7Be sure to feed your minion.'
+      ItemType: HEALTH
+      Close: false
+    '1':
+      slot: 1
+      Material: COOKED_BEEF
+      Data_Value: 0
+      Name: '&aFood &f%minion_hunger%/20'
+      Lore: 
+        - '&7You minion loses 1 hunger point'
+        - '&7Every sell cycle.'
+        - '&7Be sure to feed your minion.'
+      ItemType: FOOD
+      Close: false
+    '2':
+      slot: 2
+      Material: PAPER
+      Data_Value: 0
+      Name: '&aSell Message'
+      Lore: 
+        - '&7Sends player message when'
+        - '&7Minion sells items.'
+        - '&aActivated: &f%minion_sellmsg%'
+      ItemType: SELLMSG
+      Close: true
+    '3':
+      slot: 3
+      Material: TRAPPED_CHEST
+      Data_Value: 0
+      Name: '&6Food Chest'
+      Lore: 
+        - '&7Currently Linked: &f%minion_linkedfoodchest%'
+      ItemType: LINK_FOOD_CHEST
+      Close: true
+    '4':
+      slot: 4
+      Material: ''
+      SkullName: 'MHF_ArrowLeft'
+      Data_Value: 0
+      Name: '&6Change Direction'
+      Lore: 
+        - '&7Set minion direction: WEST'
+      ItemType: CHANGE_DIRECTION_WEST
+      Close: true
+    '5':
+      slot: 5
+      Material: ''
+      SkullName: 'MHF_ArrowRight'
+      Data_Value: 0
+      Name: '&6Change Direction'
+      Lore: 
+        - '&7Set minion direction: EAST'
+      ItemType: CHANGE_DIRECTION_EAST
+      Close: true
+    '6':
+      slot: 6
+      Material: ''
+      SkullName: 'MHF_ArrowUp'
+      Data_Value: 0
+      Name: '&6Change Direction'
+      Lore: 
+        - '&7Set minion direction: NORTH'
+      ItemType: CHANGE_DIRECTION_NORTH
+      Close: true
+    '7':
+      slot: 7
+      Material: ''
+      SkullName: 'MHF_ArrowDown'
+      Data_Value: 0
+      Name: '&6Change Direction'
+      Lore: 
+        - '&7Set minion direction: SOUTH'
+      ItemType: CHANGE_DIRECTION_SOUTH
+      Close: true
+    '8':
+      slot: 8
+      Material: ARROW
+      Data_Value: 0
+      Name: '&6Set Radius'
+      Lore: 
+        - '&7Set the radius of your minion.'
+        - '&7Current Range: %minion_radius%'
+        - '&7Max: %range_max% Min: %range_min%'
+        - '&7Left click to raise'
+        - '&7Right click to lower.'
+      ItemType: RANGE
+      Close: false
+    '9':
+      slot: 9
+      Material: GLOWSTONE
+      Data_Value: 0
+      Name: '&6Suits Inventory'
+      Lore: 
+        - '&7Inventory to change the suit'
+        - '&7Your minion is wearing.'
+      ItemType: SUITS_INVENTORY
+      Close: false

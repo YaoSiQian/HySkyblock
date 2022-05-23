@@ -1,0 +1,41 @@
+
+
+on damage:
+	attacker is a player
+	projectile exists
+	projectile is an arrow
+	if name of attacker's tool is "&5Explosive Bow":
+		play large explosion at the victim to the attacker
+		loop all mobs in radius 2 of the victim:
+			wait 1 ticks
+			damage loop-entity by 50
+		stop
+	else:
+		stop
+
+on damage:
+	attacker is a player
+	if name of attacker's tool is "&aCleaver":
+		loop all mobs in radius 2 around victim:
+			damage loop-entity by 3
+
+on damage:
+	attacker is a player
+	if name of attacker's tool is "&a燃烧之剑":
+		ignite the victim for 3 seconds
+
+on rightclick holding a wooden sword:
+	if held item's name is "&fJerry 之刃":
+		make the player execute command "/iKjusHbc"
+
+command /iKjusHbc:
+	cooldown: 5 seconds
+	cooldown message: &c此技能还在冷却中!
+	trigger:
+		make the server execute command "/playsound minecraft:entity.villager.yes player %player% %x-coordinate of player% %y-coordinate of player% %z-coordinate of player%"
+
+on death:
+	attacker is a player
+	victim is a mob
+	if name of attacker's tool is "&6代达罗斯之斧":
+		add 35 to attacker's balance

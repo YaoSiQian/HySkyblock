@@ -1,0 +1,296 @@
+MinerSettings:
+  Health: 100
+  Hunger: 20
+  Cost: 100000
+  Armor_Color:
+    ChestPlate: GREEN
+    Leggings: GREEN
+    Boots: GREEN
+  Blocks_for_hunger_loss: 5
+  BlocksToMine_InFront:
+    - Minions.permission.miner.player.blocksinfront 1
+    - Minions.permission.miner.donor.blocksinfront 3
+  Default_BTMIF: 1
+  Ticks_Per_Movement:
+    - Minions.permission.movement.player 3
+    - Minions.permission.movement.donor 1
+  Allow_ChestLinks_In_Other_Worlds: true
+  Distance_From_Linkable_Chests:
+    - Minions.permission.linkchests.distance.player 25
+    - Minions.permission.linkchests.distance.donor 50
+  Custom_Pickaxe_Permission: 'Minions.permission.custom_pickaxe' 
+  Damage_Custom_Pickaxe: false
+  Damage_Default_Pickaxe: false
+  Default_Minion:
+    Name: '&6Mining Minion'
+    Name_When_Dead: '&cRevive Me!'
+    Name_When_Placed: '&6%playername%''s Mining Minion'
+    Updating_Name:
+      Enabled: true
+      On_Last_Pose: false
+    Head: '%playername%'
+    Item: DRAGON_EGG
+    Item_Data: 0
+    Enchant_Minion_Item: true
+    HideAttributes: true
+    Minion_Lore:
+      Custom_Lore:
+        - '&3Right click a block with minion'
+        - '&3To place. Once placed minion'
+        - '&3Will mine continuously until'
+        - '&3Death. Remember to feed it.'
+      Data_Lore:
+        Minion_Info_Sections: '&a'
+        Minion_Data: '&b'
+    Default_Held_Item: IRON_PICKAXE
+    Broken_Held_Item_Name: '&3My held item is broken!'
+  Limits:
+    - 'Minions.permission.limit.player 2'
+    - 'Minions.permission.limit.donor 5'
+  NameTag_Permission: 'Minions.permission.use_nametag.miner'
+  Despawn_On_Death: true
+  Spawn_Animation: DAB
+  Movement_Blockers:
+    - BEDROCK
+    - OBSIDIAN
+  Fortune_Blocks:
+    - DIAMOND_ORE
+    - REDSTONE_ORE
+    - LAPIS_ORE
+    - EMERALD_ORE
+    - COAL_ORE
+  Use_Block_Whitelist: false
+  WhiteListed_Blocks:
+    - DIAMOND_ORE
+    - IRON_ORE
+    - GOLD_ORE
+    - COAL_ORE
+    - EMERALD_ORE
+    - COBBLESTONE
+    - STONE
+  BlackListed_Blocks:
+    - BEDROCK
+    - OBSIDIAN
+    - GLASS
+    - LOG
+  Feed_And_Heal_Minion:
+    EnableHunger_And_Health: true
+    Feed_With_Food: true
+    FoodTypes:
+      - COOKED_BEEF 5
+      - COOKED_CHICKEN 3
+      - BREAD 1
+    Custom_Food_Items:
+      COOKED_BEEF:
+        Food_Amount: 5
+        Data: 0
+        Name: '&6[&7Minion Food&6] &7Steak'
+        Lore:
+          - ''
+          - 'This food is for miner minions.'
+          - ''
+        Enchant_Item: true
+        HideAttributes: true
+    Feed_With_Money: true
+    Food_Cost: 100
+    Food_Amount_Per_Cost: 1
+    Heal_With_Item: true
+    Heal_FoodTypes:
+      - GOLDEN_APPLE;0 10
+    Custom_Health_Items:
+      GOLDEN_APPLE:
+        Heal_Amount: 5
+        Data: 1
+        Name: '&6[&7Minion Health&6] &7Golden Apple'
+        Lore:
+          - ''
+          - 'This health item is for miner minions.'
+          - ''
+        Enchant_Item: true
+        HideAttributes: true
+    Heal_With_Money: true
+    Heal_Cost: 500
+    Heal_Amount_Per_Cost: 1
+  Walk_Permission: Miner.move
+  Auto_Walk_Mine: false
+  Walk_Speed: 3
+  Max_Distance_From_Starting_Location: 50
+  Bottle_Collected_EXP: false
+  PurifierSettings:
+    Permission: Miner.purify
+    Exchange:
+      COBBLESTONE:
+        PurifiedMaterials:
+          - COBBLESTONE 100
+          - STONE 50
+          - INK_SACK;4 5
+      STONE:
+        PurifiedMaterials:
+          - STONE 100
+          - INK_SACK;4 10
+          - COAL 5
+      LAPIS_ORE:
+        PurifiedMaterials:
+          - INK_SACK;4 100
+          - COAL 25
+          - IRON_ORE 10
+      COAL_ORE:
+        PurifiedMaterials:
+          - COAL 100
+          - IRON_ORE 25
+          - GOLD_ORE 10
+      IRON_ORE:
+        PurifiedMaterials:
+          - IRON_ORE 100
+          - GOLD_ORE 25
+          - QUARTZ 10
+      GOLD_ORE:
+        PurifiedMaterials:
+          - GOLD_ORE 100
+          - QUARTZ 25
+          - DIAMOND 5
+      QUARTZ_ORE:
+        PurifiedMaterials:
+          - QUARTZ 100
+          - DIAMOND 25
+          - EMERALD 5
+      DIAMOND_ORE:
+        PurifiedMaterials:
+          - DIAMOND 100
+          - REDSTONE 25
+          - NETHER_STAR 1
+MinerGUI:
+  rows: 2
+  InventoryName: '&6Miner GUI'
+  Items:
+    '0':
+      slot: 0
+      Material: GOLDEN_APPLE
+      Data_Value: 0
+      Name: '&cHealth &f%minion_health%/100'
+      Lore: 
+        - '&7You minion loses 1 hp'
+        - '&7When its hunger runs out.'
+        - '&7Be sure to feed your minion.'
+      ItemType: HEALTH
+      Close: false
+    '1':
+      slot: 1
+      Material: COOKED_BEEF
+      Data_Value: 0
+      Name: '&aFood &f%minion_hunger%/20'
+      Lore: 
+        - '&7You minion loses 1 hunger point'
+        - '&7Every %minion_blocksforhungerloss% blocks.'
+        - '&7Be sure to feed your minion.'
+      ItemType: FOOD
+      Close: false
+    '2':
+      slot: 2
+      Material: STONE
+      Data_Value: 0
+      Name: '&6Blocks Mined &f%minion_blocksmined%'
+      ItemType: NONE
+      Close: true
+    '3':
+      slot: 3
+      Material: CHEST
+      Data_Value: 0
+      Name: '&6Link Chest'
+      Lore: 
+        - '&7Currently Linked: &f%minion_linkedtochest%'
+      ItemType: LINK_CHEST
+      Close: true
+    '4':
+      slot: 4
+      Material: TRAPPED_CHEST
+      Data_Value: 0
+      Name: '&6Food Chest'
+      Lore: 
+        - '&7Currently Linked: &f%minion_linkedfoodchest%'
+      ItemType: LINK_FOOD_CHEST
+      Close: true
+    '5':
+      slot: 5
+      Material: DIAMOND
+      Data_Value: 0
+      Name: '&6Purify'
+      Lore: 
+        - '&7Purifying: &f%minion_purifier%'
+        - ''
+        - '&7An exchange system. Will give configured'
+        - '&7Items from blocks mined.'
+      ItemType: PURIFY
+      Close: true
+    '6':
+      slot: 6
+      Material: ARMOR_STAND
+      Data_Value: 0
+      Name: '&6Walk Mine'
+      Lore: 
+        - '&7Walk Mining: &f%minion_walking%'
+        - ''
+        - '&7Allows the miner to walk around.'
+        - '&7Surround it with configured Movement'
+        - '&7Blockers to stop it from leaving.'
+      ItemType: WALK_MINE
+      Close: true
+    '7':
+      slot: 7
+      Material: EXP_BOTTLE
+      Data_Value: 0
+      Name: '&6Collect EXP'
+      Lore: 
+        - '&7EXP Collected: &f%minion_collected_exp%'
+      ItemType: COLLECT_EXP
+      Close: true
+    '9':
+      slot: 9
+      Material: EXP_BOTTLE
+      SkullName: 'MHF_ArrowLeft'
+      Data_Value: 0
+      Name: '&6Change Direction'
+      Lore: 
+        - '&7Set minion direction: WEST'
+      ItemType: CHANGE_DIRECTION_WEST
+      Close: true
+    '10':
+      slot: 10
+      Material: EXP_BOTTLE
+      SkullName: 'MHF_ArrowRight'
+      Data_Value: 0
+      Name: '&6Change Direction'
+      Lore: 
+        - '&7Set minion direction: EAST'
+      ItemType: CHANGE_DIRECTION_EAST
+      Close: true
+    '11':
+      slot: 11
+      Material: EXP_BOTTLE
+      SkullName: 'MHF_ArrowUp'
+      Data_Value: 0
+      Name: '&6Change Direction'
+      Lore: 
+        - '&7Set minion direction: NORTH'
+      ItemType: CHANGE_DIRECTION_NORTH
+      Close: true
+    '12':
+      slot: 12
+      Material: EXP_BOTTLE
+      SkullName: 'MHF_ArrowDown'
+      Data_Value: 0
+      Name: '&6Change Direction'
+      Lore: 
+        - '&7Set minion direction: SOUTH'
+      ItemType: CHANGE_DIRECTION_SOUTH
+      Close: true
+    '13':
+      slot: 13
+      Material: GLOWSTONE
+      Data_Value: 0
+      Name: '&6Suits Inventory'
+      Lore: 
+        - '&7Inventory to change the suit'
+        - '&7Your minion is wearing.'
+      ItemType: SUITS_INVENTORY
+      Close: false

@@ -37,10 +37,10 @@ resetDataMessage: true
 getXPInCreative: true
 rankInformation:
   UNRANKED:
-  - '&7Rankings requires skill level 15'
+  - '&7排名需要技能等级 15'
   RANKED:
-  - '&7#&b%rank_position% &7out of &a%total_players% &7players'
-  - '&7You are within the top &6%rank_percentage%% &7of players!'
+  - '&7排名 #&b%rank_position% &7/ &a%total_players%'
+  - '&7位于前 &6%rank_percentage%% &7名!'
 petLevelUPSound: ENTITY_PLAYER_LEVELUP
 levelUPSound: ENTITY_PLAYER_LEVELUP
 gainXPSound: ENTITY_EXPERIENCE_ORB_PICKUP

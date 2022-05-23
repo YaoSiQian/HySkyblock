@@ -6,11 +6,11 @@ petsGUI:
     petItemInGUI:
       material: PLAYER_HEAD
       amount: 1
-      title: '&8[&7Lv%pet_level%&8] &f%player%''s %pet_name%'
+      title: '&8[&7Lv%pet_level%&8] &f%player% 的 %pet_name%'
       lore:
       - '%pet_description%'
       - ''
-      - '&7Progress to Level %next_level%: &e%current_percentage%%'
+      - '&7等级 %next_level% 升级进度: &e%current_percentage%%'
       - '%progress_bar% &e%current_xp%&6/&e%max_xp%'
       - ''
       - '%equip_message%'
@@ -19,50 +19,47 @@ petsGUI:
       amount: 1
       title: '&aPets'
       lore:
-      - '&7View and manage all of your'
-      - '&7Pets.'
+      - '&7浏览并管理你的所有宠物'
       - ''
-      - '&7Level up your pets faster by'
-      - '&7gaining xp in their favorite'
-      - '&7skill!'
+      - '&7通过获取宠物对应技能的经验'
+      - '&7来更快的提升宠物的等级'
       - ''
-      - '&7Selected pet: %selected_pet%'
+      - '&7已选择宠物: %selected_pet%'
       slot: 4
     convertItemEnabled:
       material: LIME_DYE
       amount: 1
-      title: '&aConvert Pet to an Item'
+      title: '&a将宠物转化成物品'
       lore:
-      - '&7Enable this setting and click'
-      - '&7any pet to convert it to an'
-      - '&7item.'
+      - '&7启用这个设置'
+      - '&7然后点击一只宠物'
+      - '&7将其转化为物品形式'
       - ''
-      - '&aEnabled'
+      - '&a启用'
       slot: 50
     convertItemDisabled:
       material: GRAY_DYE
       amount: 1
-      title: '&aConvert Pet to an Item'
+      title: '&a将宠物转化成物品'
       lore:
-      - '&7Enable this setting and click'
-      - '&7any pet to convert it to an'
-      - '&7item.'
+      - '&7启用这个设置'
+      - '&7然后点击一只宠物'
+      - '&7将其转化为物品形式'
       - ''
-      - '&cDisabled'
+      - '&c禁用'
       slot: 50
     hidePetsEnabled:
       material: STONE_BUTTON
       amount: 1
       title: '&cHide Pets'
       lore:
-      - '&7Hide all pets which are little'
-      - '&7heads from being visible in the'
-      - '&7world.'
+      - '&7隐藏所有宠物的头部'
+      - '&7不让他人发现'
       - ''
-      - '&7Pet effects remain active.'
+      - '&7宠物特效保持作用'
       - ''
-      - '&7Currently: &cPets hidden!'
-      - '&7Selected pet: %selected_pet%'
+      - '&7当前: &c已隐藏宠物!'
+      - '&7已选择宠物: %selected_pet%'
       - ''
       - '&eClick to show!'
       slot: 51
@@ -71,14 +68,13 @@ petsGUI:
       amount: 1
       title: '&aHide Pets'
       lore:
-      - '&7Hide all pets which are little'
-      - '&7heads from being visible in the'
-      - '&7world.'
+      - '&7隐藏所有宠物的头部'
+      - '&7不让他人发现'
       - ''
-      - '&7Pet effects remain active.'
+      - '&7宠物特效保持作用'
       - ''
-      - '&7Currently: &aPets shown!'
-      - '&7Selected pet: %selected_pet%'
+      - '&7当前: &a已显示宠物!'
+      - '&7已选择宠物: %selected_pet%'
       - ''
       - '&eClick to hide!'
       slot: 51
