@@ -3,6 +3,6 @@ animations:
   BossBar:
     change-interval: 1000
     texts:
-      - "&e&lYou are playing &f&lSURVIVAL &e&lon &f&lMC.SERVER.NET"
-      - "&e&lYou are playing &f&lSURVIVAL &e&lon &b&lMC.SERVER.NET"
-      - "&e&lYou are playing &f&lSURVIVAL &e&lon &a&lMC.SERVER.NET"
+      - "&e&l你正在 &f&l文明游戏 &e&l游玩 &f&l空岛生存"
+      - "&e&l你正在 &b&l文明游戏 &e&l游玩 &f&l空岛生存"
+      - "&e&l你正在 &a&l文明游戏 &e&l游玩 &f&l空岛生存"

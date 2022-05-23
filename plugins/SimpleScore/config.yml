@@ -383,9 +383,9 @@ Scoreboards:
       11:
         - " &7%mph_localtime%%mph_twelve% %mph_time%"
       10:
-        - " &7⏣ &a%b空岛生存_visited_island_name%"
+        - " &7⏣ &a%bSkyBlock_visited_island_name%"
       9:
-        - " &a✌ &7(&a%b空岛生存_visited_island_members_count%&7/&7%b空岛生存_visited_island_members_max%)"
+        - " &a✌ &7(&a%bSkyBlock_visited_island_members_count%&7/&7%bSkyBlock_visited_island_members_max%)"
       8:
         - ""
       7:

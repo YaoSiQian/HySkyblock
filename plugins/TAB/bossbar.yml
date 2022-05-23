@@ -14,5 +14,5 @@ bars:
     style: PROGRESS
     color: YELLOW
     progress: '%quests_tracked_p:bossbar%'
-    text: '&fObjective: &e%quests_tracked%%quests_tracked_p:progress%'
+    text: '&f任务: &e%quests_tracked%%quests_tracked_p:progress%'
 hidden-by-default: false
