@@ -1,24 +1,23 @@
 NPC:
   type: VILLAGER
   command-to-move: move npc
-  spawnegg-name: §fMove Jerry
+  spawnegg-name: §f移走Jerry
   spawnegg-lore:
-  - '&7Place this where you would like'
-  - '&7me to move to!'
+  - '&7想把Jerry移到哪'
+  - '&7就把这放在那吧!'
   - '&7'
-  - '&f&lCOMMON'
+  - '&f&l普通'
   message:
-    full-inventory: '&cYour inventory is full!'
-    placed: '&aYou placed your npc successfully.'
-    you-cant-place-it: '&cYou can''t place it here!'
-    you-need-place-it: '&cYou need to place it first!'
-    you-cant-sell-it: '&cYou can''t sell it!'
-    you-need-to-be-on-your-island: '&cYou need to be on one of your islands !'
-    you-received-egg-place-it: '&aI have given you an egg, place this where you would
-      like me to move to!'
+    full-inventory: '&c物品栏已满!'
+    placed: '&a成功放置NPC'
+    you-cant-place-it: '&c你不能放置它!'
+    you-need-place-it: '&c你得先放置它!'
+    you-cant-sell-it: '&c你不能卖掉它!'
+    you-need-to-be-on-your-island: '&c你需要在你的其中一个岛屿上!'
+    you-received-egg-place-it: '&a我给了你一颗蛋, 把它放到你希望我移到的地方!'
   name-hologram:
   - '&fJerry'
-  - '&e&lCLICK'
+  - '&e&l点击'
   # For the command you don't have to put the '/'
   command-to-execute: jerry
   # true if you want that the npc look to player
