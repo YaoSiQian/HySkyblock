@@ -1,13 +1,12 @@
 mainMenu:
-  title: Brewing Stand
+  title: 酿造台
   size: 54
   items:
     normalItem:
       material: LIGHT_BLUE_STAINED_GLASS_PANE
       amount: 1
-      title: '&7Place Water Bottles or Potions'
-      lore:
-      - '&7below to brew.'
+      title: '&7将药水瓶放在下方来酿造'
+      lore: []
     brewingItem:
       amount: 1
       title: '&a%brewing_time%s'
@@ -55,7 +54,7 @@ mainMenu:
   - 52
   - 53
 recipePreviewGUI:
-  title: Recipe Preview
+  title: 配方预览
   size: 54
   mainIngredientSlot: 13
   secondaryIngredientSlots:
