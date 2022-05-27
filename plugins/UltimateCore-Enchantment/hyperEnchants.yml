@@ -23,12 +23,11 @@
 hyperEnchantments:
   THORNS:
     enabled: true
-    displayName: Thorns
+    displayName: 荆棘
     useMoney: false
     description: |-
-      Grants a &a50% &7chance to
-      &7rebound &a3 &7of damage dealt
-      back at the attacker per level.
+      给予 &a50% &7的几率在被攻击时
+      反弹给攻击者 &a3 &7伤害
     requiredBookShelf: 3
     requiredLevel:
     - '1:5'
@@ -39,11 +38,10 @@ hyperEnchantments:
     - 2:200.0
   DAMAGE_ALL:
     enabled: true
-    displayName: Sharpness
+    displayName: 锋利
     useMoney: false
     description: |-
-      Increases melee damage dealt by
-      &a5% &7per level.
+      提升 &a5% &7近战伤害
     requiredBookShelf: 0
     requiredLevel:
     - '1:10'
@@ -58,11 +56,10 @@ hyperEnchantments:
     - 4:400.0
   ARROW_DAMAGE:
     enabled: true
-    displayName: Power
+    displayName: 力量
     useMoney: false
     description: |-
-      Increases bow damage by &a8%
-      &7per level.
+      提升 &a8% &7弓造成的伤害
     requiredBookShelf: 0
     requiredLevel:
     - '1:10'
@@ -77,11 +74,10 @@ hyperEnchantments:
     - 4:400.0
   ARROW_FIRE:
     enabled: true
-    displayName: Flame
+    displayName: 火矢
     useMoney: false
     description: |-
-      Arrows ignite your enemies for
-      &a3s&7.
+      引燃敌人 &a3秒
     requiredBookShelf: 3
     requiredLevel:
     - '1:10'
@@ -96,11 +92,10 @@ hyperEnchantments:
     requiredMoney: []
   ARROW_KNOCKBACK:
     enabled: true
-    displayName: Punch
+    displayName: 击退
     useMoney: false
     description: |-
-      Increases arrow knockback by
-      &a3 &7blocks per level.
+      增加 &a3 &7方块箭矢击退距离
     requiredBookShelf: 0
     requiredLevel:
     - '1:10'
@@ -127,12 +122,11 @@ hyperEnchantments:
     requiredMoney: []
   DAMAGE_ARTHROPODS:
     enabled: true
-    displayName: Bane of Arthropods
+    displayName: 节肢杀手
     useMoney: false
     description: |-
-      Increases damage dealt to Cave
-      Spiders, Spiders, and
-      Silverfish by &a8% &7per level.
+      增加洞穴蜘蛛, 蜘蛛, 蠹虫
+      的 &a8% &7伤害
     requiredBookShelf: 0
     requiredLevel:
     - '1:10'
@@ -147,13 +141,11 @@ hyperEnchantments:
     - 4:400.0
   DAMAGE_UNDEAD:
     enabled: true
-    displayName: Smite
+    displayName: 亡灵杀手
     useMoney: false
     description: |-
-      Increases damage dealt to
-      Zombie Pigman, Withers,
-      Skeletons, and Zombies
-      by &a8% &7per level.
+      增加僵尸猪人, 凋灵,
+      骷髅, 僵尸的 &a8% &7伤害
     requiredBookShelf: 0
     requiredLevel:
     - '1:10'
@@ -168,11 +160,10 @@ hyperEnchantments:
     - 4:400.0
   DEPTH_STRIDER:
     enabled: true
-    displayName: Depth Strider
+    displayName: 深海探索者
     useMoney: false
     description: |-
-      Reduces how much you are slowed
-      in the water by &a33% &7per level.
+      减少 &a33% &7你在水中的减速效果
     requiredBookShelf: 4
     requiredLevel:
     - '1:10'
@@ -184,11 +175,10 @@ hyperEnchantments:
     - 2:200.0
   DIG_SPEED:
     enabled: true
-    displayName: Efficiency
+    displayName: 效率
     useMoney: false
     description: |-
-      Increases how quickly your tool
-      breaks blocks.
+      增加工具破坏方块的速度
     requiredBookShelf: 0
     requiredLevel:
     - '1:10'
@@ -215,12 +205,11 @@ hyperEnchantments:
     - 2:200.0
   FIRE_ASPECT:
     enabled: true
-    displayName: Fire Aspect
+    displayName: 火焰附加
     useMoney: false
     description: |-
-      Ignites your enemies for &a3s&7,
-      dealing some of your weapon
-      damage every second.
+      灼烧你的敌人 &a3秒
+      &7每秒造成的伤害等同你武器伤害
     requiredBookShelf: 2
     requiredLevel:
     - '1:5'
@@ -255,11 +244,10 @@ hyperEnchantments:
     - 4:400.0
   KNOCKBACK:
     enabled: true
-    displayName: Knockback
+    displayName: 击退
     useMoney: false
     description: |-
-      Increases knockback by &a3
-      &7blocks per level.
+      增加 &a3 &7方块击退距离
     requiredBookShelf: 1
     requiredLevel:
     - '1:5'
@@ -268,13 +256,11 @@ hyperEnchantments:
     - 1:100.0
   LOOT_BONUS_BLOCKS:
     enabled: true
-    displayName: Fortune
+    displayName: 时运
     useMoney: false
     description: |-
-      Grants &a+10 &6☘ Mining
-      &6Fortune&7 per level, which
-      increases your chance for
-      multiple drops.
+      获得 &a+10 &6☘ 挖矿时运
+      增加获得多个矿物的几率
     requiredBookShelf: 2
     requiredLevel:
     - '1:5'
@@ -285,12 +271,10 @@ hyperEnchantments:
     - 2:200.0
   LOOT_BONUS_MOBS:
     enabled: true
-    displayName: Looting
+    displayName: 抢夺
     useMoney: false
     description: |-
-      Increases the chance of a
-      Monster dropping an item by
-      &a15% &7per level.
+      增加 &a15% &7怪物的物品掉落概率
     requiredBookShelf: 0
     requiredLevel:
     - '1:5'
@@ -357,12 +341,10 @@ hyperEnchantments:
     requiredMoney: []
   OXYGEN:
     enabled: true
-    displayName: Respiration
+    displayName: 水下呼吸
     useMoney: false
     description: |-
-      Extends your underwater
-      breathing time by &a10s
-      &7per level.
+      延长你的水下呼吸时间 &a10秒
     requiredBookShelf: 0
     requiredLevel:
     - '1:5'
@@ -387,11 +369,10 @@ hyperEnchantments:
     - 3:300.0
   PROTECTION_ENVIRONMENTAL:
     enabled: true
-    displayName: Protection
+    displayName: 保护
     useMoney: false
     description: |-
-      Grants &a+3 ❈ Defense
-      &7per level.
+      增加 &a+&f3 ❈ 防御
     requiredBookShelf: 0
     requiredLevel:
     - '1:10'
@@ -405,12 +386,11 @@ hyperEnchantments:
     - 3:300.0
   PROTECTION_EXPLOSIONS:
     enabled: true
-    displayName: Blast Protection
+    displayName: 爆炸保护
     useMoney: false
     description: |-
-      Grants &a+&f5❂ True Defense
-      &7against explosions per
-      level.
+      对爆炸伤害
+      增加 &a+&f5 ❂ 真实防御
     requiredBookShelf: 0
     requiredLevel:
     - '1:10'
@@ -424,12 +404,11 @@ hyperEnchantments:
     - 3:300.0
   PROTECTION_FIRE:
     enabled: true
-    displayName: Fire Protection
+    displayName: 火焰保护
     useMoney: false
     description: |-
-      Grants &a+&f5❂ True Defense
-      &7against fire and lava
-      per level.
+      对火焰和熔岩伤害
+      增加 &a+&f5 ❂ 真实防御
     requiredBookShelf: 0
     requiredLevel:
     - '1:10'
@@ -443,11 +422,10 @@ hyperEnchantments:
     - 3:300.0
   PROTECTION_FALL:
     enabled: true
-    displayName: Feather Falling
+    displayName: 摔落保护
     useMoney: false
     description: |-
-      Reduces fall damage by &a5%
-      &7per level.
+      降低 &a5% &7受到的摔落伤害
     requiredBookShelf: 2
     requiredLevel:
     - '1:10'
@@ -461,12 +439,11 @@ hyperEnchantments:
     - 3:300.0
   PROTECTION_PROJECTILE:
     enabled: true
-    displayName: Projectile Protection
+    displayName: 弹射物保护
     useMoney: false
     description: |-
-      Grants &a+&f5❂ True Defense
-      &7against projectiles per
-      level.
+      对弹射物伤害
+      增加 &a+&f5 ❂ 真实防御
     requiredBookShelf: 0
     requiredLevel:
     - '1:10'
@@ -480,11 +457,10 @@ hyperEnchantments:
     - 3:300.0
   SILK_TOUCH:
     enabled: true
-    displayName: Silk Touch
+    displayName: 精准采集
     useMoney: false
     description: |-
-      Allows you to collect normally
-      unobtainable block drops.
+      允许你获得通常无法获得的方块掉落物
     requiredBookShelf: 5
     requiredLevel:
     - '1:5'
