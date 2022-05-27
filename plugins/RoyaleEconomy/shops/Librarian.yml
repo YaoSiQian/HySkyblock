@@ -17,7 +17,7 @@ items:
           it open to receive"}],"text":""}'
         - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"experience!"}],"text":""}'
         - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
-        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"普通"}],"text":""}'
     sellingValue: 0.0
     buyValue: 30.0
     detailed: true
@@ -52,7 +52,7 @@ items:
         - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"to
           apply it!"}],"text":""}'
         - '{"text":""}'
-        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"普通"}],"text":""}'
         ItemFlags:
         - HIDE_ENCHANTS
         internal: H4sIAAAAAAAA/+NiYGBmEC1NjU/NS85IzCvRdXH0dXR3jXf08WFgYGBkZuDNKIhHF+NMLCjIqXTOLy4B8rkYAADwaxVEAAAA
@@ -91,7 +91,7 @@ items:
         - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"to
           apply it!"}],"text":""}'
         - '{"text":""}'
-        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"普通"}],"text":""}'
         ItemFlags:
         - HIDE_ENCHANTS
         internal: H4sIAAAAAAAA/+NiYGBmkM4oiA8I8g9xdQ7x9PeLd/UL8wzy9/N19Qtx9GFgYGBkZlAuTY1PzUvOSMwr0cWvkjOxoCCn0jm/uATI52IAALhTjl5gAAAA
@@ -133,7 +133,7 @@ items:
         - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"to
           apply it!"}],"text":""}'
         - '{"text":""}'
-        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"普通"}],"text":""}'
         ItemFlags:
         - HIDE_ENCHANTS
         internal: H4sIAAAAAAAA/+NiYGBmEMooiA8I8g9xdQ7x9PeLd/MMcmVgYGBkZuBMLCjIqXTOLy4B8rmYGaRKU+NT85IzEvNKdLFoYAAAsGWWeU4AAAA=
@@ -174,7 +174,7 @@ items:
         - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"to
           apply it!"}],"text":""}'
         - '{"text":""}'
-        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"普通"}],"text":""}'
         ItemFlags:
         - HIDE_ENCHANTS
         internal: H4sIAAAAAAAA/+NiYGBmkMgoiA8I8g9xdQ7x9PcDMb1ATB9XBgYGRmYGhdLU+NS85IzEvBJdPMo4EwsKciqd84tLgHwuBgC9eFpzWgAAAA==
@@ -217,7 +217,7 @@ items:
         - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"to
           apply it!"}],"text":""}'
         - '{"text":""}'
-        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"普通"}],"text":""}'
         ItemFlags:
         - HIDE_ENCHANTS
         internal: H4sIAAAAAAAA/+NiYGBm4EwsKMipdM4vLmFgYOBiZhDJKIh3cfR1dHeNdwwK8QjyD/B3CQZKMTIzyJSmxqfmJWck5pXoYlXCAAANPghGUgAAAA==
@@ -262,7 +262,7 @@ items:
         - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"to
           apply it!"}],"text":""}'
         - '{"text":""}'
-        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"普通"}],"text":""}'
         ItemFlags:
         - HIDE_ENCHANTS
         internal: H4sIAAAAAAAA/+NiYGBmEMgoiHdx9HV0d40P9XNxdXRhYGBgZGbgTCwoyKl0zi8uAfK5mBkkSlPjU/OSMxLzSnQxlDMAAKe+dXhKAAAA
@@ -302,7 +302,7 @@ items:
         - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"to
           apply it!"}],"text":""}'
         - '{"text":""}'
-        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"普通"}],"text":""}'
         ItemFlags:
         - HIDE_ENCHANTS
         internal: H4sIAAAAAAAA/+NiYGBm4MkoiHfxdI8PDnB1dWFgYGBkZuBMLCjIqXTOLy4B8rmYGURKU+NT85IzEvNKdFGUMgAAaCQPH0IAAAA=

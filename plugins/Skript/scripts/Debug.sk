@@ -4,23 +4,23 @@ command /rarity [<text>]:
 	trigger:
 		if arg 1 is set:
 			if arg 1 is "uncommon":
-				make the player execute command "/itemedit lore set 1 &a&lUNCOMMON"
+				make the player execute command "/itemedit lore set 1 &a&l精良"
 				make the player execute command "/itemedit enchant protection 1"
 				make the player execute command "/itemedit hide enchants"
-				message "&aThe item held is now &lUNCOMMON &atype!"
+				message "&a该物品稀有度已修改为 &l精良&a!"
 				stop
 			if arg 1 is "rare":
-				make the player execute command "/itemedit lore set 1 &9&lRARE"
+				make the player execute command "/itemedit lore set 1 &9&l稀有"
 				make the player execute command "/itemedit enchant protection 1"
 				make the player execute command "/itemedit hide enchants"
-				message "&aThe item held is now &9&lRARE &atype!"
+				message "&a该物品稀有度已修改为 &9&l稀有&a!"
 				stop
 			else:
 				message "&cThe specified rarity does not exist!"
 				stop
 		else:
-			message "&cPlease specify the rarity! (/rarity <rarity>)"
-			message "&cAvailable rarities: UNCOMMON, RARE"
+			message "&c请输入稀有度! (/rarity <稀有度>)"
+			message "&c目前可用的稀有度: 精良(uncommon), 稀有(rare)"
 			stop
 
 command /debuguuid:
@@ -39,13 +39,13 @@ command /debugregion:
 			message ""
 			stop
 		else:
-			message "&cYou can't debug the Player Islands world!"
+			message "&c你不能测试玩家岛屿世界!"
 			stop
 
 command /debugblock:
 	trigger:
 		if targeted block is not set:
-			message "&cYou can't debug air!"
+			message "&c你不能测试空气!"
 			stop
 		else:
 			message ""
@@ -56,10 +56,10 @@ command /debugblock:
 command /debugitem:
 	trigger:
 		if held item is air:
-			message "&cYou can't debug air!"
+			message "&c你不能测试空气!"
 			stop
 		if held item is nether star:
-			message "&cYou can't debug the Skyblock Menu!"
+			message "&c你不能测试空岛生存菜单!"
 			stop
 		else:
 			message "{debug=HeldItem: %held item%}"

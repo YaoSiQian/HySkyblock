@@ -18,7 +18,7 @@ items:
         - '{"text":""}'
         - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
           item can be reforged!"}],"text":""}'
-        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"普通
           FISHING ROD"}],"text":""}'
         ItemFlags:
         - HIDE_ENCHANTS

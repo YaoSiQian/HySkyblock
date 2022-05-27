@@ -38,7 +38,7 @@ items:
         - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"your
           pet menu!"}],"text":""}'
         - '{"text":""}'
-        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"普通"}],"text":""}'
         ItemFlags:
         - HIDE_ENCHANTS
         - HIDE_ATTRIBUTES
@@ -104,7 +104,7 @@ items:
         - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"your
           pet menu!"}],"text":""}'
         - '{"text":""}'
-        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"RARE"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"普通"}],"text":""}'
         ItemFlags:
         - HIDE_ENCHANTS
         - HIDE_ATTRIBUTES
@@ -197,7 +197,7 @@ items:
         display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Enchanted
           Block of Coal"}],"text":""}'
         lore:
-        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"UNCOMMON"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"精良"}],"text":""}'
         enchants:
           PROTECTION_ENVIRONMENTAL: 1
         ItemFlags:
@@ -211,7 +211,7 @@ items:
         display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Enchanted
           Block of Gold"}],"text":""}'
         lore:
-        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"RARE"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"普通"}],"text":""}'
         enchants:
           PROTECTION_ENVIRONMENTAL: 1
         ItemFlags:
@@ -284,7 +284,7 @@ items:
         display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Enchanted
           Block of Coal"}],"text":""}'
         lore:
-        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"UNCOMMON"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"精良"}],"text":""}'
         enchants:
           PROTECTION_ENVIRONMENTAL: 1
         ItemFlags:
@@ -299,7 +299,7 @@ items:
         display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Enchanted
           Block of Gold"}],"text":""}'
         lore:
-        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"RARE"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"普通"}],"text":""}'
         enchants:
           PROTECTION_ENVIRONMENTAL: 1
         ItemFlags:

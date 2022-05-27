@@ -11,9 +11,8 @@ items:
         ==: ItemMeta
         meta-type: UNSPECIFIC
         lore:
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Brewing
-          Ingredient"}],"text":""}'
-        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"酿造材料"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"普通"}],"text":""}'
     sellingValue: 5.0
     buyValue: 10.0
     detailed: true
@@ -75,9 +74,8 @@ items:
         ==: ItemMeta
         meta-type: UNSPECIFIC
         lore:
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Brewing
-          Ingredient"}],"text":""}'
-        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"酿造材料"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"普通"}],"text":""}'
     sellingValue: 2.0
     buyValue: 4.0
     detailed: true
@@ -95,9 +93,8 @@ items:
         ==: ItemMeta
         meta-type: UNSPECIFIC
         lore:
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Brewing
-          Ingredient"}],"text":""}'
-        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"酿造材料"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"普通"}],"text":""}'
     sellingValue: 5.0
     buyValue: 10.0
     detailed: true
@@ -115,9 +112,8 @@ items:
         ==: ItemMeta
         meta-type: UNSPECIFIC
         lore:
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Brewing
-          Ingredient"}],"text":""}'
-        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"酿造材料"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"普通"}],"text":""}'
     sellingValue: 5.0
     buyValue: 10.0
     detailed: true
@@ -135,9 +131,8 @@ items:
         ==: ItemMeta
         meta-type: UNSPECIFIC
         lore:
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Brewing
-          Ingredient"}],"text":""}'
-        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"酿造材料"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"普通"}],"text":""}'
     sellingValue: 6.0
     buyValue: 12.0
     detailed: true
@@ -155,9 +150,8 @@ items:
         ==: ItemMeta
         meta-type: UNSPECIFIC
         lore:
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Brewing
-          Ingredient"}],"text":""}'
-        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"酿造材料"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"普通"}],"text":""}'
     sellingValue: 6.0
     buyValue: 12.0
     detailed: true
@@ -175,9 +169,8 @@ items:
         ==: ItemMeta
         meta-type: UNSPECIFIC
         lore:
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Brewing
-          Ingredient"}],"text":""}'
-        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"酿造材料"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"普通"}],"text":""}'
     sellingValue: 100.0
     buyValue: 200.0
     detailed: true
@@ -195,9 +188,8 @@ items:
         ==: ItemMeta
         meta-type: UNSPECIFIC
         lore:
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Brewing
-          Ingredient"}],"text":""}'
-        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"酿造材料"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"普通"}],"text":""}'
     sellingValue: 10.0
     buyValue: 20.0
     detailed: true
@@ -215,9 +207,8 @@ items:
         ==: ItemMeta
         meta-type: UNSPECIFIC
         lore:
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Brewing
-          Ingredient"}],"text":""}'
-        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"酿造材料"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"普通"}],"text":""}'
     sellingValue: 3.0
     buyValue: 7.0
     detailed: true

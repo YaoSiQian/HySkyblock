@@ -71,9 +71,8 @@ items:
         ==: ItemMeta
         meta-type: UNSPECIFIC
         lore:
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Brewing
-          Ingredient"}],"text":""}'
-        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"酿造材料"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"普通"}],"text":""}'
     sellingValue: 5.0
     buyValue: 10.0
     detailed: true
@@ -102,8 +101,7 @@ items:
         - '{"text":""}'
         - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
           item can be reforged!"}],"text":""}'
-        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON
-          ACCESSORY"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"普通饰品"}],"text":""}'
         ItemFlags:
         - HIDE_ATTRIBUTES
         internal: H4sIAAAAAAAA/11QTU6DQBj9MBoRNXoAl25JpkUKLBpT/4eUwSL9gU0DdGihAzYUbOEYnsELmLj1OF15BRfixpgu3uL9JC/vCQA8nBbBOPdYtEy8dJx6CYWT6jnxI/qnbmXyckFhv3OFu9h2tryiiCZwrngq0mRVEVvIR+KFp6miHwahqAVa0GyGKr0IVAGOnuYFY4/ZcxgxysMu+e3eyzOlWgkg1PqCZnlElwfA53SdFxldCgDA8bA38FhB4YOWOnJHMzQZ6Swocavm9hNiJo4XCk4HpX+NWzip/YdOq1tq/7Jy7g1l5kj6zE17hZ8MUFeyGH2wGkHSfyG2mzjVtEHu9ci8sWI3tiJSOTKpcI25ZDT7KyPBkjnUY8PuNE17ikh8FRH7bkZiQ3YqZ+XaA0ZubiVSGci1b9c4bWhhr90GOIQdPKmH7L5dZuk7f795G79uzr4/v4CD4/pMuqZBkXs+oxwHh//e5eAHMp+W+rEBAAA=
@@ -136,8 +134,7 @@ items:
         - '{"text":""}'
         - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
           item can be reforged!"}],"text":""}'
-        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON
-          ACCESSORY"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"普通饰品"}],"text":""}'
         ItemFlags:
         - HIDE_ATTRIBUTES
         internal: H4sIAAAAAAAA/12QO07DQBiEf6MggnkICm5AG2ntPLegSHhuiB0SjINdgGznh3izNlGyJtncgZ5DIEHBfbgFBRWmQYhyZj5pNKMDFGEni25lIOJZEqS3aZAg7M7GKFA+pL/+P0qqCcJas8U6zPH+ZVkWD2GfoFkL68NGiZCwXqo0KlGJmkalZFKKSIyQUtrQYfNynAlxMX24iwUWoWD/tK/KaX0510HP/QlOZYyzdShKXMhsijMdALQirLqByBDeUbWJfz0iw+u2iBSr5dq5JKLL+KTOUleFh6zGkjw/a9Y6iv5hqzIYVIVXbo/8tJeFiUs65b7As74RJVeP1rK5sLhX8R3B7aOx8k+PFz5vjbtH98pennCP96pWckw8bs0tblXtgWdYjjuyzXbs86js8/7I4q2467iJt2wqf8AUSw161zs4ANiAFTbMhxT26Nv27sv559Pz64d5Y3+BBlv5mbjAKJNBKFDTYOPPuxp8A1wwgWqzAQAA
@@ -171,8 +168,7 @@ items:
         - '{"text":""}'
         - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
           item can be reforged!"}],"text":""}'
-        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON
-          ACCESSORY"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"普通饰品"}],"text":""}'
         ItemFlags:
         - HIDE_ATTRIBUTES
         internal: H4sIAAAAAAAA/12QvU7jQBzE/0EgBfMhmivoaSPZ8ZdSUMAlCmtlbWJCHG8TrZ01trM2UbJObEv3EvcYVx+vQk+BxENQYBqEKGfmV8yMBNCGsyKcC8qTTUbzeU4zBufbhHP6wOY0ipI8EdVX/oMW1YrB6dU1GqGJP3cHQ+TYP5CiSBZwEWlGECmy3lE1U+1o+sLsUFlRO10tUJQeC0waGhIc3y0Lzm/Xj1HCWRv27c8yB2Jt1jsJpMZfsbVI2OYQ2oKVolizjQQArTYcTCkvGPxnlSWTWSwvZhYPK2Q0enIncwelKxPl0yr4jQyUNfnNlTGqet9YXVBP575qxSQfF0E2lUeqy9mNq4TZ/dbxcIm9cdevQ91P4xh7fun0lzucjVWnb6dk6Mb20FqSDOmkP1ZxjVU/DWu7Xpa4jzR/MqjsbNAlE5KSdLDDnstJYvWimXwJcAR7aNEM2d97f9r++eUc/33594xPX9+gBSfNmaxkYSFowFljHH17twUfL7LnCMIBAAA=
@@ -218,8 +214,7 @@ items:
         - '{"text":""}'
         - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
           item can be reforged!"}],"text":""}'
-        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON
-          ACCESSORY"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"普通饰品"}],"text":""}'
         ItemFlags:
         - HIDE_ATTRIBUTES
         internal: H4sIAAAAAAAA/12QzU7CQBSFL0YTrD9xZXTlxi3JVGmBJQqBaeioiIXOhkzbaZhhphKYCvVlXLrxKVz7DL6K1o0xLs85303uORZAFY7yeGqYEivNsmnGNIdjLTI+ZWkqMmGK3/AfaooFh8P2FR7gUTgddnv4hvxD8lwkcN5yUbNuO6jmOIlTqzdQWouiC1aLG82Wy5nNYxtZsH8/z5W6XT6mQvEqbJOfT3bMsvG8tsAq/QVfGsFXu1A1fGPyJV9ZAFCpwk7AVM7hjRceopMZSiaeigvslnp0j9QNlosGzoIiusYu1mXeb7uDovWHdQwbOyq89GY0u8sjHaDB5VDx/tCO9cMT7cxtIommPR+FYzILJZ2H0i9IDxf+2JOkQ4Qv/TrVD4jIQJGRvw5H4bMvE0UuAkVld0M73twv7+m4K9KJ3QLYgy2clAW2Xz8+j07eydnL1/6pnNgaKnBQjsg3PM4NixQvjb0/q1bgG7VrCMG3AQAA

@@ -59,7 +59,7 @@ petItems:
     - '&eRight-click to add this pet to'
     - '&eyour pet menu!'
     - ''
-    - '&f&lCOMMON'
+    - '&f&l普通'
   Uncommon:
     material: PLAYER_HEAD
     amount: 1
@@ -70,7 +70,7 @@ petItems:
     - '&eRight-click to add this pet to'
     - '&eyour pet menu!'
     - ''
-    - '&a&lRARE'
+    - '&a&l稀有'
   Rare:
     material: PLAYER_HEAD
     amount: 1
@@ -81,7 +81,7 @@ petItems:
     - '&eRight-click to add this pet to'
     - '&eyour pet menu!'
     - ''
-    - '&9&lRARE'
+    - '&9&l稀有'
   Epic:
     material: PLAYER_HEAD
     amount: 1
