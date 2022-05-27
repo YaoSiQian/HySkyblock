@@ -61,7 +61,7 @@ petsGUI:
       - '&7当前: &c已隐藏宠物!'
       - '&7已选择宠物: %selected_pet%'
       - ''
-      - '&eClick to show!'
+      - '&e点击显示!'
       slot: 51
     hidePetsDisabled:
       material: STONE_BUTTON
@@ -76,7 +76,7 @@ petsGUI:
       - '&7当前: &a已显示宠物!'
       - '&7已选择宠物: %selected_pet%'
       - ''
-      - '&eClick to hide!'
+      - '&e点击隐藏!'
       slot: 51
   excludedSlots:
   - 10
