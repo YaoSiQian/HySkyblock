@@ -1,39 +1,35 @@
 mainMenu:
-  title: Enchant Item
+  title: 附魔物品
   size: 54
   items:
     enchantingTable:
       material: ENCHANTING_TABLE
       amount: 1
-      title: '&aEnchant Item'
+      title: '&a附魔物品'
       lore:
-      - '&7Add an item to the slot above to'
-      - '&7view enchantment options!'
+      - '&7在上方的空位放入物品以浏览附魔选项!'
       slot: 28
     emptyItem:
       material: GRAY_DYE
       amount: 1
-      title: '&cEnchant Item'
+      title: '&c附魔物品'
       lore:
-      - '&7Place an item in the open slot'
-      - '&7to enchant it'
+      - '&7在空槽里放入一个物品来附魔该物品!'
     errorItem:
       material: RED_DYE
       amount: 1
-      title: '&cCannot Enchant Item!'
+      title: '&c无法附魔物品!'
       lore:
       - '%error_placeholder%'
     bookShelfItem:
       material: BOOKSHELF
       amount: 1
-      title: '&dBookshelf Power'
+      title: '&d书架能量'
       lore:
-      - '&7Stronger enchantments require'
-      - '&7more bookshelf power which can'
-      - '&7be increased by placing'
-      - '&7bookshelves nearby.'
+      - '&7更强大的附魔需要更多的书架能量'
+      - '&7书架能量可以通过在旁边放置书架来提升'
       - ''
-      - '&7Current Bookshelf Power: &d%bookshelf_power%'
+      - '&7现有的书架能量: &d%bookshelf_power%'
       slot: 48
     availableBook:
       material: ENCHANTED_BOOK
@@ -42,7 +38,7 @@ mainMenu:
       lore:
       - '&7%enchant_description%'
       - ''
-      - '&eClick to view!'
+      - '&e点击查看!'
     notAvailableBook:
       material: ENCHANTED_BOOK
       amount: 1
@@ -50,7 +46,7 @@ mainMenu:
       lore:
       - '&7%enchant_description%'
       - ''
-      - '&cRequires %bookshelf_required% bookshelf power!'
+      - '&c需要 %bookshelf_required% 级书架能量!'
   bookSlots:
   - 12
   - 13
@@ -136,9 +132,9 @@ buttons:
     material: PLAYER_HEAD
     headData: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTRhNTY2N2VmNzI4NWM5MjI1ZmMyNjdkNDUxMTdlYWI1NDc4Yzc4NmJkNWFmMGExOTljMjlhMmMxNGMxZiJ9fX0=
     amount: 1
-    title: '&aBack Page'
+    title: '&a上一页'
     lore:
-    - '&8Page %previous_page%'
+    - '&8第 %previous_page% 页'
     slot: 17
   nextPageButton:
     material: PLAYER_HEAD
@@ -146,5 +142,5 @@ buttons:
     amount: 1
     title: '&a下一页'
     lore:
-    - '&8Page %next_page%'
+    - '&8第 %next_page% 页'
     slot: 35

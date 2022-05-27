@@ -23,7 +23,7 @@
 #      - SPECIFIC_LINE
 #    line: line where lore will be added (only apply if type is SPECIFIC_LINE)
 # ----------------------------------------#
-prefix: '&e&lUltimateCore-Enchantments &7'
+prefix: '&e&l附魔 &7'
 mainCommandPerm: ''
 setAsDefaultEnchantingTable: true
 addInfoOnEnchant: true
@@ -47,15 +47,14 @@ loreSettings:
 bookItem:
   material: ENCHANTED_BOOK
   amount: 1
-  title: '&fEnchanted Book'
+  title: '&f附魔书'
   lore:
   - ''
   - '%apply_cost%'
   - ''
-  - '&7Use this on an item in an Anvil'
-  - '&7to apply it!'
+  - '&7用铁砧将它赋予在一个物品上!'
   - ''
-  - '&f&lCOMMON'
+  - '&f&l普通'
 aurelliumSkills:
   xp: 2
   skill: ENCHANTING
