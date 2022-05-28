@@ -16,8 +16,8 @@ kill-coins:
   #can't get more than the limit you set
   maximum-coins-per-day: 0
   maximum-reached-message:
-    - '&c你今天击杀生物赚得的金币已达上限!'
-    - '&c你今天不再会因为击杀生物而获得金币.'
+    - '&c你今天击杀生物赚得的硬币已达上限!'
+    - '&c你今天不再会因为击杀生物而获得硬币.'
     - ''
     - '&c该限制将会在明天解除!'
   #If you are using mythic mobs you can hook into it
@@ -35,8 +35,8 @@ kill-coins:
       #set 0 for no limit
       maximum-kills: 1000
       maximum-reached-message:
-        - '&c你今天击杀该生物赚得金币次数已达上限!'
-        - '&c你不会再因为击杀该生物获得金币.'
+        - '&c你今天击杀该生物赚得硬币次数已达上限!'
+        - '&c你不会再因为击杀该生物获得硬币.'
         - ''
         - '&c该限制将会在明天解除!'
   #kill events based on entity types

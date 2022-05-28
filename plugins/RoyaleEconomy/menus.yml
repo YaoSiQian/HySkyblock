@@ -283,7 +283,7 @@ shared-menus:
       lore:
         - '&7当前银行财产: &6%balance%'
         - ''
-        - '&7将你的金币储存到银行里可以'
+        - '&7将你的硬币储存到银行里可以'
         - '&7保证其安全!'
         - ''
         - '&7利息冷却: &b%interest-cooldown%'
@@ -296,7 +296,7 @@ shared-menus:
       lore:
         - '&7当前银行财产: &6%balance%'
         - ''
-        - '&7将你的金币储存到银行里可以'
+        - '&7将你的硬币储存到银行里可以'
         - '&7保证其安全!'
         - ''
         - '&e点击以进行取款'
@@ -327,7 +327,7 @@ shared-menus:
       #Use %interest-cooldown-detailed% for the detailed cooldown (format example: 2 Days 3 Hours 1 Minute)
       #Use %interest-cooldown-short% for the short cooldown (format example: 2d3h1m)
       lore:
-        - '&7将你的金币储存到银行里可以'
+        - '&7将你的硬币储存到银行里可以'
         - '&7保证其安全!'
         - ''
         - '&7银行财产上限: &6%balance-limit%'
@@ -336,14 +336,14 @@ shared-menus:
         - '&7财产给予你 &b利息 &7.'
         - ''
         - '&7利息冷却: &b%interest-cooldown%'
-        - '&7利息金额: &6%interest-value% 金币'
+        - '&7利息金额: &6%interest-value% 硬币'
     bank-upgrades:
       item-id: '41'
       slot: 35
       name: '&6银行升级'
       lore:
         - '&7你太有钱了？银行存不了你的所有'
-        - '&7金币? 来升级你的账户类型吧!'
+        - '&7硬币? 来升级你的账户类型吧!'
         - ''
         - '&7当前账户类型: %account-name%'
         - '&7银行财产上限: &6%balance-limit%'
@@ -355,7 +355,7 @@ shared-menus:
     background-glass-color: 15
     size: 36
     #Use %amount% for the amount of coins a player withdraws
-    deposit-message: '&f你存了 &6%amount% 金币 &f到你的银行!'
+    deposit-message: '&f你存了 &6%amount% 硬币 &f到你的银行!'
     go-back-item:
       item-id: '262'
       slot: 31

@@ -3,53 +3,52 @@ sell-all:
   sell-all-command-cooldown: 0
   #Applies to wands too, to set the cooldown of an wand just add 'cooldown: amount' in the wand's section
   cooldown-bypass-permission: 'rec.sellall.cooldown.bypass'
-  sell-all-cooldown-message: '&cYou can not do this yet! This action is in cooldown for another %cooldown%'
-  sell-message: '&6[Sell All] &fYou have sold &e%item-count% items &ffor &6%coins% coins&f!'
-  no-items-to-sell: '&cNo items to sell!'
+  sell-all-cooldown-message: '&c你太快了! 请在 %cooldown% 后再试'
+  sell-message: '&6[回收全部] &f你回收了 &e%item-count% &f件物品，获得了 &6%coins% 硬币&f!'
+  no-items-to-sell: '&c没有可回收的物品!'
   use-sell-command: false
   #Permission to use /sellall without mentioning a shop
   #If users don't have permission, they need to specify a shop
   #PER SHOP SELL PERMISSION: 'rec.shop.sellall.shopName' <--- CAN NOT BE CHANGED
   global-sell-permission: 'rec.shop.sellall.global'
-  no-permission-to-sell-global: '&cYou don''t have permission to sell globally!'
-  no-permission-to-sell-shop: '&cYou don''t have permission to sell to this shop!'
+  no-permission-to-sell-global: '&c你没有足够的权限!'
+  no-permission-to-sell-shop: '&c你没有足够的权限!'
   use-sell-wands: false
-  need-to-click-chest: '&cThe wand sells items inside a chest. You need to click one of your chests!'
+  need-to-click-chest: '&c你要回收的物品包括箱子, 请点击其中的一个箱子以确认回收!'
   sell-wands:
     #Sell wands check for sellall permission, if you don't have access to sell
     #to a shop (rec.shop.sellall.shopName or the global permission) the items WILL NOT BE SOLD!
     #Doesn't matter if the wand allows selling to that shop, the player needs permission for it too!
     wand1:
-      #The maximum amount of uses, after which the wand breaks
-      #Set to 0 for no limit
+      #最多使用次数，设置成 0 代表无限制
+      #使用次数不足时，回收棒会消失
       uses: 500
       material: '369'
-      #Leaving the shops to check empty means it checks for EVERY shop!
+      #这里留空代表回收的商店无限制，否则只回收对应商店内的物品!
       shops-to-check: []
-      name: '&aGlobal Sell Wand &7(&a%uses%&7)'
+      name: '&a全服回收棒 &7(&a%uses%&7)'
       lore:
         - ''
-        - '&7Sell items from a chest'
-        - '&7instantly to all shops'
-        - '&7you have access to!'
+        - '&7将一个箱子内的物品'
+        - '&7快速全部回收!'
         - ''
-        - '&7Uses Left: &a%uses%'
+        - '&7剩余使用次数: &a%uses%'
     wand2:
       #The maximum amount of uses, after which the wand breaks
       #Set to 0 for no limit
       uses: 0
       material: '280'
-      #Leaving the shops to check empty means it checks for EVERY shop!
+      #这里留空代表回收的商店无限制，否则只回收对应商店内的物品!
       shops-to-check:
         - 'shop1'
         - 'shop2'
-      name: '&aSell Wand | Shop 1 & Shop 2'
+      name: '&a回收棒 | Shop 1 & Shop 2'
       lore:
         - ''
-        - '&7Sell items from a chest'
-        - '&7instantly to shop 1 and shop 2'
-        - '&7if you have access'
-        - '&7to them!'
+        - '&7将一个箱子内的物品'
+        - '&7快速全部回收!'
+        - '&7但是只回收 Shop 1 和 Shop 2'
+        - '&7商店内的物品.'
 
 
 shop-buy-limit:
@@ -57,9 +56,9 @@ shop-buy-limit:
   #This is the maximum amount of money you can use
   #per day to buy stuff (is global, not for each shop)
   limit-reached-message:
-    - '&cYou can''t buy more stuff!'
-    - '&cYou have reached the daily limit'
-    - '&cof &6%coins% coins&c!'
+    - '&c你没法购买更多的该物品!'
+    - '&c你已达到今天购买物品消耗硬币上限'
+    - '&6%coins% 硬币&c!'
   limit-groups:
     limit1:
       permission: 'shop.limit1'
@@ -73,9 +72,9 @@ shop-sell-limit:
   #This is the maximum amount of money you can use
   #per day to sell stuff (is global, not for each shop)
   limit-reached-message:
-    - '&cYou can''t sell more stuff!'
-    - '&cYou have reached the daily limit'
-    - '&cof &6%coins% coins&c!'
+    - '&c你没法出售更多的该物品!'
+    - '&c你已达到今天出售物品赚得硬币上限'
+    - '&6%coins% 硬币&c!'
   limit-groups:
     limit1:
       permission: 'shop.limit1'
@@ -89,65 +88,65 @@ next-page-item:
   material: '262'
   name: '&a下一页'
   lore:
-    - '&ePage 2'
+    - '&e第 2 页'
 
 previous-page-item:
   material: '262'
   name: '&a上一页'
   lore:
-    - '&ePage 1'
+    - '&e第 1 页'
 
 go-back-item:
   material: '262'
   name: '&a返回'
   lore:
-    - '&7To Main Shop'
+    - '&7至 主商店'
 
 sell-item:
   material: '154'
-  name: '&aSell Item'
+  name: '&a出售物品'
   lore:
-    - '&7Click items in your inventory to'
-    - '&7sell them to this Shop!'
+    - '&7点击你背包内的物品'
+    - '&7即可将该物品出售!'
 
 lore-sell-addition:
   - ''
-  - '&7Sell Price'
-  - '&6%amount% Coins'
+  - '&7赚得'
+  - '&6%amount% 硬币'
   - ''
-  - '&eClick to sell!'
+  - '&e点击以出售!'
 
 #You can also use %sell-amount% inside here
 lore-buy-addition:
   - ''
-  - '&7Cost'
-  - '&6%amount% Coins'
+  - '&7花费'
+  - '&6%amount% 硬币'
   - '%item-requirements%'
   - ''
-  - '&eClick to trade!'
+  - '&e点击以购买!'
 
 #If the amounts are not set to 0 this
 #will be added to the lore
 lore-detailed-buy-addition:
-  - '&eRight-Click for more trading options!'
+  - '&e右键以查看更多交易选项!'
 
 lore-buyback-addition:
   - ''
-  - '&7Cost'
-  - '&6%amount% Coins'
+  - '&7花费'
+  - '&6%amount% 硬币'
   - ''
-  - '&eClick to buyback!'
+  - '&e点击以赎回!'
 
 freshly-bought-lore:
   - ''
-  - '&bFreshly bought item.'
-  - '&bReopen the shop to be'
-  - '&bable to sell it.'
+  - '&b这是你经常购买的物品.'
+  - '&b重新打开这个商店以出售'
+  - '&b你背包中的该物品.'
 
-sell-message: '&aYou sold &f%item-display-name% &8x%item-count% &afor &6%amount% coins&a!'
-buy-message: '&aYou bought &f%item-display-name% &8x%item-count% &afor &6%amount% coins&a!'
-buyback-message: '&aYou bought back &f%item-display-name% &8x%item-count% &afor &6%amount% coins&a!'
-not-enough-coins: '&cYou don''t have enough Coins!'
-not-enough-items: '&cYou don''t have enough items!'
-not-enough-space: '&cYou don''t have enough space in your inventory!'
-too-fast-click: '&cSlow down a bit! You click too fast!'
+sell-message: '&f你出售了 &8%item-count%x &f%item-display-name% &f, 花费了 &6%amount% 硬币&f!'
+buy-message: '&f你购买了 &8%item-count%x &f%item-display-name% &f, 花费了 &6%amount% 硬币&f!'
+buyback-message: '&f你赎回了 &8%item-count%x &f%item-display-name% &f, 花费了 &6%amount% 硬币&f!'
+not-enough-coins: '&c你没有足够的硬币!'
+not-enough-items: '&c你没有足够的物品!'
+not-enough-space: '&c你的背包空间不足!'
+too-fast-click: '&c慢一点! 你点的太快了!'

@@ -4,20 +4,20 @@ money-bags:
   money-bag-skin: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzk2Y2UxM2ZmNjE1NWZkZjMyMzVkOGQyMjE3NGM1ZGU0YmY1NTEyZjFhZGVkYTFhZmEzZmMyODE4MGYzZjcifX19'
   full-inventory-message: '&c你的背包已满!'
   minimum-amount: 500
-  minimum-message: '&f少于 &6500 金币 &f时不能使用钱袋, 你只能把它们带在身上.'
+  minimum-message: '&f少于 &6500 硬币 &f时不能使用钱袋, 你只能把它们带在身上.'
   maximum-amount: 500000
-  maximum-message: '&f钱袋最低只能储存 &6500,000 金币&f! 否则它会损坏.'
-  money-bag-click: '&f你从钱袋那里拿回了 &6%amount% 金币&f!'
+  maximum-message: '&f钱袋最低只能储存 &6500,000 硬币&f! 否则它会损坏.'
+  money-bag-click: '&f你从钱袋那里拿回了 &6%amount% 硬币&f!'
   money-bag-name: '&6钱袋'
-  #使用 %amount% 代表钱袋储存的金币
+  #使用 %amount% 代表钱袋储存的硬币
   money-bag-lore:
-    - '&7这是一个可以储存金币的钱袋!'
-    - '&7它可以最多储存 &6500k 金币&7!'
+    - '&7这是一个可以储存硬币的钱袋!'
+    - '&7它可以最多储存 &6500k 硬币&7!'
     - ''
     - '&7当前它包含'
-    - '&6%amount% 金币&7!'
+    - '&6%amount% 硬币&7!'
     - ''
-    - '&e点击以取出里面的金币'
+    - '&e点击以取出里面的硬币'
     - '&e到你的钱包!'
 
 talismans:
@@ -25,7 +25,7 @@ talismans:
   #When this is set to false, your talismans won't drop on death
   talismans-drop: false
   upgrade-menu:
-    not-enough-coins: '&c你没有足够的金币!'
+    not-enough-coins: '&c你没有足够的硬币!'
     upgraded: '&a你的护身符已升级!'
     title: '&8护身符升级'
     middle-item:
@@ -34,7 +34,7 @@ talismans:
         - '&7从 %fromTalisman%'
         - '&7升级到 %toTalisman%'
         - ''
-        - '&7花费: &6%cost% 金币'
+        - '&7花费: &6%cost% 硬币'
         - ''
         - '&e点击一个护身符以确认'
         - '&e升级!'
@@ -49,7 +49,7 @@ talismans:
     last-index: 2
     0:
       skull-texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTdmNTdlN2FhOGRlODY1OTFiYjBiYzUyY2JhMzBhNDlkOTMxYmZhYmJkNDdiYmM4MGJkZDY2MjI1MTM5MjE2MSJ9fX0='
-      name: '&6&l幸运金币护身符 I级'
+      name: '&6&l幸运硬币护身符 I级'
       minimum-interval: 3
       maximum-interval: 7
       minimum-coins: 1
@@ -57,17 +57,17 @@ talismans:
       lore:
         - ''
         - '&7这个护身符会每隔随机'
-        - '&7一段时间给予你小额金币.'
+        - '&7一段时间给予你小额硬币.'
         - ''
         - '&7每次间隔: &e3 - 7 分钟'
-        - '&7最多获得金币: &65 硬币'
+        - '&7最多获得硬币: &65 硬币'
         - ''
         - '&e点击以升级!'
     1:
       skull-texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTU2NGU1NTM4MGQzOTkwMDJlMDFjZjBiMTI3NzRjZGE2YTdhMjZkODZiNTliZjg2MjkyODRlZjFhMzg3ZDRkMCJ9fX0='
       #How much does it cost to upgrade to this one
       upgrade-cost: 15000
-      name: '&6&l幸运金币护身符 II级'
+      name: '&6&l幸运硬币护身符 II级'
       #Minimum interval and maximum interval are numbers represented in minutes
       minimum-interval: 5
       maximum-interval: 7
@@ -76,16 +76,16 @@ talismans:
       lore:
         - ''
         - '&7这个护身符会每隔随机'
-        - '&7一段时间给予你小额金币.'
+        - '&7一段时间给予你小额硬币.'
         - ''
         - '&7每次间隔: &e5 - 7 分钟'
-        - '&7最多获得金币: &617 硬币'
+        - '&7最多获得硬币: &617 硬币'
         - ''
         - '&e点击以升级!'
     2:
       skull-texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGExNGZmOTEyNTY2ZDQ3MTk4MTI3ODhlNjMzYmE0MjNkMWRiMTQ0OWFkZmJiNzA2MWZhZmU3NGJhODgwOTQ2OSJ9fX0='
       upgrade-cost: 30000
-      name: '&6&l幸运金币护身符 III级'
+      name: '&6&l幸运硬币护身符 III级'
       minimum-interval: 4
       maximum-interval: 6
       minimum-coins: 5
@@ -93,10 +93,10 @@ talismans:
       lore:
         - ''
         - '&7这个护身符会每隔随机'
-        - '&7一段时间给予你小额金币.'
+        - '&7一段时间给予你小额硬币.'
         - ''
         - '&7每次间隔: &e4 - 6 分钟'
-        - '&7最多获得金币: &625 硬币'
+        - '&7最多获得硬币: &625 硬币'
   percent-reducer-talisman:
     use-this-talisman: true
     last-index: 2
@@ -107,7 +107,7 @@ talismans:
       lore:
         - ''
         - '&7这个护身符可以减少你死亡'
-        - '&7时扣除的金币 &c5%&7!'
+        - '&7时扣除的硬币 &c5%&7!'
         - ''
         - '&e点击以升级!'
     1:
@@ -118,7 +118,7 @@ talismans:
       lore:
         - ''
         - '&7这个护身符可以减少你死亡'
-        - '&7时扣除的金币 &c10%&7!'
+        - '&7时扣除的硬币 &c10%&7!'
         - ''
         - '&e点击以升级!'
     2:
@@ -129,7 +129,7 @@ talismans:
       lore:
         - ''
         - '&7这个护身符可以减少你死亡'
-        - '&7时扣除的金币 &c20%&7!'
+        - '&7时扣除的硬币 &c20%&7!'
   death-save-talisman:
     use-this-talisman: true
     last-index: 2
@@ -142,7 +142,7 @@ talismans:
         - '&7这个护身符给予你'
         - '&a5% &7几率使得你在'
         - '&7死亡时不会被扣除'
-        - '&7金币!'
+        - '&7硬币!'
         - ''
         - '&e点击以升级!'
     1:
@@ -155,7 +155,7 @@ talismans:
         - '&7这个护身符给予你'
         - '&a10% &7几率使得你在'
         - '&7死亡时不会被扣除'
-        - '&7金币!'
+        - '&7硬币!'
         - ''
         - '&e点击以升级!'
     2:
@@ -168,4 +168,4 @@ talismans:
         - '&7这个护身符给予你'
         - '&a20% &7几率使得你在'
         - '&7死亡时不会被扣除'
-        - '&7金币!'
+        - '&7硬币!'
