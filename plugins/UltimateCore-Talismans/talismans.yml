@@ -52,16 +52,15 @@ talismans:
     - farm
   mine_affinity_talisman:
     type: ABILITY_REGION
-    displayName: '&fMine Affinity Talisman'
+    displayName: '&f矿洞护符'
     lore:
-    - '&7Increases your &f✦ Speed &7by'
-    - '&a+10 &7while held in the &bCoal'
-    - '&bMine&7, &6Gold Mine&7, &bDeep'
-    - '&bCaverns&7, &bGunpowder Mines&7,'
-    - '&bLapis Quarry&7, &bPigmen''s'
-    - '&bDen&7, &bSlimehill&7, &bDiamond'
-    - '&bReserve&7, and &bObsidian'
-    - '&bSanctuary&7.'
+    - '&7当这个物品在物品栏内时'
+    - '&7在 &b煤炭矿区&7, &6黄金矿区&7,'
+    - '&b深层矿洞&7, &b火药矿区&7,'
+    - '&b青金石采伐场&7, &b猪人密穴&7,'
+    - '&b黏液山脉&7, &b钻石保护区&7,'
+    - '&7以及 &b黑曜圣所&7 附近时'
+    - '&f✦ 速度 &a+10'
     - ''
     - '&8此物品可被洗炼!'
     - '&f&l普通 饰品'
@@ -73,11 +72,11 @@ talismans:
     - deep-caverns
   village_affinity_talisman:
     type: ABILITY_REGION
-    displayName: '&fVillage Affinity Talisman'
+    displayName: '&f村庄护符'
     lore:
-    - '&7Increases your &f✦ Speed &7by'
-    - '&a+10 &7while held in the'
-    - '&bVillage&7.'
+    - '&7当这个物品在物品栏内时'
+    - '&7在 &b村庄&7 附近时'
+    - '&f✦ 速度 &a+10'
     - ''
     - '&8此物品可被洗炼!'
     - '&f&l普通 饰品'
@@ -88,10 +87,10 @@ talismans:
     - village
   zombie_talisman:
     type: ABILITY
-    displayName: '&fZombie Talisman'
+    displayName: '&f僵尸护符'
     lore:
-    - '&7Reduces the damage taken from'
-    - '&7Zombies by &a5%&7.'
+    - '&7当这个物品在物品栏内时'
+    - '&7减少僵尸对您造成的 &a5%&7 伤害'
     - ''
     - '&8此物品可被洗炼!'
     - '&f&l普通 饰品'
@@ -100,10 +99,10 @@ talismans:
     - Defense:5
   skeleton_talisman:
     type: ABILITY
-    displayName: '&fSkeleton Talisman'
+    displayName: '&f骷髅护符'
     lore:
-    - '&7Reduces the damage taken from'
-    - '&7Skeletons by &a5%&7.'
+    - '&7当这个物品在物品栏内时'
+    - '&7减少骷髅对您造成的 &a5%&7 伤害'
     - ''
     - '&8此物品可被洗炼!'
     - '&f&l普通 饰品'
@@ -112,10 +111,10 @@ talismans:
     - Defense:5
   vaccine_talisman:
     type: IMMUNITY
-    displayName: '&fVaccine Talisman'
+    displayName: '&f疫苗护符'
     lore:
-    - '&7Provides immunity to &9Poison'
-    - '&7damage when held.'
+    - '&7当这个物品在物品栏内时'
+    - '&7免疫 &9剧毒'
     - ''
     - '&8此物品可被洗炼!'
     - '&f&l普通 饰品'
@@ -124,10 +123,10 @@ talismans:
     - POISON:100.2
   speed_talisman:
     type: ABILITY
-    displayName: '&fSpeed Talisman'
+    displayName: '&f速度护符'
     lore:
-    - '&7Gives &a+1 &f✦ Speed &7when'
-    - '&7held.'
+    - '&7当这个物品在物品栏内时'
+    - '&7给予持有者 &a+1 &f✦ 速度'
     - ''
     - '&8此物品可被洗炼!'
     - '&f&l普通 饰品'
@@ -136,10 +135,10 @@ talismans:
     - Speed:1
   speed_ring:
     type: ABILITY
-    displayName: '&aSpeed Ring'
+    displayName: '&a速度指环'
     lore:
-    - '&7Gives &a+3 &f✦ Speed &7when'
-    - '&7held.'
+    - '&7当这个物品在物品栏内时'
+    - '&7给予持有者 &a+3 &f✦ 速度'
     - ''
     - '&8此物品可被洗炼!'
     - '&a&l精良 饰品'
@@ -148,22 +147,22 @@ talismans:
     - Speed:3
   speed_artifact:
     type: ABILITY
-    displayName: '&9Speed Artifact'
+    displayName: '&9速度圣物'
     lore:
-    - '&7Gives &a+5 &f✦ Speed &7when'
-    - '&7held.'
+    - '&7当这个物品在物品栏内时'
+    - '&7给予持有者 &a+5 &f✦ 速度'
     - ''
     - '&8此物品可被洗炼!'
-    - '&9&l稀有饰品'
+    - '&9&l稀有 饰品'
     texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjA2NzA2ZWVjYjJkNTU4YWNlMjdhYmRhMGIwYjdiODAxZDM2ZDE3ZGQ3YTg5MGE5NTIwZGJlNTIyMzc0ZjhhNiJ9fX0=
     abilities:
     - Speed:5
   lava_talisman:
     type: IMMUNITY
-    displayName: '&aLava Talisman'
+    displayName: '&a熔岩护符'
     lore:
-    - '&7Provides immunity to &aLava'
-    - '&7while held in the inventory.'
+    - '&7当这个物品在物品栏内时'
+    - '&7免疫 &a熔岩'
     - ''
     - '&8此物品可被洗炼!'
     - '&a&l精良 饰品'
@@ -172,9 +171,9 @@ talismans:
     - LAVA:100.2
   healing_talisman:
     type: HEALING
-    displayName: '&fHealing Talisman'
+    displayName: '&f治愈护符'
     lore:
-    - '&7Increases healing by &a5.0%.'
+    - '&7回复效果提升 &a5.0%'
     - ''
     - '&8此物品可被洗炼!'
     - '&f&l普通 饰品'
@@ -182,9 +181,9 @@ talismans:
     amount: 5.0
   healing_ring:
     type: HEALING
-    displayName: '&aHealing Ring'
+    displayName: '&a治愈指环'
     lore:
-    - '&7Increases healing by &a10.0%.'
+    - '&7回复效果提升 &a10.0%'
     - ''
     - '&8此物品可被洗炼!'
     - '&a&l精良 饰品'
@@ -192,11 +191,11 @@ talismans:
     amount: 10.0
   talisman_of_coins:
     type: TIMER
-    displayName: '&fTalisman of Coins'
+    displayName: '&f硬币护符'
     lore:
-    - '&7Coins start appearing around you'
-    - '&7occasionally on public islands.'
-    - '&7Lucky!'
+    - '&7当你在公共岛屿时'
+    - '&7你周围将随机生成硬币'
+    - '&7好运来!'
     - ''
     - '&8此物品可被洗炼!'
     - '&f&l普通 饰品'
@@ -205,9 +204,9 @@ talismans:
     seconds: 120
   emerald_ring:
     type: TIMER
-    displayName: '&aEmerald Ring'
+    displayName: '&a绿宝石指环'
     lore:
-    - '&7Get &6+1 coin &7every minute!'
+    - '&7每分钟获得 &6+1 硬币&7!'
     - ''
     - '&8此物品可被洗炼!'
     - '&a&l精良 饰品'
@@ -216,14 +215,13 @@ talismans:
     seconds: 60
   feather_talisman:
     type: IMMUNITY
-    displayName: '&fFeather Talisman'
+    displayName: '&f羽毛护符'
     lore:
-    - '&bUnique Effect: Light Weight'
-    - '&7Reduces fall damage by &a10.0%&7.'
+    - '&b唯一被动: 羽之轻盈'
+    - '&7摔落伤害减少 &a10.0%'
     - ''
-    - '&7This talisman doesn''t work if'
-    - '&7the Feather Ring or'
-    - '&7Feather Artifact is in your inventory!'
+    - '&7如果羽毛指环或羽毛圣物在你的物品栏中'
+    - '&7这个护符将不会生效!'
     - ''
     - '&8此物品可被洗炼!'
     - '&f&l普通 饰品'
@@ -232,10 +230,10 @@ talismans:
     - FALL:10.0
   feather_ring:
     type: IMMUNITY
-    displayName: '&aFeather Ring'
+    displayName: '&a羽毛指环'
     lore:
-    - '&bUnique Effect: Light Weight'
-    - '&7Reduces fall damage by &a20.0%&7.'
+    - '&b唯一被动: 羽之轻盈'
+    - '&7摔落伤害减少 &a20.0%'
     - ''
     - '&8此物品可被洗炼!'
     - '&a&l精良 饰品'
@@ -244,22 +242,22 @@ talismans:
     - FALL:20.0
   feather_artifact:
     type: IMMUNITY
-    displayName: '&9Feather Artifact'
+    displayName: '&9羽毛圣物'
     lore:
-    - '&bUnique Effect: Light Weight'
-    - '&7Reduces fall damage by &a30.0%&7.'
+    - '&b唯一被动: 羽之轻盈'
+    - '&7摔落伤害减少 &a30.0%'
     - ''
     - '&8此物品可被洗炼!'
-    - '&9&l稀有饰品'
+    - '&9&l稀有 饰品'
     texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjE2NGNjNzYwODE1OTlhMjBhNjg5NmEzODE4MzIyYTBjZGMwODA2OWZmOTYwYmJkNzlmZjU0ZmM0NWUzNWVlNiJ9fX0=
     immunities:
     - FALL:30.0
   fire_talisman:
     type: IMMUNITY
-    displayName: '&fFire Talisman'
+    displayName: '&f火焰护符'
     lore:
-    - '&7Provides immunity to &aFire'
-    - '&7while held in the inventory.'
+    - '&7当这个物品在物品栏内时'
+    - '&7免疫 &a火焰'
     - ''
     - '&8此物品可被洗炼!'
     - '&f&l普通 饰品'
@@ -268,12 +266,12 @@ talismans:
     - FIRE:100.0
   wood_affinity_talisman:
     type: ABILITY_REGION
-    displayName: '&aWood Affinity Talisman'
+    displayName: '&a森林护符'
     lore:
-    - '&7Increases your &f✦ Speed &7by'
-    - '&a+10 &7while held in the'
-    - '&bForest&7, &cGraveyard&7, and'
-    - '&2Wilderness&7.'
+    - '&7当这个物品在物品栏内时'
+    - '&7在 &b森林&7, &c墓地&7,'
+    - '&7和 &2野外&7 区域内'
+    - '&f✦ 速度 &a+10'
     - ''
     - '&8此物品可被洗炼!'
     - '&a&l精良 饰品'

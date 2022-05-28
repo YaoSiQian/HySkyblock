@@ -1474,11 +1474,10 @@ recipes:
         meta-type: SKULL
         display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"森林护符"}],"text":""}'
         lore:
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"当这个物品在物品栏内时 "}],"text":""}'
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Forest"},{"italic":false,"color":"gray","text":",
-          "},{"italic":false,"color":"red","text":"Graveyard"},{"italic":false,"color":"gray","text":", 和"}],"text":""}'
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Wilderness"},{"italic":false,"color":"gray","text":"区域内提升"}],"text":""}'
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"+10 "},{"italic":false,"color":"white","text":"✦ 速度 "}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"当这个物品在物品栏内时"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"在 "},{"italic":false,"color":"aqua","text":"森林"},{"italic":false,"color":"gray","text":", "},{"italic":false,"color":"red","text":"墓地"},{"italic":false,"color":"gray","text":","}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"和 "},{"italic":false,"color":"dark_green","text":"野外"},{"italic":false,"color":"gray","text":" 区域内"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"✦ 速度 "},{"italic":false,"color":"green","text":"+10"}],"text":""}'
         - '{"text":""}'
         - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"此物品可被洗炼!"}],"text":""}'
         - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"精良 饰品"}],"text":""}'
@@ -3601,7 +3600,7 @@ recipes:
         meta-type: SKULL
         display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"火焰护符"}],"text":""}'
         lore:
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"该物品在物品栏中时"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"当这个物品在物品栏内时"}],"text":""}'
         - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"免疫"},{"italic":false,"color":"green","text":"火焰"}],"text":""}'
         - '{"text":""}'
         - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"此物品可被洗炼!"}],"text":""}'
@@ -4094,7 +4093,7 @@ recipes:
         meta-type: SKULL
         display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"熔岩护符"}],"text":""}'
         lore:
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"该物品在物品栏中时"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"当这个物品在物品栏内时"}],"text":""}'
         - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"免疫"},{"italic":false,"color":"green","text":"熔岩"}],"text":""}'
         - '{"text":""}'
         - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"此物品可被洗炼!"}],"text":""}'
@@ -8455,7 +8454,6 @@ recipes:
         lore:
         - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"当这个物品在物品栏内时"}],"text":""}'
         - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"免疫 "},{"italic":false,"color":"blue","text":"剧毒"}],"text":""}'
-
         - '{"text":""}'
         - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"此物品可被洗炼!"}],"text":""}'
         - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"普通 饰品"}],"text":""}'
@@ -9529,6 +9527,7 @@ recipes:
         meta-type: SKULL
         display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"速度护符"}],"text":""}'
         lore:
+        - '{"extra":[{"italic":false,"color":"gray","text":"当这个物品在物品栏内时"}],"text":""}'
         - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"给予持有者 "},{"italic":false,"color":"green","text":"+1 "},{"italic":false,"color":"white","text":"✦ 速度"}],"text":""}'
         - '{"text":""}'
         - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"此物品可被洗炼!"}],"text":""}'
@@ -9707,6 +9706,7 @@ recipes:
         meta-type: SKULL
         display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"速度指环"}],"text":""}'
         lore:
+        - '{"extra":[{"italic":false,"color":"gray","text":"当这个物品在物品栏内时"}],"text":""}'
         - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"给予持有者 "},{"italic":false,"color":"green","text":"+3 "},{"italic":false,"color":"white","text":"✦ 速度"}],"text":""}'
         - '{"text":""}'
         - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"此物品可被洗炼!"}],"text":""}'
@@ -9784,6 +9784,7 @@ recipes:
         meta-type: SKULL
         display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"速度护符"}],"text":""}'
         lore:
+        - '{"extra":[{"italic":false,"color":"gray","text":"当这个物品在物品栏内时"}],"text":""}'
         - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"给予持有者 "},{"italic":false,"color":"green","text":"+1 "},{"italic":false,"color":"white","text":"✦ 速度"}],"text":""}'
         - '{"text":""}'
         - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"此物品可被洗炼!"}],"text":""}'
@@ -9962,6 +9963,7 @@ recipes:
         meta-type: SKULL
         display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"速度圣物"}],"text":""}'
         lore:
+        - '{"extra":[{"italic":false,"color":"gray","text":"当这个物品在物品栏内时"}],"text":""}'
         - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"给予持有者 "},{"italic":false,"color":"green","text":"+5 "},{"italic":false,"color":"white","text":"✦ 速度"}],"text":""}'
         - '{"text":""}'
         - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"此物品可被洗炼!"}],"text":""}'
@@ -10039,6 +10041,7 @@ recipes:
         meta-type: SKULL
         display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"速度指环"}],"text":""}'
         lore:
+        - '{"extra":[{"italic":false,"color":"gray","text":"当这个物品在物品栏内时"}],"text":""}'
         - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"给予持有者 "},{"italic":false,"color":"green","text":"+3 "},{"italic":false,"color":"white","text":"✦ 速度"}],"text":""}'
         - '{"text":""}'
         - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"此物品可被洗炼!"}],"text":""}'
@@ -11533,7 +11536,8 @@ recipes:
         meta-type: SKULL
         display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"农业护符"}],"text":""}'
         lore:
-        - '{"extra":[{"italic":false,"color":"gray","text":"在 "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"农场"},{"italic":false,"color":"gray","text":", "},{"italic":false,"color":"gold","text":"谷仓"},{"italic":false,"color":"gray","text":", "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"蘑菇沙漠"},{"italic":false,"color":"gray","text":"附近时"}],"text":""}'
+        - '{"extra":[{"italic":false,"color":"gray","text":"当这个物品在物品栏内时"}],"text":""}'
+        - '{"extra":[{"italic":false,"color":"gray","text":"在"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"农场"},{"italic":false,"color":"gray","text":", "},{"italic":false,"color":"gold","text":"谷仓"},{"italic":false,"color":"gray","text":", "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"蘑菇沙漠"},{"italic":false,"color":"gray","text":"附近时"}],"text":""}'
         - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"提升 "},{"italic":false,"color":"white","text":"✦ 速度 "},{"italic":false,"color":"green","text":"+10"}],"text":""}'
         - '{"text":""}'
         - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"此物品可被洗炼!"}],"text":""}'
