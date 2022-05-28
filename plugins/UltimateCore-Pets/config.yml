@@ -23,8 +23,7 @@ petItems:
     lore:
     - '%pet_description%'
     - ''
-    - '&eRight-click to add this pet to'
-    - '&eyour pet menu!'
+    - '&e右键点击将此宠物加入你的宠物菜单!'
     - ''
     - '%tier%'
   Unique:
@@ -34,8 +33,7 @@ petItems:
     lore:
     - '%pet_description%'
     - ''
-    - '&eRight-click to add this pet to'
-    - '&eyour pet menu!'
+    - '&e右键点击将此宠物加入你的宠物菜单!'
     - ''
     - '%tier%'
   Godly:
@@ -45,8 +43,7 @@ petItems:
     lore:
     - '%pet_description%'
     - ''
-    - '&eRight-click to add this pet to'
-    - '&eyour pet menu!'
+    - '&e右键点击将此宠物加入你的宠物菜单!'
     - ''
     - '%tier%'
   Common:
@@ -56,8 +53,7 @@ petItems:
     lore:
     - '%pet_description%'
     - ''
-    - '&eRight-click to add this pet to'
-    - '&eyour pet menu!'
+    - '&e右键点击将此宠物加入你的宠物菜单!'
     - ''
     - '&f&l普通'
   Uncommon:
@@ -67,10 +63,9 @@ petItems:
     lore:
     - '%pet_description%'
     - ''
-    - '&eRight-click to add this pet to'
-    - '&eyour pet menu!'
+    - '&e右键点击将此宠物加入你的宠物菜单!'
     - ''
-    - '&a&l稀有'
+    - '&a&l精良'
   Rare:
     material: PLAYER_HEAD
     amount: 1
@@ -78,8 +73,7 @@ petItems:
     lore:
     - '%pet_description%'
     - ''
-    - '&eRight-click to add this pet to'
-    - '&eyour pet menu!'
+    - '&e右键点击将此宠物加入你的宠物菜单!'
     - ''
     - '&9&l稀有'
   Epic:
@@ -89,10 +83,9 @@ petItems:
     lore:
     - '%pet_description%'
     - ''
-    - '&eRight-click to add this pet to'
-    - '&eyour pet menu!'
+    - '&e右键点击将此宠物加入你的宠物菜单!'
     - ''
-    - '&5&lEPIC'
+    - '&5&l史诗'
   Legendary:
     material: PLAYER_HEAD
     amount: 1
@@ -100,7 +93,6 @@ petItems:
     lore:
     - '%pet_description%'
     - ''
-    - '&eRight-click to add this pet to'
-    - '&eyour pet menu!'
+    - '&e右键点击将此宠物加入你的宠物菜单!'
     - ''
-    - '&6&lLEGENDARY'
+    - '&6&l传奇'

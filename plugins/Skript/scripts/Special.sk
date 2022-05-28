@@ -52,7 +52,7 @@ on rightclick holding a stick:
         
 on rightclick holding a bow:
 	player has arrow
-	held item's name is "&9Artisanal Shortbow":
+	held item's name is "&9匠心短弓":
 		cancel event
 		make the player shoot an arrow with speed 1.3
 		remove 1 arrow from player's inventory
@@ -75,7 +75,7 @@ on damage:
 	attacker is a player
 	projectile exists
 	projectile is an arrow
-	if name of attacker's tool is "&9Artisanal Shortbow":
+	if name of attacker's tool is "&9匠心短弓":
 		set damage to 20
 		stop
 	else:

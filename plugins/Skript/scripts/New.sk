@@ -4,7 +4,7 @@ on damage:
 	attacker is a player
 	projectile exists
 	projectile is an arrow
-	if name of attacker's tool is "&5Explosive Bow":
+	if name of attacker's tool is "&5爆炸弓":
 		play large explosion at the victim to the attacker
 		loop all mobs in radius 2 of the victim:
 			wait 1 ticks
@@ -15,7 +15,7 @@ on damage:
 
 on damage:
 	attacker is a player
-	if name of attacker's tool is "&aCleaver":
+	if name of attacker's tool is "&a劈刀":
 		loop all mobs in radius 2 around victim:
 			damage loop-entity by 3
 

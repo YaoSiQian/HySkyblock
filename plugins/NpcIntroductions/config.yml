@@ -144,7 +144,7 @@ introductions:
       - "&e[NPC] 冒险家: &f每个岛屿，从这里到这个世界边缘，我全都见过！"
       - "&e[NPC] 冒险家: &f多年来，我得到了各种护符和圣物"
       - "&e[NPC] 冒险家: &f出个价，你就能得到它们！"
-      - "&e[NPC] 冒险家: &f再次点击我打开冒险者的商店！"
+      - "&e[NPC] 冒险家: &f再次点击我打开冒险家的商店！"
     message-sound: "ENTITY_VILLAGER_NO"
     command: "[player]reshop open adventurer"
   193:
@@ -155,8 +155,8 @@ introductions:
     command: "[player]reshop open fishmerchant"
   196:
     messages:
-      - "&e[NPC] Weaponsmith: &f你需要一些强力武器以在荒野求生！幸运的是，我有！"
-      - "&e[NPC] Weaponsmith: &f再次点击我打开武器匠商店！"
+      - "&e[NPC] 武器商人: &f你需要一些强力武器以在荒野求生！幸运的是，我有！"
+      - "&e[NPC] 武器商人: &f再次点击我打开武器匠商店！"
     message-sound: "ENTITY_VILLAGER_NO"
     command: "[player]reshop open weaponsmith"
   197:
