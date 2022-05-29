@@ -17,34 +17,34 @@ SuitSettings:
       - ALL
 SuitsGUI:
   EnableSuits: true
-  InventoryName: '&3&l=-=&d&lMinionSuits&3&l=-='
+  InventoryName: '&3&l=-=&d&l仆从套装&3&l=-='
   rows: 1
   Items:
     0:
       ActivatedItem:
         Item: EMERALD_BLOCK:0
         SkullName: 'Base64:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmJhM2U2MmM1ODEwYTU2N2MyNjU0ZGFmN2FlMTM3NjVlN2JjOTY0ZTRmZjEyNGE5YWE2NjA4MDI2NTU0YjdhIn19fQ=='
-        Name: '&2Hulk Suit'
+        Name: '&2绿巨人套装'
         Lore:
-          - '&aYour minion looks like the hulk.'
+          - '&a你的仆从看起来像绿巨人'
       NoPermissionItem:
         Item: REDSTONE_BLOCK:0
         SkullName: 'Base64:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmJhM2U2MmM1ODEwYTU2N2MyNjU0ZGFmN2FlMTM3NjVlN2JjOTY0ZTRmZjEyNGE5YWE2NjA4MDI2NTU0YjdhIn19fQ=='
-        Name: '&2Hulk Suit'
+        Name: '&2绿巨人套装'
         Lore:
-          - '&cNo permission.'
+          - '&c没有权限'
       NotActivatedItem:
         Item: DIAMOND_BLOCK:0
         SkullName: 'Base64:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmJhM2U2MmM1ODEwYTU2N2MyNjU0ZGFmN2FlMTM3NjVlN2JjOTY0ZTRmZjEyNGE5YWE2NjA4MDI2NTU0YjdhIn19fQ=='
-        Name: '&2Hulk Suit'
+        Name: '&2绿巨人套装'
         Lore:
-          - '&aClick me to make your minion turn into the hulk.'
+          - '&a点击让你的仆从变成绿巨人'
       CanNotBeUsed:
         Item: STAINED_GLASS_PANE:14
-        Name: '&cHulk Suit'
+        Name: '&c绿巨人套装'
         Lore:
-          - '&aThis suit can only be used on;'
-          - '&aMiners, Sellers and Butchers.'
+          - '&a该套装适用于'
+          - '&a矿工, 卖家 和 屠夫'
       Item_Settings:
         Permission: Minion.permission.suits.hulk
         Suit: HULK
@@ -53,21 +53,21 @@ SuitsGUI:
       ActivatedItem:
         Item: EMERALD_BLOCK:0
         SkullName: 'Base64:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTEyMTFjNTYyMjI1ZWMxMmQ0Njg5MTU2MTMxZGJhNTQ5OTk4ZGUxMDUxYzczYjE4NWEyMmU0NzhiOTNkOGI0In19fQ=='
-        Name: '&4Iron &6Man &4Suit'
+        Name: '&4钢铁&6侠 &4套装'
         Lore:
-          - '&6Your minion looks like iron man.'
+          - '&6你的仆从看起来像钢铁侠'
       NoPermissionItem:
         Item: REDSTONE_BLOCK:0
         SkullName: 'Base64:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTEyMTFjNTYyMjI1ZWMxMmQ0Njg5MTU2MTMxZGJhNTQ5OTk4ZGUxMDUxYzczYjE4NWEyMmU0NzhiOTNkOGI0In19fQ=='
-        Name: '&4Iron &6Man &4Suit'
+        Name: '&4钢铁&6侠 &4套装'
         Lore:
-          - '&cNo permission.'
+          - '&c没有权限'
       NotActivatedItem:
         Item: DIAMOND_BLOCK:0
         SkullName: 'Base64:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTEyMTFjNTYyMjI1ZWMxMmQ0Njg5MTU2MTMxZGJhNTQ5OTk4ZGUxMDUxYzczYjE4NWEyMmU0NzhiOTNkOGI0In19fQ=='
-        Name: '&4Iron &6Man &4Suit'
+        Name: '&4钢铁&6侠 &4套装'
         Lore:
-          - '&aClick me to make your minion turn into iron man.'
+          - '&a点击让你的仆从变成钢铁侠'
       Item_Settings:
         Permission: Minion.permission.suits.iron_man
         Suit: IRON_MAN

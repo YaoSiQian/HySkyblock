@@ -1,83 +1,83 @@
 StoreSettings:
   EnableStore: true
-  InventoryName: '&5&lMinion&dStore'
+  InventoryName: '&5&l仆从&d商店'
   Rows: 2
   Vault: true
   Items:
     0:
       Item: ARMOR_STAND:0
-      Name: '&6Mining Minion'
+      Name: '&6挖矿仆从'
       Lore:
-        - '&dRight click a block to place minion.'
+        - '&d右键点击一个方块以放置仆从'
       Type: MINER
       Close: true
     1:
       Item: ARMOR_STAND:0
-      Name: '&6Seller Minion'
+      Name: '&6售卖仆从'
       Lore:
-        - '&dRight click a block to place minion.'
+        - '&d右键点击一个方块以放置仆从'
       Type: SELLER
       Close: true
     2:
       Item: ARMOR_STAND:0
-      Name: '&6Butcher Minion'
+      Name: '&6战斗仆从'
       Lore:
-        - '&dRight click a block to place minion.'
+        - '&d右键点击一个方块以放置仆从'
       Type: BUTCHER
       Close: true
     3:
       Item: ARMOR_STAND:0
-      Name: '&9Collector Minion'
+      Name: '&9收藏仆从'
       Lore:
-        - '&dRight click a block to place minion.'
+        - '&d右键点击一个方块以放置仆从'
       Type: COLLECTOR
       Close: true
     4:
       Item: ARMOR_STAND:0
-      Name: '&aFarmer Minion'
+      Name: '&a农业仆从'
       Lore:
-        - '&dRight click a block to place minion.'
+        - '&d右键点击一个方块以放置仆从'
       Type: FARMER
       Close: true
     5:
       Item: ARMOR_STAND:0
-      Name: '&5LumberJack Minion'
+      Name: '&5林业仆从'
       Lore:
-        - '&dRight click a block to place minion.'
+        - '&d右键点击一个方块以放置仆从'
       Type: LUMBERJACK
       Close: true
     6:
       Item: ARMOR_STAND:0
-      Name: '&5Sorter Minion'
+      Name: '&5分类仆从'
       Lore:
-        - '&dRight click a block to place minion.'
+        - '&d右键点击一个方块以放置仆从'
       Type: SORTER
       Close: true
     7:
       Item: ARMOR_STAND:0
-      Name: '&5Fisher Minion'
+      Name: '&5渔业仆从'
       Lore:
-        - '&dRight click a block to place minion.'
+        - '&d右键点击一个方块以放置仆从'
       Type: FISHER
       Close: true
     8:
       Item: ARMOR_STAND:0
-      Name: '&5Breeder Minion'
+      Name: '&5养殖仆从'
       Lore:
-        - '&dRight click a block to place minion.'
+        - '&d右键点击一个方块以放置仆从'
       Type: BREEDER
       Close: true
     9:
       Item: ARMOR_STAND:0
-      Name: '&5Builder Minion'
+      Name: '&5建筑仆从'
       Lore:
-        - '&dRight click a block to place minion.'
+        - '&d右键点击一个方块以放置仆从'
       Type: BUILDER
       Close: true
     10:
       Item: ARMOR_STAND:0
-      Name: '&5Crafter Minion'
+      Name: '&5Crafter 仆从'
       Lore:
-        - '&dRight click a block to place minion.'
+        - '&d右键点击一个方块以放置仆从'
       Type: CRAFTER
       Close: true
