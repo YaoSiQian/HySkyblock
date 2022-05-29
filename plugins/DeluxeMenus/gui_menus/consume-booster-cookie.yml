@@ -17,7 +17,7 @@ items:
           requirements:
             gems:
               type: '>='
-              input: '%checkitem_amount_namecontains:&6Booster Cookie%'
+              input: '%checkitem_amount_namecontains:&6增益曲奇%'
               output: 1
         lore:
         - '&7获得 &d曲奇增益&7!'
@@ -29,7 +29,7 @@ items:
         left_click_commands:
         - '[message] &e你吃下了一个 &6增益曲奇&e!'
         - '[console] customplaceholders add %player_name% bits 4800'
-        - '[console] papi parse %player_name% %checkitem_remove_namecontains:&6Booster Cookie,amt:1%'
+        - '[console] papi parse %player_name% %checkitem_remove_namecontains:&6增益曲奇,amt:1%'
         - '[console] lp user %player_name% permission settemp cookie.booster true 4d'
         - '[console] lp user %player_name% permission settemp essentials.afk.kickexempt true 4d'
         - '[console] lp user %player_name% permission settemp hyperskills.multiplier.all.1.2 true 4d'
@@ -39,7 +39,7 @@ items:
         right_click_commands:
         - '[message] &e你吃下了一个 &6增益曲奇&e!'
         - '[console] customplaceholders add %player_name% bits 4800'
-        - '[console] papi parse %player_name% %checkitem_remove_namecontains:&6Booster Cookie,amt:1%'
+        - '[console] papi parse %player_name% %checkitem_remove_namecontains:&6增益曲奇,amt:1%'
         - '[console] lp user %player_name% permission settemp cookie.booster true 4d'
         - '[console] lp user %player_name% permission settemp essentials.afk.kickexempt true 4d'
         - '[console] lp user %player_name% permission settemp hyperskills.multiplier.all.1.2 true 4d'

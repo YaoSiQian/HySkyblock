@@ -291,7 +291,6 @@ auction-npc-use: false
 auction-npc-title:
   line-1: '&6拍卖大师'
   line-1-height: 2.05
-  line-1-height: 2.05
   line-2: '&e&l点击'
 
 #When the option below is set to false, it will use 'auction-npc-skin-name' setting

@@ -21,7 +21,7 @@ customPlaceholders:
     parameters: 1
     condition: ${viewer player_has_permission_hyperenchants.mainmenu} == "yes"
     true: "&f${viewer luckperms_expiry_time_cookie.booster}"
-    false: "&7未激活！ 请在主城的社区商店中获取 Booster Cookie。"
+    false: "&7未激活！ 请在主城的社区商店中获取 增益曲奇"
   afk:
     !conditional
     condition: ${player essentials_afk}
