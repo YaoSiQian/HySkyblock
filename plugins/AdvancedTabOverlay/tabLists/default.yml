@@ -10,7 +10,7 @@ footer: |-
   &a&l活跃效果
   &a${viewer effects_all}
   &7
-  &d&lCookie Buff
+  &d&l曲奇增益
   &7${cookie_buff}
   &7
   &aQQ频道 &c&l我的世界文明游戏
@@ -75,7 +75,7 @@ customPlaceholders:
   area:
     !conditional
     condition: ${viewer world} == "islands"
-    true: "&b&l区域： &7Private Island"
+    true: "&b&l区域： &7私人岛屿"
     false: "&b&lArea: ${viewer regionplaceholders_current}"
 
 hiddenPlayers: VISIBLE_TO_ADMINS
