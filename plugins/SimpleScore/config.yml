@@ -139,7 +139,7 @@ Scoreboards:
       2:
         - ""
       1:
-        - "&2&l文明游戏&r"
+        - "&2&l     文明游戏     &r"
   ScoreboardNoObjective:
     Titles:
       - "&e&l空岛生存"
@@ -266,7 +266,7 @@ Scoreboards:
       2:
         - ""
       1:
-        - "&2&l文明游戏&r"
+        - "&2&l     文明游戏     &r"
   IslandScoreboard:
     Titles:
       - "&e&l空岛生存"
@@ -401,7 +401,7 @@ Scoreboards:
       2:
         - ""
       1:
-        - "&2&l文明游戏&r"
+        - "&2&l     文明游戏     &r"
   restricted:
     Restricted: false
     Titles:
