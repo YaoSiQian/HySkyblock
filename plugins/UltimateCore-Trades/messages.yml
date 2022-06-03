@@ -6,13 +6,13 @@ messages:
   reloaded: '%prefix% &7配置已重载'
   noPermission: '%prefix% &7你没有权限'
   helpMessage: '&7%command% - &e%description%'
-  helpHeader: '      &6&lUltimateCore-Trades   '
+  helpHeader: '      &6&l交易   '
   helpfooter: '&e<< &6第 %page% 页至第 %maxpage% 页 &e>>'
   previousPage: '<<'
   nextPage: '>>'
   helpPageHoverMessage: 点击前往第 %page% 页
-  mustBeAPlayer: '%prefix% &7You must be a player to execute this command.'
-  unknownCommand: '%prefix% &7Unknown Command, Try /shop help'
+  mustBeAPlayer: '%prefix% &7该指令只能玩家输入'
+  unknownCommand: '%prefix% &7指令不存在!'
   typePermissionMessage: '&a► Type a permission in chat to set the trade permission!
     Type &fstop &ato cancel the permission change.'
   typeCostMessage: '&a► Type a money amount in chat to set the trade cost! Type &fstop
@@ -27,5 +27,5 @@ messages:
   invalidTrade: '&c► Invalid Trade'
   invalidCategory: '&c► Invalid Category'
   successfullyRemoved: '&a► Trade was successfully removed!'
-  dontRequiredItems: '&cYou don''t have the required items!'
-  dontRequiredMoney: '&cYou don''t have enough Coins!'
+  dontRequiredItems: '&c你没有足够的物品!'
+  dontRequiredMoney: '&c你没有足够的硬币!'

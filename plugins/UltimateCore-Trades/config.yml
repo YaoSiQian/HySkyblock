@@ -1,4 +1,4 @@
-prefix: '&e&lUltimateCore-Trades &7'
+prefix: '&e&l交易 &7'
 successTradeSound: BLOCK_NOTE_BLOCK_PLING
 failTradeSound: ENTITY_VILLAGER_NO
 mainCommandPerm: ''

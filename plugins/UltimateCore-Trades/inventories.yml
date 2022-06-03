@@ -1,5 +1,5 @@
 tradesGUI:
-  title: Trades
+  title: 系统交易
   size: 54
   items:
     unlockedTrade:
@@ -9,16 +9,15 @@ tradesGUI:
       lore:
       - '%trade_description%'
       - ''
-      - '&eClick to trade!'
-      - '&eRight-Click for more trading options!'
+      - '&e点击交易!'
+      - '&e右键查看更多的交易选项!'
     lockedTrade:
       material: GRAY_DYE
       amount: 1
       title: '&c???'
       lore:
-      - '&7Progress through your item'
-      - '&7collections and explore the'
-      - '&7the world to unlock new trades!'
+      - '&7收集资源并且探索世界'
+      - '&7来解锁新的系统交易选项!'
     previousPage:
       material: ARROW
       amount: 1
@@ -61,7 +60,7 @@ tradesGUI:
   - 42
   - 43
 tradeOptionsGUI:
-  title: Shop Trading Options
+  title: 交易选项
   size: 54
   tradeItems:
     '1':
@@ -70,7 +69,7 @@ tradeOptionsGUI:
       lore:
       - '%trade_description%'
       - ''
-      - '&eClick to purchase!'
+      - '&e点击购买!'
       slot: 20
       tradeAmount: 1
     '2':
@@ -79,7 +78,7 @@ tradeOptionsGUI:
       lore:
       - '%trade_description%'
       - ''
-      - '&eClick to purchase!'
+      - '&e点击购买!'
       slot: 21
       tradeAmount: 5
     '3':
@@ -88,7 +87,7 @@ tradeOptionsGUI:
       lore:
       - '%trade_description%'
       - ''
-      - '&eClick to purchase!'
+      - '&e点击购买!'
       slot: 22
       tradeAmount: 10
     '4':
@@ -97,7 +96,7 @@ tradeOptionsGUI:
       lore:
       - '%trade_description%'
       - ''
-      - '&eClick to purchase!'
+      - '&e点击购买!'
       slot: 23
       tradeAmount: 32
     '5':
@@ -106,7 +105,7 @@ tradeOptionsGUI:
       lore:
       - '%trade_description%'
       - ''
-      - '&eClick to purchase!'
+      - '&e点击购买!'
       slot: 24
       tradeAmount: 64
   items:
@@ -115,7 +114,7 @@ tradeOptionsGUI:
       amount: 1
       title: '&a返回'
       lore:
-      - '&7To Trades'
+      - '&7至系统交易'
       slot: 48
 buttons:
   closeButton:
