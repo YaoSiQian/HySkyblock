@@ -97,23 +97,23 @@ input-guis:
   input-type: 'sign'
   #If you use chat setting, this message will be shown
   #after 20 seconds of opening the chat listener
-  chat-listener-end-message: '&cYou took too long to enter an input.'
+  chat-listener-end-message: '&c你长时间没有输入 请求已取消'
   deposit-coins:
     lines:
       - '^^^^^^^^^^^^^^^^'
       - '输入金额'
       - '来存款'
-    success-message: '&fYou have deposited &6%amount% coins &fin your bank!'
-    fail-message: '&fYou don''t have &6%amount% coins &fin your purse!'
-    invalid-number: '&cPlease enter a valid number.'
+    success-message: '&f你已存入了 &6%amount% 硬币&f!'
+    fail-message: '&f你的钱包里没有 &6%amount% 硬币&f!'
+    invalid-number: '&c请输入一个有效的数字'
   withdraw-coins:
     lines:
       - '^^^^^^^^^^^^^^^^'
       - '输入金额'
       - '来取款'
-    success-message: '&fYou have withdrawn &6%amount% coins &ffrom your bank!'
-    fail-message: '&fYou don''t have &6%amount% coins &fin your bank!'
-    invalid-number: '&cPlease enter a valid number.'
+    success-message: '&f你取出了 &6%amount% 硬币&f!'
+    fail-message: '&f你的账户里没有 &6%amount% 硬币&f!'
+    invalid-number: '&c请输入一个有效的数字'
 
 piggy-bank:
   use-piggy-banks: true

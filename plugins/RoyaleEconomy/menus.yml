@@ -231,9 +231,9 @@ menus:
     lore-additions:
       #These options are added to the lore of the bank upgrades
       #If you leave them empty they won't be added
-      better-upgrade: '&eThis is a better account!'
+      -upgrade: '&eThis is a  account!'
       own-upgrade: '&aThis is your account!'
-      previous-upgrade: '&cYou have a better account!'
+      previous-upgrade: '&cYou have a  account!'
       need-previous-upgrade: '&cNeed previous upgrade!'
     go-back-item:
       item-id: '262'
@@ -400,12 +400,12 @@ shared-menus:
           - ''
           - '&e点击以存款!'
   withdraw-coins-menu:
-    title: '&8Bank Withdrawal'
+    title: '&8银行取款'
     use-background-glass: true
     background-glass-color: 15
     size: 36
     #Use %amount% for the amount of coins a player withdraws
-    withdraw-message: '&fYou have withdrawn &6%amount% coins &ffrom your bank!'
+    withdraw-message: '&f你取出了 &6%amount% 硬币&f!'
     go-back-item:
       item-id: '262'
       slot: 31

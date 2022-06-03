@@ -211,7 +211,7 @@ item-additions:
         - "&7伤害: &c+30"
         - ""
         - "&8此物品可被洗炼!"
-        - "&f&l普通 BOW"
+        - "&f&l普通 弓"
       itemflags:
         - HIDE_ENCHANTS
         - HIDE_UNBREAKABLE
@@ -339,7 +339,7 @@ item-additions:
         - "&7伤害: &c+20"
         - ""
         - "&8此物品可被洗炼!"
-        - "&f&l普通 PICKAXE"
+        - "&f&l普通 镐"
       itemflags:
         - HIDE_ENCHANTS
         - HIDE_UNBREAKABLE
@@ -350,7 +350,7 @@ item-additions:
       lore:
         - "&7伤害: &c+15"
         - ""
-        - "&f&l普通 PICKAXE"
+        - "&f&l普通 镐"
       itemflags:
         - HIDE_ENCHANTS
         - HIDE_UNBREAKABLE
@@ -362,7 +362,7 @@ item-additions:
         - "&7伤害: &c+20"
         - ""
         - "&8此物品可被洗炼!"
-        - "&f&l普通 PICKAXE"
+        - "&f&l普通 镐"
       itemflags:
         - HIDE_ENCHANTS
         - HIDE_UNBREAKABLE
@@ -374,7 +374,7 @@ item-additions:
         - "&7伤害: &c+25"
         - ""
         - "&8此物品可被洗炼!"
-        - "&f&l普通 PICKAXE"
+        - "&f&l普通 镐"
       itemflags:
         - HIDE_ENCHANTS
         - HIDE_UNBREAKABLE
@@ -386,7 +386,7 @@ item-additions:
         - "&7伤害: &c+30"
         - ""
         - "&8此物品可被洗炼!"
-        - "&a&l精良 PICKAXE"
+        - "&a&l精良 镐"
       itemflags:
         - HIDE_ENCHANTS
         - HIDE_UNBREAKABLE
