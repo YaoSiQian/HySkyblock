@@ -132,7 +132,7 @@ command /ah:
 				stop
 			else:
 				message "&e你需要 &d曲奇增益 &e以使用此指令!"
-				message "&在大厅的社区商店获取 &6增益曲奇&e!"
+				message "&e在大厅的社区商店获取 &6增益曲奇&e!"
 				stop
 
 every 2 minutes:

@@ -6,7 +6,7 @@ mysql:
   database: dbName
   username: dbUser
   password: dbPass
-prefix: '&e&lPets &7'
+prefix: '&e&l宠物 &7'
 upAndDownPets: true
 petLevelUPSound: ENTITY_PLAYER_LEVELUP
 mainCommandPerm: ''

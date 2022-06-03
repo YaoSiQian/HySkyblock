@@ -35,7 +35,7 @@ command /debugregion:
 	trigger:
 		if player is in "Server":
 			message ""
-			message "{debug=Regions (%amount of regions at player%): %regions at player%&f}"
+			message "{测试=区域 (%amount of regions at player%): %regions at player%&f}"
 			message ""
 			stop
 		else:

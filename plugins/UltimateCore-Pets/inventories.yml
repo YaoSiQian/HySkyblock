@@ -1,7 +1,7 @@
 backButtons: true
 petsGUI:
   size: 54
-  title: Pets
+  title: 宠物
   items:
     petItemInGUI:
       material: PLAYER_HEAD
@@ -17,7 +17,7 @@ petsGUI:
     petInfo:
       material: BONE
       amount: 1
-      title: '&aPets'
+      title: '&a宠物'
       lore:
       - '&7浏览并管理你的所有宠物'
       - ''
@@ -51,7 +51,7 @@ petsGUI:
     hidePetsEnabled:
       material: STONE_BUTTON
       amount: 1
-      title: '&cHide Pets'
+      title: '&c隐藏宠物'
       lore:
       - '&7隐藏所有宠物的头部'
       - '&7不让他人发现'
@@ -66,7 +66,7 @@ petsGUI:
     hidePetsDisabled:
       material: STONE_BUTTON
       amount: 1
-      title: '&aHide Pets'
+      title: '&a隐藏宠物'
       lore:
       - '&7隐藏所有宠物的头部'
       - '&7不让他人发现'
