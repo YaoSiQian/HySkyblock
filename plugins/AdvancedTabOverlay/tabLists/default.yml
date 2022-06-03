@@ -40,7 +40,7 @@ customPlaceholders:
   auctions_bids:
     !conditional
     condition: ${viewer auctionmaster_own_auctions} >= 1
-    true: "&f 出价： &6${viewer auctionmaster_own_bids}"
+    true: "&f 出价: &6${viewer auctionmaster_own_bids}"
     false: "&7"
   souls:
     !conditional
@@ -60,22 +60,22 @@ customPlaceholders:
   island2:
     !conditional
     condition: ${viewer world} == "islands"
-    true: "&f 岛主： &a${viewer bskyblock_visited_island_owner}"
+    true: "&f 岛主: &a${viewer bskyblock_visited_island_owner}"
     false: "&7"
   island3:
     !conditional
     condition: ${viewer world} == "islands"
-    true: "&f 成员： &9${viewer bskyblock_visited_island_members_count}&f/&9${viewer bskyblock_visited_island_members_max}"
+    true: "&f 成员: &9${viewer bskyblock_visited_island_members_count}&f/&9${viewer bskyblock_visited_island_members_max}"
     false: "&7"
   island4:
     !conditional
     condition: ${viewer world} == "islands"
-    true: "&f 访客： &a${viewer bskyblock_visited_island_visitors_count}"
+    true: "&f 访客: &a${viewer bskyblock_visited_island_visitors_count}"
     false: "&7"
   area:
     !conditional
     condition: ${viewer world} == "islands"
-    true: "&b&l区域： &7私人岛屿"
+    true: "&b&l区域: &7私人岛屿"
     false: "&b&l区域: ${viewer regionplaceholders_current}"
 
 hiddenPlayers: VISIBLE_TO_ADMINS
@@ -104,7 +104,7 @@ components:
     2:
     - {text: "&3&l     服务器信息", icon: "colors/aqua.png", ping: 0}
     - {text: "${area}", icon: "colors/dark_gray.png", ping: 0}
-    - {text: " &f宝石： &a${viewer customplaceholders_gems}", icon: "colors/dark_gray.png", ping: 0}
+    - {text: " &f宝石: &a${viewer customplaceholders_gems}", icon: "colors/dark_gray.png", ping: 0}
     -
     - {text: "${island}", icon: "colors/dark_gray.png", ping: 0}
     - {text: "${island2}", icon: "colors/dark_gray.png", ping: 0}
@@ -119,14 +119,14 @@ components:
     - {text: "${souls}", icon: "colors/dark_gray.png", ping: 0}
     - {text: "${souls_collected}", icon: "colors/dark_gray.png", ping: 0}
     -
-    - {text: "&e&l活动： &f新年", icon: "colors/dark_gray.png", ping: 0}
+    - {text: "&e&l活动: &f新年", icon: "colors/dark_gray.png", ping: 0}
     - {text: " &b${viewer mph_mytheriayear}&f年", icon: "colors/dark_gray.png", ping: 0}
     3:
     - {text: "&6&l     账户信息", icon: "colors/gold.png", ping: 0}
-    - {text: "&e&l存档： &a默认", icon: "colors/dark_gray.png", ping: 0}
-    - {text: "&f 钱包： &6${viewer vault_eco_balance_commas}", icon: "colors/dark_gray.png", ping: 0}
-    - {text: "&f 银行： &6${viewer royaleeconomy_balance_bank}", icon: "colors/dark_gray.png", ping: 0}
-    - {text: "&f 利息： &e${viewer royaleeconomy_interest_cooldown_not_detailed}", icon: "colors/dark_gray.png", ping: 0}
+    - {text: "&e&l存档: &a默认", icon: "colors/dark_gray.png", ping: 0}
+    - {text: "&f 钱包: &6${viewer vault_eco_balance_commas}", icon: "colors/dark_gray.png", ping: 0}
+    - {text: "&f 银行: &6${viewer royaleeconomy_balance_bank}", icon: "colors/dark_gray.png", ping: 0}
+    - {text: "&f 利息: &e${viewer royaleeconomy_interest_cooldown_not_detailed}", icon: "colors/dark_gray.png", ping: 0}
     -
     - {text: "&e&l玩家属性", icon: "colors/dark_gray.png", ping: 0}
     - {text: " &f生命 &c❤${viewer skills_health_total}", icon: "colors/dark_gray.png", ping: 0}
