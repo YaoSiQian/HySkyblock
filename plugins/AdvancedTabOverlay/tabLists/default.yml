@@ -76,7 +76,7 @@ customPlaceholders:
     !conditional
     condition: ${viewer world} == "islands"
     true: "&b&l区域： &7私人岛屿"
-    false: "&b&lArea: ${viewer regionplaceholders_current}"
+    false: "&b&l区域: ${viewer regionplaceholders_current}"
 
 hiddenPlayers: VISIBLE_TO_ADMINS
 
@@ -104,7 +104,7 @@ components:
     2:
     - {text: "&3&l     服务器信息", icon: "colors/aqua.png", ping: 0}
     - {text: "${area}", icon: "colors/dark_gray.png", ping: 0}
-    - {text: " &fGems： &a${viewer customplaceholders_gems}", icon: "colors/dark_gray.png", ping: 0}
+    - {text: " &f宝石： &a${viewer customplaceholders_gems}", icon: "colors/dark_gray.png", ping: 0}
     -
     - {text: "${island}", icon: "colors/dark_gray.png", ping: 0}
     - {text: "${island2}", icon: "colors/dark_gray.png", ping: 0}
